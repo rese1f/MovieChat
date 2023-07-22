@@ -87,7 +87,7 @@ Note that, if you want to use the global mode (understanding and question-answer
 
 
 ## Acknowledgement
-We are grateful for the following awesome projects our Video-LLaMA arising from:
+We are grateful for the following awesome projects our MovieChat arising from:
 * [Video-LLaMA](https://github.com/DAMO-NLP-SG/Video-LLaMA): An Instruction-tuned Audio-Visual Language Model for Video Understanding
 * [Token Merging](https://github.com/facebookresearch/ToMe): Your ViT but Faster
 * [XMem](https://github.com/hkchengrex/XMem): Long-Term Video Object Segmentation with an Atkinson-Shiffrin Memory Model
