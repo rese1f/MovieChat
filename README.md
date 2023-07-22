@@ -1,19 +1,31 @@
 # MovieChat
 MovieChat can handle videos with >10K frames on a 24GB graphics card. MovieChat has a 10000× advantage over other methods in terms of the average increase in GPU memory cost per frame (21.3KB/f to ~200MB/f).
 <p align="center" width="100%">
-<a target="_blank"><img src="src/figs/intro_web_00.png" alt="MovieChat" style="width: 80%; min-width: 200px; display: block; margin: auto;"></a>
+<a target="_blank"><img src="src/assets/intro_web_00.png" alt="MovieChat" style="width: 80%; min-width: 200px; display: block; margin: auto;"></a>
 </p>
 
 ## Examples
 
-<p align="center" width="100%">
-<a target="_blank"><img src="figs/example1_00.png" alt="Question and answer about clips from Zootopia, a cartoon, which tells the story of a determined police officer rabbit named Judy
-who pairs up with a cunning fox to uncover a conspiracy ab" style="width: 80%; min-width: 200px; display: block; margin: auto;"></a>
-</p>
+<div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;"> Question and answer about clips from Zootopia, a cartoon, which tells the story of a determined police officer rabbit named Judy
+who pairs up with a cunning fox to uncover a conspiracy about missing animals and develop an unexpected friendship.
+</div>
 
 <p align="center" width="100%">
-<a target="_blank"><img src="figs/example2_00.png" alt="Question and answer about clips from Goblin, which tells the story of Kim Shin, an immortal ”goblin” who needs to find a human
-bride to end his endless life but instead meets Ji Eun-tak, a girl fated to die who claims to be the ”goblin’s bride,” leading to a romantic tale unfolding bet" style="width: 80%; min-width: 200px; display: block; margin: auto;"></a>
+<a target="_blank"><img src="src/assets/example1_00.png"  style="width: 80%; min-width: 200px; display: block; margin: auto;"></a>
+</p>
+
+
+<div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;"> Question and answer about clips from Goblin, which tells the story of Kim Shin, an immortal ”goblin” who needs to find a human
+bride to end his endless life but instead meets Ji Eun-tak, a girl fated to die who claims to be the ”goblin’s bride,” leading to a romantic tale unfolding bet.
+</div>
+<p align="center" width="100%">
+<a target="_blank"><img src="src/assets/example2_00.png" style="width: 80%; min-width: 200px; display: block; margin: auto;"></a>
 </p>
 
 ## Install 
@@ -46,13 +58,9 @@ python apply_delta.py \
 #### Pre-trained Visual Encoder for MovieChat
 - Download the MiniGPT-4 model (trained linear layer) from this [link](https://drive.google.com/file/d/1a4zLvaiDBr-36pasffmgpvH5P7CKmpze/view).
 
-### Download Learnable Weights
+#### Download Pretrained Weights
 
-If you want to run MovieChat with Vicuna-7B as language decoder locally, then:
-```bash
-wget https://huggingface.co/DAMO-NLP-SG/Video-LLaMA-Series/resolve/main/finetune-vicuna7b-v2.pth
-```
-should meet the requirement.
+Download pretrained weights to run MovieChat with Vicuna-7B as language decoder locally from this [link](https://huggingface.co/DAMO-NLP-SG/Video-LLaMA-Series/resolve/main).
 
 ## How to Run Demo Locally
 
