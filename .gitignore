@@ -27,6 +27,5 @@ share/python-wheels/
 MANIFEST
 
 data/
-*.yaml
 ckpt/
 *.sh
