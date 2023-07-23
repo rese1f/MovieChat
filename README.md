@@ -5,7 +5,7 @@
 # From Dense Token to Sparse Memory in Long Video Understanding
 MovieChat can handle videos with >10K frames on a 24GB graphics card. MovieChat has a 10000× advantage over other methods in terms of the average increase in GPU memory cost per frame (21.3KB/f to ~200MB/f).
 <p align="center" width="100%">
-<a target="_blank"><img src="src/intro_web_00.png" alt="MovieChat" style="width: 80%; min-width: 200px; display: block; margin: auto;"></a>
+<a target="_blank"><img src="src/assets/wave.gif" alt="MovieChat" style="width: 80%; min-width: 200px; display: block; margin: auto;"></a>
 </p>
 
 ## Examples
