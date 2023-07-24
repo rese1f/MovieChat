@@ -8,6 +8,9 @@ MovieChat can handle videos with >10K frames on a 24GB graphics card. MovieChat 
 <a target="_blank"><img src="src/assets/wave.gif" alt="MovieChat" style="width: 80%; min-width: 200px; display: block; margin: auto;"></a>
 </p>
 
+## Overview
+![](src/assets/overview.png)
+
 ## Examples
 
 <div style="color:orange; border-bottom: 1px solid #d9d9d9;
