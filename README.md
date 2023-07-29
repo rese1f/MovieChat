@@ -8,6 +8,13 @@ MovieChat can handle videos with >10K frames on a 24GB graphics card. MovieChat 
 <a target="_blank"><img src="src/assets/wave.gif" alt="MovieChat" style="width: 80%; min-width: 200px; display: block; margin: auto;"></a>
 </p>
 
+
+## :fire: News
+
+* **[2023.7.29]** We release Gradio demo of MovieChat.
+* **[2023.7.22]** We release inference code of MovieChat.
+
+
 ## Overview
 ![](src/assets/overview.png)
 
