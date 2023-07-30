@@ -1,345 +1,709 @@
-"""
-Adapted from: https://github.com/Vision-CAIR/MiniGPT-4/blob/main/demo.py
-"""
-import argparse
-import os
+import logging
 import random
 
-import numpy as np
 import torch
-import torch.backends.cudnn as cudnn
+from torch.cuda.amp import autocast as autocast
+import torch.nn as nn
 
-from MovieChat.common.config import Config
-from MovieChat.common.dist_utils import get_rank
 from MovieChat.common.registry import registry
-from MovieChat.conversation.conversation_video import Chat, Conversation, default_conversation,SeparatorStyle
-import decord
+from MovieChat.models.blip2 import Blip2Base, disabled_train
+from MovieChat.models.modeling_llama import LlamaForCausalLM
+from transformers import LlamaTokenizer,BertConfig
+import einops
+import copy
+from MovieChat.models.Qformer import BertConfig, BertLMHeadModel
+
+
+import queue
+import numpy as np
+from scipy.spatial.distance import cosine
+
+from skimage import transform
 import cv2
-import time
-import subprocess
-from moviepy.editor import VideoFileClip
-from decord import VideoReader
-decord.bridge.set_bridge('torch')
 
-#%%
-# imports modules for registration
-from MovieChat.datasets.builders import *
-from MovieChat.models import *
-from MovieChat.processors import *
-from MovieChat.runners import *
-from MovieChat.tasks import *
-from moviepy.editor import*
-
-import random as rnd
-from transformers import StoppingCriteria, StoppingCriteriaList
 from PIL import Image
-import GPUtil
 
-MAX_INT = 8
-N_SAMPLES = 32
-SHORT_MEMORY_Length = 10
-#%%
-def parse_args():
-    parser = argparse.ArgumentParser(description="Demo")
-    parser.add_argument("--cfg-path", required=True, help="path to configuration file.")
-    parser.add_argument("--gpu-id", type=int, default=0, help="specify the gpu to load the model.")
-    parser.add_argument("--num-beams", type=int, default=1)
-    parser.add_argument("--temperature", type=float, default=1.0)
-    parser.add_argument("--text-query", required=True, help="question the video")
-    parser.add_argument("--video-path", required=True, help="path to video file.")
-    parser.add_argument("--fragment-video-path", required=True, help="path to video fragment file.")
-    parser.add_argument("--cur-sec", type=int, default=2, help="current minute")
-    parser.add_argument("--cur-min", type=int, default=15, help="current second")
-    parser.add_argument("--middle-video", type=bool, default=False, help="current second")
-    parser.add_argument(
-        "--options",
-        nargs="+",
-        help="override some settings in the used config, the key-value pair "
-        "in xxx=yyy format will be merged into config file (deprecate), "
-        "change to --cfg-options instead.",
-    )
-    args = parser.parse_args()
-    return args
+@registry.register_model("moviechat")
+class MovieChat(Blip2Base):
+    """
+    BLIP2 GPT-LLAMA model.
+    """
 
+    PRETRAINED_MODEL_CONFIG_DICT = {
+        "pretrain_vicuna": "configs/models/moviechat.yaml",
+    }
 
-def setup_seeds(config_seed):
-    seed = config_seed + get_rank()
+    @classmethod
+    def init_video_Qformer(cls, num_query_token, vision_width,num_hidden_layers =2):
+        encoder_config = BertConfig.from_pretrained("bert-base-uncased")
+        encoder_config.num_hidden_layers = num_hidden_layers
+        encoder_config.encoder_width = vision_width
+        # insert cross-attention layer every other block
+        encoder_config.add_cross_attention = True
+        encoder_config.cross_attention_freq = 1
+        encoder_config.query_length = num_query_token
+        Qformer = BertLMHeadModel(config=encoder_config)
+        query_tokens = nn.Parameter(
+            torch.zeros(1, num_query_token, encoder_config.hidden_size)
+        )
+        query_tokens.data.normal_(mean=0.0, std=encoder_config.initializer_range)
+        return Qformer, query_tokens
 
-    random.seed(seed)
-    np.random.seed(seed)
-    torch.manual_seed(seed)
+    def __init__(
+        self,
+        vit_model="eva_clip_g",
+        q_former_model="https://storage.googleapis.com/sfr-vision-language-research/LAVIS/models/BLIP2/blip2_pretrained_flant5xxl.pth",
+        img_size=224,
+        drop_path_rate=0,
+        use_grad_checkpoint=False,
+        vit_precision="fp16",
+        freeze_vit=True,
+        freeze_qformer=True,
+        num_query_token=32,
+        llama_model="",
+        prompt_path="",
+        prompt_template="",
+        max_txt_len=32,
+        end_sym='\n',
+        low_resource=False,  
+        device_8bit=0,  
 
-    cudnn.benchmark = False
-    cudnn.deterministic = True
-
-class StoppingCriteriaSub(StoppingCriteria):
-
-    def __init__(self, stops=[], encounters=1):
+        frozen_llama_proj=True,
+        frozen_video_Qformer=True,
+        
+        llama_proj_model='',
+        fusion_header_type= "seqTransf",
+        max_frame_pos= 32,
+        fusion_head_layers = 2,
+        num_video_query_token = 32,
+        short_memory_length = 18,
+        long_memory_length = 64,
+        short_memory_merge = 2,
+        Qformer_input = 8
+    ):
         super().__init__()
-        self.stops = stops
 
-    def __call__(self, input_ids: torch.LongTensor, scores: torch.FloatTensor):
-        for stop in self.stops:
-            if torch.all((stop == input_ids[0][-len(stop):])).item():
-                return True
+        self.tokenizer = self.init_tokenizer()
+        self.low_resource = low_resource
 
-        return False
-
-def gradio_answer(chatbot, chat_state, img_list, num_beams, temperature):
-    
-    chatbot[-1][1] = llm_message
-    print(chat_state.get_prompt())
-    print(chat_state)
-    return chatbot, chat_state, img_list
-
-def video_duration(filename):
-    result = subprocess.run(["ffprobe", "-v", "error", "-show_entries",
-                             "format=duration", "-of",
-                             "default=noprint_wrappers=1:nokey=1", filename],
-                            stdout=subprocess.PIPE,
-                            stderr=subprocess.STDOUT)
-    return float(result.stdout)
- 
-def capture_video(video_path, fragment_video_path, per_video_length, n_stage):
-    start_time = n_stage * per_video_length
-    end_time = (n_stage+1) * per_video_length
-    video =CompositeVideoClip([VideoFileClip(video_path).subclip(start_time,end_time)])
-    video.write_videofile(fragment_video_path)
-
-    
-def load_video(video_path, n_frms=MAX_INT, height=-1, width=-1, sampling="uniform", return_msg = False):
-    decord.bridge.set_bridge("torch")
-    vr = VideoReader(uri=video_path, height=height, width=width)
-
-    vlen = len(vr)
-    start, end = 0, vlen
-
-    n_frms = min(n_frms, vlen)
-
-    if sampling == "uniform":
-        indices = np.arange(start, end, vlen / n_frms).astype(int).tolist()
-    elif sampling == "headtail":
-        indices_h = sorted(rnd.sample(range(vlen // 2), n_frms // 2))
-        indices_t = sorted(rnd.sample(range(vlen // 2, vlen), n_frms // 2))
-        indices = indices_h + indices_t
-    else:
-        raise NotImplementedError
-
-    # get_batch -> T, H, W, C
-    temp_frms = vr.get_batch(indices)
-    tensor_frms = torch.from_numpy(temp_frms) if type(temp_frms) is not torch.Tensor else temp_frms
-    frms = tensor_frms.permute(3, 0, 1, 2).float()  # (C, T, H, W)
-
-    if not return_msg:
-        return frms
-
-    fps = float(vr.get_avg_fps())
-    sec = ", ".join([str(round(f / fps, 1)) for f in indices])
-    # " " should be added in the start and end
-    msg = f"The video contains {len(indices)} frames sampled at {sec} seconds. "
-    return frms, msg
-
-
-def parse_video_fragment(video_path, video_length, n_stage = 0, n_samples = N_SAMPLES):
-    decord.bridge.set_bridge("torch")
-    per_video_length = video_length / n_samples
-    # cut video from per_video_length(n_stage-1, n_stage)
-    capture_video(video_path, fragment_video_path, per_video_length, n_stage)
-    return fragment_video_path
-
-class Chat:
-    def __init__(self, model, vis_processor, device='cuda:0'):
-        self.device = device
-        self.model = model
-        self.vis_processor = vis_processor
-        self.image_vis_processor = Blip2ImageEvalProcessor()
-        stop_words_ids = [torch.tensor([835]).to(self.device),
-                          torch.tensor([2277, 29937]).to(self.device)]  # '###' can be encoded in two different ways.
-        self.stopping_criteria = StoppingCriteriaList([StoppingCriteriaSub(stops=stop_words_ids)])
-
-    def get_context_emb(self, input_text, msg, img_list):
-        
-        prompt_1 = "You are able to understand the visual content that the user provides.Follow the instructions carefully and explain your answers in detail.###Human: <Video><ImageHere></Video>"
-        prompt_2 = input_text
-        prompt_3 = "###Assistant:"
-
-        prompt = prompt_1 + " " + prompt_2 + prompt_3
-
-        prompt_segs = prompt.split('<ImageHere>')
-        assert len(prompt_segs) == len(img_list) + 1, "Unmatched numbers of image placeholders and images."
-        seg_tokens = [
-            self.model.llama_tokenizer(
-                seg, return_tensors="pt", add_special_tokens=i == 0).to(self.device).input_ids
-            # only add bos to the first seg
-            for i, seg in enumerate(prompt_segs)
-        ]
-        seg_embs = [self.model.llama_model.model.embed_tokens(seg_t) for seg_t in seg_tokens]
-
-        mixed_embs = [emb for pair in zip(seg_embs[:-1], img_list) for emb in pair] + [seg_embs[-1]]
-        mixed_embs = torch.cat(mixed_embs, dim=1)
-        return mixed_embs
-    
-    def answer(self, img_list, input_text, msg, max_new_tokens=300, num_beams=1, min_length=1, top_p=0.9,
-            repetition_penalty=1.0, length_penalty=1, temperature=1.0, max_length=2000):
-        embs = self.get_context_emb(input_text, msg, img_list) 
-
-        current_max_len = embs.shape[1] + max_new_tokens
-        if current_max_len - max_length > 0:
-            print('Warning: The number of tokens in current conversation exceeds the max length. '
-                  'The model will not see the contexts outside the range.')
-        begin_idx = max(0, current_max_len - max_length)
-
-        embs = embs[:, begin_idx:]
-        
-        outputs = self.model.llama_model.generate(
-            inputs_embeds=embs,
-            max_new_tokens=max_new_tokens,
-            stopping_criteria=self.stopping_criteria,
-            num_beams=num_beams,
-            do_sample=True,
-            min_length=min_length,
-            top_p=top_p, 
-            repetition_penalty=repetition_penalty,
-            length_penalty=length_penalty, 
-            temperature=temperature, 
+        print('Loading VIT')
+        self.visual_encoder, self.ln_vision = self.init_vision_encoder(
+            vit_model, img_size, drop_path_rate, use_grad_checkpoint, vit_precision
         )
+        if freeze_vit:
+            for name, param in self.visual_encoder.named_parameters():
+                param.requires_grad = False
+            self.visual_encoder = self.visual_encoder.eval()
+            self.visual_encoder.train = disabled_train
+            for name, param in self.ln_vision.named_parameters():
+                param.requires_grad = False
+            self.ln_vision = self.ln_vision.eval()
+            self.ln_vision.train = disabled_train
+            logging.info("freeze vision encoder")
+        print('Loading VIT Done')
 
-        output_token = outputs[0]
-        if output_token[0] == 0:  # the model might output a unknow token <unk> at the beginning. remove it
-            output_token = output_token[1:]
-        if output_token[0] == 1:  # some users find that there is a start token <s> at the beginning. remove it
-            output_token = output_token[1:]
-        output_text = self.model.llama_tokenizer.decode(output_token, add_special_tokens=False)
-        output_text = output_text.split('###')[0]  # remove the stop sign '###'
-        output_text = output_text.split('Assistant:')[-1].strip()
-        return output_text, output_token.cpu().numpy()
-    
-    def cal_frame(self, video_length, cur_min, cur_sec, middle_video):
-        per_frag_second = video_length / N_SAMPLES
-        if middle_video:
-            cur_seconds = cur_min * 60 + cur_sec
-            num_frames = int(cur_seconds / per_frag_second)
-            per_frame_second = per_frag_second/SHORT_MEMORY_Length
-            cur_frame = int((cur_seconds-per_frag_second*num_frames)/per_frame_second)
-            return num_frames, cur_frame
+        print('Loading Q-Former')
+        self.Qformer, self.query_tokens = self.init_Qformer(
+            num_query_token, self.visual_encoder.num_features
+        )
+        self.Qformer.cls = None
+        self.Qformer.bert.embeddings.word_embeddings = None
+        self.Qformer.bert.embeddings.position_embeddings = None
+        for layer in self.Qformer.bert.encoder.layer:
+            layer.output = None
+            layer.intermediate = None
+        self.load_from_pretrained(url_or_filename=q_former_model)
+
+        if freeze_qformer:
+            for name, param in self.Qformer.named_parameters():
+                param.requires_grad = False
+            self.Qformer = self.Qformer.eval()
+            self.Qformer.train = disabled_train
+            self.query_tokens.requires_grad = False
+            logging.info("freeze Qformer")
+        logging.info('Loading Q-Former Done')
+
+        logging.info('Loading LLAMA Tokenizer')
+        self.llama_tokenizer = LlamaTokenizer.from_pretrained(llama_model, use_fast=False)
+        if self.llama_tokenizer.pad_token is None:
+            self.llama_tokenizer.pad_token = self.llama_tokenizer.eos_token 
+        DEFAULT_IMAGE_PATCH_TOKEN = '<ImageHere>'
+        DEFAULT_AUDIO_PATCH_TOKEN = '<AudioHere>'
+        self.llama_tokenizer.add_tokens([DEFAULT_IMAGE_PATCH_TOKEN], special_tokens=True)
+        self.llama_tokenizer.add_tokens([DEFAULT_AUDIO_PATCH_TOKEN], special_tokens=True)
+        
+        self.IMAGE_PATCH_TOKEN_ID = self.llama_tokenizer.get_vocab()[DEFAULT_IMAGE_PATCH_TOKEN]
+        self.AUDIO_PATCH_TOKEN_ID = self.llama_tokenizer.get_vocab()[DEFAULT_AUDIO_PATCH_TOKEN]
+
+        logging.info('Loading LLAMA Model')
+        if self.low_resource:
+            self.llama_model = LlamaForCausalLM.from_pretrained(
+                llama_model,
+                torch_dtype=torch.float16,
+                load_in_8bit=True,
+                device_map={'': device_8bit}
+            )
         else:
+            self.llama_model = LlamaForCausalLM.from_pretrained(
+                llama_model,
+                torch_dtype=torch.float16,
+            )
+
+        for name, param in self.llama_model.named_parameters():
+            param.requires_grad = False
+        logging.info('Loading LLAMA Done')
+
+
+        logging.info('Loading LLAMA proj')
+        self.llama_proj = nn.Linear(
+            self.Qformer.config.hidden_size, self.llama_model.config.hidden_size
+        )
+        if llama_proj_model:
+            print("load llama proj weight: {}".format(llama_proj_model))
+            llama_proj_weight = torch.load(llama_proj_model, map_location="cpu")
+            msg = model.load_state_dict(llama_proj_weight['model'], strict=False)
+
+        if frozen_llama_proj:
+            #  todo frozen  llama_proj
+            for name, param in self.llama_proj.named_parameters():
+                param.requires_grad = False
+            logging.info('LLAMA proj is frozen')
+        else:
+            for name, param in self.llama_proj.named_parameters():
+                param.requires_grad = True
+            logging.info('LLAMA proj is not frozen')
+
+        logging.info('Loading llama_proj Done')
+
+        self.max_txt_len = max_txt_len
+        self.end_sym = end_sym
+
+        if prompt_path:
+            with open(prompt_path, 'r') as f:
+                raw_prompts = f.read().splitlines()
+            filted_prompts = [raw_prompt for raw_prompt in raw_prompts if "<ImageHere>" in raw_prompt]
+            self.prompt_list = [prompt_template.format(p) for p in filted_prompts]
+            print('Load {} training prompts'.format(len(self.prompt_list)))
+            print('Prompt Example \n{}'.format(random.choice(self.prompt_list)))
+        else:
+            self.prompt_list = []
+
+        self.max_frame_pos = max_frame_pos
+        self.video_frame_position_embedding = nn.Embedding(max_frame_pos, self.Qformer.config.hidden_size) #[32,768] [200]
+
+        self.num_video_query_token = num_video_query_token
+        self.video_Qformer,self.video_query_tokens = self.init_video_Qformer(num_query_token = num_video_query_token,\
+            vision_width=self.Qformer.config.hidden_size, num_hidden_layers =2)
+
+        self.video_Qformer.cls = None
+        self.video_Qformer.bert.embeddings.word_embeddings = None
+        self.video_Qformer.bert.embeddings.position_embeddings = None
+        for layer in self.video_Qformer.bert.encoder.layer:
+            layer.output = None
+            layer.intermediate = None
+
+
+        if frozen_video_Qformer:
+            #  todo frozen  llama_proj
+            for name, param in self.video_Qformer.named_parameters():
+                param.requires_grad = False
+            for name, param in self.video_frame_position_embedding.named_parameters():
+                param.requires_grad = False
+            self.video_query_tokens.requires_grad = False
+            logging.info('video_Qformer is frozen')
+        else:
+            for name, param in self.video_Qformer.named_parameters():
+                param.requires_grad = True
+            for name, param in self.video_frame_position_embedding.named_parameters():
+                param.requires_grad = True
+            self.video_query_tokens.requires_grad = True
+            logging.info('video_Qformer is not frozen')
+
+        self.Qformer_input = Qformer_input
+        logging.info('create short-memory buffer')
+        self.short_memory_length = short_memory_length 
+        self.short_memory_buffer = []
+        self.short_memory_merge = short_memory_merge 
+        self.temp_short_memory = []
+
+        logging.info('create long-memory buffer')
+        self.long_memory_length = long_memory_length 
+        self.long_memory_buffer = []
+
+        logging.info('whether Question the whole video')
+        self.middle_video =False
+        self.question_minute = None
+        self.question_second = None
+
+    def vit_to_cpu(self):
+        self.ln_vision.to("cpu")
+        self.ln_vision.float()
+        self.visual_encoder.to("cpu")
+        self.visual_encoder.float()
+
+    def encode_short_memory_frame(self, videofragment, n_frame:int = 16):
+        device = videofragment.device
+        # input shape b,c,t,h,w
+        batch_size,_,time_length,_,_ = videofragment.size() # batch_size:1 time_length:8
+        videofragment = einops.rearrange(videofragment, 'b c t h w -> (b t) c h w') 
+        with self.maybe_autocast():
+            # embed image features with blip2, out: (b t) q h
+            image_embeds = self.ln_vision(self.visual_encoder(videofragment)).to(device) 
+            image_atts = torch.ones(image_embeds.size()[:-1], dtype=torch.long).to(device)
+
+            query_tokens = self.query_tokens.expand(image_embeds.shape[0], -1, -1)
+            query_output = self.Qformer.bert(
+                query_embeds=query_tokens,
+                encoder_hidden_states=image_embeds,
+                encoder_attention_mask=image_atts,
+                return_dict=True,
+            )
+
+            # load short_memory_buffer
             cur_frame = 0
-            num_frames = int(video_length / per_frag_second)
-            return num_frames, cur_frame
+            q_hidden_state = query_output.last_hidden_state 
+            for frame in q_hidden_state:
+                if cur_frame < n_frame:
+                    if len(self.short_memory_buffer) == self.short_memory_length:
+                        self.short_memory_buffer.pop(0)
+                    self.short_memory_buffer.append(frame)
+                cur_frame += 1
+            self.temp_short_memory = []
+            for i in self.short_memory_buffer:
+                self.temp_short_memory.append(i)
+            
+            #merge short_memory_frames
+            similar_list = []
+            for frame_i in range(len(self.short_memory_buffer) -1):
 
-    def upload_video_without_audio(self, video_path, fragment_video_path, cur_min, cur_sec, cur_image, img_list, middle_video):
-        msg = ""
-        if isinstance(video_path, str):  # is a video path
-            ext = os.path.splitext(video_path)[-1].lower()
-            print(video_path)
-            video_length = video_duration(video_path) 
-            num_frames, cur_frame = self.cal_frame(video_length, cur_min, cur_sec, middle_video)
-            if num_frames == 0:
-                video_fragment = parse_video_fragment(video_path=video_path, video_length=video_length, n_stage=0, n_samples= N_SAMPLES)
-                video_fragment, msg = load_video(
-                    video_path=fragment_video_path,
-                    n_frms=MAX_INT, 
-                    height=224,
-                    width=224,
-                    sampling ="uniform", return_msg = True
-                ) 
-                video_fragment = self.vis_processor.transform(video_fragment)
-                video_fragment = video_fragment.unsqueeze(0).to(self.device)
+                frame_silimar = cosine(self.short_memory_buffer[frame_i].flatten().cpu(), self.short_memory_buffer[frame_i+1].flatten().cpu())
 
+                '''
+                A = np.array(self.short_memory_buffer[frame_i].cpu())
+                B = np.array(self.short_memory_buffer[frame_i+1].cpu())
+                dot_product = A @ B.transpose(-1,-2)
+                norm_a = np.linalg.norm(A)
+                norm_b = np.linalg.norm(B)
+                cos_sim = dot_product / (norm_a * norm_b)
 
-                self.model.encode_short_memory_frame(video_fragment, cur_frame)
-            else:
-                for i in range(num_frames):
-                    print(i)
-                    video_fragment = parse_video_fragment(video_path=video_path, video_length=video_length, n_stage=i, n_samples= N_SAMPLES)
-                    video_fragment, msg = load_video(
-                        video_path=fragment_video_path,
-                        n_frms=MAX_INT, 
-                        height=224,
-                        width=224,
-                        sampling ="uniform", return_msg = True
-                    )
-                    video_fragment = self.vis_processor.transform(video_fragment) 
-                    video_fragment = video_fragment.unsqueeze(0).to(self.device)
+                '''
 
-                    if middle_video:
-                        self.model.encode_short_memory_frame(video_fragment, cur_frame)
-                    else:
-                        self.model.encode_short_memory_frame(video_fragment)
+                similar_list.append(frame_silimar)
+            
+
+            while len(self.short_memory_buffer) > self.short_memory_merge:
+                max_value = max(similar_list)
+                max_index = similar_list.index(max_value)
+                new_frame_feature = (self.short_memory_buffer[max_index].cpu()+self.short_memory_buffer[max_index+1].cpu())/2
+                self.short_memory_buffer[max_index] = new_frame_feature.cuda()
+                del(self.short_memory_buffer[max_index+1])
+                similar_list = []
+                for frame_i in range(len(self.short_memory_buffer)-1):
+                    frame_silimar = cosine(self.short_memory_buffer[frame_i].flatten().cpu(), self.short_memory_buffer[frame_i+1].flatten().cpu())
+                    similar_list.append(frame_silimar)
+
+            for frame in self.short_memory_buffer:
                 
+                self.long_memory_buffer.append(frame)
+
+    def encode_long_video(self, cur_image, middle_video:False):
+        
+        device = 'cuda:0'
+        # input shape b,c,t,h,w
+        batch_size = 1 # batch_size:1 
+        self.long_memory_buffer = [i.unsqueeze(0) for i in self.long_memory_buffer]
+
+        # expand position embedding
+        n_position = 8
+        position_ids = torch.arange(n_position).long().to(self.query_tokens.device)
+        position_ids = position_ids.unsqueeze(0).expand(batch_size, -1) 
+        p = self.video_frame_position_embedding(position_ids).squeeze(0)
+        frame_position_embeddings = p.unsqueeze(-2)
+         
+        u = []
+        alpha = 0.01 
+
+        for p_i in p:
+            u_i = (p_i-alpha * p[0])/(1-alpha)
+            u.append(u_i)
+
+        # calculate the position_embedding
+        frame_position_embeddings = []
+        for i in range(n_position):
+            for j in range(n_position):
+                q_i = alpha * u[i] + (1-alpha) * u[j] 
+                q_i = q_i.unsqueeze(0)
+                frame_position_embeddings.append(q_i)
+        frame_position_embeddings = torch.cat(frame_position_embeddings, dim = 0)
+        
+        if middle_video:
+            cur_long_length = len(self.long_memory_buffer)
+            cur_short_length = len(self.temp_short_memory)
+
+            while (cur_long_length+cur_short_length+1) > self.max_frame_pos:
+                self.temp_short_memory.pop(0)
+            
+            if len(self.long_memory_buffer) == 0:
+                self.temp_short_memory = [i.unsqueeze(0) for i in self.temp_short_memory]
+                if len(self.temp_short_memory) != 0:
+                    cur_short = torch.cat(self.temp_short_memory, dim = 0)
+                    video_features = torch.cat([cur_short, cur_image], dim = 0)
+                else:
+                    video_features = cur_image
+            else:
+                cur_video = torch.cat(self.long_memory_buffer,dim = 0)
+                self.temp_short_memory = [i.unsqueeze(0) for i in self.temp_short_memory]
+                cur_short = torch.cat(self.temp_short_memory, dim = 0)
+                
+                video_features = torch.cat([cur_video,cur_short], dim = 0)
+                video_features = torch.cat([video_features, cur_image], dim = 0)
+            
+            cur_video = []
+            cur_pos = []
+            for i in range(len(video_features)):
+                    cur_pos.append(frame_position_embeddings[i])
+                    cur_video.append(video_features[i])
+            
+            cur_pos = [j.unsqueeze(0) for j in cur_pos]
+            cur_video = [j.unsqueeze(0) for j in cur_video]
+            cur_position_embeddings = torch.cat(cur_pos, dim=0)
+            cur_position_embeddings = cur_position_embeddings.unsqueeze(-2) 
+            cur_position_embeddings = cur_position_embeddings.unsqueeze(0)
+            frame_hidden_state = torch.cat(cur_video, dim=0)
+            frame_hidden_state = einops.rearrange(frame_hidden_state, '(b t) q h -> b t q h', b=batch_size, t=len(video_features))
+                
+            frame_hidden_state = cur_position_embeddings + frame_hidden_state 
+                
+            # frame attention
+            frame_hidden_state =  einops.rearrange(frame_hidden_state, 'b t q h -> b (t q) h',b=batch_size,t=len(video_features)) 
+            frame_atts = torch.ones(frame_hidden_state.size()[:-1], dtype=torch.long).to(device)
+            video_query_tokens = self.video_query_tokens.expand(frame_hidden_state.shape[0], -1, -1) 
+            # a video Q-former to aggregate frame-level representations 
+            video_query_output = self.video_Qformer.bert(
+                query_embeds=video_query_tokens, 
+                encoder_hidden_states=frame_hidden_state, 
+                encoder_attention_mask=frame_atts, 
+                return_dict=True,
+            )
+            video_hiddens=video_query_output.last_hidden_state 
+
+        # a linear layer to project the output video representations into the same dimension as the text embeddings of LLMs
+            inputs_llama = self.llama_proj(video_hiddens)
+            atts_llama = torch.ones(inputs_llama.size()[:-1], dtype=torch.long).to(device)
+            return inputs_llama, atts_llama
+
+        else:           
+            cur_video = []
+            cur_pos = []
+            for i in range(len(self.long_memory_buffer)):
+                    cur_pos.append(frame_position_embeddings[i])
+                    cur_video.append(self.long_memory_buffer[i])
+            
+            cur_pos = [j.unsqueeze(0) for j in cur_pos]
+            cur_position_embeddings = torch.cat(cur_pos, dim=0)
+            cur_position_embeddings = cur_position_embeddings.unsqueeze(-2) 
+            cur_position_embeddings = cur_position_embeddings.unsqueeze(0)
+            frame_hidden_state = torch.cat(cur_video, dim=0) #[1,32,768]
+            frame_hidden_state = einops.rearrange(frame_hidden_state, '(b t) q h -> b t q h', b=batch_size, t=len(self.long_memory_buffer)) #[64,32,768]
+                
+            frame_hidden_state = cur_position_embeddings + frame_hidden_state
+                
+            # frame attention
+            frame_hidden_state =  einops.rearrange(frame_hidden_state, 'b t q h -> b (t q) h',b=batch_size,t=len(self.long_memory_buffer)) 
+            frame_atts = torch.ones(frame_hidden_state.size()[:-1], dtype=torch.long).to(device) 
+            video_query_tokens = self.video_query_tokens.expand(frame_hidden_state.shape[0], -1, -1) 
+            # a video Q-former to aggregate frame-level representations 
+            video_query_output = self.video_Qformer.bert(
+                query_embeds=video_query_tokens,
+                encoder_hidden_states=frame_hidden_state,
+                encoder_attention_mask=frame_atts,
+                return_dict=True,
+            )
+            video_hiddens=video_query_output.last_hidden_state 
+
+
+
+        # a linear layer to project the output video representations into the same dimension as the text embeddings of LLMs
+            inputs_llama = self.llama_proj(video_hiddens)
+            atts_llama = torch.ones(inputs_llama.size()[:-1], dtype=torch.long).to(device) 
+            return inputs_llama, atts_llama
+
+    def encode_image(self, image):
+        device = 'cuda:0'
+
+        image = einops.rearrange(image, 'b c t h w -> (b t) c h w') 
+        with self.maybe_autocast():
+            # embed image features with blip2, out: (b t) q h
+            image_embeds = self.ln_vision(self.visual_encoder(image)).to(device) 
+            image_atts = torch.ones(image_embeds.size()[:-1], dtype=torch.long).to(device)
+            query_tokens = self.query_tokens.expand(image_embeds.shape[0], -1, -1)
+            query_output = self.Qformer.bert(
+                query_embeds=query_tokens,
+                encoder_hidden_states=image_embeds,
+                encoder_attention_mask=image_atts,
+                return_dict=True,
+            )
+            q_hidden_state = query_output.last_hidden_state
+
+        return q_hidden_state
+
+
+
+    def encode_videoQformer_visual(self, image):
+        device = image.device
+        # input shape b,c,t,h,w
+        batch_size,_,time_length,_,_ = image.size() # batch_size:1 time_length:8
+        image = einops.rearrange(image, 'b c t h w -> (b t) c h w') 
+        with self.maybe_autocast():
+            # embed image features with blip2, out: (b t) q h
+            image_embeds = self.ln_vision(self.visual_encoder(image)).to(device) 
+            image_atts = torch.ones(image_embeds.size()[:-1], dtype=torch.long).to(device)
+
+            query_tokens = self.query_tokens.expand(image_embeds.shape[0], -1, -1)
+            query_output = self.Qformer.bert(
+                query_embeds=query_tokens,
+                encoder_hidden_states=image_embeds,
+                encoder_attention_mask=image_atts,
+                return_dict=True,
+            )
+
+            q_hidden_state = query_output.last_hidden_state 
+
+            # merge after every frame added
+            for frame in q_hidden_state:
+                self.long_memory_buffer.append(frame)
+            similar_list = []
+            for frame_i in range(self.long_memory_length):
+                similar_list.append(cosine(self.long_memory_buffer[frame_i].flatten().cpu(), self.long_memory_buffer[frame_i+1].flatten().cpu()))
+            while len(self.long_memory_buffer) > self.long_memory_length:
+                max_value = max(similar_list)
+                max_index = similar_list.index(max_value)
+                new_frame_feature = (self.long_memory_buffer[max_index].cpu()+self.long_memory_buffer[max_index+1].cpu())/2
+                self.long_memory_buffer[max_index] = new_frame_feature.cuda()
+                del(self.long_memory_buffer[max_index+1])
+                similar_list = []
+                for frame_i in range(len(self.long_memory_buffer)-1):
+                    similar_list.append(1-cosine(self.long_memory_buffer[frame_i].flatten().cpu(), self.long_memory_buffer[frame_i+1].flatten().cpu()))
+            
+            #  a position embedding layer to inject temporal information into video frames
+            if self.whole_video:
+                # add frame_pos embedding
+                self.long_memory_buffer = [i.unsqueeze(0) for i in self.long_memory_buffer]
+                for i in self.long_memory_buffer:
+                    while len(i.shape) > 3:
+                        i = i.squeeze(0)
+                frame_hidden_state = torch.cat(self.long_memory_buffer,dim = 0)
+                position_ids = torch.arange(self.long_memory_length, dtype=torch.long, device=query_tokens.device) 
+                position_ids = position_ids.unsqueeze(0).expand(batch_size, -1)
+                frame_position_embeddings = self.video_frame_position_embedding(position_ids)
+                frame_position_embeddings = frame_position_embeddings.unsqueeze(-2)
+                frame_hidden_state = einops.rearrange(frame_hidden_state, '(b t) q h -> b t q h',b=batch_size,t=self.long_memory_length)
+                frame_hidden_state = frame_position_embeddings + frame_hidden_state
+                
+                # frame attention
+                frame_hidden_state =  einops.rearrange(frame_hidden_state, 'b t q h -> b (t q) h',b=batch_size,t=self.long_memory_length)
+                frame_atts = torch.ones(frame_hidden_state.size()[:-1], dtype=torch.long).to(device)
+                video_query_tokens = self.video_query_tokens.expand(frame_hidden_state.shape[0], -1, -1)
+            
+            # a video Q-former to aggregate frame-level representations 
+            video_query_output = self.video_Qformer.bert(
+                query_embeds=video_query_tokens,
+                encoder_hidden_states=frame_hidden_state,
+                encoder_attention_mask=frame_atts,
+                return_dict=True,
+                )
+            video_hidden = video_query_output.last_hidden_state
+            # a linear layer to project the output video representations into the same dimension as the text embeddings of LLMs
+            inputs_llama = self.llama_proj(video_hidden) 
+            
+            atts_llama = torch.ones(inputs_llama.size()[:-1], dtype=torch.long).to(image_embeds.device)
+        return inputs_llama, atts_llama
+    
+    
+    def prompt_wrap(self, img_embeds, atts_img, prompt):
+        if prompt:
+            batch_size = img_embeds.shape[0]
+            p_before, p_after = prompt.split('<ImageHere>')
+            p_before_tokens = self.llama_tokenizer(
+                p_before, return_tensors="pt", add_special_tokens=False).to(img_embeds.device)
+            p_after_tokens = self.llama_tokenizer(
+                p_after, return_tensors="pt", add_special_tokens=False).to(img_embeds.device)
+            p_before_embeds = self.llama_model.model.embed_tokens(p_before_tokens.input_ids).expand(batch_size, -1, -1)
+            p_after_embeds = self.llama_model.model.embed_tokens(p_after_tokens.input_ids).expand(batch_size, -1, -1)
+            wrapped_img_embeds = torch.cat([p_before_embeds, img_embeds, p_after_embeds], dim=1)
+            wrapped_atts_img = atts_img[:, :1].expand(-1, wrapped_img_embeds.shape[1])
+            
+            return wrapped_img_embeds, wrapped_atts_img
         else:
-            raise NotImplementedError
-        video_emb, _ = self.model.encode_long_video(cur_image, middle_video)
-        img_list.append(video_emb) 
-        return msg  
+            return img_embeds, atts_img
 
+    def forward(self, samples):
+        if 'conv_type' in samples.keys() and samples['conv_type']=='multi':
+            im_patch_token_id = self.IMAGE_PATCH_TOKEN_ID
+            image = samples["images"]
+            input_ids = samples['input_ids']
+            
+            if len(image.size())==4:
+                time = 1
+                image = einops.repeat(image, 'b c h w -> b c t h w',t = time)
 
+            num_patch_tokens = self.num_video_query_token
+            img_embeds, atts_img = self.encode_videoQformer_visual(image)
+               
+            temp_input_ids = copy.deepcopy(input_ids) # just copy input_ids
+            temp_input_ids[temp_input_ids == im_patch_token_id] = 0
+            temp_input_embedding = self.llama_model.model.embed_tokens(temp_input_ids)
 
-if __name__ =='__main__':
-    config_seed = 42
-    setup_seeds(config_seed)
-    print('Initializing Chat')
-    args = parse_args()
-    cfg = Config(args)
+            new_input_embeds=[]
+            cur_image_idx = 0
+            for cur_input_ids, cur_input_embeds in zip(input_ids, temp_input_embedding):
+                cur_image_features = img_embeds[cur_image_idx]
 
-    model_config = cfg.model_cfg
-    model_config.device_8bit = args.gpu_id
-    model_cls = registry.get_model_class(model_config.arch)
-    model = model_cls.from_config(model_config).to('cuda:{}'.format(args.gpu_id))
+                if (cur_input_ids == im_patch_token_id).sum() != num_patch_tokens:
+                        raise ValueError("The number of image patch tokens should be the same as the number of image patches.")
+                masked_indices = torch.where(cur_input_ids == im_patch_token_id)[0]
+                mask_index_start = masked_indices[0]
+                if (masked_indices != torch.arange(mask_index_start, mask_index_start+num_patch_tokens, device=masked_indices.device, dtype=masked_indices.dtype)).any():
+                    raise ValueError("The image patch tokens should be consecutive.")
+                
+                cur_new_input_embeds = torch.cat((cur_input_embeds[:mask_index_start], cur_image_features, cur_input_embeds[mask_index_start+num_patch_tokens:]), dim=0)
+                new_input_embeds.append(cur_new_input_embeds)
+                
+                cur_image_idx+=1
+            inputs_embeds = torch.stack(new_input_embeds, dim=0)
+            targets = samples['labels']
+            attention_mask = samples['attention_mask']
+            with self.maybe_autocast():
+                outputs = self.llama_model(
+                    inputs_embeds=inputs_embeds,
+                    attention_mask=attention_mask,
+                    return_dict=True,
+                    labels=targets,
+                )
+            loss = outputs.loss
+            return {"loss": loss}
+        else:
+            image = samples["image"]
 
-    vis_processor_cfg = cfg.datasets_cfg.webvid.vis_processor.train
-    vis_processor = registry.get_processor_class(vis_processor_cfg.name).from_config(vis_processor_cfg)
-    chat = Chat(model, vis_processor, device='cuda:{}'.format(args.gpu_id))
-    print('Initialization Finished')
+            if len(image.size()) != 5:
+                time = 1
+                image = einops.repeat(image, 'b c h w -> b c t h w',t = time)
+            
+            img_embeds, atts_img = self.encode_videoQformer_visual(image)
 
-    video_path = args.video_path
-    fragment_video_path = args.fragment_video_path
-    cur_min = args.cur_min
-    cur_sec = args.cur_sec
-    middle_video = args.middle_video
+            if self.prompt_list:
+                prompt = random.choice(self.prompt_list)
+                img_embeds, atts_img = self.prompt_wrap(img_embeds, atts_img, prompt)
+                
 
-    cap = cv2.VideoCapture(video_path)
-    fps_video = cap.get(cv2.CAP_PROP_FPS)
-    cur_fps = fps_video * (60*cur_min + cur_sec)
+            self.llama_tokenizer.padding_side = "right"
 
-    cap = cv2.VideoCapture(video_path)
-    cap.set(cv2.CAP_PROP_POS_FRAMES, cur_fps)
-    ret, frame = cap.read()
-    temp_frame_path = 'src/output_frame/snapshot.jpg'
+            text = [t + self.end_sym for t in samples["text_input"]]
 
-    cv2.imwrite(temp_frame_path, frame) 
-    raw_image = Image.open(temp_frame_path).convert('RGB') 
-    image = chat.image_vis_processor(raw_image).unsqueeze(0).unsqueeze(2).to(chat.device) # [1,3,1,224,224]
-    cur_image = chat.model.encode_image(image)
+            to_regress_tokens = self.llama_tokenizer(
+                text,
+                return_tensors="pt",
+                padding="longest",
+                truncation=True,
+                max_length=self.max_txt_len,
+                add_special_tokens=False
+            ).to(image.device)
 
-    if middle_video == 1:
-        middle_video = True
-    else:
-        middle_video = False
+            targets = to_regress_tokens.input_ids.masked_fill(
+                to_regress_tokens.input_ids == self.llama_tokenizer.pad_token_id, -100
+            )
 
-    img_list = []
-    middle_video = True
-    msg = chat.upload_video_without_audio(
-        video_path=video_path, 
-        fragment_video_path=fragment_video_path,
-        cur_min=cur_min, 
-        cur_sec=cur_sec, 
-        cur_image = cur_image, 
-        img_list=img_list, 
-        middle_video = middle_video,
+            empty_targets = (
+                torch.ones([atts_img.shape[0], atts_img.shape[1]+1],
+                        dtype=torch.long).to(image.device).fill_(-100)  # plus one for bos
+            )
+            targets = torch.cat([empty_targets, targets], dim=1)
+
+            batch_size = img_embeds.shape[0]
+            bos = torch.ones([batch_size, 1],
+                            dtype=to_regress_tokens.input_ids.dtype,
+                            device=to_regress_tokens.input_ids.device) * self.llama_tokenizer.bos_token_id
+            bos_embeds = self.llama_model.model.embed_tokens(bos)
+            atts_bos = atts_img[:, :1]
+
+            to_regress_embeds = self.llama_model.model.embed_tokens(to_regress_tokens.input_ids)
+            inputs_embeds = torch.cat([bos_embeds, img_embeds, to_regress_embeds], dim=1)
+            attention_mask = torch.cat([atts_bos, atts_img, to_regress_tokens.attention_mask], dim=1)
+
+            with self.maybe_autocast():
+                outputs = self.llama_model(
+                    inputs_embeds=inputs_embeds,
+                    attention_mask=attention_mask,
+                    return_dict=True,
+                    labels=targets,
+                )
+            loss = outputs.loss
+
+        return {"loss": loss}
+
+    @classmethod
+    def from_config(cls, cfg):
+        vit_model = cfg.get("vit_model", "eva_clip_g")
+        q_former_model = cfg.get("q_former_model", "https://storage.googleapis.com/sfr-vision-language-research/LAVIS/models/BLIP2/blip2_pretrained_flant5xxl.pth")
+        img_size = cfg.get("image_size")
+        num_query_token = cfg.get("num_query_token")
+        llama_model = cfg.get("llama_model")
+
+        drop_path_rate = cfg.get("drop_path_rate", 0)
+        use_grad_checkpoint = cfg.get("use_grad_checkpoint", False)
+        vit_precision = cfg.get("vit_precision", "fp16")
+        freeze_vit = cfg.get("freeze_vit", True)
+        freeze_qformer = cfg.get("freeze_qformer", True)
+        low_resource = cfg.get("low_resource", False)
+        device_8bit = cfg.get("device_8bit", 0)
+
+        prompt_path = cfg.get("prompt_path", "")
+        prompt_template = cfg.get("prompt_template", "")
+        max_txt_len = cfg.get("max_txt_len", 32)
+        end_sym = cfg.get("end_sym", '\n')
+        
+        frozen_llama_proj = cfg.get("frozen_llama_proj", True)
+        frozen_video_Qformer = cfg.get("frozen_video_Qformer", True)
+
+        llama_proj_model = cfg.get("llama_proj_model", '')
+
+        fusion_header_type = cfg.get("fusion_header_type", 'seqTransf')
+        max_frame_pos = cfg.get("max_frame_pos", 32)
+        fusion_head_layers = cfg.get("fusion_head_layers", 2)
+        num_video_query_token =  cfg.get("num_video_query_token", 32)
+        model = cls(
+            vit_model=vit_model,
+            q_former_model=q_former_model,
+            img_size=img_size,
+            drop_path_rate=drop_path_rate,
+            use_grad_checkpoint=use_grad_checkpoint,
+            vit_precision=vit_precision,
+            freeze_vit=freeze_vit,
+            freeze_qformer=freeze_qformer,
+            num_query_token=num_query_token,
+            llama_model=llama_model,
+            prompt_path=prompt_path,
+            prompt_template=prompt_template,
+            max_txt_len=max_txt_len,
+            end_sym=end_sym,
+            low_resource=low_resource,
+            device_8bit=device_8bit,
+            fusion_header_type=fusion_header_type,
+            max_frame_pos=max_frame_pos,
+            fusion_head_layers=fusion_head_layers,
+            frozen_llama_proj=frozen_llama_proj,
+            frozen_video_Qformer=frozen_video_Qformer,
+            num_video_query_token=num_video_query_token,
         )
-    
-    text_input = args.text_query
 
-    num_beams = args.num_beams
-    temperature = args.temperature
-    llm_message = chat.answer(img_list=img_list,
-                              input_text=text_input,
-                              msg = msg,
-                              num_beams=num_beams,
-                              temperature=temperature,
-                              max_new_tokens=300,
-                              max_length=2000)[0]
-
-    print(llm_message)
-    
+        ckpt_path = cfg.get("ckpt", "")  # load weights of MiniGPT-4
+        if ckpt_path:
+            print("Load first Checkpoint: {}".format(ckpt_path))
+            ckpt = torch.load(ckpt_path, map_location="cpu")
+            msg = model.load_state_dict(ckpt['model'], strict=False)
+        ckpt_path_2 = cfg.get("ckpt_2", "")  
+        if ckpt_path_2:
+            print("Load second Checkpoint: {}".format(ckpt_path_2))
+            ckpt = torch.load(ckpt_path_2, map_location="cpu")
+            msg = model.load_state_dict(ckpt['model'], strict=False)
+        return model
