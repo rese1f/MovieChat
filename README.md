@@ -11,8 +11,9 @@ MovieChat can handle videos with >10K frames on a 24GB graphics card. MovieChat 
 
 ## :fire: News
 
-* **[2023.7.29]** We release Gradio demo of MovieChat.
-* **[2023.7.22]** We release inference code of MovieChat.
+* **[2023.7.31]** We release eval [code and instraction](https://github.com/rese1f/MovieChat/tree/main/eval_code) for short video QA.
+* **[2023.7.29]** We release [Gradio demo](https://github.com/rese1f/MovieChat/blob/main/app_gradio.py) of MovieChat.
+* **[2023.7.22]** We release source code of MovieChat.
 
 
 ## Overview
