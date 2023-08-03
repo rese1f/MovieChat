@@ -73,7 +73,7 @@ Before using the repository, make sure you have obtained the following checkpoin
 python apply_delta.py \
     --base ckpt/LLaMA/7B_hf \
     --target ckpt/Vicuna/7B \
-    --delta ckpt/Vicuna/vicuna-7b-delta-v1.1 \
+    --delta ckpt/Vicuna/vicuna-7b-delta-v0 \
 ```
 
 #### Pre-trained Visual Encoder for MovieChat
