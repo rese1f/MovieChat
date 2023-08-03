@@ -121,9 +121,14 @@ We are grateful for the following awesome projects our MovieChat arising from:
 Our MovieChat is just a research preview intended for non-commercial use only. You must **NOT** use our MovieChat for any illegal, harmful, violent, racist, or sexual purposes. You are strictly prohibited from engaging in any activity that will potentially violate these guidelines. 
 
 ## Citation
-If you find our project useful, hope you can star our repo.
 
-Our paper coming soon.
+If you find MovieChat useful for your your research and applications, please cite using this BibTeX:
 
-
-
+```bibtex
+@article{song2023moviechat,
+  title={MovieChat: From Dense Token to Sparse Memory for Long Video Understanding},
+  author={Song, Enxin and Chai, Wenhao and Wang, Guanhong and Zhang, Yucheng and Zhou, Haoyang and Wu, Feiyang and Guo, Xun and Ye, Tian and Lu, Yan and Hwang, Jenq-Neng and others},
+  journal={arXiv preprint arXiv:2307.16449},
+  year={2023}
+}
+```
