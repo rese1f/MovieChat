@@ -53,7 +53,7 @@ bride to end his endless life but instead meets Ji Eun-tak, a girl fated to die 
 
 ### Environment Preparation
 
-First, ceate a conda environment:
+First, create a conda environment:
 ```
 conda env create -f environment.yml
 conda activate moviechat
