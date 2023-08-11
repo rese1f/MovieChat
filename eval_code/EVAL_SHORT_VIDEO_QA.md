@@ -1,4 +1,5 @@
 Follow these steps to conduct the evaluation:
+Download the MSVD-QA, MSRVTT-QA, and ActivityNet-QA from this repo: https://github.com/antoyang/just-ask. And write some preprocess code which is easy to get the gt_file.
 
 **Step 1:** Run the inference. You'll need the following:
 Run the command:
