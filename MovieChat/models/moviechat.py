@@ -292,7 +292,6 @@ class MovieChat(Blip2Base):
                     similar_list.append(frame_silimar)
 
             for frame in self.short_memory_buffer:
-                
                 self.long_memory_buffer.append(frame)
 
     def encode_long_video(self, cur_image, middle_video:False):
@@ -326,22 +325,24 @@ class MovieChat(Blip2Base):
         frame_position_embeddings = torch.cat(frame_position_embeddings, dim = 0)
         
         if middle_video:
-            cur_long_length = len(self.long_memory_buffer)
-            cur_short_length = len(self.temp_short_memory)
-
-            while (cur_long_length+cur_short_length+1) > self.max_frame_pos:
-                self.temp_short_memory.pop(0)
+            while (len(self.long_memory_buffer)+len(self.temp_short_memory)+1) > frame_position_embeddings.shape[0]:
+                if len(self.temp_short_memory) != 0:
+                    self.temp_short_memory.pop(0)
+                else:
+                    self.long_memory_buffer.pop(0)
             
             if len(self.long_memory_buffer) == 0:
                 self.temp_short_memory = [i.unsqueeze(0) for i in self.temp_short_memory]
                 cur_short = torch.cat(self.temp_short_memory, dim = 0)
-                video_features = torch.cat([video_features, cur_image], dim = 0)
+                video_features = torch.cat([cur_short], dim = 0)
             else:
                 cur_video = torch.cat(self.long_memory_buffer,dim = 0)
                 self.temp_short_memory = [i.unsqueeze(0) for i in self.temp_short_memory]
-                cur_short = torch.cat(self.temp_short_memory, dim = 0)
-                
-                video_features = torch.cat([cur_video,cur_short], dim = 0)
+                if len(self.temp_short_memory) != 0:
+                    cur_short = torch.cat(self.temp_short_memory, dim = 0)
+                    video_features = torch.cat([cur_video,cur_short], dim = 0)
+                else:
+                    video_features = torch.cat([cur_video], dim = 0)
                 video_features = torch.cat([video_features, cur_image], dim = 0)
             
             cur_video = []
