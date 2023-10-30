@@ -266,8 +266,6 @@ class Chat:
 
 
 if __name__ =='__main__':
-    
-    # 初始化模型
     config_seed = 42
     setup_seeds(config_seed)
     print('Initializing Chat')
@@ -282,7 +280,6 @@ if __name__ =='__main__':
     chat = Chat(model, vis_processor, device='cuda:{}'.format(args.gpu_id))
     print('Initialization Finished')
 
-    # 读取视频和GT
     # Load both ground truth file containing questions and answers
     with open(args.gt_file) as file:
         gt_qa = json.load(file)
@@ -313,7 +310,6 @@ if __name__ =='__main__':
             chat.model.short_memory_buffer = []
             video_path = os.path.join(args.video_path, f"{video_id}.avi")
 
-            # 加载视频
             cap = cv2.VideoCapture(video_path)
             fps_video = cap.get(cv2.CAP_PROP_FPS)
             cur_fps = fps_video * (60*cur_min + cur_sec)

@@ -1,0 +1,1005 @@
+{"question": "what's in the scene?", "answer": "A clock.", "pred": "Clock on wooden stand in frame 750."}
+{"question": "where is the scene?", "answer": "On the battle field.", "pred": "Man lying with blood, another man holding knife."}
+{"question": "how many people appear in the scene(not including background)?", "answer": "Two people.", "pred": "Two people at frame 4500."}
+{"question": "Is it indoors or outdoors?", "answer": "It's outdoors.", "pred": "Dark at frame 6750."}
+{"question": "where is the scene?", "answer": "Over a big forest.", "pred": "Snowy mountain range with large body of water."}
+{"question": "Is it day time or night time?", "answer": "It's at day time.", "pred": "Night time at frame 6950."}
+{"question": "what's in the scene?", "answer": "A poster.", "pred": "Man sits on bench in room at frame 500."}
+{"question": "what is on the poster?", "answer": "A woman wearing yellow clothes.", "pred": "Poster on wall at frame 550."}
+{"question": "what's man's hairstyle?", "answer": "He's bald.", "pred": "Man has shaved hair at frame 900."}
+{"question": "where is the scene?", "answer": "On the battle field.", "pred": "Scene at frame 1875 is in tunnel."}
+{"question": "What is the object?", "answer": "The moon.", "pred": "Object at 3900 is moon."}
+{"question": "Where is the scene?", "answer": "In the universe.", "pred": "Starry sky with bright star in center at frame 4650."}
+{"question": "Where is the scene?", "answer": "In a nebula.", "pred": "Starry sky with bright center star at frame 5400."}
+{"question": "Where is the scene?", "answer": "On the beach.", "pred": "Close-up of a black and white road."}
+{"question": "Where is the scene?", "answer": "In the car.", "pred": "Car scene with man driving and woman passenger."}
+{"question": "Are there any plants?", "answer": "Yes.", "pred": "Yes, plants are there at frame 7525."}
+{"question": "Are there any animals?", "answer": "Yes.", "pred": "No animals at frame 8475."}
+{"question": "Is it day or night?", "answer": "Night.", "pred": "Nighttime at frame 9000."}
+{"question": "What is this animal?", "answer": "Sea turtle.", "pred": "Frame 9750 has a turtle."}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "Yes, two vehicles at frame 10500."}
+{"question": "How does the person feel?", "answer": "Serious.", "pred": "Happy and content at frame 25."}
+{"question": "What is happening?", "answer": "A woman is shot.", "pred": "Man talking to woman on bench and ground."}
+{"question": "How does the person feel?", "answer": "Sad.", "pred": "Person appears distressed or tired at frame 1500."}
+{"question": "What is the person doing?", "answer": "Lying on a chair and saying something.", "pred": "Person talks to man holding sword."}
+{"question": "What is the background color?", "answer": "Blue.", "pred": "Frame 3000 has blue background color."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Person at frame 3750 wears black clothes."}
+{"question": "How many people appeared?", "answer": "Three.", "pred": "2 people at frame 5250."}
+{"question": "What is the scene?", "answer": "A person.", "pred": "Man sitting in room, looking at camera."}
+{"question": "What is the scene?", "answer": "A woman with black skin.", "pred": "Woman holding glass of wine talks to camera."}
+{"question": "How many people appeared?", "answer": "Two.", "pred": "2 people at frame 8250."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Frame 9000 wears red suit."}
+{"question": "Where is it?", "answer": "In a room.", "pred": "Living room in a house."}
+{"question": "What are the people doing?", "answer": "Communicating.", "pred": "Sitting people in a room, one holding gun at frame 10500."}
+{"question": "How many people appear in the middle of the scene(not including people in the background)?", "answer": "One.", "pred": "2 people in the scene at frame 3780."}
+{"question": "Is it at day time or night time?", "answer": "It's at day time.", "pred": "Night at frame 250."}
+{"question": "what are they doing?", "answer": "They are talking with each other.", "pred": "Men talk on rocky terrain at frame 500."}
+{"question": "what happens to the robot?", "answer": "It falls to the ground.", "pred": "Robot walks away from soldiers at frame 1600."}
+{"question": "Is it at day time or night time?", "answer": "It's at day time.", "pred": "Night at frame 2000."}
+{"question": "Is it indoors or outdoors?", "answer": "It's outdoors.", "pred": "Green wall in room at frame 2500."}
+{"question": "what is the gender of the person at the middle?", "answer": "She is a woman.", "pred": "Middle person at frame 3150 is male."}
+{"question": "what's in the scene?", "answer": "It's a big plane.", "pred": "Helicopter is lifted by crane in frame 3900."}
+{"question": "Is it indoors or outdoors?", "answer": "It's outdoors.", "pred": "Blue and white vehicle driving through tunnel."}
+{"question": "Is it on earth or in space?", "answer": "It's on earth.", "pred": "Space scene at frame 1000 in video."}
+{"question": "what's in the scene?", "answer": "Hyena is hunting flamingos.", "pred": "Bear walks across water, followed by bird."}
+{"question": "what's the weather like?", "answer": "It's sunny and nice.", "pred": "Frame 1500 weather: sunny and clear."}
+{"question": "How many animals appear?(any type)", "answer": "One.", "pred": "2 animals at frame 2250."}
+{"question": "what's in the scene?", "answer": "A large group of animals.", "pred": "Birds flying over lake at frame 3730."}
+{"question": "where is the scene?", "answer": "Near a lake.", "pred": "Birds on shore by large body of water."}
+{"question": "what's the weather like?", "answer": "It's sunny and nice.", "pred": "Clear and sunny at frame 6000."}
+{"question": "where's the scene?", "answer": "On a big grassland.", "pred": "Zebras running through grass at frame 6750."}
+{"question": "what's in the scene?", "answer": "Groups of antelopes are migrating.", "pred": "People on horses riding on a road."}
+{"question": "How many animals appear?(any type)", "answer": "More than tens of them.", "pred": "No visible animals in the video."}
+{"question": "what's the animal in the scene?", "answer": "Some kind of eagle.", "pred": "Scene 9800 shows a bird."}
+{"question": "where is the scene?", "answer": "On snow mountains.", "pred": "Mountain range scene with snow-capped peaks."}
+{"question": "what happens?", "answer": "A group of birds are flying.", "pred": "Bird flies through the air at frame 11000."}
+{"question": "What is the scene?", "answer": "A waterfall.", "pred": "Man with gun in rain."}
+{"question": "What is the scene?", "answer": "A man.", "pred": "Man in cave looking at camera."}
+{"question": "What are the people doing?", "answer": "Fighting.", "pred": "People in dark room with knife at frame 2250."}
+{"question": "What is in the person's hand?", "answer": "A gun.", "pred": "Bottle in hand at frame 3750."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Frame 4500 has black background color."}
+{"question": "What are the people doing?", "answer": "Talking.", "pred": "Man in hat pointing gun at someone."}
+{"question": "How many people appears?", "answer": "Two.", "pred": "Two people in water at frame 6000."}
+{"question": "Where is it?", "answer": "On a plane.", "pred": "Frame 7500 in video."}
+{"question": "How is the weather?", "answer": "Sunny.", "pred": "frame 9000, weather is sunny."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Black background at frame 9750."}
+{"question": "What is the person doing?", "answer": "Smoking.", "pred": "Person in chair talking to camera at frame 10500."}
+{"question": "what's in the scene?", "answer": "A fish.", "pred": "Fish swimming in water at frame 750."}
+{"question": "what's the weather like?", "answer": "It's sunny and nice.", "pred": "Frame 1500 weather is sunny and clear."}
+{"question": "How many animals appear?(any type)", "answer": "One.", "pred": "Two animals in video."}
+{"question": "what's in the scene?", "answer": "A grassland.", "pred": "Water, field, and forest in scene 3750."}
+{"question": "How many animals appear?(any type)", "answer": "One.", "pred": "One elephant in frame at 4500."}
+{"question": "what's in the scene?", "answer": "Three elephants.", "pred": "Elephants walking in grassy field at frame 5250."}
+{"question": "what's the weather like?", "answer": "It's sunny and nice.", "pred": "Sunny at frame 6000."}
+{"question": "where's the scene?", "answer": "One grassland.", "pred": "Elephants walking together in a field."}
+{"question": "what's in the scene?", "answer": "Two elephants.", "pred": "Elephants fighting in a field at frame 7500."}
+{"question": "what's in the scene?", "answer": "Fire.", "pred": "Close-up of fire at frame 9000."}
+{"question": "where is the scene?", "answer": "On grassland.", "pred": "Smoke rising from the field at frame 10500."}
+{"question": "how many animals are there in the scene?", "answer": "one.", "pred": "Two animals in frame 750."}
+{"question": "what's the weather like?", "answer": "It's sunny and nice.", "pred": "Weather at frame 1500 is sunny."}
+{"question": "How many animals appear?(any type)", "answer": "seven.", "pred": "Number of birds in image uncertain without more information."}
+{"question": "what's in the scene?", "answer": "flamingo.", "pred": "Two adult flamingos and a baby walking towards them."}
+{"question": "How many animals appear?(any type)", "answer": "two.", "pred": "Duck and goose in video."}
+{"question": "whats in  the scene?", "answer": "a man filming.", "pred": "Man sitting, holding, and talking in front of camera."}
+{"question": "what's the weather like?", "answer": "It's sunny and nice.", "pred": "Sunny weather at frame 6750."}
+{"question": "what's in the scene?", "answer": "little hamsters.", "pred": "3 animals in the nest."}
+{"question": "How many animals appear?(any type)", "answer": "two.", "pred": "Two animals at frame 8900."}
+{"question": "what's the animal in the scene?", "answer": "A hamster.", "pred": "Animal is a cat at frame 9750."}
+{"question": "where is the scene?", "answer": "on a tree trunk.", "pred": "Animals at zoo gathered around tree at frame 10490."}
+{"question": "what happens?", "answer": "A creature is crawling", "pred": "Close-up of lizard's face at frame 10950."}
+{"question": "how many main characters appear in the scene?(including the blue human-like creatures)", "answer": "One.", "pred": "Two characters: man and blue humanoid."}
+{"question": "how many main characters appear in the scene?(including the blue human-like creatures)", "answer": "Two.", "pred": "Two characters: a man and a blue creature."}
+{"question": "what's happening?", "answer": "A blue human-like creature is dying, and maybe he is saying his last words.", "pred": "Man paints woman's face blue at frame 3750."}
+{"question": "Is there more than five characters appear in the scene(including the blue creature)?", "answer": "Yes.", "pred": "Yes, more than five characters at frame 6750."}
+{"question": "what's the man doing?", "answer": "He's recording a video.", "pred": "Man sitting in chair, looking at camera."}
+{"question": "Is there any blue human-like creatures?", "answer": "Yes.", "pred": "Yes, blue humanoid at frame 8250."}
+{"question": "Is the scene indoors or outdoors?", "answer": "It's outdoors.", "pred": "Scene outdoors in frame 9200."}
+{"question": "where is the scene?", "answer": "In a big forest.", "pred": "Jungle scene with waterfall at frame 10500."}
+{"question": "Is it at daytime or at night time?", "answer": "It's at day time.", "pred": "Nighttime at frame 10700."}
+{"question": "Is there any character appear in the scene?(including the blue human-like creatures)", "answer": "No.", "pred": "Yes, blue creature at frame 10875."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Frame 750: background color is black."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Frame 3000 background is blue."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Color at frame 3750 is black."}
+{"question": "Are there any mountains", "answer": "No.", "pred": "No mountains in image, just flower close-ups."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Black background at frame 6750."}
+{"question": "What kind of animal is it?", "answer": "Nautilus.", "pred": "Big fish at frame 7500."}
+{"question": "Are there any animals?", "answer": "Yes.", "pred": "No animals at frame 9000, only a mollusk."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Frame 9750 has black background color."}
+{"question": "Are there any water?", "answer": "Yes.", "pred": "No water at frame 10500."}
+{"question": "where's the scene?", "answer": "In a dark forest.", "pred": "Woman standing in dark forest near large tree."}
+{"question": "Is it day time or night time?", "answer": "It's at night time.", "pred": "Night time at frame 5300."}
+{"question": "Is it indoors or outdoors?", "answer": "It's outdoors.", "pred": "Dark forest scene with standing woman at frame 6000."}
+{"question": "Is it indoors or outdoors?", "answer": "It's outdoors.", "pred": "Scene set in dark forest at frame 6750."}
+{"question": "How many people appear in the middle of the scene?", "answer": "Two people.", "pred": "Two people in scene at frame 7700."}
+{"question": "where's the scene?", "answer": "In a dark forest.", "pred": "Close-up of man in woods at frame 8250."}
+{"question": "How many people appear in the scene?", "answer": "Two people.", "pred": "2 people in frame 9200."}
+{"question": "Is it indoors or outdoors?", "answer": "It's outdoors.", "pred": "Cannot determine scene location from video at frame 9750."}
+{"question": "Is it day time or night time?", "answer": "It's at night time.", "pred": "Night time at frame 10600."}
+{"question": "Is it day time or night time?", "answer": "It's at night time.", "pred": "Night time at frame 10875."}
+{"question": "What is the clothes color of the person?", "answer": "Balck.", "pred": "Black jacket at frame 22500."}
+{"question": "Where is the scene?", "answer": "At the glacier.", "pred": "Person in front of large ice wall at frame 3000."}
+{"question": "Are there any animals?", "answer": "No.", "pred": "Two dogs at frame 5250."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Day at frame 6000."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "Yes, plants at frame 6750."}
+{"question": "Is the person a man or a woman?", "answer": "Man.", "pred": "Yes, a man in the video."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Daytime at frame 8250."}
+{"question": "What are the people doing?", "answer": "Holding a picture and talking.", "pred": "Man points at sky and talks to camera."}
+{"question": "Is it indoor or outdoor?", "answer": "Outdoor.", "pred": "Man stands in snow, looks at camera."}
+{"question": "Is it bright or dark?", "answer": "Bright.", "pred": "Bright at frame 10500."}
+{"question": "how many animals are there in the scene?", "answer": "one.", "pred": "Two animals seen in frame 750."}
+{"question": "what's the weather like?", "answer": "It's sunny and nice.", "pred": "Weather at frame 1500 is sunny."}
+{"question": "How many animals appear?(any type)", "answer": "one.", "pred": "One animal at frame 2250."}
+{"question": "what's in the scene?", "answer": "a group of flamingo.", "pred": "Pink flamingos in grassy field at frame 3750."}
+{"question": "How many animals appear?(any type)", "answer": "two.", "pred": "Two animals at frame 4500."}
+{"question": "whats in  the scene?", "answer": "a flamingo.", "pred": "Pink flamingo in water at frame 6000."}
+{"question": "what's the weather like?", "answer": "It's sunny and nice.", "pred": "Weather at frame 6750: sunny."}
+{"question": "what's in the scene?", "answer": "a small flamingo is drinking.", "pred": "Man and woman next to bird feeder."}
+{"question": "How many animals appear?(any type)", "answer": "one.", "pred": "Two animals in video."}
+{"question": "what's the animal in the scene?", "answer": "A flamingo.", "pred": "Bird in scene at frame 9750."}
+{"question": "where is the scene?", "answer": "in a nest.", "pred": "Close-up of chameleon face (frame 10490)."}
+{"question": "what happens?", "answer": "A small animal is lying", "pred": "Camera zooms in on spider's face."}
+{"question": "How many people appear in the scene?", "answer": "Three.", "pred": "Three people seen at frame 2950."}
+{"question": "where is the scene?", "answer": "Over the city ruin.", "pred": "Man kneels to woman on bench at frame 4600."}
+{"question": "Is it indoors or outdoors?", "answer": "It's outdoors.", "pred": "Man watches destruction of city with fire and smoke."}
+{"question": "what's the color of the woman's hair?", "answer": "It's blue.", "pred": "Woman has red hair."}
+{"question": "what's the color of the woman's clothes?", "answer": "It's red.", "pred": "Frame 8350 shows woman wearing red clothes."}
+{"question": "what's the weather like?", "answer": "It's sunny and nice.", "pred": "Frame 9100 has sunny weather."}
+{"question": "Is there more than three people?", "answer": "No.", "pred": "One person visible at frame 9850."}
+{"question": "Is it indoors or outdoors?", "answer": "It's outdoors.", "pred": "Frame 10500, video outdoors."}
+{"question": "Is there more than three people?", "answer": "Yes.", "pred": "Three people at frame 11100."}
+{"question": "what's in the scene?", "answer": "Eagles.", "pred": "Bird flies over rocky cliff at frame 700."}
+{"question": "what's the weather like?", "answer": "It's sunny and nice.", "pred": "Cloudy at frame 1500."}
+{"question": "How many animals appear?(any type)", "answer": "Three.", "pred": "Two birds in the frame at 2350."}
+{"question": "what's in the scene?", "answer": "Red parrot.", "pred": "Bird perched on tree branch in frame 3750."}
+{"question": "where is the scene?", "answer": "In forest.", "pred": "Jungle scene with tree and river at frame 4500."}
+{"question": "what's the weather like?", "answer": "It's sunny and nice.", "pred": "Sunny weather at frame 6000."}
+{"question": "where's the scene?", "answer": "On a lake.", "pred": "Bird flies over water with spread wings at frame 6750."}
+{"question": "what's in the scene?", "answer": "Groups of birds.", "pred": "Birds standing on water at frame 7550."}
+{"question": "How many animals appear?(any type)", "answer": "One.", "pred": "Two birds in the sky at frame 9100."}
+{"question": "what's the animal in the scene?", "answer": "Eagles.", "pred": "Bird in the scene at frame 9800"}
+{"question": "where is the scene?", "answer": "In a mud puddle.", "pred": "River view with background trees at frame 10450."}
+{"question": "what's the animal in the scene?", "answer": "A tapir.", "pred": "Large brown animal with long tail."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Person at frame 750 in black clothes."}
+{"question": "Are there any animals?", "answer": "No.", "pred": "No animals at frame 4500."}
+{"question": "Is the person a man or a woman?", "answer": "Man.", "pred": "Man."}
+{"question": "Where is the scene?", "answer": "In the universe.", "pred": "Black and white starry sky with clouds."}
+{"question": "Are there any people?", "answer": "No.", "pred": "No visible people."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Night at frame 7500."}
+{"question": "Where is the scene?", "answer": "In a cave.", "pred": "Man holds light in cave at frame 8250."}
+{"question": "Are there any animals?", "answer": "No.", "pred": "No animals at frame 9000."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Daytime at frame 9750."}
+{"question": "Is the person a man or a woman?", "answer": "A man.", "pred": "Video person is male."}
+{"question": "What is this animal?", "answer": "A whale.", "pred": "Whale picture at frame 0."}
+{"question": "Where is the scene?", "answer": "Above the water of the sea.", "pred": "Boat floats in ocean at frame 1500."}
+{"question": "Are there any animals?", "answer": "Yes.", "pred": "Two animals at frame 10500."}
+{"question": "What is this animal?", "answer": "Whale.", "pred": "At frame 12000, it's a whale."}
+{"question": "Where is the scene?", "answer": "Under the water.", "pred": "Close-up of whale tail in water at frame 13500."}
+{"question": "How many whales are there?", "answer": "Two.", "pred": "Two whales at frame 15000."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Indoor/outdoor location cannot be determined at frame 16500."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "Yes, plants at frame 18000."}
+{"question": "Are there any animals?", "answer": "No.", "pred": "No animals at frame 19500."}
+{"question": "Are there any people?", "answer": "No.", "pred": "Yes, two people visible in frame 21000."}
+{"question": "what's in the scene?", "answer": "An eagle is flying in the sky.", "pred": "Bird sitting on ground at frame 720."}
+{"question": "what's the weather like?", "answer": "It's sunny and nice.", "pred": "Frame 1500 weather is sunny."}
+{"question": "How many animals appear?(any type)", "answer": "Three.", "pred": "Two birds in sky at frame 2200."}
+{"question": "what's in the scene?", "answer": "Shoal of fish.", "pred": "Group swimming in water at frame 3650."}
+{"question": "where is the scene?", "answer": "On the sea.", "pred": "Ocean view from boat at frame 4500."}
+{"question": "what's the weather like?", "answer": "It's sunny and nice.", "pred": "Sunny weather at frame 5900."}
+{"question": "where's the scene?", "answer": "On a big grassland.", "pred": "Bull walking through tall grass in field."}
+{"question": "what's in the scene?", "answer": "Groups of antelopes are migrating.", "pred": "Group running through field with cattle."}
+{"question": "How many animals appear?(any type)", "answer": "One.", "pred": "2 animals at frame 9000."}
+{"question": "what's the animal in the scene?", "answer": "Flamingos.", "pred": "Bird in scene at frame 9800."}
+{"question": "where is the scene?", "answer": "In a big river or lake.", "pred": "Birds flying over large body of water at frame 10600."}
+{"question": "what happens?", "answer": "Flamingos are resting on mud.", "pred": "Pink flamingos walking in muddy water, some on one leg."}
+{"question": "What kind of animal is it?", "answer": "penguin", "pred": "Seal swims in ocean at frame 2250."}
+{"question": "What is the scene?", "answer": "Penguins.", "pred": "Bird on rock looking at camera."}
+{"question": "Are there any water?", "answer": "No.", "pred": "Small puddle at frame 5250."}
+{"question": "Where is it?", "answer": "In the ocean.", "pred": "Whale swimming toward camera seen at frame 6000."}
+{"question": "What is the scene?", "answer": "Ice.", "pred": "Ice floats in ocean with bright sun."}
+{"question": "What is the scene?", "answer": "The earth.", "pred": "Birds flying in the air at frame 7500."}
+{"question": "What kind of animal is it?", "answer": "Seabird.", "pred": "Whale at frame 8250."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Night at frame 9000."}
+{"question": "Where is it?", "answer": "Underwater.", "pred": "Swimming people and whale near coastal area or beach."}
+{"question": "Are there any animals?", "answer": "Yes.", "pred": "No animals at frame 10500."}
+{"question": "how many animals are there in the scene?", "answer": "one.", "pred": "Two animals in frame 750."}
+{"question": "what's the weather like?", "answer": "It's sunny and nice.", "pred": "Frame 1500 has sunny weather."}
+{"question": "How many animals appear?(any type)", "answer": "one.", "pred": "2 animals at frame 2250."}
+{"question": "what's in the scene?", "answer": "two malay tapirs", "pred": "Cow stands in water at frame 3750."}
+{"question": "How many animals appear?(any type)", "answer": "one.", "pred": "2 animals in water at frame 4500."}
+{"question": "what's the weather like?", "answer": "It's sunny and nice.", "pred": "Sunny weather at frame 6750."}
+{"question": "what's in the scene?", "answer": "someone is pouring milk.", "pred": "Woman pours milk into a bowl and stirs."}
+{"question": "How many animals appear?(any type)", "answer": "zero.", "pred": "Two animals in video at frame 8900."}
+{"question": "what's the animal in the scene?", "answer": "A rabbit.", "pred": "Rabbit seen at frame 9750."}
+{"question": "where is the scene?", "answer": "in a house.", "pred": "Woman feeds cat in wooden enclosure."}
+{"question": "what happens?", "answer": "A rabbit is drinking milk", "pred": "Woman picks up small animal, places in cage."}
+{"question": "How many people appear in the scene?", "answer": "One.", "pred": "Two people seen at frame 3850."}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "Car present at frame 5250."}
+{"question": "Is it indoors or outdoors?", "answer": "It's indoors.", "pred": "Frame 6000: indoors."}
+{"question": "Is it at day time or night time?", "answer": "It's at night time.", "pred": "Night time at frame 6750."}
+{"question": "Are there any vehicles?", "answer": "Yes.", "pred": "2 vehicles at frame 7600."}
+{"question": "Is it at day time or night time?", "answer": "It's at night time.", "pred": "Night time at frame 8150."}
+{"question": "Is it at day time or night time?", "answer": "It's at night time.", "pred": "Night time at frame 9100."}
+{"question": "Is there more than three people?", "answer": "No.", "pred": "3 people in frame at 9850."}
+{"question": "Is there more than ten people?", "answer": "No.", "pred": "Two people in frame 10470."}
+{"question": "Is there more than three people?", "answer": "No.", "pred": "One person at frame 11100."}
+{"question": "What is the person doing?", "answer": "Making a phone call.", "pred": "Person at frame 0 is using a computer."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Group indoors in video at frame 4500."}
+{"question": "What is the object?", "answer": "A diagram.", "pred": "Red line at frame 5950."}
+{"question": "Are there any animals?", "answer": "No.", "pred": "No animals at frame 6725."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Daytime at frame 7500."}
+{"question": "Is the person a man or a woman?", "answer": "Man.", "pred": "Man in the video."}
+{"question": "What is the object?", "answer": "It is an aircraft.", "pred": "Frame 9000 object: snowmobile."}
+{"question": "What is the object?", "answer": "It is a galaxy.", "pred": "Object is star at frame 10500."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Frame 11250 background color is black."}
+{"question": "what's in the scene?", "answer": "An eagle is flying in the sky.", "pred": "Bird flying over water at frame 720."}
+{"question": "what's the weather like?", "answer": "It's sunny and nice.", "pred": "1500 frame weather is sunny and clear."}
+{"question": "How many animals appear?(any type)", "answer": "Three.", "pred": "2 birds seen at frame 2200."}
+{"question": "what's in the scene?", "answer": "Shoal of fish.", "pred": "Tiger walks in woods, looks at camera."}
+{"question": "where is the scene?", "answer": "On the sea.", "pred": "Birds eating in forest at frame 4500."}
+{"question": "what's the weather like?", "answer": "It's sunny and nice.", "pred": "Sunny at frame 5900."}
+{"question": "where's the scene?", "answer": "On a big grassland.", "pred": "Close-up of person holding cat."}
+{"question": "what's in the scene?", "answer": "Groups of antelopes are migrating.", "pred": "Two birds on ledge at frame 7550."}
+{"question": "How many animals appear?(any type)", "answer": "One.", "pred": "Two birds in the video."}
+{"question": "what's the animal in the scene?", "answer": "Flamingos.", "pred": "Animal in scene is horse."}
+{"question": "where is the scene?", "answer": "In a big river or lake.", "pred": "Birds flying in large field at frame 10600."}
+{"question": "what happens?", "answer": "Flamingos are resting on mud.", "pred": "Cat chases bird in the grass at frame 10900."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Frame 750 has black background."}
+{"question": "How many people appeared?", "answer": "Two.", "pred": "One person seen in video at frame 1500."}
+{"question": "What are the people doing?", "answer": "Talking.", "pred": "People smoke cigars in room at frame 3000."}
+{"question": "Where is it?", "answer": "In a room.", "pred": "Video at frame 3750 shows man at desk talking."}
+{"question": "How does the person feel?", "answer": "Serious.", "pred": "Man smiles at frame 5250"}
+{"question": "Where is it?", "answer": "On a plane.", "pred": "Man standing in front of woman at airport."}
+{"question": "What is the person doing?", "answer": "Reading something.", "pred": "Reading a letter in a chair."}
+{"question": "What is the clothes color of the person?", "answer": "Yellow.", "pred": "Frame 7500: blue shirt."}
+{"question": "What is the scene?", "answer": "Lines of words.", "pred": "Man sitting in front of computer."}
+{"question": "What is the scene?", "answer": "A motorbike.", "pred": "Person on motorcycle in parking lot at frame 9000."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Frame 9750: person wearing black clothes."}
+{"question": "How does the person feel?", "answer": "Desperate.", "pred": "Person shows mixed emotions and discomfort with situation."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Black background at frame 750."}
+{"question": "What is the scene?", "answer": "A woman.", "pred": "Man holds crying child in arms."}
+{"question": "What is in the person's hand?", "answer": "A knife.", "pred": "Sword in hand at frame 3750."}
+{"question": "What are the people doing?", "answer": "Talking.", "pred": "People watching video on world history at frame 4500."}
+{"question": "How does the person feel?", "answer": "Sad.", "pred": "Content person in video at frame 6000."}
+{"question": "Is it indoor or outdoor?", "answer": "Outdoor.", "pred": "Man in armor in front of wall, indoors/outdoors unknown."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Frame 9000 has a black background."}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "2 vehicles at frame 9750."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Night at frame 10500."}
+{"question": "what's abnormal?", "answer": "There's a plane flying very low.", "pred": "Abnormal sight of a man wearing hat and sunglasses while driving."}
+{"question": "what are they doing?", "answer": "They're driving a car.", "pred": "Man driving car talking on phone at frame 1600"}
+{"question": "where is the scene?", "answer": "Inside a tunnel.", "pred": "Scene is inside a tunnel at frame 3100."}
+{"question": "where is the scene?", "answer": "Outdoors, on the road.", "pred": "Car driving with man in driver's seat."}
+{"question": "what are they doing?", "answer": "They're driving cars.", "pred": "Men in car driving and looking at camera."}
+{"question": "Waht's the emotion of the man?", "answer": "He was first shocked, and then turned into furious.", "pred": "Man smiles at frame 6750."}
+{"question": "what's the long-hair man wearing?", "answer": "A leather jacket.", "pred": "Long-hair man in black jacket and hat."}
+{"question": "what are the car dragging?", "answer": "Two helicopters.", "pred": "Car drags chain at frame 8250."}
+{"question": "what happens?", "answer": "Two helicopters crashed at each other.", "pred": "Man drives car, truck in background at frame 8950."}
+{"question": "Is there woman appear?", "answer": "No.", "pred": "No woman in the video."}
+{"question": "what's happening?", "answer": "There's a party.", "pred": "Man in costume carries large object into room."}
+{"question": "How many characters appear in the scene?", "answer": "One.", "pred": "2 characters at frame 5250."}
+{"question": "Is it at daytime or at night time?", "answer": "It's at night time.", "pred": "Nighttime at frame 6000."}
+{"question": "what's in the scene?", "answer": "An armor is assembling up itself.", "pred": "Man sitting in chair looking at screen at frame 6750."}
+{"question": "Is it indoors or outdoors?", "answer": "It's indoors.", "pred": "Person standing in front of parked truck at frame 7500."}
+{"question": "Is there more than ten people in the scene?", "answer": "No.", "pred": "Two people in scene at frame 8125."}
+{"question": "what are they doing?", "answer": "They are having a fight.", "pred": "Men fight in hallway at frame 8900."}
+{"question": "what're they doing?", "answer": "They're having a chat.", "pred": "Man in black suit walks to classroom woman talking."}
+{"question": "Is there more than five people?", "answer": "No.", "pred": "No, two people at frame 10600."}
+{"question": "Is there more than three people?", "answer": "No.", "pred": "One person at frame 10875."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Frame 0: black shirt."}
+{"question": "Where is the scene?", "answer": "Above the surface of the sun.", "pred": "Water and sky at frame 750."}
+{"question": "What is the clothes color of the person?", "answer": "Green.", "pred": "Green shirt at frame 3750."}
+{"question": "What is the man holding?", "answer": "A book.", "pred": "Man holds book at frame 6000."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Day at frame 6750."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "No plants at frame 7500."}
+{"question": "What is the object?", "answer": "A star.", "pred": "Frame 8250: star object."}
+{"question": "What is the object?", "answer": "A nebula.", "pred": "Colorful explosion of light."}
+{"question": "Is the person a man or a woman?", "answer": "Man.", "pred": "A man is in the video."}
+{"question": "Is it day or night?", "answer": "Night.", "pred": "Night at frame 10500."}
+{"question": "What kind of animal is it?", "answer": "Squid.", "pred": "Fish seen at frame 750."}
+{"question": "What kind of animal is it?", "answer": "Shark.", "pred": "Dog in water at frame 3750."}
+{"question": "Are there any plants?", "answer": "Yes.", "pred": "Yes, plants at frame 5250."}
+{"question": "What kind of animal is it?", "answer": "Seal.", "pred": "Seal swims at frame 6000."}
+{"question": "What kind of animal is it?", "answer": "Shark.", "pred": "Shark at frame 6750."}
+{"question": "Where is it?", "answer": "In the ocean.", "pred": "Shark jumps at frame 7500."}
+{"question": "Are there any water?", "answer": "Yes.", "pred": "Water at frame 8250."}
+{"question": "Is it indoor or outdoor?", "answer": "Outdoor.", "pred": "Many penguins swimming in the ocean."}
+{"question": "What kind of animal is it?", "answer": "penguin", "pred": "Bird in frame 9750."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Night at frame 10500."}
+{"question": "Where is the scene?", "answer": "In the universe.", "pred": "Close-up of bright red star in dark sky."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Black suit at frame 2850."}
+{"question": "Is the person a man or a woman?", "answer": "Man.", "pred": "Man at frame 5250."}
+{"question": "What is the object?", "answer": "The sun.", "pred": "Red planet at frame 6000."}
+{"question": "Are there any animals?", "answer": "No.", "pred": "Two cats at frame 6750."}
+{"question": "What is the background color?", "answer": "Orange.", "pred": "Background color: orange at frame 7500."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Black shirt at frame 8250."}
+{"question": "Is it indoor or outdoor?", "answer": "In the car.", "pred": "Man driving car at night, talking to camera."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Daytime at frame 10500."}
+{"question": "What is the clothes color of the person?", "answer": "Red.", "pred": "Person at frame 11250 wears red shirt."}
+{"question": "what's in the scene?", "answer": "Duck.", "pred": "White goose standing on grassy field at frame 750."}
+{"question": "what's the weather like?", "answer": "It's sunny and nice.", "pred": "Sunny and clear at frame 1500."}
+{"question": "what's the animal in the scene?", "answer": "Some kind of bird.", "pred": "Bird in scene at frame 2250."}
+{"question": "where is the scene?", "answer": "On snow land.", "pred": "Snowy field with bird flying above."}
+{"question": "what's in the scene?", "answer": "Groups of birds are flying.", "pred": "Two birds fly over water in frame 4580."}
+{"question": "where's the scene?", "answer": "On a lake or river.", "pred": "Bird on rock in river (frame 6000)."}
+{"question": "what's the weather like?", "answer": "It's sunny and nice.", "pred": "Frame 6850: sunny and clear weather."}
+{"question": "where is the scene?", "answer": "In a river.", "pred": "Close-up of leaves and sticks at frame 7550."}
+{"question": "How many animals appear?(any type)", "answer": "Two.", "pred": "Two animals at frame 9000."}
+{"question": "what's the animal in the scene?", "answer": "Bear.", "pred": "Animal in frame 9750 is bear."}
+{"question": "where is the scene?", "answer": "Some small ducks.", "pred": "Bird flying over lake at frame 10500."}
+{"question": "what's the animal in the scene?", "answer": "Bear.", "pred": "Bird in frame 9950."}
+{"question": "What are the people doing?", "answer": "Talking.", "pred": "Man holds sword and talks to another man (frame 1500)."}
+{"question": "What is the scene?", "answer": "A group of merchants.", "pred": "Group standing in courtyard, man speaking to them."}
+{"question": "How many people appears?", "answer": "Two.", "pred": "Two people at frame 3000."}
+{"question": "What is in the person's hand?", "answer": "A head.", "pred": "Person holds knife at frame 3750."}
+{"question": "Is it day or night?", "answer": "Night.", "pred": "Night at frame 7500."}
+{"question": "What is the clothes color of the person?", "answer": "Brown.", "pred": "Frame 8250: person in red robe."}
+{"question": "What are the people doing?", "answer": "Talking.", "pred": "People at table, castle, talking at frame 9000."}
+{"question": "What is in the person's hand?", "answer": "A cup.", "pred": "Person holds cup at frame 9750."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Group of people, indoor/outdoor not determined at frame 10500."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Daytime at frame 4500."}
+{"question": "Are there any vehicles?", "answer": "Yes. A boat.", "pred": "Two vehicles at frame 5250."}
+{"question": "Is it indoor or outdoor?", "answer": "Outdoor.", "pred": "Whale seen at frame 6000 swimming in ocean."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "Yes, plants are at frame 6750."}
+{"question": "How is the weather?", "answer": "It is sunny.", "pred": "Frame 7500: sunny weather."}
+{"question": "Are there any people?", "answer": "Yes.", "pred": "No people in frame."}
+{"question": "Where is the scene?", "answer": "At the cockpit of the boat.", "pred": "Man pointing on boat"}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "No vehicles at frame 9750."}
+{"question": "Are there any animals?", "answer": "Yes.", "pred": "Yes, seal at frame 10500."}
+{"question": "What kind of animal is it?", "answer": "Crab.", "pred": "Crab appears at frame 2250."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Black background at frame 4500."}
+{"question": "What is the scene?", "answer": "Crabs.", "pred": "Close-up of swordfish with open mouth at frame 5250."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Frame 6000: black background."}
+{"question": "What is the scene?", "answer": "Smoke.", "pred": "Person at cave's rock formation with hole."}
+{"question": "Are there any water?", "answer": "Yes.", "pred": "No water at frame 7500."}
+{"question": "Are there any water?", "answer": "Yes.", "pred": "No water at frame 8250."}
+{"question": "What is the scene?", "answer": "A rock.", "pred": "Underwater volcano with a massive hole."}
+{"question": "Are there any animals?", "answer": "Yes.", "pred": "Two animals at frame 9750."}
+{"question": "What is the background color?", "answer": "Blue.", "pred": "Black background at frame 10500."}
+{"question": "what's the weather like?", "answer": "It's rainy.", "pred": "Frame 1500 weather is rainy."}
+{"question": "How many animals appear?(any type)", "answer": "one.", "pred": "Two animals in video."}
+{"question": "what's in the scene?", "answer": "a small animal.", "pred": "Person holds spiky animal in frame 3750."}
+{"question": "How many animals appear?(any type)", "answer": "one.", "pred": "Two animals in video."}
+{"question": "whats in  the scene?", "answer": "a small animal is eating.", "pred": "Rabbit in box at frame 6000."}
+{"question": "what's the weather like?", "answer": "It's sunny and nice.", "pred": "Sunny weather at frame 6750."}
+{"question": "what's in the scene?", "answer": "a hamster.", "pred": "Bunny sits in hay-filled basket."}
+{"question": "How many animals appear?(any type)", "answer": "four.", "pred": "2 animals at 8900."}
+{"question": "what's the animal in the scene?", "answer": "baby  hamster.", "pred": "Animal is a rabbit."}
+{"question": "where is the scene?", "answer": "in a nest.", "pred": "Barn scene with hay and straw."}
+{"question": "what happens?", "answer": "A baby hamster is sleeping", "pred": "Chick pecks mother at frame 10950."}
+{"question": "Where is the scene?", "answer": "In the universe.", "pred": "Black hole with shining light."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Daytime at frame 4500."}
+{"question": "Are there any people?", "answer": "Yes.", "pred": "No people at frame 5250."}
+{"question": "Is it indoor or outdoor?", "answer": "Outdoor.", "pred": "Man on cliff overlooking valley at frame 6000."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "Yes, plants at frame 6750."}
+{"question": "What is the object?", "answer": "It is the earth.", "pred": "Large blue planet at frame 7500."}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "No vehicles at frame 8250."}
+{"question": "Are there any animals?", "answer": "No.", "pred": "No animals at frame 9000."}
+{"question": "Is it indoor or outdoor?", "answer": "Outdoor.", "pred": "Man in desert at night."}
+{"question": "Where is the scene?", "answer": "In the universe.", "pred": "Starry sky with bright light at frame 10500."}
+{"question": "What is the background color?", "answer": "Blue.", "pred": "Frame 25 background color: blue."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Black background at frame 750."}
+{"question": "What kind of animal is it?", "answer": "Dolphines.", "pred": "Dolphin swims at frame 1500."}
+{"question": "What is the scene?", "answer": "Fishes.", "pred": "Fish swimming in water at frame 3000."}
+{"question": "What kind of animal is it?", "answer": "Sunfish.", "pred": "Shark spotted at frame 3750."}
+{"question": "Where is it?", "answer": "Underwater.", "pred": "Whale swims near boat in video."}
+{"question": "What is the scene?", "answer": "Birds in the sky.", "pred": "Bird flies through the sky at frame 6750."}
+{"question": "What is the scene?", "answer": "Waves.", "pred": "Turtle swims in the ocean at frame 8250."}
+{"question": "What kind of animal is it?", "answer": "Turtle.", "pred": "Turtle on beach at frame 9000."}
+{"question": "What kind of animal is it?", "answer": "Turtle.", "pred": "Bird on rock at frame 9750."}
+{"question": "Where is it?", "answer": "On a beach.", "pred": "Location of video at frame 10500 is uncertain."}
+{"question": "Where is it?", "answer": "In the ocean.", "pred": "Cannot determine exact location, shows water with boat."}
+{"question": "What kind of animal is it?", "answer": "Dolphine.", "pred": "Bird flying in sky at frame 3000."}
+{"question": "What is the scene?", "answer": "Birds.", "pred": "Birds fly over water at frame 4500."}
+{"question": "Are there any human?", "answer": "No.", "pred": "No humans visible in image at frame 6000."}
+{"question": "What is the background color?", "answer": "Blue.", "pred": "Frame 6750 has a blue background color."}
+{"question": "Are there any animals?", "answer": "Yes.", "pred": "Bird at frame 7500."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Frame 8250 has black background color."}
+{"question": "Are there any mountains", "answer": "No.", "pred": "No mountains in frame."}
+{"question": "Is it day or night?", "answer": "Night.", "pred": "Night at frame 9750."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "color at frame 10500 is blue."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Black background at frame 750."}
+{"question": "What is the background color?", "answer": "Blue.", "pred": "Frame 2250 is blue."}
+{"question": "What kind of animal is it?", "answer": "Hippocampus japonicus", "pred": "Fish close-up at frame 3000 in water."}
+{"question": "What kind of animal is it?", "answer": "Snake.", "pred": "Fish swims in frame 4500."}
+{"question": "Where is it?", "answer": "In the ocean.", "pred": "Close-up of snake on rock."}
+{"question": "What is the scene?", "answer": "Fishes and snakes.", "pred": "Fish swimming around coral reef."}
+{"question": "What is the background color?", "answer": "Dark blue.", "pred": "Frame 7500 background color is blue."}
+{"question": "Are there any water?", "answer": "Yes.", "pred": "No water at frame 9000."}
+{"question": "What kind of animal is it?", "answer": "lumpfish", "pred": "Fish with red and blue stripe at frame 9750."}
+{"question": "Are there any mountains", "answer": "No.", "pred": "Mountains seen in video background."}
+{"question": "How many people appears?", "answer": "Two.", "pred": "Two people in frame 1500."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Frame 3000 has black background color."}
+{"question": "How many people appears?", "answer": "Two.", "pred": "Two people seen at 3750"}
+{"question": "What is happening?", "answer": "Two men are talking.", "pred": "Two men talk while holding sword."}
+{"question": "How does the person feel?", "answer": "Serious.", "pred": "Calm person watches sailing boat."}
+{"question": "Where is it?", "answer": "On the surface of the water.", "pred": "Man in boat holding knife and bowl."}
+{"question": "What are the people doing?", "answer": "Communicating.", "pred": "Group of people around fire, man with lantern."}
+{"question": "What is in the person's hand?", "answer": "A light.", "pred": "Lit lantern in hand at frame 7500."}
+{"question": "What is the scene?", "answer": "A woman.", "pred": "Woman holding baby in cave."}
+{"question": "How does the person feel?", "answer": "Afraid.", "pred": "Person is satisfied and happy, having achieved a goal."}
+{"question": "what's in the scene?", "answer": "A big boat.", "pred": "Group dancing on a boat in frame 1400."}
+{"question": "what color is the creature's hair?", "answer": "Blue.", "pred": "Pink hair at frame 2350."}
+{"question": "what happens?", "answer": "There's a big explode.", "pred": "Man holds lighted tube and firework, surrounded by spectators."}
+{"question": "where is the scene?", "answer": "On the sea.", "pred": "Man and woman on boat with caged bird at frame 4500."}
+{"question": "what color is the creature's skin?", "answer": "Pink.", "pred": "Skin is purple at frame 5350."}
+{"question": "How many characters appear in the scene?", "answer": "Three.", "pred": "3 characters in scene at frame 6000."}
+{"question": "what is the gender of the creature at the left?", "answer": "She's a female.", "pred": "Girl at frame 8300."}
+{"question": "Is there more than ten people?", "answer": "No.", "pred": "Two people at 9750, not more."}
+{"question": "what are they doing?", "answer": "They're dancing.", "pred": "People, blue dress girl dancing in room @10500."}
+{"question": "Is there more than three people?", "answer": "Yes.", "pred": "3 people at frame 11150."}
+{"question": "How does the person feel?", "answer": "Black.", "pred": "Happy and content at frame 25."}
+{"question": "What is the person doing?", "answer": "Burning a piece of paper.", "pred": "Person reading paper by candlelight."}
+{"question": "What is in the person's hand?", "answer": "A book.", "pred": "Person holds book at frame 3000."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Black shirt at frame 4500."}
+{"question": "How does the person feel?", "answer": "Afraid.", "pred": "Happy and content at frame 5250."}
+{"question": "How many people appears?", "answer": "Three.", "pred": "Two people at frame 6000."}
+{"question": "How does the person feel?", "answer": "Unhappy.", "pred": "Man calmly sits and looks at camera."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Frame 7500 is red."}
+{"question": "What is the clothes color of the person?", "answer": "Yellow.", "pred": "Frame 9000 person: yellow shirt."}
+{"question": "What are the people doing?", "answer": "Talking.", "pred": "Man sitting in front of stone wall with sword."}
+{"question": "How many people appear in the scene?", "answer": "Two people.", "pred": "2 people at frame 750."}
+{"question": "How many people appear?", "answer": "Two.", "pred": "Two people at frame 3000."}
+{"question": "where is the scene?", "answer": "Inside an airplane.", "pred": "Camera focuses on interior of airplane at frame 4490."}
+{"question": "what's in the scene?", "answer": "An airplane.", "pred": "Airplane seen on the runway at frame 6100."}
+{"question": "Is the scene indodrs or outdoors?", "answer": "It's indoors.", "pred": "Indoor scene, frame 4000."}
+{"question": "where is the man standing?", "answer": "On stairs.", "pred": "Man standing in room."}
+{"question": "How many vehicles appear?", "answer": "Three.", "pred": "Two vehicles at frame 350."}
+{"question": "Is it indoors or outdoors?", "answer": "It's indoors.", "pred": "Frame 500, outdoors."}
+{"question": "Is the man injured?", "answer": "Yes he is.", "pred": "No injury, holding head, looking at camera at frame 1250."}
+{"question": "Where is the scene?", "answer": "By the road.", "pred": "Desert landscape with lone man standing."}
+{"question": "Where is the scene?", "answer": "In the desert.", "pred": "Desert road, man driving car at frame 3750."}
+{"question": "How many people  appears?", "answer": "Only one person.", "pred": "One person seen in video frame 5250."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Indoor video, frame 6000."}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "No vehicles at frame 6750."}
+{"question": "Is the person a man or a woman?", "answer": "Man.", "pred": "Man identified at frame 7500."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Man sitting on desert sand dune."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Night at frame 9000."}
+{"question": "What is the clothes color of the person?", "answer": "Green.", "pred": "Person at frame 9750 has green shirt."}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "No vehicles, boy playing with red bucket."}
+{"question": "What are the people doing?", "answer": "Making a phone call.", "pred": "Two men in suits talking on cell phones."}
+{"question": "Where is it?", "answer": "On the street.", "pred": "Woman sitting in car talking to man."}
+{"question": "What is the background color?", "answer": "White.", "pred": "Frame 3750 is white."}
+{"question": "Where is it?", "answer": "In a room.", "pred": "Table in kitchen."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Frame 6000 is black."}
+{"question": "What is the scene?", "answer": "A few words.", "pred": "Man on bed looking at camera."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Frame 7500 background is black."}
+{"question": "How many people appeared?", "answer": "Two.", "pred": "Two people at frame 9000."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Frame 9750 has person with red shirt."}
+{"question": "Where is it?", "answer": "In a house.", "pred": "Scene location cannot be determined exactly."}
+{"question": "what's the gender of the person in the left?", "answer": "She is a woman.", "pred": "Woman on left at frame 2300."}
+{"question": "How many characters appear in the scene wear glasses?", "answer": "One.", "pred": "2 characters wear glasses in frame 5250."}
+{"question": "what is the man doing?", "answer": "He's smoking while typing.", "pred": "Man smokes cigarette at desk."}
+{"question": "Is the left man wearing glasses?", "answer": "No.", "pred": "No glasses on the left man at frame 6750."}
+{"question": "How many characters appear in the scene?", "answer": "Two.", "pred": "2 men present at frame 7500."}
+{"question": "what is the gender of the person in the middle?", "answer": "He is a man.", "pred": "Woman in middle at frame 8250."}
+{"question": "Is there any vehicles?", "answer": "Yes.", "pred": "Car at frame 9100."}
+{"question": "Is there more than ten people?", "answer": "No.", "pred": "Two people visible at frame 9750."}
+{"question": "Is there more than five people?", "answer": "No.", "pred": "One person at frame 10600."}
+{"question": "Is there more than three people?", "answer": "No.", "pred": "Only three people at frame 11000."}
+{"question": "what is the man doing?", "answer": "He is making a phone call.", "pred": "Man sitting in chair, looking at camera."}
+{"question": "what happens?", "answer": "A bottle of wine is broken and soon caused fire.", "pred": "Man walks away from fire in room."}
+{"question": "what's in the scene?", "answer": "A giant space ship.", "pred": "Spaceship interior at frame 5250."}
+{"question": "what are they doing?", "answer": "They're pushing something.", "pred": "Woman looks at camera, man looks at her."}
+{"question": "what is the man doing?", "answer": "He is driving a space ship.", "pred": "Man sits and types on computer."}
+{"question": "where is the scene?", "answer": "In the space.", "pred": "Space scene with large spaceship flying through sky."}
+{"question": "what's in the scene?", "answer": "Near the beach.", "pred": "Man sitting and looking at screen at frame 9000."}
+{"question": "Is it indoors or outdoors?", "answer": "It's outdoors.", "pred": "Man in space suit looking out of open window."}
+{"question": "what is the man doing?", "answer": "He is talking to the interphone.", "pred": "Man sitting in room talking on phone"}
+{"question": "Is there more than ten people?", "answer": "Yes.", "pred": "More than 10 people at frame 10750."}
+{"question": "what's in the scene?", "answer": "A desert.", "pred": "Person riding camel on sand dune at frame 750."}
+{"question": "what's the weather like?", "answer": "It's sunny and nice.", "pred": "Sunny at frame 1500."}
+{"question": "How many animals appear?(any type)", "answer": "One.", "pred": "Two animals in frame 3000."}
+{"question": "what's the weather like?", "answer": "It's sunny and nice.", "pred": "Frame 3750 has sunny and clear weather."}
+{"question": "How many animals appear?(any type)", "answer": "One.", "pred": "Bear walks and eats grass."}
+{"question": "How many animals appear?(any type)", "answer": "One.", "pred": "Two visible animals in video."}
+{"question": "what's the weather like?", "answer": "It's sunny and nice.", "pred": "Clear and sunny weather at frame 6000."}
+{"question": "How many types of animals appear?", "answer": "One.", "pred": "2 types of animals: bull and cow."}
+{"question": "what's in the scene?", "answer": "One dear.", "pred": "Large brown moose in woods."}
+{"question": "what's the weather like?", "answer": "It's sunny and nice.", "pred": "Sunny and clear weather at frame 9000."}
+{"question": "How many animals appear?(any type)", "answer": "None.", "pred": "No animals at frame 110000."}
+{"question": "what happens?", "answer": "Two men are having a fight.", "pred": "Man talking on phone while sitting in chair."}
+{"question": "where is the scene?", "answer": "In a bus.", "pred": "Scene inside bus, man sitting and another standing."}
+{"question": "what is the man (without glasses) doing?", "answer": "He is sitting on the ground.", "pred": "Man without glasses on bus looking out window."}
+{"question": "How many people appear in the scene?", "answer": "Two people.", "pred": "Two people seen at frame 3880."}
+{"question": "what is the emotion of the man?", "answer": "He is in pain and maybe angry.", "pred": "Man in frame 4500 is smiling."}
+{"question": "what's on the ground?", "answer": "Bundles of money.", "pred": "Man on ground, broken window at frame 5300."}
+{"question": "what are they doing?", "answer": "They're hugging with each other.", "pred": "Car drives down street, people stand around."}
+{"question": "where is the scene?", "answer": "In a police station.", "pred": "Close-up view of face at frame 8200."}
+{"question": "How many people appear in the scene?", "answer": "Four people.", "pred": "3 people in scene at frame 9000."}
+{"question": "where is the scene?", "answer": "In a hospital.", "pred": "Room with bed, window, and door at frame 9750."}
+{"question": "How many women appear in the scene?", "answer": "Two.", "pred": "2 women in scene at frame 10500."}
+{"question": "what happens?", "answer": "An elder man is talking to a young man in hospital.", "pred": "Man talks to woman in hospital room."}
+{"question": "What is the clothes color of the person?", "answer": "White.", "pred": "White dress at frame 750."}
+{"question": "How many people appeared?", "answer": "Three.", "pred": "Two people at frame 1500."}
+{"question": "How many people appeared?", "answer": "Three.", "pred": "2 people in frame at frame 3000."}
+{"question": "What are the people doing?", "answer": "Talking.", "pred": "Man is sitting, talking at frame 3750."}
+{"question": "Where is it?", "answer": "In a room.", "pred": "On the table in the room."}
+{"question": "What's in the man's hands?", "answer": "A  gun.", "pred": "Man holds phone at frame 6000."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Frame 6750 has a black background."}
+{"question": "How does the person feel?", "answer": "Angry.", "pred": "Person happily watches man with gun."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Yes, happy at frame 9750."}
+{"question": "Is it day or night?", "answer": "Night.", "pred": "Night at frame 10500."}
+{"question": "How many characters appear in the scene?", "answer": "Two.", "pred": "Two characters in scene at frame 15500."}
+{"question": "How many characters appear in the scene?", "answer": "Two.", "pred": "2 characters in scene at frame 3750."}
+{"question": "How many characters appear in the scene(including background)?", "answer": "Six.", "pred": "Four characters: 2 women, 2 children."}
+{"question": "where is the scene?", "answer": "In an amusement park.", "pred": "Busy city street with people talking."}
+{"question": "what is the man doing?", "answer": "He is dancing.", "pred": "Man holds and pets cat."}
+{"question": "where is the scene?", "answer": "Inside a gym.", "pred": "Room with desk and chair."}
+{"question": "Is there more than three police cars?", "answer": "Yes.", "pred": "3 police cars at frame 450."}
+{"question": "what are they doing?", "answer": "They're ready to hold an outdoor musical performance.", "pred": "People in costumes sing on stage at frame 2100."}
+{"question": "How many characters appear in the scene(including background)?", "answer": "Three.", "pred": "Two characters in scene at frame 2850."}
+{"question": "Is it indoors or outdoors?", "answer": "It's indoors.", "pred": "Uncertain scene location, but likely indoors with clock presence."}
+{"question": "where is the scene?", "answer": "In a forest.", "pred": "Scene at frame 1600 is in forest."}
+{"question": "where is the scene?", "answer": "In a forest.", "pred": "Man held down in forest, hands tied."}
+{"question": "How many men appear in the scene?", "answer": "One.", "pred": "Two men in scene at frame 4600."}
+{"question": "what's the weather like?", "answer": "It's sunny and nice.", "pred": "Frame 6850 weather is sunny."}
+{"question": "Does the man standing wear a hat?", "answer": "No.", "pred": "Yes, man in field wears hat in frame 7500."}
+{"question": "Is it at daytime or at night time?", "answer": "It's at day time.", "pred": "Cannot determine day or night at frame 8250."}
+{"question": "what's the weather like?", "answer": "It's sunny and nice.", "pred": "Weather: sunny at frame 9000."}
+{"question": "Is there more than ten people?", "answer": "No.", "pred": "Yes, more than ten people in frame."}
+{"question": "Is there more than five people?", "answer": "No.", "pred": "Yes, more than five people."}
+{"question": "Is there more than three people?", "answer": "No.", "pred": "3 people at frame 11000."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Frame 25 background color is blue."}
+{"question": "What is the scene?", "answer": "The earth.", "pred": "Earth viewed from space with ocean and land visible."}
+{"question": "What is the background color?", "answer": "Blue.", "pred": "Frame 1500 background is blue."}
+{"question": "What kind of animal is it?", "answer": "Whale.", "pred": "Whale picture at frame 2250."}
+{"question": "What is the scene?", "answer": "A whale.", "pred": "Shark and sea turtle swim in water at frame 3000."}
+{"question": "What is the background color?", "answer": "Blue.", "pred": "Frame 5250 background color = blue."}
+{"question": "What is the scene?", "answer": "Whales.", "pred": "Whale mother and baby swim together in ocean."}
+{"question": "How is the weather?", "answer": "Sunny.", "pred": "Sunny and clear weather at frame 6750."}
+{"question": "What is the scene?", "answer": "An island.", "pred": "Ocean view with large body of water and sandy beach."}
+{"question": "What is the scene?", "answer": "The earth.", "pred": "Fish swim in the ocean."}
+{"question": "what are they doing?", "answer": "They're hugging each other.", "pred": "Boy and girl hugging at frame 4500."}
+{"question": "How many characters appear in the scene?", "answer": "One.", "pred": "3 characters in scene at frame 5250."}
+{"question": "Is it at daytime or at night time?", "answer": "It's at night time.", "pred": "At night."}
+{"question": "Is the boy's hair curly or straight?", "answer": "Curly.", "pred": "Curly hair in frame 6750."}
+{"question": "Is there more than ten people in the scene?", "answer": "No.", "pred": "Yes."}
+{"question": "where is the scene?", "answer": "Next to a forest.", "pred": "Open field with clouds."}
+{"question": "How many characters appear in the scene?", "answer": "Two.", "pred": "2 characters in scene at frame 9750."}
+{"question": "Is there more than five people?", "answer": "No.", "pred": "Only two people at frame 10600."}
+{"question": "Is there more than three people?", "answer": "No.", "pred": "Yes, man and boy talk in car."}
+{"question": "Where is the scene?", "answer": "In the desert.", "pred": "Black screen at frame 0."}
+{"question": "What is the clothes color of the person?", "answer": "Green.", "pred": "Green shirt on person at frame 1500."}
+{"question": "What is the object?", "answer": "The surface of the sun.", "pred": "Object at frame 3750 is sun."}
+{"question": "What is the object?", "answer": "A red star.", "pred": "Red sphere with black center at frame 6000."}
+{"question": "Is the person a man or a woman?", "answer": "A man.", "pred": "Man in video."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "Yes, many plants at frame 7500."}
+{"question": "Is it day or night?", "answer": "Night.", "pred": "Night at frame 8250."}
+{"question": "Where is the scene?", "answer": "In the cosmos.", "pred": "Night sky with big blue star."}
+{"question": "What is the man holding?", "answer": "A picture of stars.", "pred": "Man holds big paper at frame 9750."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "Yes, plants at frame 10500."}
+{"question": "What are the people doing?", "answer": "Fighting.", "pred": "People sitting around table at frame 750."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Frame 1500: black shirt."}
+{"question": "How many people appeared?", "answer": "Three.", "pred": "2 people at frame 2250."}
+{"question": "Where is it?", "answer": "In a helicopter.", "pred": "Location of car at frame 3000 unknown due to insufficient information."}
+{"question": "How many people appeared?", "answer": "Two.", "pred": "Two people at frame 3750."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Black background at frame 5250."}
+{"question": "How many people appeared?", "answer": "Two.", "pred": "Two people at frame 8250."}
+{"question": "What are the people doing?", "answer": "Climbing on a rope.", "pred": "People standing on rocky cliff at frame 9000."}
+{"question": "Are there any plants?", "answer": "Yes.", "pred": "Yes, plants present at frame 9750."}
+{"question": "What is the person doing?", "answer": "Climbing.", "pred": "Person standing on rocky cliff, looking at water."}
+{"question": "What is the person doing?", "answer": "Making a phone call.", "pred": "Talking on phone in video."}
+{"question": "Where is the scene?", "answer": "In the nebula.", "pred": "Close-up of starry sky with bright center star."}
+{"question": "Is it indoor or outdoor?", "answer": "Otudoor.", "pred": "Uncertain if it is indoor or outdoor at frame 5100."}
+{"question": "What is the background color?", "answer": "Yellow.", "pred": "Frame 5975: yellow background color."}
+{"question": "Is it day or night?", "answer": "Night.", "pred": "Night at frame 6750."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "Yes, plants at frame 7500."}
+{"question": "Are there any animals?", "answer": "No.", "pred": "Two animals seen at frame 8250."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Man talking to camera in room."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Day at frame = 9750."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "Yes, plants at frame 10500."}
+{"question": "What kind of animal is it?", "answer": "Fish.", "pred": "Fish swims in water at frame 25."}
+{"question": "What is the background color?", "answer": "Blue.", "pred": "Frame 2250 has blue background."}
+{"question": "What is the background color?", "answer": "Blue.", "pred": "Frame 3000 has blue background color."}
+{"question": "What is the background color?", "answer": "Blue.", "pred": "Frame 6000: blue background."}
+{"question": "What kind of animal is it?", "answer": "Seastar.", "pred": "Seal spotted in water at frame 6750."}
+{"question": "What kind of animal is it?", "answer": "Seastar.", "pred": "Frame 7500: Close-up of spider on web."}
+{"question": "Are there any animals?", "answer": "Yes.", "pred": "Many small fish swimming around rocks at frame 8250."}
+{"question": "Are there any water?", "answer": "Yes.", "pred": "No water at frame 9000."}
+{"question": "What is the scene?", "answer": "The earth.", "pred": "Water with boat at frame 9750."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Daytime at frame 10500."}
+{"question": "How many people  appeared?", "answer": "Three.", "pred": "2 people at frame 750."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Frame 1500: black suit."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Frame 2250: black dress"}
+{"question": "How many people  appeared?", "answer": "Three.", "pred": "2 people present at frame 3000."}
+{"question": "What are the people doing?", "answer": "Talking.", "pred": "Man talks, woman listens at frame 5250."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Black dress at frame 6750."}
+{"question": "How the person feel?", "answer": "Desperate.", "pred": "Woman appears angry, scowling and looking sternly at camera."}
+{"question": "What's the weather?", "answer": "Rainy.", "pred": "Rainy at frame 9000."}
+{"question": "Where is it?", "answer": "In a cafe.", "pred": "Man talks at bar with camera."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Night at frame 10500."}
+{"question": "How many people appears?", "answer": "Two.", "pred": "Two people in the frame at 2250."}
+{"question": "What is the scene?", "answer": "A man.", "pred": "Talking man, sword holding man at frame 3750."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "Yes, plants present at frame 5250."}
+{"question": "What are the people doing?", "answer": "Talking.", "pred": "Woman with sword, man with shield, talking in field at frame 6000."}
+{"question": "How many people appears?", "answer": "Two.", "pred": "2 people in frame 6750."}
+{"question": "Is it indoor or outdoor?", "answer": "Oudoor.", "pred": "Frame 7500 is outdoors."}
+{"question": "How many people appears?", "answer": "Three.", "pred": "Two people visible at frame 8250."}
+{"question": "Are there any plants?", "answer": "Yes.", "pred": "Yes."}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "Yes, 2 vehicles at frame 9750."}
+{"question": "How does the person feel?", "answer": "Desperate.", "pred": "Person sitting, looking at camera, smiling."}
+{"question": "what's in the scene?", "answer": "It's indoors.", "pred": "Close-up of comic book at frame 750."}
+{"question": "How many people appear in the scene?", "answer": "Two.", "pred": "Two people seen at frame 3800."}
+{"question": "Is it indoors or outdoors?", "answer": "It's indoors.", "pred": "Outdoors after frame 6000."}
+{"question": "Is it at day time or night time?", "answer": "It's at night time.", "pred": "Cannot determine if day or night at frame 6750."}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "Yes, two vehicles at frame 7600."}
+{"question": "what's the color of the woman's hair?", "answer": "It's golden.", "pred": "Red hair at frame 8350."}
+{"question": "Is it at day time or night time?", "answer": "It's at night time.", "pred": "Cannot determine if it is daytime or nighttime."}
+{"question": "Is there more than three people?", "answer": "No.", "pred": "Three people at frame 1000."}
+{"question": "Is there more than ten people?", "answer": "No.", "pred": "Two people at frame 1200."}
+{"question": "Is there more than three people?", "answer": "No.", "pred": "Only one person at frame 2000."}
+{"question": "Where is it?", "answer": "On a beach.", "pred": "People on boat in ocean at frame 25."}
+{"question": "Where is it?", "answer": "Underwater.", "pred": "Cannot determine exact location of video at frame 1500."}
+{"question": "What is the scene?", "answer": "Ocean.", "pred": "Water and boat in frame 2250."}
+{"question": "What kind of animal is it?", "answer": "sailfish.", "pred": "Shark detected at frame 3000."}
+{"question": "What kind of animal is it?", "answer": "sailfish.", "pred": "Fish swims at frame 3750."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Night at frame 7500."}
+{"question": "What kind of animal is it?", "answer": "Blue whale.", "pred": "Whale spotted at frame 8250."}
+{"question": "How is the weather?", "answer": "Sunny.", "pred": "Weather: sunny and clear at frame 9000."}
+{"question": "What kind of animal is it?", "answer": "Blue whale.", "pred": "Whale seen at frame 9750."}
+{"question": "Are there any mountains", "answer": "No.", "pred": "Mountain visible in background at frame 10500."}
+{"question": "Where is the scene?", "answer": "Above the surface of the sea.", "pred": "Boat seen in water at frame 0."}
+{"question": "How is the weather?", "answer": "It is sunny.", "pred": "2250 frame weather is sunny"}
+{"question": "What is the object?", "answer": "It is the earth.", "pred": "Frame 3000 shows a big globe."}
+{"question": "What is the person doing?", "answer": "Taking photo.", "pred": "Watching whale video in the ocean at frame 5250."}
+{"question": "What kind of animal is this?", "answer": "Blue whale.", "pred": "Whale sighting at frame 6750."}
+{"question": "Are there any people?", "answer": "Yes.", "pred": "No visible people at frame 7500."}
+{"question": "How is the weather?", "answer": "It is sunny.", "pred": "Weather at frame 8250 is sunny."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "Yes, plants at frame 9000."}
+{"question": "Are there any animals?", "answer": "Yes.", "pred": "Two dolphins at frame 9750."}
+{"question": "Where is the scene?", "answer": "At the surface of the sea.", "pred": "Ocean scene with boat in background at frame 10500."}
+{"question": "What are the people doing?", "answer": "Having a meal.", "pred": "People eating and drinking at table."}
+{"question": "What is the scene?", "answer": "A lady.", "pred": "Couple eating at table."}
+{"question": "What is in the person's hand?", "answer": "A cup.", "pred": "Wine glass held at frame 1500."}
+{"question": "How many people appears?", "answer": "Two.", "pred": "2 people at frame 2250."}
+{"question": "What are the people doing?", "answer": "Talking.", "pred": "Man pouring drink into cup at table."}
+{"question": "Where is it?", "answer": "In a room.", "pred": "Man in chair talks at end of video."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Color at frame 7500: black."}
+{"question": "How does the person feel?", "answer": "Confident.", "pred": "Happy person laughing in video."}
+{"question": "Are there any plants?", "answer": "Yes.", "pred": "Yes, plants at frame 9750."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Frame 10500 - person wearing black dress."}
+{"question": "Where is the scene?", "answer": "In a town.", "pred": "Sky view at frame 0."}
+{"question": "What is the object?", "answer": "The earth.", "pred": "Object at frame 750 is large planet."}
+{"question": "Where is the scene?", "answer": "In the universe.", "pred": "Andromeda galaxy, 2.5 million light-years away from Earth."}
+{"question": "Where is the scene?", "answer": "In the mountains.", "pred": "Mountain range with snow-capped peaks, sun shining."}
+{"question": "Are there any plants?", "answer": "Yes.", "pred": "Yes, plants at frame 6750."}
+{"question": "What is the clothes color of the person?", "answer": "Green.", "pred": "Green shirt at frame 7500."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Day at frame 8250."}
+{"question": "Is it indoor or outdoor?", "answer": "Outdoor.", "pred": "Person holding glass of water by open window."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Daytime at frame 9750."}
+{"question": "What is the color of the house?", "answer": "Red.", "pred": "House at frame 10500 is blue."}
+{"question": "what's in the scene?", "answer": "Birds are flying in the sky.", "pred": "Four white birds flying at frame 850."}
+{"question": "what's the weather like?", "answer": "It's sunny and nice.", "pred": "Snowy weather with white bird standing at frame 1500."}
+{"question": "How many animals appear?(any type)", "answer": "Three.", "pred": "Three birds flying in the sky at frame 2320."}
+{"question": "what's in the scene?", "answer": "Crane is catching fish.", "pred": "Bird standing on snow, person walking away."}
+{"question": "where is the scene?", "answer": "On snow land.", "pred": "Snowy field with nearby water."}
+{"question": "what's the weather like?", "answer": "It's sunny and nice.", "pred": "Sunny weather at frame 5900."}
+{"question": "where's the scene?", "answer": "On the tree.", "pred": "Two birds sit on tree branch at frame 6800."}
+{"question": "what's in the scene?", "answer": "Guanacos.", "pred": "Antelope running in grassy field."}
+{"question": "How many animals appear?(any type)", "answer": "More than five of them.", "pred": "Two animals at frame 9000."}
+{"question": "what's the animal in the scene?", "answer": "Vultures.", "pred": "Scene contains a bird at frame 9800."}
+{"question": "where is the scene?", "answer": "On the cliff of a mountain.", "pred": "Mountain view with man on rocky cliff."}
+{"question": "what happens?", "answer": "Eagles are flying in the sky.", "pred": "Birds fly and land on rock at frame 11000."}
+{"question": "What is the person doing?", "answer": "Blowing the bubble.", "pred": "Person looks at large screen."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Blue shirt on person at frame 2250."}
+{"question": "Where is the scene?", "answer": "At the surface of the sun.", "pred": "Close-up view of sunspot on the sun."}
+{"question": "Where is the scene?", "answer": "High above the earth.", "pred": "Earth view with shining sun in background."}
+{"question": "Is the person a man or a woman?", "answer": "Man.", "pred": "A man."}
+{"question": "Where is the scene?", "answer": "On the mountain.", "pred": "Mountain and tree view from distance at frame 7500."}
+{"question": "Where is the scene?", "answer": "In the universe.", "pred": "Starry sky with large nebula at frame 8250."}
+{"question": "Are there any animals?", "answer": "No.", "pred": "Yes, many animals at frame 9000."}
+{"question": "Are there any people?", "answer": "No.", "pred": "No people in image."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Night at frame 10500."}
+{"question": "what's in the scene?", "answer": "Eagle.", "pred": "Bird sits on tree branch at frame 750."}
+{"question": "what's the weather like?", "answer": "It's sunny and nice.", "pred": "Weather is sunny and clear at frame 1500."}
+{"question": "what's the animal in the scene?", "answer": "Red parrot.", "pred": "Parrot in scene at frame 2250."}
+{"question": "where is the scene?", "answer": "On the sea, near coast.", "pred": "Bird flying over water at frame 3750."}
+{"question": "where's the scene?", "answer": "On a lake or river.", "pred": "Birds flying over water with trees in background (frame 6000)."}
+{"question": "what's the weather like?", "answer": "It's sunny and nice.", "pred": "Frame 6850 is sunny."}
+{"question": "where is the scene?", "answer": "On the sea.", "pred": "Dolphins swim in the ocean."}
+{"question": "How many animals appear?(any type)", "answer": "More than tens of them.", "pred": "Various animals are in the video."}
+{"question": "what's the animal in the scene?", "answer": "Pelicans.", "pred": "A seagull."}
+{"question": "where is the scene?", "answer": "In a port.", "pred": "Harbor with boats and sea lions."}
+{"question": "what's the animal in the scene?", "answer": "Swallow.", "pred": "Bird in scene at frame 11000."}
+{"question": "What is the person doing?", "answer": "Taking a photo.", "pred": "Man takes ocean picture at frame 1500."}
+{"question": "Where is the scene?", "answer": "Above the sea.", "pred": "Boat scene in the ocean at frame 3000."}
+{"question": "Are there any animals?", "answer": "Yes.", "pred": "Yes, bird at 10500."}
+{"question": "What is this animal?", "answer": "A whale.", "pred": "Whale at frame 12000."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Daytime at frame 13500."}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "Two boats in image at frame 15000."}
+{"question": "Where is the scene?", "answer": "Under the water.", "pred": "Whale swims underwater in ocean scene."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "Yes, some plants at frame 18000."}
+{"question": "Are there any people?", "answer": "No.", "pred": "Yes, person at frame 19500."}
+{"question": "Are there any people?", "answer": "Yes.", "pred": "No people at frame 21000."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Background color at frame 25 is black."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Frame 750 has black background color."}
+{"question": "What kind of animal is it?", "answer": "Spider.", "pred": "Red crab at frame 3000."}
+{"question": "Where is it?", "answer": "Deep in the ocean.", "pred": "Close-up of shark in water."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Frame 6000 background color: black."}
+{"question": "What is the scene?", "answer": "Totally black.", "pred": "Close-up of red light in dark at frame 7500."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "Yes, plants are present at 8250."}
+{"question": "How is the weather?", "answer": "Can't determine.", "pred": "Frame 9000 weather: sunny, sun shining brightly."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Frame 9750 background color: blue."}
+{"question": "Are there any human?", "answer": "No.", "pred": "No humans visible in frame."}
+{"question": "how many main characters appear in the scene?(including the blue human-like creatures)", "answer": "One.", "pred": "Two main characters in the scene."}
+{"question": "how many main characters appear in the scene?(including the blue human-like creatures)", "answer": "One.", "pred": "Blue creature and woman are main characters."}
+{"question": "what's happening?", "answer": "A big manned mech is running away from flames.", "pred": "Man and robot leaving burning building and fire."}
+{"question": "Is there more than five characters appear in the scene(including the blue creature)?", "answer": "No.", "pred": "Two characters in the scene at frame 6750."}
+{"question": "what's the weather like?", "answer": "It's sunny and sunshine is strong.", "pred": "Rainy weather at frame 7500."}
+{"question": "Is there any blue human-like creatures?", "answer": "Yes.", "pred": "No blue human-like creatures at frame 8250."}
+{"question": "Is the scene indoors or outdoors?", "answer": "It's outdoors.", "pred": "Outdoors scene at frame 9000."}
+{"question": "where is the scene?", "answer": "In a big forest.", "pred": "Jungle scene with person near tree (frame 9820)."}
+{"question": "Is it at daytime or at night time?", "answer": "It's at day time.", "pred": "Uncertain if daytime or nighttime based on image content."}
+{"question": "Is there more than ten characters appear in the scene?(including the blue human-like creatures)", "answer": "No.", "pred": "Yes, more than ten characters exist."}
+{"question": "what is the man doing?", "answer": "He's giving out wine to another guy.", "pred": "Man pours wine into glass at frame 950."}
+{"question": "where is the scene?", "answer": "On the battle field.", "pred": "War-torn environment, soldiers fighting in background."}
+{"question": "how many people appear in the scene(not including background)?", "answer": "One person.", "pred": "Two people seen at frame 4500."}
+{"question": "where is the scene?", "answer": "On the battle field.", "pred": "Two men fighting in dark alley at frame 6100."}
+{"question": "what is on the man's face?", "answer": "Mud.", "pred": "Man's face: frame 7500, mud-covered."}
+{"question": "Is it day time or night time?", "answer": "It's at day time.", "pred": "Night time at frame 8250."}
+{"question": "what is the man's gesture?", "answer": "He's kneeling on the ground.", "pred": "Man with hand on face, looking at camera."}
+{"question": "what is on the man's face?", "answer": "Mud.", "pred": "Bloody face at frame 9750."}
+{"question": "Is it day time or night time?", "answer": "It's at day time.", "pred": "It is night time."}
+{"question": "where is the scene?", "answer": "On the battle field.", "pred": "War-torn city, man standing in street, frame 10875."}
+{"question": "what is the man in the middle of the scene doing?", "answer": "He is talking to a woman.", "pred": "Man sitting on rock, looking at camera."}
+{"question": "where's the scene?", "answer": "In a dark forest.", "pred": "Close-up of blonde girl sitting in front of camera."}
+{"question": "what happens to the ground where the man stands?", "answer": "It has been burned.", "pred": "Water covers ground in frame 5300."}
+{"question": "what is the man in the middle of the scene doing?", "answer": "He is digging something.", "pred": "Man holding cloth and looking at it."}
+{"question": "How many people appear in the middle of the scene?", "answer": "Four people.", "pred": "Three people in middle at frame 7600."}
+{"question": "where's the scene?", "answer": "On a big grass land.", "pred": "Man on hill with horse in background."}
+{"question": "How many people appear in the scene?", "answer": "Five people.", "pred": "4 people in scene at frame 9000."}
+{"question": "Is it indoors or outdoors?", "answer": "It's outdoors.", "pred": "Frame 9750 is outdoors."}
+{"question": "Is it day time or night time?", "answer": "It's at day time.", "pred": "Night time at frame 10500."}
+{"question": "what's the weather like?", "answer": "The weather is sunny and nice.", "pred": "Frame 10875 weather is cloudy."}
+{"question": "Where is it?", "answer": "Beside a sea.", "pred": "Man holds sword in dark room at frame 25."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Frame 1500 has black background color."}
+{"question": "How many people appears?", "answer": "Two.", "pred": "Two people in frame at 2250."}
+{"question": "How many people appears?", "answer": "Three.", "pred": "2 people in frame at 3000."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Black shirt wearer at frame 6000."}
+{"question": "How does the person feel?", "answer": "Angry.", "pred": "Angry and frustrated person in the video."}
+{"question": "What is the scene?", "answer": "A woman.", "pred": "Man sitting in chair reading book."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Day at frame 9000."}
+{"question": "How many people appears?", "answer": "Two.", "pred": "3 people at table in video."}
+{"question": "What are the people doing?", "answer": "Having a meal.", "pred": "People eating and drinking at a table."}
+{"question": "What is the scene?", "answer": "A flag.", "pred": "Man leads horse-riding group through green field at frame 1500."}
+{"question": "What is the scene?", "answer": "A woman.", "pred": "Woman holds flag, stands on rock at frame 2250."}
+{"question": "What are the people doing?", "answer": "Talking.", "pred": "Man wearing helmet talking to group of people."}
+{"question": "Where is it?", "answer": "Beside the sea.", "pred": "People walk down a hill at frame 4500."}
+{"question": "What is in the person's hand?", "answer": "Shield.", "pred": "Sword in hand at frame 6750."}
+{"question": "What is the scene?", "answer": "A fat man.", "pred": "Man in red robe addresses large crowd."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "Yes."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Person happy at frame 9000."}
+{"question": "How does the person feel?", "answer": "Unhappy.", "pred": "Man smiles while woman looks at him."}
+{"question": "Is it indoor or outdoor?", "answer": "Outdoor.", "pred": "Outdoor location."}
+{"question": "Where is the scene?", "answer": "In the desert.", "pred": "Person standing on sand dune at frame 750."}
+{"question": "What is this animal?", "answer": "A bird.", "pred": "Bird on ground at frame 4575."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Day at frame 5325."}
+{"question": "Is it indoor or outdoor?", "answer": "Outdoor.", "pred": "Outdoor setting likely due to person presence."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Daytime frame 6850."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "No plants at frame 7600."}
+{"question": "How is the weather?", "answer": "It is sunny.", "pred": "Frame 8350 is sunny weather."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "No plants at frame 9100."}
+{"question": "Is it indoor or outdoor?", "answer": "Outdoor.", "pred": "Field with tall grass and blue sky."}
+{"question": "Are there any people?", "answer": "No.", "pred": "No people visible in video at frame 10600."}
+{"question": "What is the object?", "answer": "It is the sun.", "pred": "Object at frame 750 is a star."}
+{"question": "Where is the scene?", "answer": "At the surface of the sun.", "pred": "Fireball seen in the sky with orange glow."}
+{"question": "What is the object?", "answer": "The earth orbiting the sun floats in the cosmos.", "pred": "Object at frame 5250 is a planet."}
+{"question": "Is it bright or dark?", "answer": "Bright.", "pred": "Dark at frame 6000."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Person at frame 6750 wears black jacket."}
+{"question": "Is it indoor or outdoor?", "answer": "Outdoor.", "pred": "Man stands in field at frame 7500."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Night at frame 8250."}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "2 vehicles at frame 9000."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "Yes."}
+{"question": "where is the scene?", "answer": "In the forest.", "pred": "Scene is in a forest."}
+{"question": "where is the scene?", "answer": "In the forest.", "pred": "Man in forest at frame 2250."}
+{"question": "How many men appear in the scene?", "answer": "None.", "pred": "One man seen at frame 4500."}
+{"question": "what's the woman doing?", "answer": "She's talking to another woman.", "pred": "Brush woman's hair in mirror."}
+{"question": "Does the woman wear a hat?", "answer": "No.", "pred": "Woman wears hat at frame 7600."}
+{"question": "Is it at daytime or at night time?", "answer": "It's at day time.", "pred": "Man in forest at night."}
+{"question": "what is the woman doing?", "answer": "She's hiding behind a wall.", "pred": "Woman talking to man in field."}
+{"question": "Is there more than ten people?", "answer": "No.", "pred": "Two people at frame 9750."}
+{"question": "Is there more than five people?", "answer": "No.", "pred": "One person at frame 10600."}
+{"question": "Is there more than three people?", "answer": "No.", "pred": "Only three people at frame 11000."}
+{"question": "What is the scene?", "answer": "Birds.", "pred": "Bird flies over ocean in frame 25."}
+{"question": "What is the background color?", "answer": "Yellow.", "pred": "Frame 1500 has white background."}
+{"question": "What is the background color?", "answer": "Yellow.", "pred": "Frame 2250 has black background."}
+{"question": "Where is it?", "answer": "Underwater.", "pred": "Whale grabs fish at frame 3000."}
+{"question": "What is the scene?", "answer": "Two whales.", "pred": "Mother and baby whale swim in ocean."}
+{"question": "What is the scene?", "answer": "The earth.", "pred": "Large whale swimming in the ocean at frame 4500."}
+{"question": "Where is it?", "answer": "In the ocean.", "pred": "People on beach, whale jumps from water."}
+{"question": "What is the scene?", "answer": "The earth.", "pred": "Close-up of planet with blue sky background at frame 7500."}
+{"question": "What kind of animal is it?", "answer": "Pawn.", "pred": "Dog at frame 9750."}
+{"question": "What kind of animal is it?", "answer": "Fish.", "pred": "Bird flying in sky at frame 10500."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Frame 25 background color is blue."}
+{"question": "What is the scene?", "answer": "The ocean.", "pred": "View of Earth from space with clouds and blue sky."}
+{"question": "What kind of animal is it?", "answer": "Dolphine.", "pred": "Fish seen at frame 1500."}
+{"question": "Where is it?", "answer": "In the ocean.", "pred": "Shark swims at ocean bottom."}
+{"question": "What is the background color?", "answer": "Blue.", "pred": "Frame 3750 color is blue."}
+{"question": "What is the scene?", "answer": "Fishes.", "pred": "Large fish followed by smaller fish in water."}
+{"question": "What is the background color?", "answer": "Blue.", "pred": "Frame 6750: blue background color."}
+{"question": "What kind of animal is it?", "answer": "Shark.", "pred": "Shark in water at frame 9000."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "Yes, plants found at frame 9750."}
+{"question": "Are there any water?", "answer": "Yes.", "pred": "Yes, small water amount at frame 10500."}
+{"question": "what are they doing?", "answer": "They're observing the orange balls.", "pred": "Group standing in circle around fire, likely conversing."}
+{"question": "How many characters appear in the scene?", "answer": "Three.", "pred": "3 characters in frame 1550."}
+{"question": "How many characters appear in the scene?", "answer": "Four.", "pred": "4 characters at frame 3000."}
+{"question": "what's in the scene?", "answer": "A helicopter is climbing.", "pred": "Two spaceships flying in scene at frame 3750."}
+{"question": "what color is the man's hair?", "answer": "Brown.", "pred": "Man has blonde hair in frame 5250."}
+{"question": "what is the man doing?", "answer": "He's giving out a bunch of flowers.", "pred": "Man smiles at woman holding flowers."}
+{"question": "what's in the scene?", "answer": "Earth.", "pred": "Rock floats in ocean in frame 9850."}
+{"question": "Is there more than five people?", "answer": "No.", "pred": "One person visible in image at frame 10600."}
+{"question": "Is there more than three people?", "answer": "No.", "pred": "Only three people at frame 11000."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Frame 25 has black background color."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Black background color at frame 750."}
+{"question": "What is the scene?", "answer": "A boy.", "pred": "Man sitting in chair holding candle and looking at camera."}
+{"question": "What is the scene?", "answer": "An old man.", "pred": "Boy on bench looking at camera."}
+{"question": "What are the people doing?", "answer": "Fighting.", "pred": "Fight between man and woman observed at frame 3750."}
+{"question": "How does the person feel?", "answer": "Serious.", "pred": "Person happy and content at frame 6750."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "8250 frame shows person in yellow shirt."}
+{"question": "How does the person feel?", "answer": "Unhappy.", "pred": "Happy person at frame 9000."}
+{"question": "Are there any plants?", "answer": "Yes.", "pred": "Yes, plants at frame 9750."}
+{"question": "Where is it?", "answer": "Beside a sea.", "pred": "Castle with large courtyard."}
+{"question": "What is the background color?", "answer": "Grey.", "pred": "Frame 25 has a black background."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Black background at frame 750."}
+{"question": "What is the scene?", "answer": "Toy castles.", "pred": "Castle with tall tower at frame 1500."}
+{"question": "What is the scene?", "answer": "A map.", "pred": "People riding horses in a field at frame 2250."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Frame 3000 is black."}
+{"question": "What are the people doing?", "answer": "Talking.", "pred": "People standing around fire talking at frame 6000."}
+{"question": "How many people appears?", "answer": "Two.", "pred": "Two people seen in frame 7500."}
+{"question": "Are there any animals?", "answer": "yes.", "pred": "No animals at frame 9000."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Uncertain, but fire suggests an outdoor scene."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Black background at frame 10500."}
+{"question": "Where is it?", "answer": "In a house.", "pred": "Man talks to woman in chair at frame 25."}
+{"question": "How many people appeared?", "answer": "Three.", "pred": "2 people at frame 1500."}
+{"question": "What is the clothes color of the person?", "answer": "Brown.", "pred": "Person at frame 2250 has blue shirt."}
+{"question": "What is the background color?", "answer": "Blue.", "pred": "Frame 3000 background color is blue."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Black shirt worn by person at frame 3750."}
+{"question": "How many people appeared?", "answer": "Three.", "pred": "Two people visible at frame 5250."}
+{"question": "What's in the person's hand?", "answer": "A gun.", "pred": "Cell phone in hand at frame 7500."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Frame 8250 has black background color."}
+{"question": "How many people appeared?", "answer": "Three.", "pred": "Two people at frame 9000."}
+{"question": "What is the background color?", "answer": "Blue.", "pred": "Frame 9750 background color is blue."}
+{"question": "How does the person feel?", "answer": "Serious.", "pred": "Person in video appears happy and content."}
+{"question": "where is the scene?", "answer": "Underground.", "pred": "Group of people in a room at frame 800."}
+{"question": "where is the scene?", "answer": "Inside a moving vehicle.", "pred": "Inside train at frame 2250."}
+{"question": "what are they doing?", "answer": "They're giving thumb up to each other.", "pred": "Man aims gun at camera at frame 5850."}
+{"question": "what is the man doing?", "answer": "He is trying to drive a car.", "pred": "Man sits and looks at camera."}
+{"question": "Is it indoors or outdoors?", "answer": "It's indoors.", "pred": "Uncertain, but space-like due to man in suit."}
+{"question": "where is the scene?", "answer": "In a samll square, they are pushing something.", "pred": "Close-up of large stone wall at frame 8250."}
+{"question": "what's in the scene?", "answer": "A trucking is driving fast.", "pred": "Man and woman sitting together in chair."}
+{"question": "Is it indoors or outdoors?", "answer": "It's outdoors.", "pred": "Woman looking at man and camera."}
+{"question": "what is the man doing?", "answer": "He is staring at the sky.", "pred": "Man in space suit looking at camera."}
+{"question": "what's in the scene?", "answer": "The surface of Jupyter.", "pred": "Planet-like object in the sky at frame 10750."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Night at frame 3800."}
+{"question": "What is the object?", "answer": "A galaxy.", "pred": "Object: starry sky at frame 4600."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "No visible plants in frame."}
+{"question": "Are there any people?", "answer": "No.", "pred": "Two people at frame 6750."}
+{"question": "Are there any animals?", "answer": "No.", "pred": "No animals at frame 7500."}
+{"question": "Is the person a man or a woman?", "answer": "Man.", "pred": "Video person is male."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "Yes, plants at frame 9000."}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "Two vehicles at frame 9750."}
+{"question": "Are there any stars?", "answer": "No.", "pred": "Stars visible at frame 10650."}
+{"question": "Are there any people?", "answer": "Yes.", "pred": "No people at frame 11575."}
+{"question": "What is the background color?", "answer": "green.", "pred": "Frame 1500 background color is green."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Frame 3000: black background color."}
+{"question": "What is the scene?", "answer": "Dolphines.", "pred": "Dolphins swimming in the ocean."}
+{"question": "Where is it?", "answer": "At the seaside.", "pred": "Shark swims at frame 6000."}
+{"question": "Are there any human?", "answer": "No.", "pred": "Yes, man in water at 6750."}
+{"question": "Are there any water?", "answer": "Yes.", "pred": "Water at frame 7500."}
+{"question": "Is it indoor or outdoor?", "answer": "Outdoor.", "pred": "Unclear if indoor or outdoor, shark swimming in ocean."}
+{"question": "How is the weather?", "answer": "Sunny.", "pred": "Frame 9000 is sunny and clear."}
+{"question": "What kind of animal is it?", "answer": "Seabirds.", "pred": "Bird at frame 9750."}
+{"question": "What is the scene?", "answer": "Birds.", "pred": "Crowd walks on beach at frame 10500."}
+{"question": "what happens?", "answer": "Some meteorites are flying through the atmosphere.", "pred": "Fireworks explode in close-up at frame 800."}
+{"question": "How many people appear in the scene?", "answer": "Two people.", "pred": "Two people seen at frame 3100."}
+{"question": "what's in the scene?", "answer": "A woman showing something to a man.", "pred": "Girl sitting in woods, smiling."}
+{"question": "what is the man doing?", "answer": "He is walking towards a monster and shooting at it.", "pred": "Man walks in woods with gun at frame 6850."}
+{"question": "what's the gender of the person in scene?", "answer": "He is a man.", "pred": "Scene at frame 7600 features a woman."}
+{"question": "Is it day time or night time?", "answer": "It's at night time.", "pred": "Nighttime at frame 8250."}
+{"question": "what is the man doing?", "answer": "He is running away from something.", "pred": "Man walks through forest holding gun at frame 9000."}
+{"question": "How many people appear in the scene?", "answer": "One person.", "pred": "Two people in scene at frame 9750."}
+{"question": "what happens?", "answer": "A giant monster is approaching the man lying on the ground.", "pred": "Dinosaur walks through field of rocks at frame 10500."}
+{"question": "what does the woman do?", "answer": "She poke a wooden stick into the monster's eye.", "pred": "Woman walks away from man on ground."}
+{"question": "Where is the scene?", "answer": "In the universe.", "pred": "Man at computer in dark room."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Man in uniform talks about airplane machine indoors."}
+{"question": "Are there any animals?", "answer": "No.", "pred": "No animals at frame 6000."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Man presses button on screen, video shows same."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "Plant in background at frame 7500."}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "No vehicles at frame 8250."}
+{"question": "What is in front of the man?", "answer": "Screens.", "pred": "Computer screen in front of man at frame 9000."}
+{"question": "Is it day or night?", "answer": "Night.", "pred": "Night at frame 9750."}
+{"question": "Are there any animals?", "answer": "No.", "pred": "No animals at frame 10500."}
+{"question": "what is the man in the middle of the scene doing?", "answer": "He is climbing up on a building.", "pred": "Man climbing wooden pole."}
+{"question": "where's the scene?", "answer": "On the top of a building, with a view of river and forest.", "pred": "Man on cliff overlooking river."}
+{"question": "what appears on the screen?", "answer": "Scripts and words.", "pred": "Man standing in front of wall at frame 5300."}
+{"question": "How many people appear in the middle of the scene?", "answer": "One person.", "pred": "Two people in middle at frame 250."}
+{"question": "what is the weather like?", "answer": "It's cloudy.", "pred": "Frame 375: cloudy weather."}
+{"question": "where's the scene?", "answer": "In a big forest.", "pred": "Close-up of tree in forest at frame 1625."}
+{"question": "why the man's hair is floating?", "answer": "Because of the wind.", "pred": "Wind blowing causes man's hair to float."}
+{"question": "How many people appear in the scene?", "answer": "One person.", "pred": "Two people in frame 2500."}
+{"question": "Is it day time or night time?", "answer": "It's at day time.", "pred": "Night time at frame 3250."}
+{"question": "what's the weather like?", "answer": "The weather is a little cloudy.", "pred": "Cloudy with distant storm at frame 3500."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Frame 1500: person in black clothes."}
+{"question": "What are the people doing?", "answer": "Talking.", "pred": "Boy sitting and playing with toy on ground."}
+{"question": "What are the people doing?", "answer": "Talking.", "pred": "Man talks to woman with sword at frame 3000."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Black background at frame 5250."}
+{"question": "How does the person feel?", "answer": "Angry.", "pred": "Person looks happy at frame 6000."}
+{"question": "What is in the person's hand?", "answer": "A helmet.", "pred": "Person holds sword in frame 7500."}
+{"question": "Are there any animals?", "answer": "Yes.", "pred": "Two horses at frame 8250."}
+{"question": "Is it indoor or outdoor?", "answer": "Outdoor.", "pred": "People standing around lit fire in dark forest."}
+{"question": "What is in the person's hand?", "answer": "A sword.", "pred": "Person holds bow and arrow in frame 9750."}
+{"question": "What is the person doing?", "answer": "Running.", "pred": "Person sitting and playing game on ground at frame 10500."}
+{"question": "where is the scene?", "answer": "On a grassland.", "pred": "Scene at frame 1500 is in a field."}
+{"question": "where is the scene?", "answer": "Outside a house.", "pred": "Scene at frame 2250: Inside a garage."}
+{"question": "How many men appear in the scene?", "answer": "One.", "pred": "Two men seen in frame 4600."}
+{"question": "where is the scene?", "answer": "In a forest.", "pred": "Scene at frame 6850: forest."}
+{"question": "Does the man standing wear a hat?", "answer": "Yes.", "pred": "No hat on man at frame 7600."}
+{"question": "Is it at daytime or at night time?", "answer": "It's at day time.", "pred": "Day or night cannot be determined from frame 8250."}
+{"question": "what is man holding in hand?", "answer": "A gun.", "pred": "Gun held by man at frame 9000."}
+{"question": "Is there more than ten people?", "answer": "No.", "pred": "One person seen at frame 9750."}
+{"question": "Is there more than five people?", "answer": "No.", "pred": "Two people in image at frame 10600."}
+{"question": "Is there more than three people?", "answer": "No.", "pred": "2 people in frame at 11000."}
+{"question": "what is in the scene?", "answer": "A suv.", "pred": "Man stands on sidewalk near parked van (frame 1500)."}
+{"question": "what is the man holding?", "answer": "He's driving a car.", "pred": "Man holding cell phone in frame 2150."}
+{"question": "what is the right man doing?", "answer": "He's threatening the left man.", "pred": "Right man punches left man in face."}
+{"question": "what is the gender of the person in the scene?", "answer": "He is a man.", "pred": "Man in frame 4350."}
+{"question": "where is the scene?", "answer": "On the lawn in front of a house.", "pred": "Yard with house in background at frame 6750."}
+{"question": "what are they doing?", "answer": "They're making a phone call.", "pred": "Man talks on cell phone in chair at frame 7600."}
+{"question": "How many women appear in the scene?", "answer": "One.", "pred": "Two women are present at frame 9000."}
+{"question": "Is there more than ten people?", "answer": "No.", "pred": "Only two people at frame 9750."}
+{"question": "Is there more than five people?", "answer": "No.", "pred": "Yes, more than five people are present."}
+{"question": "Is there more than three people?", "answer": "No.", "pred": "Two people at frame 9900."}
+{"question": "What is the clothes color of the person?", "answer": "Green.", "pred": "Frame 750 has person in green shirt."}
+{"question": "What is the object?", "answer": "The moon.", "pred": "Object at frame 4500 is moon."}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "No vehicles at frame 5250."}
+{"question": "Are there any animals?", "answer": "No.", "pred": "No animals at frame 6000."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Day at frame 6750."}
+{"question": "Is the person a man or a woman?", "answer": "Man.", "pred": "Video person is male."}
+{"question": "Is it indoor or outdoor?", "answer": "Outdoor.", "pred": "Snowy mountain with blowing snow creates blizzard-like atmosphere."}
+{"question": "What is the hat color of the man?", "answer": "Red.", "pred": "Man at frame 9000 has red hat."}
+{"question": "Is it rainy?", "answer": "Yes.", "pred": "Yes, raining at frame 9750."}
+{"question": "Is it day or night?", "answer": "Night.", "pred": "Night at frame 10500."}
+{"question": "Where is the scene?", "answer": "On a ship.", "pred": "Man on boat, looking at camera."}
+{"question": "How is the weather?", "answer": "It is sunny.", "pred": "Sunny weather at frame 2250."}
+{"question": "What is the background color?", "answer": "Blue.", "pred": "Frame 3750: Blue background color."}
+{"question": "Where is the scene?", "answer": "In the sea.", "pred": "Baby whale swims in ocean at frame 6000."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Night at frame 6750."}
+{"question": "What is the person doing?", "answer": "Using telescope to observe.", "pred": "Person looks at camera at frame 7500."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Night at frame 8250."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "No plants at frame 9000."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Unclear location of man in video at frame 9750."}
+{"question": "How is the weather?", "answer": "It is sunny.", "pred": "10500 frame is sunny."}
+{"question": "Where is the scene?", "answer": "In the cockpit of a fighter jet.", "pred": "Cockpit of fighter jet at frame 750."}
+{"question": "What is the object?", "answer": "A fighter jet.", "pred": "Fighter jet flying in the sky."}
+{"question": "What is the object?", "answer": "Dash board.", "pred": "Object at 2250 is a dog."}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "No vehicles at frame 6000."}
+{"question": "What is the clothes color of the person?", "answer": "Borwnish yellow.", "pred": "Person at frame 6750 wears black shirt."}
+{"question": "How does the person feel?", "answer": "Happy.", "pred": "Person enjoying themselves, laughing at frame 7500."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Night at frame 8250."}
+{"question": "Are there any animals?", "answer": "No.", "pred": "No animals at frame 9000."}
+{"question": "Are there any plants?", "answer": "Yes.", "pred": "No plants at frame 9750."}
+{"question": "What is the object?", "answer": "The earth.", "pred": "Globe at frame 10625."}
+{"question": "What is the person doing?", "answer": "Climbing.", "pred": "Person sitting on rock, looking at camera."}
+{"question": "What is the background color?", "answer": "White.", "pred": "Frame 1500 has black background color."}
+{"question": "How the person feel?", "answer": "Released.", "pred": "Person in video feels excited watching machine assembly."}
+{"question": "How the person feel?", "answer": "Tired.", "pred": "Person still lying on ground, uncertain emotions."}
+{"question": "How many people appeared?", "answer": "Two.", "pred": "2 people at frame 3750."}
+{"question": "Where is it?", "answer": "In a camp.", "pred": "Man talking to woman sitting in chair at frame 5250."}
+{"question": "How many people appear in the scene?", "answer": "Two.", "pred": "Two people in frame 3850."}
+{"question": "How is the weather?", "answer": "It is sunny.", "pred": "Sunny and bright at frame 2250."}
+{"question": "How many people appear in the middle of the scene(not including people in the background)?", "answer": "One.", "pred": "Two people at frame 750."}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "No vehicles at frame 6000."}
+{"question": "What is the clothes color of the person?", "answer": "Borwnish yellow.", "pred": "Black shirt at frame 6750."}
+{"question": "How does the person feel?", "answer": "Happy.", "pred": "Person laughing and enjoying himself at frame 7500."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Night at frame 8250."}
+{"question": "Are there any animals?", "answer": "No.", "pred": "No animals at frame 9000."}
+{"question": "Are there any plants?", "answer": "Yes.", "pred": "No plants at frame 9750."}
+{"question": "What is the object?", "answer": "The earth.", "pred": "Frame 10625 shows a globe."}
+{"question": "What is the person doing?", "answer": "Climbing.", "pred": "Person sitting on rock, looking at camera."}
+{"question": "What is the background color?", "answer": "White.", "pred": "Black background at frame 1500."}
+{"question": "How the person feel?", "answer": "Released.", "pred": "Happy person watches machine assembly excitedly."}
+{"question": "How the person feel?", "answer": "Tired.", "pred": "Person is motionless, emotional state unclear."}
+{"question": "How many people appeared?", "answer": "Two.", "pred": "Two people at frame 3750."}
+{"question": "Where is it?", "answer": "In a camp.", "pred": "Man sitting, talking to woman at frame 5250."}
+{"question": "How many people appear in the scene?", "answer": "Two.", "pred": "2 people in scene at frame 3850."}
+{"question": "How is the weather?", "answer": "It is sunny.", "pred": "Sunny and bright weather at frame 2250."}
+{"question": "How many people appear in the middle of the scene(not including people in the background)?", "answer": "One.", "pred": "Two people in frame 750."}

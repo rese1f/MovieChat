@@ -1,0 +1,1477 @@
+{"question": "Where is the scene?", "answer": "A woman is performing something", "pred": "Woman dancing in formal gala amidst crowd."}
+{"question": "Is it day or night?", "answer": "Night.", "pred": "Daytime scene with stage, red and gold dresses."}
+{"question": "Is it day or night?", "answer": "Night.", "pred": "Daytime with natural light visible."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Person in happy clothing, making music with instrument in dark scene."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Dark green background at frame 3000."}
+{"question": "How the person feel?", "answer": "nervous", "pred": "Excited person in superhero costume inspects lightsaber with confidence."}
+{"question": "What is the clothes color of the person?", "answer": "nervous", "pred": "Person at frame 4500 is deep brown."}
+{"question": "What is the clothes color of the person?", "answer": "Red", "pred": "Red clothes at frame 5250."}
+{"question": "What is the clothes color of the person?", "answer": "Black", "pred": "Black leather jacket, white shirt in frame 6750."}
+{"question": "What is the person doing?", "answer": "Fighting.", "pred": "Person dancing with another person at a party."}
+{"question": "What is the background color?", "answer": "Dark yellow.", "pred": "Color is red at frame 8250."}
+{"question": "How many people  appeared?", "answer": "4", "pred": "3 people at frame 9000."}
+{"question": "How many people  appeared?", "answer": "3", "pred": "Person in room with others in distance."}
+{"question": "Where is the scene?", "answer": "In a room", "pred": "Office scene with man, woman, and papers."}
+{"question": "How does the person feel?", "answer": "Surprised.", "pred": "Person at frame 25 looks surprised at front."}
+{"question": "How does the person feel?", "answer": "Serious.", "pred": "Person standing, determined expression, black jacket, Chinese text."}
+{"question": "Where is it?", "answer": "In a room.", "pred": "Text appears in frame with various colors and objects."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Person in frame wearing beige suit."}
+{"question": "Is it day or night?", "answer": "Night.", "pred": "Daytime setting indicated by sun and lighting, later changes."}
+{"question": "Are there any vehicles?", "answer": "Yes.", "pred": "Vehicles present: motorcycle and car (frame 3750)."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Daytime scene with man in black walking past building."}
+{"question": "What is the person doing?", "answer": "Lying on the ground.", "pred": "Person with gun among group of armed people."}
+{"question": "How many people appeared?", "answer": "Four.", "pred": "Two men, mirror, and chair, all black."}
+{"question": "Does the person look happy?", "answer": "Yes.", "pred": "Person looking down, possibly content or pensive."}
+{"question": "What are the people doing?", "answer": "Talking.", "pred": "Couple standing in front of a large building and talking."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Person at frame 8250 wears dark brown jacket, black pants."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Daytime at frame 9000 is likely."}
+{"question": "What are the people doing?", "answer": "Talking.", "pred": "Woman and man talking in large church with statue and window."}
+{"question": "What's in the person's hand?", "answer": "A cellphone.", "pred": "Hand holding possible cell phone at frame 10500."}
+{"question": "Does the person look happy?", "answer": "Yes.", "pred": "Person appears neutral while listening."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Unclear if day or night due to black and white footage."}
+{"question": "How many people appeared?", "answer": "Two.", "pred": "Two men in medieval armor with swords at frame 1500."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Green fur collar coat in frame 2250."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Frame 3000 has deep blue background, contrasting orange-red tones."}
+{"question": "What is the person doing?", "answer": "Drinking.", "pred": "Person with candle stands in front of stone wall."}
+{"question": "How many people appeared?", "answer": "Two.", "pred": "Four people seen at frame 4500."}
+{"question": "Does the person look happy?", "answer": "Yes.", "pred": "Person appears sad while facing camera."}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "Yes, frame 6000, vehicles, man with megaphone."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Outdoor scene near a cave or rock formation."}
+{"question": "What is the scene?", "answer": "A sculpture.", "pred": "Romantic scene with man and woman in elegant attire."}
+{"question": "What is the scene?", "answer": "A woman.", "pred": "Girl talking to man by window with flowers."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Cannot determine emotions, scene is a confrontation."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Person wears white shirt and dark jacket."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Frame 10500 indicates it is day with sunlight."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Black shirt at frame 25."}
+{"question": "How many people appeared?", "answer": "Four.", "pred": "2 people; middle-aged man in black clothes, other man with gray shirt."}
+{"question": "Where is it?", "answer": "On the street.", "pred": "Unclear location in frame 1500, possibly same as frame 1499."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "People in dark coats, indoors."}
+{"question": "Where is it?", "answer": "In a hall.", "pred": "Man in raincoat walks purposefully in London street."}
+{"question": "What is the background color?", "answer": "Yellow.", "pred": "Black background at frame 3750."}
+{"question": "What is the person doing?", "answer": "Running.", "pred": "Person on roof observing city view and conversing with passerby."}
+{"question": "What is the person doing?", "answer": "Running.", "pred": "Man standing on building, holding something, unclear activity."}
+{"question": "Where is it?", "answer": "In an office.", "pred": "Man using tablet in dimly lit professional workspace."}
+{"question": "What are the people doing?", "answer": "Talking.", "pred": "Man on couch talking, wearing black leather jacket."}
+{"question": "Where is it?", "answer": "On the top floor of a building.", "pred": "Man running on bridge in London with water."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Man wears black jacket and pants in frame 8250."}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "No cars in final frame."}
+{"question": "How many people appeared?", "answer": "Two.", "pred": "One person observed wearing black t-shirt, looking through fence."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Person is happy walking down the street."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Pale pink or peach background color at frame 25."}
+{"question": "Where is it?", "answer": "In a bar.", "pred": "Party scene with dancing, people socializing in dark room."}
+{"question": "Where is it?", "answer": "In a toliet.", "pred": "Businessman in lobby using mobile phone."}
+{"question": "What\u2018s in the person's hand?", "answer": "A pen.", "pred": "Person in mirror holds phone by sink in bathroom."}
+{"question": "How many people appeared?", "answer": "Three.", "pred": "5 people seen in frame 3000."}
+{"question": "What is the scene?", "answer": "Thre persona and a computer.", "pred": "Office scene with men in suits and ties."}
+{"question": "Does the person look happy?", "answer": "Yes.", "pred": "Person at frame 4500 looks concerned."}
+{"question": "What are the people doing?", "answer": "Fighting.", "pred": "Two men in suits standing in bathroom-like room."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Person appears uncomfortable with surgical mask and holding nose."}
+{"question": "Where is it?", "answer": "In a toliet.", "pred": "Men in a white and silver room."}
+{"question": "What\u2018s in the person's hand?", "answer": "A gun.", "pred": "Person holds a gun with steady hand."}
+{"question": "How many people appeared?", "answer": "Three.", "pred": "3 men, 1 woman in a room. Various objects present."}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "Yes, a vehicle at frame 9000, two men standing."}
+{"question": "Are there any animals?", "answer": "No.", "pred": "No animals in frame 9750."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "Plant in lower left corner at frame 10500."}
+{"question": "Is it indoor or outdoor?", "answer": "Outdoor.", "pred": "AI cannot recognize video location, provides info from captions."}
+{"question": "What is the scene?", "answer": "Words.", "pred": "Reflection of two women in mirror with book."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Blue coat on person in frame 1500."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Indoor at frame 2250."}
+{"question": "What is the scene?", "answer": "A man with woman's cloth.", "pred": "Man in gold robe at a masquerade party."}
+{"question": "What is the background color?", "answer": "Red.", "pred": "Red background color at frame 3750."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Daytime scene with awake man in bed."}
+{"question": "Where is it?", "answer": "In a graveyard.", "pred": "Headstone is in city cemetery under tree."}
+{"question": "What are the people doing?", "answer": "Talking.", "pred": "Two people talk near a cemetery in a park."}
+{"question": "What is the clothes color of the person?", "answer": "Blue.", "pred": "Person in frame 6750 wears blue jacket and pants."}
+{"question": "Is it day or night?", "answer": "Night.", "pred": "Nighttime sky with dark clouds."}
+{"question": "How many people appears?", "answer": "Three.", "pred": "4 people seen at 8250."}
+{"question": "Are there any plants?", "answer": "Yes.", "pred": "Yes, plant in frame 9000."}
+{"question": "How is the weather?", "answer": "Rainy.", "pred": "Dark, cloudy, and rainy weather with man in water."}
+{"question": "What is the scene?", "answer": "A waterfall.", "pred": "Man sitting in forest holding wine bottle."}
+{"question": "Where are they\uff1f", "answer": "In a room. ", "pred": "Location is indeterminate. Two men sit at a table."}
+{"question": "Where are they?", "answer": "In a room. ", "pred": "Two men talking casually at a table with drinks."}
+{"question": "what is on the table?", "answer": "A bottle", "pred": "Medication bottle and pill on wooden table in dark room."}
+{"question": "Is one of the men wearing a glass?", "answer": "Yes.", "pred": "No access to video, cannot accurately determine presence of glasses."}
+{"question": "How many people are there?", "answer": "Two.", "pred": "Cannot determine people count without more context."}
+{"question": "What's in the hand?", "answer": "A drug.", "pred": "Ring on middle finger in frame 3850."}
+{"question": "what's it?", "answer": "A police car.", "pred": "Man watching TV."}
+{"question": "where is it?", "answer": "A an ambulance .", "pred": "Man in suit waiting for ambulance next to police car."}
+{"question": "How many people are there?", "answer": "Two.", "pred": "Two men, one black, one red, at frame 6325."}
+{"question": "How many people are there?", "answer": "Two.", "pred": "Two people at frame 7500, man and woman."}
+{"question": "How many people are there?", "answer": "Two.", "pred": "Two people with different appearances are present."}
+{"question": "What's the color of the cloth?", "answer": "Red.", "pred": "Color at frame 9300 is brown."}
+{"question": "What's the expression?", "answer": "He's smiling.", "pred": "Person's expression is a smile at frame 9975."}
+{"question": " How many people are there? ", "answer": "Two.   ", "pred": "4 people: 3 men, 1 woman."}
+{"question": "What's the color of the woman's cloth?  ", "answer": " White.  ", "pred": "White shirt at frame 750."}
+{"question": " Where are they? ", "answer": " In a room. ", "pred": "Yes, in living room at frame 1500."}
+{"question": " What's the man doing? ", "answer": " Thinking. ", "pred": "Man praying in bedroom at frame 2250."}
+{"question": " Where are they?  ", "answer": "In a messy room.   ", "pred": "I cannot predict future events or guarantee accuracy."}
+{"question": "  How many people are there?  ", "answer": "  Three.  ", "pred": "6 people in video, 4 in living room, 2 on balcony."}
+{"question": " What's the color of the man's cloth?  ", "answer": " Black.   ", "pred": "Dark blue cloth observed at frame 5250."}
+{"question": " Where are they?   ", "answer": "  In a library.  ", "pred": "Young man with book in library."}
+{"question": " What's the time?   ", "answer": " Daytime.   ", "pred": "It is 4:04 AM."}
+{"question": " Where are they?   ", "answer": " On the street.   ", "pred": "Video is in London, England."}
+{"question": "  What's the man doing?  ", "answer": " Painting on a door.   ", "pred": "Man gives backpack to person in shadows."}
+{"question": "What's the man doing?  ", "answer": "  Using his cellphone.  ", "pred": "Waiting near a wall, unclear activities."}
+{"question": "  How many people are there?  ", "answer": "  Three.  ", "pred": "3 people seen in frame 9750."}
+{"question": "  How many people are there?  ", "answer": " Two.  ", "pred": "Unclear number of people at frame 10500."}
+{"question": "Are there any vehicles?", "answer": "Yes.", "pred": "Car is parked at frame 25."}
+{"question": "What are the people doing?", "answer": "Fighting.", "pred": "People wearing black clothes, holding various items."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Green-coated woman shown at frame 1500."}
+{"question": "How many people appeared?", "answer": "Three.", "pred": "Six people observed in car at frame 2250."}
+{"question": "Where is it?", "answer": "In a helicopter.", "pred": "Woman sleeping on chair with reflection of belongings."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Outdoors at dusk or evening with streetlights and pinkish sky."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Gray background at frame 5250."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Cannot determine emotion as no context or dialogue given."}
+{"question": "Is it indoor or outdoor?", "answer": "Outdoor.", "pred": "Outdoor location with mountainous terrain and surrounding buildings."}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "Yes, vehicles are present at frame 7500."}
+{"question": "How many people appeared?", "answer": "Two.", "pred": "Person in black jumpsuit hanging from mountain at frame 8250."}
+{"question": "Are there any plants?", "answer": "Yes.", "pred": "Yes, plant in frame 9750."}
+{"question": "What is the person doing?", "answer": "Climbing.", "pred": "Person jumps over rock at frame 10500."}
+{"question": "What is the scene?", "answer": "A waterfall.", "pred": "Person in baseball cap at frame 25 looking."}
+{"question": "What is the scene?", "answer": "A man.", "pred": "Woman walking in dark cave with waterfall backdrop."}
+{"question": "Is it indoor or outdoor?", "answer": "Outdoor.", "pred": "Indoor scene, dark background, character in black suit."}
+{"question": "What are the people doing?", "answer": "Fighting.", "pred": "Two people in a sad room, woman crying, man nearby."}
+{"question": "Are there any animals?", "answer": "No.", "pred": "No animals at frame 3000, only interacting people."}
+{"question": "What is in the person's hand?", "answer": "A gun.", "pred": "Hand holding possible weapon or equipment at frame 3750."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Blue background at frame 4500."}
+{"question": "What are the people doing?", "answer": "Talking.", "pred": "Man in black suit holds cigar in dark scene."}
+{"question": "How many people appears?", "answer": "Two.", "pred": "1 person in foreground at frame 6000."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "No plants at frame 6750."}
+{"question": "Where is it?", "answer": "On a plane.", "pred": "Man and woman talk on plane with blue table."}
+{"question": "Are there any vehicles?", "answer": "Yes.", "pred": "Small plane in frame 8250."}
+{"question": "How is the weather?", "answer": "Sunny.", "pred": "Sunny and calm weather with scattered rain."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Color appears as light brown or beige."}
+{"question": "What is the person doing?", "answer": "Smoking.", "pred": "Person sitting in movie theater looking at rain outside."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "No plants at frame 25."}
+{"question": "Is it day or night?", "answer": "Night.", "pred": "People sit in dark room at night."}
+{"question": "What is in the person's hand?", "answer": "A hat.", "pred": "White veil in person's hand at frame 1500."}
+{"question": "Is it indoor or outdoor?", "answer": "Outdoor.", "pred": "Man talks and points at indoor camera."}
+{"question": "What is the background color?", "answer": "White.", "pred": "Dark green background at frame 3000."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Unclear setting from one frame in video."}
+{"question": "What is the scene?", "answer": "A woman.", "pred": "Photo of elegantly dressed woman in dimly lit room."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Dark purple background at frame 5250."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Grey background at frame 6000."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Worried person in brown suit with serious expression."}
+{"question": "What are the people doing?", "answer": "Talking.", "pred": "Person in black hat looks pensive and lost in thoughts."}
+{"question": "Is it day or night?", "answer": "Night.", "pred": "Uncertain if day or night, close-up of man"}
+{"question": "Are there any plants?", "answer": "No.", "pred": "No plants in frame 9000."}
+{"question": "Are there any animals?", "answer": "No.", "pred": "No animals in video at frame 9750."}
+{"question": "Where is it?", "answer": "In a room.", "pred": "Man at window, person at table with candle."}
+{"question": "what happens?", "answer": "The man in black is arguing with the man in blue, and he goes into the building.", "pred": "Man walks down street, various people, unclear ending."}
+{"question": "what is the man in black doing?", "answer": "He is wearing a blue cloth.", "pred": "Man in black straightens reflection in dimly lit room."}
+{"question": "what do they find in the room?", "answer": "A woman with pink cloth lying on the ground.", "pred": "Crime scene with investigators and a murdered man."}
+{"question": "who happens?", "answer": "Two man are talking with each other, or maybe arguing.", "pred": "Young man checking old woman's vital signs."}
+{"question": "who are they doing?", "answer": "The two men squat down to observe a dead people..", "pred": "Man in blue jacket at muddy water fountain."}
+{"question": "what are the man mainly observing?", "answer": "The woman's hand.", "pred": "Man observes unconscious woman in room with clock."}
+{"question": "what's in the room?", "answer": "Three people, a light and a shelf.", "pred": "Woman in pink dress, man on phone in room."}
+{"question": "what's the standing man doing?", "answer": "He is taking notes.", "pred": "Man in frame 6000 using binoculars."}
+{"question": "what's the color of the men's cloth?", "answer": "It's blue.", "pred": "At frame 7500, color of men's cloth is brown."}
+{"question": "what do the man shows to his fellow?", "answer": "The screen of his cellphone.", "pred": "Man wearing blue jacket looks at fellow."}
+{"question": "what are they looking at?", "answer": "The legs of the dead people.", "pred": "Person observing lights in a messy room."}
+{"question": "what happens?", "answer": "One of the men take off his coat and leaves the room after saying something.", "pred": "Man in blue coat, another man on stairs in focus."}
+{"question": "who gets into the room?", "answer": "A group of people in blue cloth.", "pred": "Man in pink suit enters room with black suitcase."}
+{"question": "what's the environment?", "answer": "The street after raining.", "pred": "Busy city street at night with emergency vehicles."}
+{"question": "How does the person feel?", "answer": "Sad.", "pred": "Person looks upset, appears sad, and has been deceived."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Yes, person in frame 750 looks happy."}
+{"question": "How many people appeared?", "answer": "Two.", "pred": "Two people present at frame 1500."}
+{"question": "What is in the person's hand?", "answer": "A sword.", "pred": "Symbolic sword represents power, bravery, and determination."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Indoor room with fireplace, bed, and furniture."}
+{"question": "Where is it?", "answer": "In a bedroom.", "pred": "Woman in sad room with man in shoe."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Person lying down in dark, candlelit room with book."}
+{"question": "What is happening?", "answer": "The door is opened by a man.", "pred": "Man in medieval-style coat holding book in stone room."}
+{"question": "Are there any animals?", "answer": "No.", "pred": "No animals in frame 6000."}
+{"question": "What is the person doing?", "answer": "Saying something on the bed.", "pred": "Man standing, serious expression, dimly lit with fire."}
+{"question": "Are there any animals?", "answer": "Yes.", "pred": "Yes, a dog is in the frame."}
+{"question": "Are there any plants?", "answer": "Yes.", "pred": "Vase of flowers on coffee table at frame 8250."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Woman indoors, face visible, dimly lit, no windows/doors."}
+{"question": "What is the clothes color of the person?", "answer": "Brown.", "pred": "Clothes are dark brown at frame 9750."}
+{"question": "What is in the person's hand?", "answer": "A knife.", "pred": "Silver locket with gold patterns in person's hand."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Nighttime scene with characters in dark clothing."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Indoor scene with characters in a hallway."}
+{"question": "How is the weather?", "answer": "Snowy.", "pred": "Sunny day with a gentle breeze and few clouds."}
+{"question": "Where is it?", "answer": "In a room.", "pred": "Scene at party with ornate room and furniture."}
+{"question": "How many people appears?", "answer": "Three.", "pred": "Man, woman, fireplace, bookcase, couch, coffee table."}
+{"question": "What are the people doing?", "answer": "Talking.", "pred": "Woman giving instructions to two men in dimly lit room."}
+{"question": "What is the person doing?", "answer": "Playing a violin.", "pred": "Person playing violin at frame 4500."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Unclear facial expression due to poor image quality."}
+{"question": "Where is it?", "answer": "In a room.", "pred": "Bookstore scene with business man."}
+{"question": "How many people appears?", "answer": "Four.", "pred": "2 people in scene at frame 6750."}
+{"question": "What is in the person's hand?", "answer": "A cup.", "pred": "Man holds scissors in bookshelf-filled room."}
+{"question": "What is in the person's hand?", "answer": "Guns.", "pred": "Person holds wedding dress and gun near window."}
+{"question": "What is the clothes color of the person?", "answer": "Brown.", "pred": "Black clothes in frame 9000."}
+{"question": "What is the clothes color of the person?", "answer": "White.", "pred": "Person at frame 9750 wearing beige colored coat."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "No plant in video at frame 10500."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Person happy, dancing, smiling in video at frame 25."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Black coat worn at frame 750."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Daylight at frame 1500."}
+{"question": "What's in the man's hand?", "answer": "A pink cellphone.", "pred": "Man holding mismatched pair of sneakers in dimly lit room."}
+{"question": "Does the person look happy?", "answer": "No", "pred": "Person in frame 3000 is smiling or grinning."}
+{"question": "Where is it?", "answer": "In front of a window.", "pred": "Sign with clock displaying time and location."}
+{"question": "How many people  appeared?", "answer": "2.", "pred": "Man using magnifying glass alone in lab at frame 4500."}
+{"question": "How the person feel?", "answer": "Doing an experiment.", "pred": "Curious person using magnifying glass and binoculars."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Person wears black jacket in last image."}
+{"question": "How many people  appeared?", "answer": "4.", "pred": "Two people are in the photo."}
+{"question": "Where is it?", "answer": "In a lab.", "pred": "Black and white photo of people in a laboratory."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "Replay video to check for plants at frame 8250."}
+{"question": "How the person feel?", "answer": "Unhappy.", "pred": "Person standing with crossed arms, others present but unclear."}
+{"question": "Are there any animals?", "answer": "No.", "pred": "Yes, animal (dog/cat) at frame 9750."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Person wears black suit jacket in video."}
+{"question": "What is in the person's hand?", "answer": "A piece of paper.", "pred": "Hand holds paper with Chinese writing."}
+{"question": "How does the person feel?", "answer": "Angry.", "pred": "Calm man talking in well-lit room with gold decorations."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Black clothes at frame 1500."}
+{"question": "How many people appeared?", "answer": "Two.", "pred": "Two people, man and woman, in frame 2250."}
+{"question": "How many people appeared?", "answer": "Two.", "pred": "Cannot find frame 3000 in video."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Indoor scene inferred from background appearance."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Person at frame 4500 appears serious, emotion uncertain without context."}
+{"question": "Are there any plants?", "answer": "Yes.", "pred": "Yes, at frame 5250."}
+{"question": "What is in the person's hand?", "answer": "A knife.", "pred": "Fork in hand at frame 6000."}
+{"question": "Are there any animals?", "answer": "No.", "pred": "Yes, dog in frame."}
+{"question": "How many people appeared?", "answer": "Three.", "pred": "1 person in frame 7500."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Indoor scene, person in black dress, man holding brown object."}
+{"question": "How many people appeared?", "answer": "Two.", "pred": "Number of people in final frame is unknown."}
+{"question": "Is it day or night?", "answer": "Night.", "pred": "Night scene with lights on in background."}
+{"question": "How does the person feel?", "answer": "Sad.", "pred": "A person comforts a sad boy over noodles."}
+{"question": "Are there any plants?", "answer": "Yes.", "pred": "Yes, green leafy plant in background at frame 25."}
+{"question": "What are the people doing?", "answer": "Talking.", "pred": "Man with brown coat holds cane in church."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Green-coated person in hat at frame 1500."}
+{"question": "Is it day or night?", "answer": "Night.", "pred": "I cannot answer the question accurately without visual information."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Frame 3000 background color: brown."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Person looks happy at frame 3750."}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "Yes, a black car is parked on the side."}
+{"question": "What is the scene?", "answer": "A man with a black hat.", "pred": "Black-suited person in dimly lit room with red text."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Indoor frame with no outdoor elements visible at 6000."}
+{"question": "Are there any animals?", "answer": "No.", "pred": "Yes, cat seen at frame 6750."}
+{"question": "What is the scene?", "answer": "A ghost.", "pred": "Man standing in dimly lit room with closed eyes."}
+{"question": "What is the person doing?", "answer": "Running.", "pred": "Person standing near an old stone building"}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Mixture of white, brown, and green on third floor."}
+{"question": "How does the person feel?", "answer": "Sad.", "pred": "Person in dark room wearing hat and suit."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Dark gray or black at frame 10500."}
+{"question": "What is the clothes color of the person?", "answer": "Red.", "pred": "Man wears red shirt in frame 25."}
+{"question": "Where is it?", "answer": "On the street.", "pred": "Police help people during a fire emergency in London."}
+{"question": "Is it day or night?", "answer": "Daytime.", "pred": "Daytime at frame 1500, difficult to determine due to fog."}
+{"question": "Are there any vehicles?", "answer": "No", "pred": "No visible vehicles in frame 2250."}
+{"question": "What is the person doing?", "answer": "Playing a violin.", "pred": "People in a cozy living room doing various activities."}
+{"question": "How many people  appeared?", "answer": "3", "pred": "Please provide more details about the scene."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "Yes, there is a plant at frame 4500."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Yes, happy person at frame 5250."}
+{"question": "Where is it?", "answer": "In a car.", "pred": "Unclear frames of Sherlock show at the museum."}
+{"question": "How many people  appeared?", "answer": "3", "pred": "No people, only books, folders, paper, mouse, and water."}
+{"question": "What is the person doing?", "answer": "Looking at a letter.", "pred": "Person focused on laptop screen, working or studying."}
+{"question": "What's in the man's hand?", "answer": "A pink cellphone.", "pred": "Man holds cellphone, person behind wears glasses and suit."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Person in mirror appears happy at frame 9000."}
+{"question": "Where is it?", "answer": "In an office", "pred": "Three people talking in an empty room."}
+{"question": "Where is it?", "answer": "In a house,", "pred": "Shadow holds chips, people talk in dim room."}
+{"question": "Where is it?", "answer": "In a car.", "pred": "Sherlock Holmes in car, person outside window."}
+{"question": "What is the person doing?", "answer": "Folding a paper.", "pred": "Person with smartphone in vehicle at frame 750."}
+{"question": "How many people  appeared?", "answer": "Three.", "pred": "None."}
+{"question": "What are the people doing?", "answer": "Getting off a car.", "pred": "People watching boat on London river with city skyline."}
+{"question": "Where is it?", "answer": "In a room.", "pred": "Eerie, cluttered room with woman standing in doorway."}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "Car seen in frame 3750, driving away."}
+{"question": "Are there any animals?", "answer": "No.", "pred": "Yes, dog at frame 4500."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Indeterminable based on given information."}
+{"question": "Where is it?", "answer": "In a gallery.", "pred": "Eerie room with people, painting, and snowy atmosphere."}
+{"question": "How many people  appeared?", "answer": "Two.", "pred": "1 police officer and 1 person in frame 6750."}
+{"question": "What is the person doing?", "answer": "Looking at a painting.", "pred": "Man in video walks around room, approaches closed door."}
+{"question": "What are the people doing?", "answer": "Talking.", "pred": "Sad woman and person in dimly lit room."}
+{"question": "How the person feel?", "answer": "She is extremely sad.", "pred": "Woman in video appears sad, talking with man."}
+{"question": "How many people  appeared?", "answer": "Three.", "pred": "Several people seen in the background at frame 9750."}
+{"question": "What is the person doing?", "answer": "Walking on a street.", "pred": "Person walking down street with brick building and parked car."}
+{"question": "What is in the person's hand?", "answer": "A knife.", "pred": "Person holds a knife with an intent stare."}
+{"question": "How many people appeared?", "answer": "Three.", "pred": "3 people in frame at 750."}
+{"question": "Is it indoor or outdoor?", "answer": "Outdoor.", "pred": "Outdoor scene with buildings, dressed in warm clothing."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Person in second row looks happy."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "White shirt at frame 3000."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Unknown location, frame 3750."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Daytime based on lighting and clothing."}
+{"question": "Is it indoor or outdoor?", "answer": "Outdoor.", "pred": "Maybe indoor and outdoor scenes."}
+{"question": "How many people appeared?", "answer": "Five.", "pred": "3 people, different clothing, ages, genders at frame 6750."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "No plants visible in frame."}
+{"question": "What are the people doing?", "answer": "Talking.", "pred": "Man in leather jacket surrounded by weapons and armor."}
+{"question": "What is the background color?", "answer": "Red.", "pred": "Frame 9000 background color: dark red or purple."}
+{"question": "How many people appeared?", "answer": "Two.", "pred": "5 people at frame 9750."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Person holding drink looks festive and possibly happy."}
+{"question": "Where is it", "answer": "Beside a car ", "pred": "Wrong frame number or video."}
+{"question": "what is in the video?", "answer": "A taxi", "pred": "Street view with taxi, buildings, and person at night."}
+{"question": "what is on the chair?", "answer": "A crush", "pred": "There is a chair with handle and metal bar."}
+{"question": "what's beside the mirror", "answer": "A skull.", "pred": "Mirror and few objects visible in final frame."}
+{"question": "what is the man doing?", "answer": "Lying on the ground.", "pred": "Man lies on floor at frame 3125."}
+{"question": "Where is it?", "answer": "In a room.", "pred": "Man standing at frame 4025 in video."}
+{"question": "what's on the table?", "answer": "Two bottles and two drugs.", "pred": "Items on table, man holding pills and water."}
+{"question": "where is it?", "answer": "In a room.", "pred": "Dimly lit room, with furniture and people standing."}
+{"question": "Is the man wearing a glass?", "answer": "Yes.", "pred": "Man wears glasses in frame 6375."}
+{"question": "what's behind the men?", "answer": "A clock.", "pred": "Man looks at mirror, other man looks over shoulder."}
+{"question": "what's the man taking?", "answer": "A drug.", "pred": "Man at frame 8100 takes medicinal essential oil bottle."}
+{"question": "how many people are there?", "answer": "one.", "pred": "One or two people at frame 9625."}
+{"question": "How many people are there?", "answer": "One.", "pred": "One person at frame 9500."}
+{"question": "How many people are there?", "answer": "Two.", "pred": "Two men in foreground, one with hat and jacket."}
+{"question": "Where are they", "answer": "In a room.", "pred": "No video or frame details available."}
+{"question": "What is the clothes color of the person?", "answer": "Black and white.", "pred": "White clothes seen at frame 25."}
+{"question": "What is the background color?", "answer": "Red.", "pred": "Black background seen at frame 750."}
+{"question": "How many people  appeared?", "answer": "Two.", "pred": "One person standing and facing camera in frame 1500."}
+{"question": "Is it day or night?", "answer": "Night.", "pred": "Scene appears to be at night based on visual cues."}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "No vehicles in frame 3000."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Frame 3750: dark blue background."}
+{"question": "Is it day or night?", "answer": "Night.", "pred": "Night scene with car and building at frame 4500."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Multiple people in black shirts, including man with long black hair."}
+{"question": "Where is it?", "answer": "In a plane.", "pred": "Number 6000 appears in various frames, possibly airplane or hallway."}
+{"question": "How many people  appeared?", "answer": "Two.", "pred": "Three people captured in frame 6750 of video."}
+{"question": "What are the people doing?", "answer": "Talking.", "pred": "Two people in dark room, man serious, woman looking floor."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Frame 8250 background color is gray."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "No visible plants at frame 9000."}
+{"question": "How many people  appeared?", "answer": "Three.", "pred": "3 people, 1 man in black coat in final frame."}
+{"question": "Does the person look happy?", "answer": "Yes.", "pred": "Unclear expression, emotions complex, image not accurate."}
+{"question": "Where is it?", "answer": "In a room.", "pred": "Two people in front of bathroom, sink with dirty water."}
+{"question": "How does the person feel?", "answer": "Serious.", "pred": "Person looking down with serious expression in dark background."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Grey background at frame 1500."}
+{"question": "Is it day or night?", "answer": "Night.", "pred": "Unclear if day or night at frame 2250."}
+{"question": "What is the scene?", "answer": "Words.", "pred": "Rainy day scene with person in car."}
+{"question": "What are the people doing?", "answer": "Talking.", "pred": "Man with blue tie holding book in bookcase room."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "It appears to be daytime."}
+{"question": "Where is it?", "answer": "In a dinning room.", "pred": "Person sitting at decorated dining room table with food."}
+{"question": "What is the scene?", "answer": "A maid.", "pred": "Female mannequin with long hair and black bow."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Indoor setting with woman in black and white apron."}
+{"question": "Are there any animals?", "answer": "No.", "pred": "No animals in frame 8250."}
+{"question": "Is it indoor or outdoor?", "answer": "Outdoor.", "pred": "Indoor sign on building in video."}
+{"question": "What is the clothes color of the person?", "answer": "Red.", "pred": "Person in brown coat wearing brown clothes at frame 9750."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "No plants seen in frame 10500."}
+{"question": " Where is him? ", "answer": " In a room.  ", "pred": "Woman standing by wall in cozy bedroom."}
+{"question": " What's the color of the man'c cloth? ", "answer": " Black. ", "pred": "Man's coat color: black."}
+{"question": "What are the two men doing?  ", "answer": " Fighting.  ", "pred": "Description of two men on sidewalk with building and tree."}
+{"question": " Where is the man?  ", "answer": " In front of a door.  ", "pred": "Man kneeling on floor in room with bed and coat."}
+{"question": "   What's the color of the men's cloth?  ", "answer": " Black.   ", "pred": "No color detection capability for men clothing video."}
+{"question": " Where are they?   ", "answer": " In a museum.   ", "pred": "Yes, at frame 5250."}
+{"question": "  What's the time?  ", "answer": " At night.   ", "pred": "Time in video not mentioned in text."}
+{"question": " Where are they?   ", "answer": "Under a bridge.    ", "pred": "People walking in graffiti-covered stairs in dark atmosphere."}
+{"question": "  What does the man find on the ground?  ", "answer": "  A yellow bottle.  ", "pred": "Objects on ground include bag, computer, phone, and book."}
+{"question": "  Where's the man?  ", "answer": " Near a railway.   ", "pred": "Man near buildings, trains on tracks, field with trees."}
+{"question": "  What's the time?  ", "answer": "At night.    ", "pred": "Unclear due to unspecified time in video."}
+{"question": " How many people are there?   ", "answer": " Two.   ", "pred": "Two people seen in video at frame 9750."}
+{"question": "  How many people are there?   ", "answer": "  Two. ", "pred": "1 person missing, 2 people on tracks."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Can't tell, no visible context or expression."}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "Motorcycle with black headlight on left side of table."}
+{"question": "What is the scene?", "answer": "A shining object.", "pred": "Artistic metal box with engraved scenes and patterns."}
+{"question": "What is the scene?", "answer": "A map.", "pred": "Futuristic planet map with detailed 3D art."}
+{"question": "What is the scene?", "answer": "a grassland.", "pred": "Foggy field with rocks, buildings, and no activity."}
+{"question": "What is the person doing?", "answer": "Riding a horse.", "pred": "Man on horseback rides through green landscape."}
+{"question": "What is in the person's hand?", "answer": "A bow.", "pred": "Person holding tray with food in forge at frame 4500."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Daytime due to sunlight on the scene."}
+{"question": "How many people appeared?", "answer": "Three.", "pred": "Two people appear at frame 6750."}
+{"question": "What is the scene?", "answer": "A woman.", "pred": "Man with bow in grass, others nearby with bows."}
+{"question": "Where is it?", "answer": "On a grassland.", "pred": "Man in black in varied landscapes with characters."}
+{"question": "How does the person feel?", "answer": "Serious.", "pred": "Person feels calm and at peace."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Daytime scene with winter lighting conditions."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Black dress at frame 10500."}
+{"question": "what's the man doing?", "answer": "He is walking with a crush.", "pred": "Man walks on London sidewalk with cane and bag."}
+{"question": "the two people go to a new place, where do they go", "answer": "They go to a restaurant.", "pred": "Two men having fancy lunch in luxurious restaurant."}
+{"question": "what is the man doing?", "answer": "He is hitting something.", "pred": "Man in video wearing doctor's coat."}
+{"question": "what may be the job of the woman?", "answer": "She might be a doctor.", "pred": "Cannot determine job of woman in frame 2250."}
+{"question": "what's the two people doing?", "answer": "They are talking with each other.", "pred": "White office room with people and furniture."}
+{"question": "what's the man doing?", "answer": "He's typing an email on the computer.", "pred": "People standing around, unclear activity or purpose."}
+{"question": "what happens?", "answer": "Two people who looks like guests visit the man in black coat, and the woman bring he a cup of coffee.", "pred": "Group of people working in white room with computers."}
+{"question": "what are the men doing?", "answer": "One of them are looking at the computer but talking with other people, at last, he takes on his coat.", "pred": "Man in brown jacket, standing in dimly lit room."}
+{"question": "what are the two men doing?", "answer": "One of them are ready to leave, while another man call him back with a surprising expression.", "pred": "Two men in hospital discussing patient condition."}
+{"question": "what are the two men doing?", "answer": "They are talking with each other, and a doctor is watching beside them. And finally one of them leave.", "pred": "Men observe a mysterious scene through a glass wall."}
+{"question": " what happens?", "answer": "A man is walking on the street and looking around, while a car stops by him and another man greet him.", "pred": "Food truck moved inside restaurant with covered window."}
+{"question": "what happens?", "answer": "Two men are talking in front a door, while a woman open the door, give them a hug and lead them into the house.", "pred": "Man in black coat outside building, then in hallway and by clock."}
+{"question": "what do the man take from the chair?", "answer": "He takes up a piece of newspaper and throw it away.", "pred": "Man taking something from chair pocket is unclear."}
+{"question": "who walk into the room?", "answer": "A woman wearing a black sweater.", "pred": "Man walks into room, others present. Video setting described."}
+{"question": "how many chairs are there in the room?", "answer": "There're two chairs in the room.", "pred": "Four chairs in room at frame 10500."}
+{"question": "Does the person look happy?", "answer": "Yes.", "pred": "Yes, the woman is happy in a cozy scene."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Daytime scene with characters in forest clearing."}
+{"question": "Are there any plants?", "answer": "Yes.", "pred": "Yes, two plants visible, one on left, one on right."}
+{"question": "What is the scene?", "answer": "A boy.", "pred": "Man with paper walks in woods with people camped."}
+{"question": "Is it indoor or outdoor?", "answer": "Outdoor.", "pred": "Indoor setting with concrete wall background at frame 3000."}
+{"question": "How many people appears?", "answer": "Three.", "pred": "2 people at frame 3750."}
+{"question": "Does the person look happy?", "answer": "Yes.", "pred": "Yes, person looks happy."}
+{"question": "Are there any plants?", "answer": "Yes.", "pred": "No plants at frame 5250."}
+{"question": "What is in the person's hand?", "answer": "A cup.", "pred": "Man holds full cup of tea."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Video shows daytime setting, people resting in park."}
+{"question": "How is the weather?", "answer": "Snowy.", "pred": "Weather at frame 7500 is sunny."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Black pants and shoes."}
+{"question": "How many people appears?", "answer": "Two.", "pred": "20 people at frame 9000."}
+{"question": "Is it indoor or outdoor?", "answer": "Outdoor.", "pred": "Frame 9750 is indoors based on lighting and structure."}
+{"question": "How does the person feel?", "answer": "Serious.", "pred": "Celebratory scene with people laughing and smiling."}
+{"question": "Does the person look happy?", "answer": "Yes.", "pred": "Person in black suit at frame 25 is happy."}
+{"question": "How many people  appeared?", "answer": "Three.", "pred": "Three people at frame 750."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Black dress shirt at frame 1500."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Black dress seen at frame 2250."}
+{"question": "How many people  appeared?", "answer": "Three.", "pred": "Four people identified at frame 3000."}
+{"question": "Is it day or night?", "answer": "Night.", "pred": "Time not specified at frame 3750."}
+{"question": "Are there any animals?", "answer": "No.", "pred": "Yes, animal at frame 4500 with curious cat."}
+{"question": "What are the people doing?", "answer": "Talking.", "pred": "Couple near fireplace, with people nearby and artwork on walls."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "No plants at frame 6000."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Black dress, white collar and cuffs at frame 6750."}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "Car visible, black sedan parked near man."}
+{"question": "How the person feel?", "answer": "Desperate.", "pred": "Nervous woman expresses concern and anxiety in frame 8250."}
+{"question": "What's the weather?", "answer": "Rainy.", "pred": "Cloudy with rain, debris, puddles; British Library sign visible."}
+{"question": "Where is it?", "answer": "In a cafe.", "pred": "No frame 9750 in video. Man's face shown."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Night-time setting is clear from video lighting and details."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Grey background at frame 25."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Indoor school with pool in the corner."}
+{"question": "What are the people doing?", "answer": "Talking.", "pred": "Man in black coat walks to car with two women."}
+{"question": "Is it day or night?", "answer": "Night.", "pred": "Daytime at frame 2250."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Dark gray background at frame 3000."}
+{"question": "Where is it?", "answer": "In a war.", "pred": "Explosion with fire, rock, metal structure in dark sky."}
+{"question": "Where is it?", "answer": "On the street.", "pred": "Frames 4500 not available in video or audio."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Person at frame 5250 wears black hat and jacket."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Dark, deep brown at frame 6000."}
+{"question": "How many people appears?", "answer": "Three.", "pred": "1 person in suit at frame 6750."}
+{"question": "What is the person doing?", "answer": "Putting on his coat.", "pred": "Person in room, looking at camera."}
+{"question": "What is in the person's hand?", "answer": "Newspapers.", "pred": "Identifying person's hand is challenging due to multiple objects."}
+{"question": "What is the scene?", "answer": "A carriage.", "pred": "Crowded street with historic buildings, busy atmosphere."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Night visible at frame 10500."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Provide more information about the frame location."}
+{"question": "Where is it?", "answer": "Near a river.", "pred": "Paris, France cityscape with running water and people walking."}
+{"question": "How many people appeared?", "answer": "Two.", "pred": "6 people present at frame 1500."}
+{"question": "What are the people doing?", "answer": "Talking.", "pred": "Person with tired dog gets support from friend."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Person looking at camera, unclear expression."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Person in video wears black clothes at frame 3750."}
+{"question": "How many people appeared?", "answer": "One.", "pred": "Unclear due to blurriness, multiple individuals visible."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Daytime at frame 5250, woman's face sunny, buildings not shadowed."}
+{"question": "How many people appeared?", "answer": "Two.", "pred": "2 people in the picture."}
+{"question": "Are there any plants?", "answer": "Yes.", "pred": "No plants visible in frame 6750."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "In frame 7500, person wears black suit, white shirt, black shoes."}
+{"question": "How the person feel?", "answer": "Confused.", "pred": "Man in grey suit looks at woman in cityscape."}
+{"question": "Are there any plants?", "answer": "Yes.", "pred": "No plants at frame 9000."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Man wearing a leather jacket sits in a serious manner."}
+{"question": "What are the people doing?", "answer": "Making a phone call.", "pred": "Man and woman talking in city street."}
+{"question": "How many people  appeared?", "answer": "Two.", "pred": "Number of people cannot be determined."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Man in black shirt not present at frame 750."}
+{"question": "What is the person doing?", "answer": "Playing a violin.", "pred": "Woman standing in Christmas living room with colorful decorations."}
+{"question": "Where is it?", "answer": "In a room.", "pred": "Laptop on desk shows news about shooting in Dallas."}
+{"question": "What is the person doing?", "answer": "Playing a violin.", "pred": "Man playing violin in cluttered room near window"}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Scene at frame 3750 is daytime."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Construction video showing outdoor scene with blue sky."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "No plants at frame 6000 in video."}
+{"question": "How many people  appeared?", "answer": "Two.", "pred": "Number of people in frame 6750 cannot be determined."}
+{"question": "What is the background color?", "answer": "White.", "pred": "Background turns black at 7500th frame."}
+{"question": "What is the person doing?", "answer": "Using her cellphone.", "pred": "Talking on phone at frame 8250."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Person sad at frame 9000."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Dark night at frame 9750."}
+{"question": "Where is it?", "answer": "In front of a door.", "pred": "Black door at frame 10500 in the video."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Daytime inferred at frame 25 due to bright sky."}
+{"question": "Where is it?", "answer": "In a house.", "pred": "Young man ponders important problem in dark hallway."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "Plant at frame 1500, small white and brown."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Cannot determine happiness from frame 2250."}
+{"question": "What's the weather?", "answer": "Sunny.", "pred": "Man near window with lights on, not raining."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Black coat seen at frame 3750."}
+{"question": "Where is it?", "answer": "On the street.", "pred": "Unable to locate video location at frame 4500."}
+{"question": "How many people  appeared?", "answer": "Four.", "pred": "3 people seen at frame 5250."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Dimly lit room with black-suited character and cluttered furniture."}
+{"question": "Where is it?", "answer": "In a room.", "pred": "Scene changes, students eat, man talks to teacher."}
+{"question": "How many people  appeared?", "answer": "Two.", "pred": "Four or more people in the video."}
+{"question": "What is the person doing?", "answer": "Playing a violin.", "pred": "Person standing near piano with others in room."}
+{"question": "Where is it?", "answer": "In a lab.", "pred": "Young woman in lab coat with different expressions and backgrounds."}
+{"question": "Where is it?", "answer": "In a palace.", "pred": "Man in suit in room with furniture and window."}
+{"question": "Where is it?", "answer": "In a car.", "pred": "Man in car with others looking out window."}
+{"question": "What is the clothes color of the person?", "answer": "Green.", "pred": "Person wearing black coat at frame 1500."}
+{"question": "What is the person doing?", "answer": "Making up herself.", "pred": "Person painting eyebrows at frame 2250."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Daytime scene with street, cars, man, and red door."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Daylight visible through background windows."}
+{"question": "How many people  appeared?", "answer": "Three.", "pred": "Man and woman seen at frame 4500."}
+{"question": "How many people  appeared?", "answer": "Two.", "pred": "Three people in the picture at frame 5250."}
+{"question": "What is the background color?", "answer": "White.", "pred": "Silver background at frame 6000, contrasting gold wall and lights."}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "Red truck seen at frame 6750."}
+{"question": "Where is it?", "answer": "In a room.", "pred": "Multiple people in living room, person on couch possible."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "Yes, white flower visible behind Sherlock Holmes."}
+{"question": "How many people  appeared?", "answer": "Three.", "pred": "1 person sitting on chair at frame 9000."}
+{"question": "What are the people doing?", "answer": "Talking.", "pred": "Man in suit in ornate wallpaper room, frame 9750."}
+{"question": "Where is it?", "answer": "In the field.", "pred": "Group of people standing in a field with trees and a lake."}
+{"question": "What is the person doing?", "answer": "Looking at a pair of shoes.", "pred": "Man looking at device in room at frame 25."}
+{"question": "How many people  appeared?", "answer": "Two.", "pred": "Four people in frame 750."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Person in first image wearing black suit."}
+{"question": "Is it day or night?", "answer": "Day,", "pred": "No day/night information at frame 3000."}
+{"question": "What's in the man's hand?", "answer": "A pink cellphone.", "pred": "Man holding dark black bottle of water."}
+{"question": "What is the clothes color of the person?", "answer": "Red.", "pred": "Red shirt at frame 4500."}
+{"question": "Where is it?", "answer": "In a room.", "pred": "Man in suit near vintage radio and wooden desk."}
+{"question": "What is the clothes color of the person?", "answer": "Grey.", "pred": "Person at frame 6000 wears grey suit with black tie."}
+{"question": "How many people  appeared?", "answer": "Two.", "pred": "5 people in the image."}
+{"question": "What is the person doing?", "answer": "Doing an experiment.", "pred": "Sit', 'pred': 'In frame 7500 of the video, the person is shown sitting down with his back facing the camera. He is wearing a red tie and appears to be listening to something. It is not clear what the person is doing in this frame."}
+{"question": "Is it day or night?", "answer": "Night.", "pred": "Scene is likely daytime, man is walking."}
+{"question": "How the person feel?", "answer": "Scared.", "pred": "Person feels unsure and hesitant due to mirror reflection."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Daytime with no notable differences in lighting."}
+{"question": "What's in the man's hand?", "answer": "A pink cellphone.", "pred": "Man's hand holding white plastic cup."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Person is smiling and laughing."}
+{"question": "What are the peeple doing?", "answer": "Looking at a map.", "pred": "Person holding gun, unclear if real."}
+{"question": "How the person feel?", "answer": "Afraid.", "pred": "Person appears distraught with intense emotions and shaky movements."}
+{"question": "How the person feel?", "answer": "Afraid.", "pred": "Person's emotion in the image is unclear."}
+{"question": "How many people  appeared?", "answer": "4", "pred": "One bound woman observed at frame 3750."}
+{"question": "Is it day or night?", "answer": "Night", "pred": "Nightime scene in underground tunnel with flames."}
+{"question": "What is the person doing?", "answer": "Fighting.", "pred": "Person in dark alley, man nearby, looking concerned."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Dark blue background color at frame 6000."}
+{"question": "What is happening?", "answer": "A man is shot by an arrow.", "pred": "Dark room, man in black cloak, red shirt."}
+{"question": "How many people  appeared?", "answer": "3", "pred": "One person seen at frame 7500."}
+{"question": "Where is the scene?", "answer": "On the street", "pred": "Man in suit watches police cars in dark alley."}
+{"question": "Where is the scene?", "answer": "In a  building.", "pred": "Man working at a computer in an office at night."}
+{"question": "How many people  appeared?", "answer": "2", "pred": "One man wearing a coat appears at frame 10500."}
+{"question": "What is the clothes color of the person?", "answer": "Black", "pred": "Person wears black jacket, shirt, and black/white tie at frame 25."}
+{"question": "How many people  appeared?", "answer": "2", "pred": "Four people were in frame 750."}
+{"question": "What is the person doing?", "answer": "Searching from a box of books.", "pred": "Person walking through crowded room with papers and folders."}
+{"question": "What is the person doing?", "answer": "Reading a book.", "pred": "Person flips through green paper with text."}
+{"question": "Where is it?", "answer": "In a room", "pred": "Holding book open at 3000th frame."}
+{"question": "What is the background color?", "answer": "Light color", "pred": "Background frame color: cream/tan; woman in tan sweater."}
+{"question": "What is the person doing?", "answer": "Sleeping.", "pred": "Person in bathroom enjoying shower."}
+{"question": "How many people  appeared?", "answer": "2", "pred": "Two individuals in white clothing talking in a room."}
+{"question": "Where is it?", "answer": "In a room filled with books.", "pred": "Man sitting at table with books, wearing black shirt"}
+{"question": "How many people  appeared?", "answer": "2", "pred": "Number of people not provided in frame 6750."}
+{"question": "Is it day or night?", "answer": "Night", "pred": "Evening scene with dim streetlights and dark sky."}
+{"question": "How many people  appeared?", "answer": "4", "pred": "5 people seen at frame 8250 in video."}
+{"question": "What is the clothes color of the person?", "answer": "Black", "pred": "Black coat, blue scarf at frame 9000."}
+{"question": "Where is it?", "answer": "In a circus troup\n", "pred": "Three people having important conversation in cozy room."}
+{"question": "What is in the person's hand?", "answer": "A cellphone.", "pred": "Man and woman standing near building in frame 25."}
+{"question": "Where is it?", "answer": "Paris.", "pred": "No frame 750 information, Paris-based text with no specifics."}
+{"question": "Are there any vehicles?", "answer": "Yes.", "pred": "No vehicles in frame 1500."}
+{"question": "How the person feel?", "answer": "Serious.", "pred": "No clear emotions, man walking in the city."}
+{"question": "Are there any plants?", "answer": "Yes.", "pred": "Yes, trees and leaves in the video."}
+{"question": "Where is it?", "answer": "On the street.", "pred": "Police vehicles passing by a building in urban area."}
+{"question": "Are there any vehicles?", "answer": "Yes.", "pred": "Yes, multiple vehicles are present."}
+{"question": "Are there any animals?", "answer": "No.", "pred": "Yes, small dog on passenger side at frame 6750."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "White shirt at frame 7500."}
+{"question": "What is the person doing?", "answer": "Driving a truck.", "pred": "Man standing next to white truck on street."}
+{"question": "Where is it?", "answer": "On the street.", "pred": "Man silhouette in dirty window with water splashes, industrial background."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "It is nighttime with dim lighting and a hooded person."}
+{"question": "Is it indoor or outdoor?", "answer": "Outdoor.", "pred": "Man standing on bridge looks at man on motorcycle."}
+{"question": "How many people  appeared?", "answer": "3", "pred": "25th frame: 5 people; young woman, young man, others."}
+{"question": "Are there any animals?", "answer": "No", "pred": "Cannot determine animals at frame 750, no video access."}
+{"question": "Does the person look happy?", "answer": "No", "pred": "Uncertain if person is happy in video."}
+{"question": "Is it day or night?", "answer": "Night", "pred": "Indoors at nighttime with drawn curtains and streetlight."}
+{"question": "How the person feel?", "answer": "Afraid", "pred": "Woman appears worried and uncomfortable while using laptop."}
+{"question": "How many people  appeared?", "answer": "2", "pred": "2 people visible in dark room at frame 3750."}
+{"question": "What is the person doing?", "answer": "Searching for something", "pred": "Man in black searches in dark religious room."}
+{"question": "Where is it?", "answer": "In an office", "pred": "Man with dark hair in serious expression."}
+{"question": "How many people  appeared?", "answer": "2", "pred": "Group of people looking at menus in a restaurant."}
+{"question": "Are there any vehicles?", "answer": "No", "pred": "Black car visible in frame 6750."}
+{"question": "How many people  appeared?", "answer": "3", "pred": "4 people, 2 doctors, 2 female police officers."}
+{"question": "Where is the scene?", "answer": "In a room", "pred": "Hallway, young man in black shirt in front of door."}
+{"question": "Is it day or night?", "answer": "Night", "pred": "Fire in fireplace creates night scene with shadows."}
+{"question": "What is the person doing?", "answer": "Using a computer", "pred": "Person holding black object in dark room with bookshelf."}
+{"question": "Where is it?", "answer": "In a room", "pred": "White paper calendar with blue border and some text."}
+{"question": "Where is it?", "answer": "In a room.", "pred": "Man in black sitting in office with screen."}
+{"question": "How many people  appeared?", "answer": "Three.", "pred": "One person seen at frame 750."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Woman in office with upset expression, man present."}
+{"question": "What is the background color?", "answer": "White.", "pred": "Frame 2250 is light grey or white."}
+{"question": "Does the person look happy?", "answer": "Yes.", "pred": "Focused and confident person at frame 3000."}
+{"question": "What is the clothes color of the person?", "answer": "Yellow.", "pred": "Black clothes at frame 3750."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Day at frame 4500."}
+{"question": "Are there any plants?", "answer": "Yes.", "pred": "Yes, there is a plant at frame 5250."}
+{"question": "What are the people doing?", "answer": "Walking upstairs.", "pred": "People leaving house; men, suitcases, car, colorful doors."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Person at frame 6750 wears black coat."}
+{"question": "What's in the man's hands?", "answer": "A bicycle.", "pred": "Object resembling a small purse observed at frame 7500."}
+{"question": "What is the clothes color of the person?", "answer": "Red.", "pred": "Person at frame 8250 wears grey clothes."}
+{"question": "Where is it?", "answer": "In a bar.", "pred": "No 9000th frame in video."}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "Red truck parked on left side at frame 9750."}
+{"question": "Where is it?", "answer": "In a room.", "pred": "Video location cannot be determined at frame 10500."}
+{"question": "Is it indoor or outdoor?", "answer": "Outdoor.", "pred": "Outdoor video with tree branches, buildings."}
+{"question": "Are there any vehicles?", "answer": "yes.", "pred": "White truck parked. Officers climbing stairs."}
+{"question": "What are the people doing?", "answer": "Driving a motor boat.", "pred": "Boat ride with people enjoying the clear beautiful day."}
+{"question": "What is the person doing?", "answer": "Driving a motor bike.", "pred": "Person on motorcycle riding through a tunnel."}
+{"question": "Where is it?", "answer": "On the street.", "pred": "Location of frame 3750 is impossible to determine."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Daytime scene with blue sky."}
+{"question": "What is happening?", "answer": "A man is hit by a car.", "pred": "Man with dagger in busy city street view."}
+{"question": "Where is the scene?", "answer": "A group of policeman.", "pred": "Man with straw hat in underground cave scene."}
+{"question": "Where is it?", "answer": "On a river.", "pred": "Boat moves in water, light on bottom of tunnel."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Indoor space at frame 7500 with closed door to garage."}
+{"question": "Where is the scene?", "answer": "A policewoman.", "pred": "Man in black interacts with car in garage."}
+{"question": "What is in the person's hand?", "answer": "A gun.", "pred": "Black cell phone seen at frame 9000."}
+{"question": "What is happening?", "answer": "The policewoman is shot.", "pred": "Man with hat holds something, dog in car, door."}
+{"question": "How many people appeared?", "answer": "Seven", "pred": "4 people walking near the city street."}
+{"question": "Where is it?", "answer": "In an explendid palace.", "pred": "Empty hallway with white walls, red carpet, chandelier."}
+{"question": "How many people  appeared?", "answer": "Two.", "pred": "Two people in formal attire walking towards grand chandelier."}
+{"question": "How the person feel?", "answer": "Funny.", "pred": "Happy person with friends in cozy setting."}
+{"question": "How many people  appeared?", "answer": "Three.", "pred": "Two people seen in frame 2250 of video."}
+{"question": "Where is it?", "answer": "In a palace.", "pred": "Men talking in fancy house with ornate furniture."}
+{"question": "What is the background color?", "answer": "White.", "pred": "Background color is light yellow at frame 3750."}
+{"question": "How many people  appeared?", "answer": "Four.", "pred": "Cannot determine exact number of people at frame 4500."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Yes, it is nighttime at frame 5250."}
+{"question": "Where is it?", "answer": "In a car.", "pred": "Last frame shows woman in car."}
+{"question": "What is the clothes color of the person?", "answer": "White.", "pred": "White dress at frame 6750."}
+{"question": "What is the person doing?", "answer": "Looking at pictures.", "pred": "Person sitting on couch with mobile phone, man with beard."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Time cannot be determined at frame 8250."}
+{"question": "What's in the man's hands?", "answer": "A cup.", "pred": "Man wearing black suit, tie, shoes, watch, golden ring."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Person at frame 9750 wears black clothes."}
+{"question": "Are there any animals?", "answer": "No.", "pred": "Bird spotted in frame 10500, bottom left corner."}
+{"question": "what happens?", "answer": "A new visitor get into the room.", "pred": "Man in black suit looks concerned in hotel hallway."}
+{"question": "what may be the tall man's emotion?", "answer": "He is excited.", "pred": "Tall man standing and interacting with others."}
+{"question": "what is the man on the chair doing?", "answer": "He is watching a newspaper.", "pred": "Man reading newspaper about deadly train and tube accidents."}
+{"question": "who goes back and what he does?", "answer": "The tall man goes back and talks with the man on the chair..", "pred": "Man standing by window, lost in thought."}
+{"question": "who leaves the house?", "answer": "Two men leaves the house.", "pred": "Frame 3750 not present, unclear who leaves house."}
+{"question": "where might be the men?", "answer": "They may be on a driving car.", "pred": "Man driving car in dark city environment."}
+{"question": "what happens?", "answer": "The two men are talking on a car.", "pred": "Man holds phone and touches screen, unclear what other person does."}
+{"question": "what does this part of video shows?", "answer": "The men are memorizing something happens before.", "pred": "Man driving black car in city with lights."}
+{"question": "what are the men holding in his hands?", "answer": "He is holding a cellphone..", "pred": "Man on left holding smartphone in frame 6750."}
+{"question": "what's on the surface of the cellphone?", "answer": "It's some words carved on it.", "pred": "Man's jacket visible on cellphone surface."}
+{"question": "what's in the man in jacket's hand?", "answer": "It's a crush and a cellphone.", "pred": "Man in jacket holds smartphone at frame 8250."}
+{"question": "what is the man observing?", "answer": "The bottom of the cellphone.", "pred": "Man driving car at night in city."}
+{"question": "what happens?", "answer": "The two men get off the car.", "pred": "Man in black walks towards camera in city at night."}
+{"question": "who's talking to the men?", "answer": "A woman wearing a shiny yellow cloth.", "pred": "Woman in blue sweater talks to police officer at frame 10500."}
+{"question": "where do the conversation happens?", "answer": "Near the entrance of a large building.", "pred": "Friendly conversation among acquaintances or friends outside."}
+{"question": "Where is it?", "answer": "In the field.", "pred": "Woman reflects on significant moment in tranquil surroundings."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "White room with half-closed blinds and mirror on wall."}
+{"question": "Where is it?", "answer": "In a room.", "pred": "Location cannot be determined at frame 1500."}
+{"question": "What is happening?", "answer": "A group of men goes into the room.", "pred": "Man stands with gun in front of door."}
+{"question": "What's in the man's hands?", "answer": "Guns.", "pred": "Man holding gun at frame 3000."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Focused men in conversation, not showing strong emotions."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Men interact in high-end living space with guns."}
+{"question": "What are the people doing?", "answer": "Fighting.", "pred": "Person looks at painting in room with black jacket."}
+{"question": "Where is it?", "answer": "In a room.", "pred": "White couch, people looking at phone, clock, fireplace, door."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Sunlight streaming in windows in day time frames."}
+{"question": "Are there any animals?", "answer": "No.", "pred": "Woman in coat with collar and red badge."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Scene appears to be taking place at night."}
+{"question": "How many people  appeared?", "answer": "Three.", "pred": "Young man on floor, no other people."}
+{"question": "Are there any vehicles?", "answer": "Yes.", "pred": "No vehicles at frame 9750."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Daytime scene with clear water in river."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Daylight with bright lighting and shining sun."}
+{"question": "Are there any vehicles?", "answer": "Yes.", "pred": "There is a helicopter."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Black coat, gray scarf at frame 2250."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Indoor video, frame 3750."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Cannot determine happiness from image at frame 4500."}
+{"question": "What is the background color?", "answer": "White and blue.", "pred": "Snowy mountain landscape with light gray background."}
+{"question": "How many people appeared?", "answer": "Two.", "pred": "Man standing alone at dark building entrance, no one else."}
+{"question": "How many people appeared?", "answer": "Two.", "pred": "Man and woman appeared at frame 6750."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Flight frame indoors."}
+{"question": "How many people appeared?", "answer": "Three.", "pred": "1 person in video at frame 8250."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Black and dark brown clothes at frame 9000."}
+{"question": "Where is the scene?", "answer": "A device.", "pred": "Man happily flies helicopter in mountainous terrain."}
+{"question": "Are there any vehicles?", "answer": "Yes.", "pred": "Yes, helicopter visible in frame 10500."}
+{"question": "What is the background color?", "answer": "Grey.", "pred": "Pale orange or yellow background at frame 25."}
+{"question": "What is the person doing?", "answer": "Trying to find something.", "pred": "Person using headphones, laptop, and laptop bag in dark room."}
+{"question": "How many people appeared?", "answer": "Two.", "pred": "Two people in image at frame 1500."}
+{"question": "How the person feel?", "answer": "Angry.", "pred": "Person appears thoughtful, considering something important."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "Leafy plant in bottom right corner of frame 3000."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Daytime at frame 3750, based on lighting and clothing."}
+{"question": "How many people appeared?", "answer": "Three.", "pred": "Man in black suit walking in tunnel at frame 4500."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Indoor setting with man holding gun in dimly lit area."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Man wears black shirt in frame 6000."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "No, he looks angry and frustrated."}
+{"question": "Is it indoor or outdoor?", "answer": "A cellphone.", "pred": "Unclear indoor/outdoor, likely indoor due to streetlights & atmosphere."}
+{"question": "Is it indoor or outdoor?", "answer": "A gun.", "pred": "Indoor location with man and metal grate."}
+{"question": "What are the people doing?", "answer": "Fighting.", "pred": "Three people conversing in dimly lit, concrete background."}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "Car parked outside dark stone building with headlights on."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Dark brown jacket at frame 10500."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Person in frame 25 wearing black leather jacket, red scarf."}
+{"question": "Are there any animals?", "answer": "Yes.", "pred": "There is a horse."}
+{"question": "How many people appeared?", "answer": "Two.", "pred": "One person at frame 1500."}
+{"question": "How many people appeared?", "answer": "Three.", "pred": "Four people behind dead deer at frame 2250."}
+{"question": "Where is it?", "answer": "In a forest.", "pred": "Group of people kneeling in snowy trees with dead animal."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Unhappy person in brown fur coat and leather jacket."}
+{"question": "Are there any animals?", "answer": "Yes.", "pred": "No animals in frame 4500, only people in forest."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Person wears black in frame 5250."}
+{"question": "Are there any plants?", "answer": "Yes.", "pred": "No plants visible at frame 6000."}
+{"question": "Where is it?", "answer": "In a hall.", "pred": "Top of room, staircase leads downstairs."}
+{"question": "How many people appeared?", "answer": "Two.", "pred": "No access to video for requested information."}
+{"question": "What is the clothes color of the person?", "answer": "Pink.", "pred": "Person's clothing color in frame 8250 is uncertain."}
+{"question": "How does the person feel?", "answer": "At ease.", "pred": "Serious and sad person in dimly lit room."}
+{"question": "Where is it?", "answer": "In a markert.", "pred": "Group of people with red fabric, dead bird, and fish."}
+{"question": "Where is it?", "answer": "Beside a lake.", "pred": "Man in fur jacket talks to woman and horses."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Frame 25, black background color."}
+{"question": "What is the scene?", "answer": "A robot.", "pred": "Red robot in grassy field at sunset."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Both man and woman need to stand up."}
+{"question": "What is happening?", "answer": "A man wakes up from a dream.", "pred": "Man lies on couch, woman walks in hallway."}
+{"question": "What's the weather?", "answer": "Rainy.", "pred": "Stormy weather at frame 3000."}
+{"question": "What's in the person's hand?", "answer": "A book.", "pred": "Camera or watch seen at frame 3750."}
+{"question": "What is the scene?", "answer": "A world map.", "pred": "Professional man in dimly lit room."}
+{"question": "What is the background color?", "answer": "White.", "pred": "Gray background at frame 5250."}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "Yes, white truck at frame 6001."}
+{"question": "How does the person feel?", "answer": "Serious.", "pred": "Person focused on monitor with serious expression."}
+{"question": "Where is it?", "answer": "In a smoky room.", "pred": "Frame 7500 missing in provided video."}
+{"question": "Is it day or night?", "answer": "Night.", "pred": "Night at frame 9000."}
+{"question": "Are there any vehicles?", "answer": "Yes.", "pred": "No vehicles, two men in black and white suits indoors."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "No plants at frame 10500."}
+{"question": " Where are they? ", "answer": " In a balcony.  ", "pred": "No woman behind curtains, just building outline."}
+{"question": "Where is him?  ", "answer": " In a house.  ", "pred": "Uncertain location, possibly in front of a mirror."}
+{"question": " How many people are there? ", "answer": " Four. ", "pred": "6 people, 2 sitting, 4 standing in room at frame 1500."}
+{"question": " What's the color of the man's cloth? ", "answer": "Black.  ", "pred": "Man's cloth is blue."}
+{"question": "What's the color of the man's cloth?  ", "answer": " Black.  ", "pred": "Black tie at frame 3000."}
+{"question": " What's the time?  ", "answer": " Daytime.  ", "pred": "12:42 PM."}
+{"question": " Where are they?   ", "answer": "  In a room.  ", "pred": "Preparing for work in a professional setting."}
+{"question": " Is there a mirror?   ", "answer": " Yes.   ", "pred": "Yes, mirror at frame 5250 shows man reflecting."}
+{"question": "  Where are they?  ", "answer": " In a restaurant.   ", "pred": "Sherlock Holmes dining with others in dimly lit restaurant."}
+{"question": " Where are they?   ", "answer": "  In a toilet  ", "pred": "Bathroom scene with two men."}
+{"question": " How many people are there?   ", "answer": " Two.   ", "pred": "No people in video mentioned."}
+{"question": " Is there a man?   ", "answer": "  Yes.  ", "pred": "A man in a coat in a living room."}
+{"question": "  How many people are there?  ", "answer": "  Two.  ", "pred": "26 humans in various outfits, framed at 9000 - woman, man looking at drawing in lab"}
+{"question": "  What's the man doing?  ", "answer": "  writing something.  ", "pred": "Man standing on sidewalk near store, looking at cell phone."}
+{"question": "  How many people are there?  ", "answer": " Two.  ", "pred": "No visible people, just objects like a man, books, milk, dog."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Day scene with visible sky and no nighttime activity."}
+{"question": "What's in the person's hand?", "answer": "A book.", "pred": "Frame 3750 shows a watch or wristband."}
+{"question": "What is the scene?", "answer": "A world map.", "pred": "Man in green room with computer, pizza, and art prints."}
+{"question": "What is the background color?", "answer": "White.", "pred": "Gray background at frame 5250."}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "Yes, white pickup truck visible at frame 6001."}
+{"question": "How does the person feel?", "answer": "Serious.", "pred": "Person deeply engaged in reading text on monitor."}
+{"question": "Where is it?", "answer": "In a smoky room.", "pred": "No frame 7500 in video, stops at frame 7498."}
+{"question": "How many people appeared?", "answer": "Two.", "pred": "Two people in frame 8250, one man and one woman."}
+{"question": "Is it day or night?", "answer": "Night.", "pred": "Night at frame 9000."}
+{"question": "Are there any vehicles?", "answer": "Yes.", "pred": "No vehicles. Men in black and white suits indoors."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "No plants at frame 10500."}
+{"question": " Where are they? ", "answer": " In a balcony.  ", "pred": "No woman, just curtains and building outline."}
+{"question": "Where is him?  ", "answer": " In a house.  ", "pred": "Uncertain, possible mirror at frame 750."}
+{"question": " How many people are there? ", "answer": " Four. ", "pred": "Six people in room, sitting and standing."}
+{"question": " What's the color of the man's cloth? ", "answer": "Black.  ", "pred": "Man's cloth is blue."}
+{"question": "What's the color of the man's cloth?  ", "answer": " Black.  ", "pred": "Black tie at frame 3000."}
+{"question": " What's the time?  ", "answer": " Daytime.  ", "pred": "12:42 PM."}
+{"question": " Where are they?   ", "answer": "  In a room.  ", "pred": "Young professionals in formal office setting getting ready for work."}
+{"question": " Is there a mirror?   ", "answer": " Yes.   ", "pred": "Yes, man in black jacket in mirror at frame 5250."}
+{"question": "  Where are they?  ", "answer": " In a restaurant.   ", "pred": "Sherlock Holmes and others are dining in a dim restaurant."}
+{"question": " Where are they?   ", "answer": "  In a toilet  ", "pred": "Bathroom scene, man in mirror, uncertain about others."}
+{"question": " How many people are there?   ", "answer": " Two.   ", "pred": "Not enough information about people in the video."}
+{"question": " Is there a man?   ", "answer": "  Yes.  ", "pred": "A man wearing a coat in a living room."}
+{"question": "  How many people are there?  ", "answer": "  Two.  ", "pred": "26 humans with different outfits, lab drawing observed at 9000"}
+{"question": "  What's the man doing?  ", "answer": "  writing something.  ", "pred": "Man on sidewalk near store entrance with cell phone."}
+{"question": "  How many people are there?  ", "answer": " Two.  ", "pred": "No people, only objects, in the video."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Day scene with visible sky outside window."}
+{"question": "What is in the person's hand?", "answer": "A gun.", "pred": "Person holds black handgun in firing position."}
+{"question": "Where is it?", "answer": "On the street.", "pred": "Person riding motorcycle in empty scene with orange lights."}
+{"question": "Where is it?", "answer": "In a car.", "pred": "Unclear location due to black car movement."}
+{"question": "What is the person doing?", "answer": "Driving a car.", "pred": "Driving car through busy city in frame 3750."}
+{"question": "Are there any vehicles?", "answer": "Yes.", "pred": "Motorcycle seen at frame 4500, slowly moving down street."}
+{"question": "What is the clothes color of the person?", "answer": "White.", "pred": "Person at frame 5250 wears black motorcycle gear."}
+{"question": "Is it indoor or outdoor?", "answer": "Outdoor.", "pred": "Likely outdoor scene with cityscape, street, and protective gear."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Frame 6750 has white background."}
+{"question": "Are there any animals?", "answer": "No.", "pred": "No animals, only clock on screen."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Person looks happy."}
+{"question": "How the person feel?", "answer": "Angry.", "pred": "Person at desk looks calm and focused working."}
+{"question": "What is the person doing?", "answer": "Saying something.", "pred": "The person looks serious and lost in thought."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Car with two men driving through city street."}
+{"question": " Where are they? ", "answer": "  In a museum. ", "pred": "Yes, standing together, looking at the ground."}
+{"question": " Where are they? ", "answer": "In a room.   ", "pred": "Man in dim room with various objects."}
+{"question": " Where are they? ", "answer": " On the street. ", "pred": "No clear identification of individuals or location."}
+{"question": "How many people are there?  ", "answer": " Two. ", "pred": "Three people at a computer with one person standing."}
+{"question": " What's the color of the man's cloth? ", "answer": " Black.  ", "pred": "Green cloth seen in frame 3000."}
+{"question": " What's the man doing?  ", "answer": " Searching something from a lot of paper.  ", "pred": "Man wearing jacket and tie reading a book."}
+{"question": " Where is it?   ", "answer": " On the street.   ", "pred": "Please provide more details to assist you."}
+{"question": "  Where is it?   ", "answer": " On the street.   ", "pred": "Yes, at frame 5250."}
+{"question": "  Where is it?    ", "answer": " In a shop.   ", "pred": "Person in video explores Japanese-style room with Chinese decorations."}
+{"question": "  How many people are there?  ", "answer": "  Three.  ", "pred": "People and objects in apartment complex interactions."}
+{"question": " Where are they?   ", "answer": "  On the street.  ", "pred": "Man wearing black talks, hands paper outside. Woman sells produce."}
+{"question": " What are they doing?   ", "answer": " Having a meal.   ", "pred": "Two men having dinner in a restaurant."}
+{"question": " Where are they?   ", "answer": "In a restaurant.    ", "pred": "Men dining in a busy restaurant in a small town."}
+{"question": "  What happens?  ", "answer": " They leave the restaurant.   ", "pred": "Man eating at table in city, with phone-talking man."}
+{"question": " What are they doing?   ", "answer": "Going upstairs.   ", "pred": "Sherlock Holmes actor standing in eerie alleyway with historical context."}
+{"question": "What is the person doing?", "answer": "Sitting on a sofa.", "pred": "Person stands on couch, looks at group in living room."}
+{"question": "What is the clothes color of the person?", "answer": "Purple.", "pred": "Man's clothes are dark purple at frame 750."}
+{"question": "How many people  appeared?", "answer": "Three.", "pred": "3 people at frame 1500."}
+{"question": "Where is it?", "answer": "In a room.", "pred": "Man uses laptop while woman watches from afar."}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "Yes, red Mercedes GLC seen parked outside house."}
+{"question": "Where is it?", "answer": "In a house.", "pred": "Two men in room, one on phone."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Unclear if day or night at frame 4500."}
+{"question": "What are the peeple doing?", "answer": "Taking photos.", "pred": "People outside building engaged in routine activity."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "People in different outfits, standing in different locations."}
+{"question": "Where is it?", "answer": "On the street.", "pred": "Error in provided text, please provide more context."}
+{"question": "Where is it?", "answer": "In an office.", "pred": "Identifying exact location of frame 7500 is not possible."}
+{"question": "How many people  appeared?", "answer": "Three,", "pred": "Three people in the video at frame 8250."}
+{"question": "What are the peeple doing?", "answer": "Taking a phone call.", "pred": "Person talking on phone, others in dimly lit room."}
+{"question": "Where is it?", "answer": "In a room.", "pred": "Man in navy suit works while others observe."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Person in knit sweater has light beige-colored shirt."}
+{"question": "Is it day or night?", "answer": "Night.", "pred": "Daytime scene with man working on laptop."}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "Car at frame 1500, left side, dark blue sedan."}
+{"question": "What is the person doing?", "answer": "Looking at a gift.", "pred": "Man standing in room with closed eyes and serious expression."}
+{"question": "What are the people doing?", "answer": "Using a cellphone.", "pred": "Man in black holds tray at party."}
+{"question": "Is it day or night?", "answer": "Night.", "pred": "Nighttime."}
+{"question": "Are there any animals?", "answer": "No.", "pred": "White cat at frame 4502."}
+{"question": "Where is it?", "answer": "In a hospital", "pred": "Zoom in on morgue interior with people and objects."}
+{"question": "How many people  appeared?", "answer": "Three.", "pred": "One person in all black at frame 6000."}
+{"question": "What's the weather?", "answer": "Snowy.", "pred": "Raining with grey skies and a blue sky in distance."}
+{"question": "What are the people doing?", "answer": "Smoking.", "pred": "Three people at hospital entrance, one on phone."}
+{"question": "What's the weather?", "answer": "Snowy.", "pred": "Man wearing blue coat and top hat in rain."}
+{"question": "What are the people doing?", "answer": "Making a phone call.", "pred": "Young man in red and blue sweater in dark warehouse."}
+{"question": "Where is it?", "answer": "In a room.", "pred": "Man and woman sitting in living room with furniture."}
+{"question": "What are the people doing?", "answer": "Talking.", "pred": "Couple standing together, woman looking at man holding phone."}
+{"question": "Are there any vehicles?", "answer": "Yes.", "pred": "No vehicle visible at frame 25."}
+{"question": "How many people  appeared?", "answer": "Three.", "pred": "Man in black coat and brown hat seen at frame 750."}
+{"question": "What is the person doing?", "answer": "Using a computer.", "pred": "Person walking on a roof towards the door."}
+{"question": "Is it day or night?", "answer": "Night", "pred": "Night at frame 2250 based on dark sky & streetlights."}
+{"question": "Where is it?", "answer": "In a restaurant.", "pred": "Busy restaurant scene with tables, people, and objects."}
+{"question": "What is the person doing?", "answer": "Waching TV.", "pred": "Watching TV."}
+{"question": "What are the peeple doing?", "answer": "Having a phone call.", "pred": "Receptionists and clients interact in office reception area."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Video lacks context, can't assess emotions."}
+{"question": "What is the background color?", "answer": "White.", "pred": "White background is observed at frame 6000."}
+{"question": "What are the peeple doing?", "answer": "Examining something.", "pred": "Description of people and their accessories at frame 6750."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Shirt color is blue."}
+{"question": "Does the person look happy?", "answer": "Not at all.", "pred": "Person in video appears focused and determined, but unclear emotions."}
+{"question": "Where is it?", "answer": "In a room.", "pred": "Objects on black board in final scene."}
+{"question": "Is it day or night?", "answer": "Daytime.", "pred": "Daytime scene with closed window, bookcase, and table."}
+{"question": "What is the person doing?", "answer": "Sitting on a sofa.", "pred": "Person wearing pink sweater in front of painting."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Possibility of indoor setting based on certain clues."}
+{"question": "How many people appeared?", "answer": "Two.", "pred": "Frame 750 has five people."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Black clothing and dark brown cape in frame 1500."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Frame 2250 has shades of red representing heat."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Yes, it is night in frame 3000 with fireplace light."}
+{"question": "How many people appeared?", "answer": "Three.", "pred": "Man talking, no other visible people."}
+{"question": "What is in the person's hand?", "answer": "A cup.", "pred": "Person holds wooden cup at frame 4500."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Yes, person happy in video at frame 5250."}
+{"question": "What is the scene?", "answer": "Two woman.", "pred": "Mysterious scene with people in hiding."}
+{"question": "What is in the person's hand?", "answer": "A knife.", "pred": "Person holds visible knife with intent to use it."}
+{"question": "What is in the person's hand?", "answer": "A sword.", "pred": "Person holding glass bottle at frame 7500."}
+{"question": "Are there any animals?", "answer": "No.", "pred": "Dog present in frame 8250."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Unclear if video is inside or outside a building."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Mix of light and dark gray background."}
+{"question": "Is it indoor or outdoor?", "answer": "Outdoor.", "pred": "Indoor scene with fireplace and dark background at frame 10500."}
+{"question": "Where is it?", "answer": "In a car.", "pred": "Man in leather jacket standing near wooden entrance."}
+{"question": "Are there any vehicles?", "answer": "Yes.", "pred": "Vehicle in frame at 750."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Person at frame 750 wears black clothes."}
+{"question": "Where is the scene?", "answer": "Helicopters.", "pred": "Helicopter flies over mountainous terrain with river and valley."}
+{"question": "How many people appeared?", "answer": "Two.", "pred": "2 men appeared at frame 3000."}
+{"question": "What is the person doing?", "answer": "Climbing on a rope.", "pred": "Man rappelling down mountain with helicopter in foreground."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Daytime turns into nighttime with city streetlights visible."}
+{"question": "Are there any vehicles?", "answer": "Yes.", "pred": "Unable to access frame 5250, need more info."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Black and white jacket, black pants at frame 6000."}
+{"question": "What is the person doing?", "answer": "Driving a helicopter.", "pred": "Person sits in black helicopter with cloudy sky."}
+{"question": "Where is it?", "answer": "In the sky.", "pred": "In front of helicopter on the ground."}
+{"question": "Where is the scene?", "answer": "Mountains and water.", "pred": "Helicopter lifts cable on snowy mountainous terrain."}
+{"question": "Is it indoor or outdoor?", "answer": "Outdoor.", "pred": "Indoor at frame 9000."}
+{"question": "What is the background color?", "answer": "Green.", "pred": "Various shades of black background throughout the video."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Sunny day with blue sky and mountains covered in snow."}
+{"question": "Where is it?", "answer": "In a forest.", "pred": "Man with white hair sits in outdoor area."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Yes."}
+{"question": "What is the scene?", "answer": "A serious man.", "pred": "Man in garden next to stone wall holding flower."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Indoor at frame 2250 with people, furniture, and windows."}
+{"question": "How many people appeared?", "answer": "Five.", "pred": "Two people in frame 3000."}
+{"question": "What is the person doing?", "answer": "Climbing down from a wall.", "pred": "Man in black jacket stands on castle wall."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Evening time based on shadows and lack of sunlight."}
+{"question": "Are there any animals?", "answer": "Yes.", "pred": "Yes, young man wearing helmet in medieval crowd."}
+{"question": "What are the people doing?", "answer": "Riding horses.", "pred": "Medieval knight rides horse near castle."}
+{"question": "Is it indoor or outdoor?", "answer": "Outdoor.", "pred": "Indoors with group of people in robes."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Beige coat, brown boots at frame 7500."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Time in frame 8250 cannot be determined."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "No, person seems deep in thought at frame 9000."}
+{"question": "Are there any animals?", "answer": "Yes.", "pred": "No animals at frame 9750."}
+{"question": "Does the person look happy?", "answer": "Yes.", "pred": "Person holding flag or fabric with group."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Background color is black at frame 750."}
+{"question": "Where is it?", "answer": "In a tunnel.", "pred": "Frame 1500 shows text and images of men in suits."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Person not happy, standing still, observing environment."}
+{"question": "How the person feel?", "answer": "Unhappy.", "pred": "Person appears scared with uncertain and anxious expression."}
+{"question": "Are there any animals?", "answer": "No.", "pred": "No animals in frame 3750."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Black clothes at frame 4500."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "No plants are seen in frame 5250."}
+{"question": "What are the people doing?", "answer": "Talking.", "pred": "Man in gray suit standing near building in dimly lit room."}
+{"question": "How the person feel?", "answer": "Cross.", "pred": "Uncertain feelings; different actors looking at document/laptop."}
+{"question": "How many people appeared?", "answer": "Five.", "pred": "Four people captured at frame 7500."}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "Vehicle in frame 8250 is black SUV."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Person with hat smiles in frame 9000."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Indoor prison scene with dim lighting and bars on window."}
+{"question": "What is the background color?", "answer": "Grey.", "pred": "Grey background color at frame 10500."}
+{"question": "What is the background color?", "answer": "Grey.", "pred": "Frame 25 background color is black."}
+{"question": "What is the scene?", "answer": "A map.", "pred": "Video animation with Chinese text describing historical information."}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "No vehicles in current sequence."}
+{"question": "What is the scene?", "answer": "A map.", "pred": "Old video game scene with flying creatures and terrain."}
+{"question": "What is the scene?", "answer": "Camps and people.", "pred": "Person in black suit holding a sword in white building."}
+{"question": "Are there any animals?", "answer": "Yes.", "pred": "No animal at frame 3750."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Person at frame 4500 wears brown clothes."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Person happy at frame 5250."}
+{"question": "How many people appears?", "answer": "Two.", "pred": "No people visible at frame 6000."}
+{"question": "What is in the person's hand?", "answer": "A knife.", "pred": "White leather leash in person's hand, wearing black leather vest and white leather coat, red room in background."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Daytime scene with bright lighting, natural light, red curtain."}
+{"question": "What are the people doing?", "answer": "Talking.", "pred": "Two people in leather clothes having a conversation."}
+{"question": "What is the background color?", "answer": "Red.", "pred": "Red wall, gold frame, wooden floor at frame 9000."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Person at frame 9750 wears reddish-orange clothes."}
+{"question": "Are there any plants?", "answer": "Yes.", "pred": "Yes, tall plant near grave stone."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Person appears unhappy at frame 750."}
+{"question": "What is the background color?", "answer": "White.", "pred": "Black background contrasts red and white numbers."}
+{"question": "How the person feel?", "answer": "Released.", "pred": "Limited details make determining emotions difficult."}
+{"question": "How the person feel?", "answer": "Tired.", "pred": "Person lying on ground with smile, rock, trees."}
+{"question": "How many people appeared?", "answer": "Two.", "pred": "Insufficient information to determine number of people in frame."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Person is happy, woman smiling, dog present."}
+{"question": "Where is it?", "answer": "In a camp.", "pred": "No access to video. Provide more context or information."}
+{"question": "Where is the scene?", "answer": "A woman.", "pred": "Different location, similar style, possibly same person."}
+{"question": "Are there any animals?", "answer": "No.", "pred": "Yes, dog on bed at frame 6750."}
+{"question": "Are there any plants?", "answer": "Yes.", "pred": "Yes, a woman standing next to a forest window."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Black background at frame 8250."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Unable to determine day or night at frame 9000."}
+{"question": "How many people appeared?", "answer": "Two.", "pred": "One woman, no others."}
+{"question": "Where is the scene?", "answer": "Pictures.", "pred": "Man lying on rock in forest."}
+{"question": "Where is it?", "answer": "On the street.", "pred": "Man in black jacket near street corner."}
+{"question": "Is it day or night?", "answer": "Night.", "pred": "Scene at frame 750 is nighttime with streetlights and men."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Person wearing red jacket in car at frame 1500."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Man in black suit walking in dark alley."}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "Car at frame 3000, partially visible in dark area."}
+{"question": "How many people  appeared?", "answer": "Two.", "pred": "Four people at frame 3750."}
+{"question": "How many people  appeared?", "answer": "One.", "pred": "One older woman seen wearing various sweaters in frame 4500."}
+{"question": "What's in the man's hand?", "answer": "A gun.", "pred": "Man in black aims real gun at camera."}
+{"question": "What are the people doing?", "answer": "Fighting.", "pred": "Woman lying, man nearby holding her hand."}
+{"question": "How many people  appeared?", "answer": "Four.", "pred": "Two people at frame 7500."}
+{"question": "What's in the man's hand?", "answer": "A pink cellphone.", "pred": "Tray or plate."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "No visible plants at frame 9000."}
+{"question": "What are the people doing?", "answer": "looking at a painting.", "pred": "Man studying artwork in dimly lit gallery."}
+{"question": "What are the people doing?", "answer": "Talking.", "pred": "Man standing in room looking out window, deep in thought."}
+{"question": "What is the person doing?", "answer": "Searching for something to eat.", "pred": "Person in kitchen with drinks in refrigerator."}
+{"question": "How many people  appeared?", "answer": "3", "pred": "1 person in 750th frame."}
+{"question": "Where is it?", "answer": "In a room.", "pred": "Serious young man in black suit in dark hallway."}
+{"question": "Is it day or night?", "answer": "Night.", "pred": "Night scene with dim lighting, moon outside window."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Person running and happy at frame 3750."}
+{"question": "Is it day or night?", "answer": "Night.", "pred": "Daytime in well-lit kitchen at frame 4500."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Need more details for accurate answer."}
+{"question": "What is the person doing?", "answer": "Reading a book.", "pred": "Person standing in street looking at something, appears calm."}
+{"question": "What is the person doing?", "answer": "Writing on a book.", "pred": "Person holds paper and book, looking at numbers and letters."}
+{"question": "Where is it?", "answer": "In a tunnel.", "pred": "Man in black coat and others stand in dark tunnel."}
+{"question": "What is the clothes color of the person?", "answer": "Black", "pred": "Frame 9000: person in light-colored suit."}
+{"question": "What is the background color?", "answer": "Black", "pred": "Frame 9750 background color: black."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Video context is dark and suspenseful with flashes of blood."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Nighttime setting in office with man using smartphone."}
+{"question": "Where is it?", "answer": "In an office.", "pred": "Man in black coat talking on phone on office building floor."}
+{"question": "What is the clothes color of the person?", "answer": "It's black.", "pred": "Mainly black clothes with hints of blue and white."}
+{"question": "What is the person doing?", "answer": "Taking a phone.", "pred": "Person talking on cellphone near window, looking worried."}
+{"question": "Are there any vehicles?", "answer": "Yes.", "pred": "No vehicles, police near lake."}
+{"question": "What is the clothes color of the person?", "answer": "Black", "pred": "Woman wears dark blue jacket with black pants and white shirt."}
+{"question": "How many people  appeared?", "answer": "Three people.", "pred": "Three people in frame 4500."}
+{"question": "What's the weather?", "answer": "It's rainy.", "pred": "Raining outside, car windows covered with rain and mud."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "Flower picture on table at frame 6000."}
+{"question": "Are there any vehicles?", "answer": "Yes.", "pred": "Car parked near man sitting, luxury vehicle, man at desk."}
+{"question": "Where is it?", "answer": "Among a lot of cars.", "pred": "Man in office workspace with shelves and files."}
+{"question": "What is the person doing?", "answer": "Doing an experiment.", "pred": "Person holding prescription drug in glass vial."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Yes, scene is at night with no sun."}
+{"question": "Are there any vehicles?", "answer": "Yes.", "pred": "No vehicles at frame 9750."}
+{"question": "How many people  appeared?", "answer": "Three.", "pred": "5 people in frame 10500."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Frame 25 has dark background, smooth surface, and dark water."}
+{"question": "What's in the man's hands?", "answer": "A gun.", "pred": "Man holds gun at frame 750."}
+{"question": "How many people  appeared?", "answer": "Three.", "pred": "2 people, young male looks ahead, other not visible."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Dark-colored shirt, possibly black or dark blue."}
+{"question": "What is the person doing?", "answer": "Taking a phone call.", "pred": "Man in black suit using cellphone in subway station."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Tired man in black suit at frame 3750."}
+{"question": "Where is it?", "answer": "Near a swimming pool.", "pred": "Man in suit by indoor pool."}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "No vehicles found at frame 5250."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Daytime at frame 6000, based on lighting background."}
+{"question": "Where is it?", "answer": "In a room.", "pred": "Person in red coat with long beard, table with papers."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Likely daytime at frame 7500 with well-lit room."}
+{"question": "What is the background color?", "answer": "White.", "pred": "Light brown or tan background at frame 8250."}
+{"question": "How many people  appeared?", "answer": "Four.", "pred": "5 people in frame 9000."}
+{"question": "Are there any vehicles?", "answer": "Yes.", "pred": "Yes, silver car with open hood at frame 9750."}
+{"question": "Where is it?", "answer": "In a room.", "pred": "Man in black suit by outdoor pool with blue wall."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Same man, different position, looking at the sky."}
+{"question": "What is the scene?", "answer": "A woman.", "pred": "Woman in red cashmere sweater, staring off-screen."}
+{"question": "What is the clothes color of the person?", "answer": "Red.", "pred": "Red outfit, frame 1500."}
+{"question": "How many people appears?", "answer": "Two.", "pred": "Two men in medieval room, one on bed, one standing."}
+{"question": "Where is it?", "answer": "In a room.", "pred": "Man lying in elegant bedroom provides peaceful atmosphere."}
+{"question": "What is the scene?", "answer": "Two man.", "pred": "Man sleeping on couch holding cup"}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Yes, person happy in frame 4500."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Indoor location with closed curtains and visible furniture."}
+{"question": "What is the clothes color of the person?", "answer": "Brown.", "pred": "Deep brown clothes at frame 6000."}
+{"question": "Are there any plants?", "answer": "Yes.", "pred": "No plant at frame 6750."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Armored man in indoor room, likely during daytime."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Person in red armor looks happy throughout the video."}
+{"question": "How many people appears?", "answer": "Two.", "pred": "2 people in photo at frame 9000."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Yes, indoor at frame 9750."}
+{"question": "Does the person look happy?", "answer": "Yes.", "pred": "Unhappy man with sword, crown, and brown armor."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Daylight at frame 25."}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "Yes, vehicles at frame 750 - police car, another car."}
+{"question": "How many people appeared?", "answer": "Four.", "pred": "Person holding notebook, no other people visible."}
+{"question": "What are the people doing?", "answer": "Fighting.", "pred": "Group of men discussing in a hospital."}
+{"question": "Are there any animals?", "answer": "No.", "pred": "Dog seen with man in video frame 3750."}
+{"question": "Where is it?", "answer": "On an airport.", "pred": "AI cannot determine helicopter location in video."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "White t-shirt, black shoes at frame 5250."}
+{"question": "What are the people doing?", "answer": "Talking.", "pred": "Two people in front of a plane on a tarmac."}
+{"question": "How many people appeared?", "answer": "Two.", "pred": "Frame 6750: man in black jacket, woman in brown jacket."}
+{"question": "Are there any vehicles?", "answer": "Yes.", "pred": "No vehicles, woman walking with man behind."}
+{"question": "How does the person feel?", "answer": "Unhappy.", "pred": "Person looks worried near plane, being comforted by woman."}
+{"question": "Where is it?", "answer": "An airport.", "pred": "Description is in second half of video."}
+{"question": "Where is it?", "answer": "An airport.", "pred": "Close-up of woman in empty room with light."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Night at frame 10500."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Frame 25 has light gray background color."}
+{"question": "How does the person feel?", "answer": "Scared.", "pred": "Person feeling sad in gloomy environment with clock at 6:44."}
+{"question": "How does the person feel?", "answer": "Scared.", "pred": "Confident person in video, determined to achieve goal."}
+{"question": "How does the person feel?", "answer": "Angry.", "pred": "Serious, contemplative scene in a dark room."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Indoor at frame 3000."}
+{"question": "What are the people doing?", "answer": "Arguing.", "pred": "People standing, dimly lit hallway, text boxes in Chinese."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Man in black and white trousers, white shirt."}
+{"question": "How many people appears?", "answer": "Two.", "pred": "2 people at frame 5250."}
+{"question": "Is it day or night?", "answer": "Night.", "pred": "Daytime frame indicated by bright lighting and visible sky."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Nighttime detected in frame 6750."}
+{"question": "Where is it?", "answer": "In a room.", "pred": "Man in black suit stands by lamp in city view room."}
+{"question": "How does the person feel?", "answer": "Confident", "pred": "Man in black sits contemplatively in dark, peaceful room."}
+{"question": "How many people appears?", "answer": "One.", "pred": "Frame 9000: 3 people in video."}
+{"question": "What is in the person's hand?", "answer": "Papers.", "pred": "Person sitting on floor with blue jacket and red pen."}
+{"question": "What is the scene?", "answer": "A man and a woman.", "pred": "Man in blue suit standing in dimly lit room."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Cannot determine due to poor image quality."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Black jacket on person in frame 750."}
+{"question": "Are there any animals?", "answer": "No.", "pred": "No animals seen at frame 1500."}
+{"question": "What are the people doing?", "answer": "Communicating.", "pred": "Scene with people in white jackets and black/white coat."}
+{"question": "How many people appeared?", "answer": "Two.", "pred": "3 people seen at frame 3750."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Unclear whether day or night with no clear clues."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "Vase with plant at frame 5250 visible."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Person in room 6000 looks surprised or uncertain, no visible emotion."}
+{"question": "Does the person look happy?", "answer": "Yes.", "pred": "Yes, happy and content."}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "Yes, vehicle in frame at 7500."}
+{"question": "How many people appeared?", "answer": "Four.", "pred": "No people, just winter landscape."}
+{"question": "Where is it?", "answer": "In a car.", "pred": "Frame 9000 not in video, cannot be located."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Daytime with blue sky and sun visible outside the window."}
+{"question": "What is the person doing?", "answer": "Driving a car.", "pred": "Person using tablet computer with China-Pakistan border on screen."}
+{"question": "Is it day or night?", "answer": "Night.", "pred": "Daytime with well-lit room and visible sunlight."}
+{"question": "How many people appeared?", "answer": "Three.", "pred": "Four people present at frame 750."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Daytime, clear sky, well-lit faces, no light indicating nighttime."}
+{"question": "Where is it?", "answer": "Seaside", "pred": "Man with box by water tower and ocean."}
+{"question": "Is it indoor or outdoor?", "answer": "Outdoor.", "pred": "Indoor video with dark, serious atmosphere and some lighthearted moments."}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "No vehicles in video, people engaging in activities."}
+{"question": "What are the people doing?", "answer": "Fighting.", "pred": "Intense battle scene with various weapons and chaos."}
+{"question": "Does the person look happy?", "answer": "Yes.", "pred": "Characters in video seem happy but different levels."}
+{"question": "What is the scene?", "answer": "A woman.", "pred": "Couple on boat, red and blue hats, ocean background."}
+{"question": "What is in the person's hand?", "answer": "An egg.", "pred": "Person stands with pot and ladle."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Unclear if it is day or night at frame 7500."}
+{"question": "What is the scene?", "answer": "Crowds of people.", "pred": "Crowded street with medieval costumes, weapons, and various people."}
+{"question": "Are there any animals?", "answer": "Yes.", "pred": "Multiple animals in frame 9000."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Happy person looking up and smiling."}
+{"question": "Is it indoor or outdoor?", "answer": "Outdoor.", "pred": "Outdoor scene with visible sun behind horse at frame 10500."}
+{"question": "What are the people doing?", "answer": "Talking.", "pred": "Two men conversing in dimly lit room."}
+{"question": "How many people appeared?", "answer": "Two.", "pred": "Person standing in background."}
+{"question": "What is the clothes color of the person?", "answer": "Brown.", "pred": "Person's clothes color is brown at frame 1500."}
+{"question": "Is it day or night?", "answer": "Night.", "pred": "Night scene, castle, dimly lit, shadowy figure."}
+{"question": "What are the people doing?", "answer": "Talking.", "pred": "Two people having serious conversation in dimly lit room."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Person appears to be experiencing happiness."}
+{"question": "Does the person look happy?", "answer": "Yes.", "pred": "Yes, person in frame 4500 is smiling."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "Yes, brown potted plant visible at frame 5247."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Unclear if indoor or outdoor due to limited information."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Brown color at frame 6750."}
+{"question": "Where is it?", "answer": "In a room.", "pred": "Location not clear in video frame 7500."}
+{"question": "What is the scene?", "answer": "A couple on a bed.", "pred": "Couple in bed, candles, words on wall, books nearby."}
+{"question": "How many people appeared?", "answer": "Three.", "pred": "Cannot provide exact number of people at frame 9000."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "Yes, plant in scene at frame 9750"}
+{"question": "Is it day or night?", "answer": "Night.", "pred": "Unclear if day or night at frame 10500."}
+{"question": "What is the background color?", "answer": "Grey.", "pred": "Sky and clouds are gray with fog in background."}
+{"question": "Are there any animals?", "answer": "Yes.", "pred": "Horse with people and torch outside building in snowy landscape."}
+{"question": "What is in the person's hand?", "answer": "Stick with fire.", "pred": "Man standing in front of damaged building in snow."}
+{"question": "How is the weather?", "answer": "Snowy.", "pred": "Snowy and cold weather with snow-covered trees and ground."}
+{"question": "Is it indoor or outdoor?", "answer": "Outdoor.", "pred": "Horse location unclear, could be indoor or outdoor."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Person wears black hat, jacket and gray pants at 3750."}
+{"question": "How does the person feel?", "answer": "Scared.", "pred": "Person riding horse in snowy forest."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Yes."}
+{"question": "Are there any plants?", "answer": "Yes.", "pred": "Small pine tree visible in video background."}
+{"question": "What is the background color?", "answer": "White.", "pred": "frame 6750 has dark black color"}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "Man driving car in snowy forest."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Cloudy daytime with falling snowflakes."}
+{"question": "What is the person doing?", "answer": "Running away.", "pred": "Person in black cloak with black blade in snowy forest."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Person looks sad while riding a tired horse."}
+{"question": "What's she doing?  ", "answer": " Making tea.  ", "pred": "Woman sitting at table, looking up in train."}
+{"question": " Is there a girl? ", "answer": "  Yes. ", "pred": "Yes, girl at frame 750 wearing green scarf."}
+{"question": " How many people are there? ", "answer": "Two.  ", "pred": "Two people in frame 1500, young woman and man."}
+{"question": "What's in the woman's hands?  ", "answer": " A pot. ", "pred": "Woman holds cup or drink at frame 2250."}
+{"question": "What happens?  ", "answer": " A door is closed.  ", "pred": "Woman in white dress standing in front of ornate door."}
+{"question": " How many people are there?  ", "answer": "  One. ", "pred": "2 people at frame 3750."}
+{"question": "  How's the light?  ", "answer": " Dark.   ", "pred": "Woman walks in dark room with few people."}
+{"question": "  Where is it?   ", "answer": "  In a city.  ", "pred": "Yes, frame shows \"connect\" with city skyline."}
+{"question": "  Where are they?  ", "answer": "  In a supermarket.  ", "pred": "Frames too blurred to identify characters fighting at frame 6000."}
+{"question": " What's the man doing?   ", "answer": " Buying something in the supermarket.  ", "pred": "Man helps group purchase items in shopping mall."}
+{"question": " How many people are there?   ", "answer": "  Two.  ", "pred": "One person in black shirt with hands in pockets."}
+{"question": "  What's the man doing?  ", "answer": "  Fighting with another man.  ", "pred": "Man holding knife in dimly lit room."}
+{"question": "  What's the man doing?  ", "answer": "  Using a computer.  ", "pred": "Man in black, serious expression, holding phone, feeling vulnerable."}
+{"question": " Where are they?   ", "answer": " In a room.   ", "pred": "People in room, boy looks at tablet, converses and walks."}
+{"question": "  Where are they?  ", "answer": " In a building.  ", "pred": "Family gathering with casual conversation, refreshments"}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Person in video appears happy but not conclusive."}
+{"question": "Are there any animals?", "answer": "Yes.", "pred": "No animals in frame 750."}
+{"question": "How many people appeared?", "answer": "Two.", "pred": "4 people in frame 1500."}
+{"question": "What are the people doing?", "answer": "Kissing.", "pred": "Man in love with girl in dark room."}
+{"question": "Are there any plants?", "answer": "Yes.", "pred": "Yes, plants are visible in frame 3000."}
+{"question": "What is the background color?", "answer": "White.", "pred": "Frame 3750: light yellow background, Arabic text, visible white writing."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Person looks happy and confident."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Man's face close-up indoors, unclear background setting."}
+{"question": "How many people appeared?", "answer": "Two.", "pred": "3 people were present at frame 6000."}
+{"question": "What are the people doing?", "answer": "Talking.", "pred": "Man with beard sits on chair wearing leather jacket."}
+{"question": "What is the scene?", "answer": "A fat man.", "pred": "Man in armor apologizes with sword."}
+{"question": "How does the person feel?", "answer": "Proud.", "pred": "Person wearing black and red dress with furniture in background."}
+{"question": "How many people appeared?", "answer": "Three.", "pred": "Four people seen at frame 9750."}
+{"question": "Are there any plants?", "answer": "Yes.", "pred": "Man in black tunic and woman in white dress."}
+{"question": "What is the background color?", "answer": "Grey.", "pred": "White background at frame 25."}
+{"question": "What is the scene?", "answer": "Castle toy.", "pred": "Black and white photograph of ancient civilization-themed board game."}
+{"question": "What is the background color?", "answer": "White.", "pred": "Gray color at frame 1500."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "No, no plants in frames 2250 and following."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "No time information in frame 3000 of video."}
+{"question": "Is it indoor or outdoor?", "answer": "Outdoor.", "pred": "Indoor with stone wall at frame 3750."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Indoor, frame 4500, man in small dim room."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Person at frame 5250 is wearing brown tunic."}
+{"question": "Are there any animals?", "answer": "No.", "pred": "No animals seen after frame 6000."}
+{"question": "What are the people doing?", "answer": "Talking.", "pred": "Person walks in beautiful cathedral holding small purse."}
+{"question": "Does the person look happy?", "answer": "Yes.", "pred": "Person looks concerned in conversation without clear emotions."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Daytime with sun shining in room."}
+{"question": "How many people appeared?", "answer": "Two.", "pred": "Uncertain number of people present in video frame 9750."}
+{"question": "What is in the person's hand?", "answer": "A piece of paper.", "pred": "Person holding knife, sword, shield in stone background."}
+{"question": "What is the scene?", "answer": "A man and a woman.", "pred": "Woman sitting, man talking, serious conversation in dark room."}
+{"question": "How many people appears?", "answer": "Two.", "pred": "22 people in the picture at frame 750."}
+{"question": "What is in the person's hand?", "answer": "A needle.", "pred": "Person holding silver watch at frame 1500."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Person in dark room looking sad near door."}
+{"question": "What is in the person's hand?", "answer": "A gun.", "pred": "Young man in black suit, woman in white dress."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Indoor scene with formal wear, furniture, and decorations."}
+{"question": "What are the people doing?", "answer": "Talking.", "pred": "Man in black coat and tie stands in dimly lit room."}
+{"question": "What is in the person's hand?", "answer": "A gun.", "pred": "Person holding revolver at frame 5250."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "It appears to be daylight based on video cues."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Frame 6750 background color is black."}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "No vehicles at frame 7500."}
+{"question": "Does the person look happy?", "answer": "Yes.", "pred": "Person appears unhappy in frame 8250."}
+{"question": "How does the person feel?", "answer": "Shocked.", "pred": "Intense and focused expression indicating importance and urgency."}
+{"question": "What is the scene?", "answer": "A plane.", "pred": "Man in airport hallway with people waiting for flights."}
+{"question": "Are there any vehicles?", "answer": "Yes.", "pred": "No vehicles at frame 10500."}
+{"question": "What is the background color?", "answer": "Black", "pred": "Frame 25: black background."}
+{"question": "How many people  appeared?", "answer": "2", "pred": "Four people in frame."}
+{"question": "Where is it?", "answer": "In  a classroom.", "pred": "Sherlock Holmes standing in front of dark doorway."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Frame 2250 is dark gray background."}
+{"question": "Where is it?", "answer": "London.", "pred": "Busy city view through frost-covered window frame."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Dark brown or black color at frame 3750."}
+{"question": "Are there any vehicles?", "answer": "No", "pred": "No vehicles in the video frames."}
+{"question": "Where is the scene?", "answer": "In a room.", "pred": "Man next to open white refrigerator looks at reflection."}
+{"question": "What is the person doing?", "answer": "Sitting on a sofa.", "pred": "Person sitting in grey leather chair at frame 6750."}
+{"question": "What is the clothes color of the person?", "answer": "Blue.", "pred": "Brown clothes at frame 7500."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Person lying on couch with various objects on coffee table."}
+{"question": "Is it day or night?", "answer": "Night", "pred": "Daytime is indicated by natural light and white shirt."}
+{"question": "Does the person look happy?", "answer": "Yes.", "pred": "Person in frame 9750 appears happy."}
+{"question": "How many people  appeared?", "answer": "2", "pred": "A couple sitting at a table with objects around."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "No plants visible in frame 25."}
+{"question": "What is the scene?", "answer": "Three metal ball in a box.", "pred": "Night city street with trash can and streetlamp."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Purple background at frame 1500."}
+{"question": "Are there any vehicles?", "answer": "Yes.", "pred": "No vehicles in frame 2250."}
+{"question": "Is it day or night?", "answer": "Night.", "pred": "Nighttime is suggested, but not specified."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Man in gray suit leans against brick wall."}
+{"question": "What's in the person's hand?", "answer": "A gun.", "pred": "Man in dark corridor holding blue bag."}
+{"question": "How many people appeared?", "answer": "Three.", "pred": "Four people captured in frame 5250."}
+{"question": "What is the scene?", "answer": "TV program.", "pred": "Final scene showcases characters and book of \"Crazy Rich Asians\"."}
+{"question": "How does the person feel?", "answer": "Sad.", "pred": "Person lying motionless in hospital bed receiving medical care."}
+{"question": "Where is it?", "answer": "In a room.", "pred": "Specify content location for current frame number."}
+{"question": "Where is it?", "answer": "In a hospital.", "pred": "Blurry black bag reflection at frame 8250."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Daylight at frame 9000 with bright sunlight and visible people."}
+{"question": "How many people appeared?", "answer": "Three.", "pred": "Two people seen in video frame, man in black jacket."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Scene is likely daytime based on natural light and brightness."}
+{"question": " Where are they? ", "answer": " In a bank.  ", "pred": "Cannot determine exact location at frame 10."}
+{"question": " What's the color of the men's cloth? ", "answer": " Black.  ", "pred": "Black cloth at frame 750."}
+{"question": " How many people are there? ", "answer": " Three. ", "pred": "Only one person appears in frame 1500."}
+{"question": " What's the time? ", "answer": " Day. ", "pred": "Time is \"day\" at frame 2250."}
+{"question": " Are there more than one man? ", "answer": " Yes.  ", "pred": "Multiple men are present."}
+{"question": " Where is it?  ", "answer": " In a room.  ", "pred": "Limited access to external sources; assist with related questions."}
+{"question": "  How many people are there?  ", "answer": "Three. ", "pred": "3 people, 2 men, 1 woman at frame 4500."}
+{"question": " What's the color of the man's cloth?   ", "answer": "  Black.  ", "pred": "Man's cloth color: black at frame 5250."}
+{"question": "  Where's him?  ", "answer": " In a tall building.   ", "pred": "Indication of different outcomes in multiple scenes."}
+{"question": " Where is it?   ", "answer": " In an office.   ", "pred": "Uncertain due to limited frames."}
+{"question": "What's the color of the men's cloth? ", "answer": " Black. ", "pred": "Men's cloth is dark brown."}
+{"question": " What's the time? ", "answer": "  Daytime.  ", "pred": "Cannot determine time. Need more video context."}
+{"question": "   Where are they?  ", "answer": " On the street.", "pred": "Man in suit in office with various paintings, objects."}
+{"question": "  What are they doing?", "answer": " Pressing a button.   ", "pred": "Difficult to identify action due to video quality."}
+{"question": " What's the man doing?   ", "answer": " Climbing down from a balcony.  ", "pred": "Man on balcony with phone."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "No visible plant at frame 25."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Grey clothes in frame 750."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Gray at frame 1500 is medium shade."}
+{"question": "Where is it?", "answer": "In a hall.", "pred": "Man in black suit at train station looks serious."}
+{"question": "Is it day or night?", "answer": "Night.", "pred": "Unclear if day or night, based on light and attire."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Person in black suit looks happy at frame 3750."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "Yes, several plants are present in the scene."}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "Motorcycle at frame 5250."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Frame 6000 background color: white."}
+{"question": "How does the person feel?", "answer": "Angry.", "pred": "Person enjoying social setting with conversation and wine."}
+{"question": "Where is it?", "answer": "In a bar.", "pred": "Cannot determine image location without specified context."}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "Blue car driving down street at frame 8250."}
+{"question": "Are there any vehicles?", "answer": "Yes", "pred": "No vehicles at frame 9000."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Person at frame 9750 is wearing gray."}
+{"question": "How does the person feel?", "answer": "Surprised.", "pred": "Unclear emotion due to lack of context, possible anxiety."}
+{"question": "What is the person doing?", "answer": "Speaking.", "pred": "Man with glass of juice near fruit and vegetables."}
+{"question": "What is the scene?", "answer": "Two woman.", "pred": "Two women on bed, furniture and painting in background."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Indoor scene with man holding straw bales inside barn."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Unhappy person in black armor at frame 2250."}
+{"question": "How many people appears?", "answer": "Two.", "pred": "Six people present in final frame at 3000."}
+{"question": "Are there any animals?", "answer": "No.", "pred": "A dog is seen in the video."}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "Yes, horse in frame 4500, upper left corner."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Person at frame 5250 wears brown clothes."}
+{"question": "What is the scene?", "answer": "An old man.", "pred": "Quote from \"Game of Thrones\" in Chinese on grey wall."}
+{"question": "How is the weather?", "answer": "Snowy.", "pred": "Man in red and black fur jacket with brown shirt."}
+{"question": "Is it indoor or outdoor?", "answer": "Outdoor.", "pred": "Outdoor scene with snow and white wooden fence."}
+{"question": "How many people appears?", "answer": "Two.", "pred": "7 people at frame 8250."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Clear day, sunlight streaming into room."}
+{"question": "How many people appears?", "answer": "Four.", "pred": "Three people at frame 9750."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Uncertain lighting conditions make day/night determination difficult."}
+{"question": "How many people appears?", "answer": "Two.", "pred": "Six people seen at frame 25."}
+{"question": "How many people appears?", "answer": "Two.", "pred": "One person with white beard, hair, and long shirt."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Frame 1500 has light brown background color."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Yes, person looks happy at frame 2250."}
+{"question": "How does the person feel?", "answer": "Angry.", "pred": "Confident and determined posture suggests readiness to face challenges."}
+{"question": "How does the person feel?", "answer": "Angry.", "pred": "Confident, determined man with strong body language."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Daytime at frame 4500 indicated by sunlight streaming through windows."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Day or night at frame 5250 unclear."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Indoor scene in Game of Thrones at King\\'s Landing."}
+{"question": "Where is it?", "answer": "In a hall.", "pred": "Man standing, camera angle changes, serious expression, people around."}
+{"question": "What is the scene?", "answer": "A boy.", "pred": "Medieval scene with man in armor and action happening."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Outdoor scene with large door or window backdrop."}
+{"question": "Are there any animals?", "answer": "No.", "pred": "Yes, chaotic battlefield scene with a man in crown."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "Yes, plant in image at frame 9750."}
+{"question": "How does the person feel?", "answer": "Angry.", "pred": "Person in castle, wearing brown, smiling, calm and content"}
+{"question": "Is it day or night?", "answer": "Night.", "pred": "Big moon in dark sky at frame 25."}
+{"question": "Where is it?", "answer": "In a plane.", "pred": "Man in room with chandelier, carpet, and curtain."}
+{"question": "How many people appeared?", "answer": "Two.", "pred": "Unclear amount of people at frame 1500."}
+{"question": "Are there any vehicles?", "answer": "Yes.", "pred": "Yes, motorcycle at frame 2250."}
+{"question": "What is the background color?", "answer": "Dark red.", "pred": "Red background color at frame 3000 with dramatic effect."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Still daylight at frame 3750, but uncertain time."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Unclear if person is happy, possibly wearing space suit."}
+{"question": "Where is it?", "answer": "In the sky.", "pred": "Small fish turns into big fish in sea adventure."}
+{"question": "Where is it?", "answer": "In the sky.", "pred": "Sky view with parachutes, people, buildings, and vehicles."}
+{"question": "Is it day or night?", "answer": "Night.", "pred": "Video does not indicate day or night in frame 6750."}
+{"question": "How many people appeared?", "answer": "Two.", "pred": "Person in black and green outfit at frame 7500."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Person in frame 8250 is wearing black clothing."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "No plants in video."}
+{"question": "What is in the person's hand?", "answer": "A cellphone.", "pred": "Person holding microphone at DJ booth in club."}
+{"question": "Where is it?", "answer": "In a bar.", "pred": "Man in mask by industrial building with red lights."}
+{"question": "Where is it?", "answer": "In a room.", "pred": "I cannot access specific scene, need more information."}
+{"question": "How many people  appeared?", "answer": "Two.", "pred": "One man seen in mirror with trees and reflection."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Man in gray sweater, possibly evening or daytime."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "Yes, plant in frame 2250."}
+{"question": "What is the person doing?", "answer": "Using a cellphone.", "pred": "Person looking at phone, others sitting and looking outside."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Person may be expressing emotion while on phone."}
+{"question": "What is happening?", "answer": "A man is lying near a river.", "pred": "People walking on water near river Thames in London."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Yes, daytime at frame 5250."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Person happy at frame 6000, looking down."}
+{"question": "What are the peeple doing?", "answer": "Talking woth each other.", "pred": "2 men conversing near police sign"}
+{"question": "How many people  appeared?", "answer": "Three.", "pred": "Two people with different outfits at frame 7500."}
+{"question": "Where is it?", "answer": "Near a river.", "pred": "No frame 8250 information in current context."}
+{"question": "Are there any animals?", "answer": "No.", "pred": "No animals present, man by river with building."}
+{"question": "Where is it?", "answer": "In a car.", "pred": "Person with black hair in taxi looking out window."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "No plants in frame 25."}
+{"question": "What is the scene?", "answer": "A fat man.", "pred": "Man reading in room with plants and mirrors."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Indoor scene with light fixtures in background."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "People in the room have various colored coats and jackets."}
+{"question": "What are the people doing?", "answer": "Talking.", "pred": "Man and woman sit at table in dark room."}
+{"question": "How does the person feel?", "answer": "Serious.", "pred": "Person in black suit looks sad and serious."}
+{"question": "Are there any plants?", "answer": "Yes.", "pred": "No plants at frame 4500."}
+{"question": "Are there any plants?", "answer": "Yes.", "pred": "No plants present at frame 5250."}
+{"question": "What is the scene?", "answer": "A fat man.", "pred": "Man in black suit with serious expression."}
+{"question": "Where is it?", "answer": "In a room.", "pred": "Man and woman sitting in room with fireplace and desk."}
+{"question": "How many people appears?", "answer": "Three.", "pred": "Two young women cooking at a table."}
+{"question": "What is the clothes color of the person?", "answer": "Green.", "pred": "Person wears light-colored jacket, dark trousers and white shirt."}
+{"question": "How does the person feel?", "answer": "Scared.", "pred": "Person at frame 9000 upset, woman comforting, conversation happening."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Person at frame 9750 wears brown jacket."}
+{"question": "Is it day or night?", "answer": "Night.", "pred": "10500 is daytime."}
+{"question": "Where is it?", "answer": "In a car.", "pred": "No information on frame 25, but white jeep seen in frame 16."}
+{"question": "How many people appeared?", "answer": "Three.", "pred": "4 people in the car at frame 750."}
+{"question": "What is in the person's hand?", "answer": "A ball.", "pred": "At frame 1500, person holding large black box."}
+{"question": "Where is it?", "answer": "In the field.", "pred": "Building with mountains and river, location unknown."}
+{"question": "How many people appeared?", "answer": "Four.", "pred": "Low-quality video makes counting people difficult."}
+{"question": "Is it indoor or outdoor?", "answer": "Outdoor.", "pred": "Indoor scene with woman wearing brown jacket."}
+{"question": "What are the people doing?", "answer": "Talking.", "pred": "Man and woman standing in mountainous area with beautiful scenery."}
+{"question": "How many people appeared?", "answer": "Three.", "pred": "Provide specific number or count for analysis."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Blonde hair, mostly black outfit with white and brown accents."}
+{"question": "Are there any plants?", "answer": "Yes.", "pred": "Yes, small potted plant in frame 6750."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Daytime with clear sky, bright sun, and defined shadows."}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "No vehicles at frame 8250 in the video."}
+{"question": "Where is the scene?", "answer": "Some wires.", "pred": "Person standing on dry riverbed with helicopters in distance."}
+{"question": "Are there any vehicles?", "answer": "Yes.", "pred": "Black car visible at frame 9750."}
+{"question": "Are there any vehicles?", "answer": "Yes.", "pred": "Yes, silver car parked on road."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Frame 25 background color is red."}
+{"question": "How many people appears?", "answer": "Two.", "pred": "6 people appear at frame 750."}
+{"question": "Where is it?", "answer": "In a room.", "pred": "Man holding candle in dimly lit bedroom with furniture."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Person at frame 2250 is not visibly happy."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Unspecified time, man with beard and sword in dim room."}
+{"question": "What is in the person's hand?", "answer": "A knife.", "pred": "Person holds wooden knife with rusty blade at frame 3750."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Person wears black and white suit at frame 4500."}
+{"question": "What are the people doing?", "answer": "Talking.", "pred": "Two men discussing at a small table with red tablecloth."}
+{"question": "What is the background color?", "answer": "Black and white.", "pred": "Black background at frame 6000."}
+{"question": "How is the weather?", "answer": "Snowy.", "pred": "Snowy weather with people wearing warm fur coats."}
+{"question": "How is the weather?", "answer": "Snowy.", "pred": "Snowstorm happening, winter scene, cold weather."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Person at 8250 has brown coat and white shirt."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Man with beard sitting indoors or outdoors."}
+{"question": "How many people appears?", "answer": "Two.", "pred": "One person standing in snowy room with a lamp."}
+{"question": "Is it day or night?", "answer": "Night.", "pred": "Colors change from day to night in the video."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Frame 750 background is brown."}
+{"question": "What is the background color?", "answer": "Dark red.", "pred": "Blue background at frame 1500."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Indoor setting with stone walls, ceiling, and furniture."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Black hat and coat worn at frame 3000."}
+{"question": "What is happening?", "answer": "A woman is shooting.", "pred": "A woman in a wedding dress holding a gun."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Night at frame 5250."}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "No vehicles in frame 6000."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "No, person in black coat and hat appear serious."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Person in frame 7500 wearing black hat and striped scarf."}
+{"question": "What is the scene?", "answer": "A woman.", "pred": "Multiple people in different settings and activities."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "At frame 9750, background color is red-orange and orange."}
+{"question": "Is it indoor or outdoor?", "answer": "Outdoor.", "pred": "Likely indoor setting with stone walls and furnishings."}
+{"question": "Are there any vehicles?", "answer": "Yes.", "pred": "No vehicles visible in frame 25."}
+{"question": "Where is it?", "answer": "In the field.", "pred": "Green car driver at frame 750."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Frame 1500 has dark brown background color."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Blue clothes on person in frame 2250."}
+{"question": "Where is it?", "answer": "In a room.", "pred": "Unclear room description with person in a bed."}
+{"question": "How many people  appeared?", "answer": "One.", "pred": "Three people in room at frame 3750."}
+{"question": "What is the person doing?", "answer": "Reading a newspaper.", "pred": "Person holding paper, looking down at frame 4500."}
+{"question": "How many people  appeared?", "answer": "Four.", "pred": "Two people seen at frame 5250."}
+{"question": "What are the people doing?", "answer": "Talking.", "pred": "Man in suit standing in office with books."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Man looking up at something in darker setting. Uncertain day/night."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Blue and white striped shirt with collar and sleeves."}
+{"question": "Are there any animals?", "answer": "No.", "pred": "Dog in frame 8250, close-up shot, eyes looking far."}
+{"question": "What is the person doing?", "answer": "Playing a violin.", "pred": "Type of setting in a period drama scene."}
+{"question": "Is it day or night?", "answer": "Night.", "pred": "Living room with various lights, uncertain day/night at frame 9750."}
+{"question": "Is it day or night?", "answer": "Night.", "pred": "Daytime to nighttime transition with unclear certainty."}
+{"question": "what are the men doing?", "answer": "They are walking on the street. ", "pred": "Two men with cane walking on city sidewalk at night."}
+{"question": "what is the environment?", "answer": "They're in a restaurant and sit around a table.", "pred": "Man sitting alone in dimly lit bar tavern."}
+{"question": "what is the old man doing?", "answer": "He is hugging another man.", "pred": "Man in black jacket looks down at table."}
+{"question": "what is the old man doing?", "answer": "He gives the two men two menu.", "pred": "Description of video scene with conversation and ambiance."}
+{"question": "what is put on the table?", "answer": "A tall candle.", "pred": "Table with two men, a candle, banana, and wine."}
+{"question": "is the candle lighted or not?", "answer": "It's lighted.", "pred": "Candle lit at frame 4500."}
+{"question": "what's the face expression of the men?", "answer": "They're serious.", "pred": "Both men are smiling."}
+{"question": "what's the color of the napkin on the table?", "answer": "It's red.", "pred": "Napkin color is black at frame 6000."}
+{"question": "what are the men doing?", "answer": "They're talking and eating.", "pred": "Man in black suit talks to another person."}
+{"question": "what's the face expression of the men?", "answer": "One of them is excited, and another one is confused.", "pred": "Men are focused and interested, looking at something distant."}
+{"question": "what's the type of car appears?", "answer": "It's a taxi.", "pred": "Man with curly hair looks surprised or confused."}
+{"question": "what do the waiter gives to the men?", "answer": "A cup of liquid.", "pred": "Waiter gives drink to man in black."}
+{"question": "what happens?", "answer": "The waiter throw the man in black coat out of the restaurant.", "pred": "Man walking near green street sign and parked car."}
+{"question": "what's man doing?", "answer": "He is trying to get on a taxi, but he failed.", "pred": "Man opens car door for older man with glasses."}
+{"question": "what happens on the driver?", "answer": "He get a phone call.", "pred": "Driver with angry expression holds potential weapon in dimly lit room."}
+{"question": "Is it indoor or outdoor?", "answer": "Outdoor.", "pred": "Frame 25 is an outdoor place."}
+{"question": "What is in the person's hand?", "answer": "A cup.", "pred": "Person drinks from cup at frame 750."}
+{"question": "What are the people doing?", "answer": "Talking.", "pred": "Man and woman talking in front of wooden background."}
+{"question": "How many people appeared?", "answer": "Three.", "pred": "Two men and two women wearing different outfits sit together."}
+{"question": "Is it day or night?", "answer": "Night.", "pred": "Nighttime scene depicted with couple sleeping."}
+{"question": "Are there any plants?", "answer": "No.", "pred": "No plants found at frame 3750."}
+{"question": "Is it indoor or outdoor?", "answer": "Outdoor.", "pred": "Yes, it's indoors at frame 4500."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Dark grey clothing at frame 5250."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Frame 6000 is likely during the morning."}
+{"question": "How many people appeared?", "answer": "Two.", "pred": "2 people at frame 6750"}
+{"question": "What is the scene?", "answer": "A girl.", "pred": "Person holding a sewing needle in front of a tree."}
+{"question": "What is in the person's hand?", "answer": "A sword.", "pred": "Person holds sword at frame 8250."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Person looks angry, not happy, in frame 9000."}
+{"question": "Are there any plants?", "answer": "Yes.", "pred": "Yes, plant seen at frame 9750, growing through window."}
+{"question": "What are the people doing?", "answer": "Fighting.", "pred": "Couple sitting on couch, wall background, looking at camera."}
+{"question": "Where is the scene?", "answer": "A website.", "pred": "Close-up of person typing login credentials on computer keyboard."}
+{"question": "Where is it?", "answer": "In a passage.", "pred": "Man in dark hallway with coat, tie, shoe, and light."}
+{"question": "Where is the scene?", "answer": "Newspapers.", "pred": "Scene in newspaper article about net phenomenon."}
+{"question": "Where is the scene?", "answer": "Day.", "pred": "No access to scene location at frame 2250."}
+{"question": "Where is it?", "answer": "In a house.", "pred": "Woman with purple jacket stands next to blue freezer."}
+{"question": "Are there any vehicles?", "answer": "Yes.", "pred": "Man looking under car hood at frame 3750."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Neutral expression in a peaceful mountain scenery."}
+{"question": "Where is it?", "answer": "In the field.", "pred": "No traffic on the roads."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Shirt is dark blue, shown in fourth caption."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Two men in conversation, potential smile from another man."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Unclear if daytime or nighttime in video."}
+{"question": "What is the clothes color of the person?", "answer": "White.", "pred": "Person at frame 8250 wears white."}
+{"question": "What is the person doing?", "answer": "Using a pad.", "pred": "Person driving black car, wearing black leather jacket."}
+{"question": "What is the person doing?", "answer": "Observing another person.", "pred": "Hand with white, clean, manicured fingernail."}
+{"question": "Where is it?", "answer": "In an explendid building.", "pred": "Cannot determine location of image/video frames"}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "No clear indication of time in video."}
+{"question": "What is the scene?", "answer": "A woman.", "pred": "Close-up view of a young woman in a dark room."}
+{"question": "How many people appeared?", "answer": "Three.", "pred": "3 people seen at frame 1500."}
+{"question": "Are there any animals?", "answer": "Yes.", "pred": "Woman and man in palace, no animals present."}
+{"question": "What is the scene?", "answer": "A man and a woman.", "pred": "Man with sword approaches group outdoors."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Person happy at frame 3750."}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "Yes, vehicle visible in scene at frame 4500."}
+{"question": "Are there any plants?", "answer": "Yes.", "pred": "Yes, small plant in background."}
+{"question": "Is it indoor or outdoor?", "answer": "Outdoor.", "pred": "Indoor at frame 6000 based on clothing and background."}
+{"question": "Are there any plants?", "answer": "Yes.", "pred": "Yes, there is a plant candle."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Color is gray at frame 7500."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Indoor setting, people wearing coats, restaurant or banquet hall."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Frame 9750: black background color."}
+{"question": "What are the people doing?", "answer": "Talking.", "pred": "People in courtyard with pond, trees, and flowers."}
+{"question": "How does the person feel?", "answer": "Serious.", "pred": "Cannot determine person's emotions in frame 25."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Emotional state unclear due to lack of context."}
+{"question": "How does the person feel?", "answer": "Confused.", "pred": "Person in video standing, listening with eyes closed."}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "Yes, black car with two rows of seats."}
+{"question": "What is the scene?", "answer": "An old man.", "pred": "Man in black on platform, people watching conversation."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Hoodie color is dark blue."}
+{"question": "Is it indoor or outdoor?", "answer": "Outdoor.", "pred": "Scene is indoor at frame 6000."}
+{"question": "What are the people doing?", "answer": "Talking.", "pred": "Man in dark cave with surprise, dragon statue behind."}
+{"question": "What is the scene?", "answer": "A fat man.", "pred": "A man and woman talk in a cold room."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Person appears somewhat sad or disappointed in frame 9000."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Indoor setting with man dressed in era clothing."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "White background at frame 10500 of video."}
+{"question": "What is the background color?", "answer": "It's black.", "pred": "Background is black in frame 25."}
+{"question": "Is it day or night?", "answer": "Night.", "pred": "Night scene with streetlights and gloomy atmosphere at frame 750."}
+{"question": "How many people  appeared?", "answer": "Three.", "pred": "16 people in room at frame 1500."}
+{"question": "What is the person doing?", "answer": "Watching TV.", "pred": "Person sitting on black couch, working with pen and computer."}
+{"question": "Where is it?", "answer": "In a room.", "pred": "Man in black coat sits on couch, other man next."}
+{"question": "What is the person doing?", "answer": "Using his computer.", "pred": "Person looking up with cell phone at frame 3750."}
+{"question": "Where is it?", "answer": "Near a swimming pool.", "pred": "Abandoned swimming pool with clear water and serene atmosphere."}
+{"question": "What's in the man's hands?", "answer": "A U-disk.", "pred": "Man holds cell phone at frame 5250."}
+{"question": "How many people  appeared?", "answer": "Two.", "pred": "Man with phones in bathroom doorway at frame 6000."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Person at frame 6750 wears black clothes."}
+{"question": "Is it day or night?", "answer": "Night.", "pred": "Photo may be taken at night based on sky and pool colors."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "9000th frame shows a determined person in black attire."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Black suit person wearing dark suit and black tie."}
+{"question": "How the person feel?", "answer": "Happy.", "pred": "Person smiles at frame 10500."}
+{"question": "Are there any vehicles?", "answer": "Yes.", "pred": "There is a plane flying in the background."}
+{"question": "What is the person doing?", "answer": "Talking.", "pred": "Person and man in airplane with blue suit and red scarf."}
+{"question": "Where is it?", "answer": "On a plane.", "pred": "No previous frames available for subject location at frame 1500."}
+{"question": "What is the clothes color of the person?", "answer": "Black.", "pred": "Man wears formal black suit with cream shirt."}
+{"question": "What is the clothes color of the person?", "answer": "Blue.", "pred": "Blue suit, purple tie at frame 3000."}
+{"question": "What is the clothes color of the person?", "answer": "Red.", "pred": "Purple clothes at frame 3750."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Daytime, clear sky, person holding black glove."}
+{"question": "How does the person feel?", "answer": "Confused.", "pred": "Confident man contemplates question written on wall in Chinese."}
+{"question": "Where is it?", "answer": "In a room.", "pred": "A man in front of a mirror in a green room."}
+{"question": "What is the clothes color of the person?", "answer": "Blue.", "pred": "Person at frame 6750 wears black overcoat, striped shirt, tie."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "indoor based on background, clothing, objects present"}
+{"question": "Are there any plants?", "answer": "No.", "pred": "No plants at frame 8250."}
+{"question": "What is in the person's hand?", "answer": "A hat.", "pred": "Person holds brown and green plaid hat at frame 9000."}
+{"question": "Are there any plants?", "answer": "Yes.", "pred": "No plants at frame 9750."}
+{"question": "Is it day or night?", "answer": "Night.", "pred": "Time is unknown."}
+{"question": "Are there any plants?", "answer": "Yes.", "pred": "Man and woman discussing in peaceful backyard with flowers."}
+{"question": "How many people appears?", "answer": "Two.", "pred": "4 people, including man with long hair."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Person happy in frame 1500."}
+{"question": "Is it indoor or outdoor?", "answer": "Outdoor.", "pred": "Unclear if indoor/outdoor, close-up of woman's face, absent in surrounding frames."}
+{"question": "What is the clothes color of the person?", "answer": "Pink.", "pred": "Person wearing brown/red tunic in garden setting."}
+{"question": "Are there any plants?", "answer": "Yes.", "pred": "Tree with green leaves in frame 3750."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Indoor scene based on curtain color."}
+{"question": "How many people appears?", "answer": "Three.", "pred": "Two women sitting at a table with fruits and tablecloth."}
+{"question": "What is the scene?", "answer": "Two woman.", "pred": "Woman on table with people around in ornate room."}
+{"question": "Where is it?", "answer": "In a room.", "pred": "Person at red curtain in last frame at 6750."}
+{"question": "Are there any animals?", "answer": "No.", "pred": "Cat and dog seen at frame 7500."}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "Man sitting in chair with serious expression."}
+{"question": "What is the clothes color of the person?", "answer": "Brown.", "pred": "Dark brown jacket at frame 9000."}
+{"question": "What is the background color?", "answer": "Red.", "pred": "Frame 9750 shows dark red background."}
+{"question": "What is the person doing?", "answer": "Speaking.", "pred": "Person laying down on bed with woman and fruits."}
+{"question": "What is the background color?", "answer": "White and red.", "pred": "Background color is red at frame 25."}
+{"question": "Where is it?", "answer": "In a room.", "pred": "Man in black suit looks out window."}
+{"question": "How many people  appeared?", "answer": "Three.", "pred": "Two men, one woman in room with objects and blankets."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Insufficient visual information to determine day or night."}
+{"question": "Are there any animals?", "answer": "No.", "pred": "Black cat walks with dog at frame 3000."}
+{"question": "What is happening?", "answer": "Three people are in a room.", "pred": "Private conversation between a man and a woman."}
+{"question": "Does the person look happy?", "answer": "No.", "pred": "Person's emotion is unclear, sign says \"I am locked\"."}
+{"question": "What's in the person's hand?", "answer": "A cellphone.", "pred": "Person has black box at frame 5250."}
+{"question": "Are there any vehicles?", "answer": "No.", "pred": "No visible vehicles at frame 6000."}
+{"question": "What's in the person's hand?", "answer": "A cellphone.", "pred": "Woman holds wine bottle."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Daytime with a man in a suit."}
+{"question": "How many people  appeared?", "answer": "Three.", "pred": "One person in frame 8250."}
+{"question": "How the person feel?", "answer": "Nervous.", "pred": "Person texting on phone in relaxed indoor environment."}
+{"question": "Where is it?", "answer": "Big Ben", "pred": "No frame 9750. Last frame 9754."}
+{"question": "What is the clothes color of the person?", "answer": "Black and white.", "pred": "Color of clothes is dark blue at frame 10500."}
+{"question": "Where is the scene?", "answer": "Words on a wall", "pred": "Different frames show wall with \"Chinatown elementary school\" graffiti."}
+{"question": "How many people  appeared?", "answer": "2", "pred": "Two people: young man and woman with long hair."}
+{"question": "How many people  appeared?", "answer": "3", "pred": "Three men, two in coats, one black."}
+{"question": "Where is it?", "answer": "In a museum.", "pred": "Close-up of vintage teapots on table, man in background."}
+{"question": "Where is it?", "answer": "In a museum.", "pred": "No information about frame 3000 location or context."}
+{"question": "How many people  appeared?", "answer": "2", "pred": "Cannot determine due to lack of information."}
+{"question": "Does the person look happy?", "answer": "No", "pred": "No, serious and focused, not happy."}
+{"question": "What is the clothes color of the person?", "answer": "Black", "pred": "Person wearing black coat and scarf at frame 5250."}
+{"question": "Are there any vehicles?", "answer": "No", "pred": "Blue car parked near building, visible at frame 6000."}
+{"question": "What is the background color?", "answer": "Black", "pred": "Grey background at frame 6750."}
+{"question": "What is the clothes color of the person?", "answer": "Grey", "pred": "White shirt at frame 7500."}
+{"question": "Does the person look happy?", "answer": "No", "pred": "Cannot determine happiness from back of head."}
+{"question": "Are there any vehicles?", "answer": "No", "pred": "No vehicles at frame 9000."}
+{"question": "What is the clothes color of the person?", "answer": "Grey", "pred": "Frame 9750 has a person in a white shirt."}
+{"question": "What is the clothes color of the person?", "answer": "No", "pred": "Brown coat person at frame 10500."}
+{"question": "what happens?", "answer": "One man with crush is talking with a woman who wears a shiny yellow outfit. ", "pred": "Police officer outside house in residential area."}
+{"question": "what is the environment?", "answer": "They're on the street while it's raining.", "pred": "Frame 1500: street with black railing, dark sky, lightning."}
+{"question": "what happens?", "answer": "The man is talking off his cloth when he receives an email.", "pred": "Young man in dimly lit room seems troubled and restless."}
+{"question": "what happens?", "answer": "The man walks to the window while he receive another email.", "pred": "Man in brown jacket looks out of window in bedroom."}
+{"question": "what is on the screen of the phone?", "answer": "It's a message and an image of earth.", "pred": "Video displayed on Flipnotes app at frame 4500."}
+{"question": "what's man with a T-shirt doing?", "answer": "He is lying on the sofa.", "pred": "Man in leather jacket ponders in dim lit room."}
+{"question": "what's beside the man on the sofa?", "answer": "It's a laptop.", "pred": "Man standing next to furniture in a room."}
+{"question": "what do the man throw to another man?", "answer": "A cellphone.", "pred": "Possible attempt to break vase, unclear."}
+{"question": "what's the color of the suitcase?", "answer": "It's pink.", "pred": "Suitcase is blue at frame 7500."}
+{"question": "what are the men doing?", "answer": "They put a suitcase on the table and open it.", "pred": "Two people in front of a stone wall at night."}
+{"question": "where do the man find the suitcase?", "answer": "In a trash pile", "pred": "Man finds previously seen suitcase in dimly lit room."}
+{"question": "what happens?", "answer": "The men are finding something in the suitcase,", "pred": "Man and woman change positions with suitcases."}
+{"question": "what's the number of the call?", "answer": "077900955", "pred": "Call number in last frame is 10502."}
+{"question": "what's the environment?", "answer": "It's in a room.", "pred": "Man in black coat in dimly lit room"}
+{"question": "Are there any plants?", "answer": "Yes.", "pred": "Yes, a plant is there in frame 25."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Daytime scene with clear sky and bright lighting."}
+{"question": "Is it indoor or outdoor?", "answer": "Outdoor.", "pred": "People on horseback outside in open space."}
+{"question": "What is the scene?", "answer": "A woman.", "pred": "Woman standing in field with trees and tall grass."}
+{"question": "Are there any plants?", "answer": "Yes.", "pred": "Yes, plants in dense forest with brown leaves."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Daytime at frame 3750, unchanged lighting and scenery."}
+{"question": "Are there any animals?", "answer": "Yes.", "pred": "No animals at frame 4500, focuses on people at 4489."}
+{"question": "How is the weather?", "answer": "Snowy.", "pred": "Cold and snowy weather, with snowfall and cloudy sky."}
+{"question": "How many people appeared?", "answer": "One.", "pred": "One person at frame 6000."}
+{"question": "What is the background color?", "answer": "White.", "pred": "Dark gray background at frame 6750."}
+{"question": "What is the background color?", "answer": "White.", "pred": "Frame 7500 has a white background color."}
+{"question": "How many people appeared?", "answer": "Two.", "pred": "Three people at frame 8250, number may vary."}
+{"question": "How is the weather?", "answer": "Snowy.", "pred": "In frame 9000, snowy weather obscures faces."}
+{"question": "What are the people doing?", "answer": "Talking.", "pred": "Person searching in cold room with danger."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Indoor shot with man in coat near metal door."}
+{"question": "Is it day or night?", "answer": "Night.", "pred": "Probably day due to bright lighting."}
+{"question": "How many people appears?", "answer": "Two.", "pred": "Two people standing near glass window."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Frame 1500: purple background color."}
+{"question": "What is the background color?", "answer": "Black.", "pred": "Frame 2250, dark blue background."}
+{"question": "Is it indoor or outdoor?", "answer": "Outdoor.", "pred": "Unknown frame, possibly representing a witch or supernatural being."}
+{"question": "What is the scene?", "answer": "A people with white cloth.", "pred": "Woman in white by cloudy pool with objects."}
+{"question": "Are there any animals?", "answer": "No.", "pred": "Yes, there are animals in frame 4500."}
+{"question": "What is the scene?", "answer": "Fingers.", "pred": "Abstract digital artwork with \"Touching Fingers\" text on blue background."}
+{"question": "What are the people doing?", "answer": "Talking.", "pred": "Concerned woman in brown hat talks, \"My husband not here\"."}
+{"question": "What is the scene?", "answer": "A fat man.", "pred": "Person in black suit, black bowtie, black background, Chinese quote."}
+{"question": "Where is it?", "answer": "On a train.", "pred": "Man wearing brown hat looking out train window."}
+{"question": "How many people appears?", "answer": "Two.", "pred": "4 people seen at frame 8250."}
+{"question": "Is it day or night?", "answer": "Day.", "pred": "Uncertain due to lack of context."}
+{"question": "Is it indoor or outdoor?", "answer": "Indoor.", "pred": "Cannot determine location at frame 9750."}
+{"question": "Are there any plants?", "answer": "Yes.", "pred": "Plant in background at frame 10500."}

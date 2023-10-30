@@ -1,0 +1,94 @@
+{"question": "When does the things in the video happens, decades ago, now, or in the future?", "answer": "It happens decades ago, most likely during a world war.", "pred": "Scenes in past, future, and ambiguous time periods."}
+{"question": "When does it happen in the video, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Various ages shown from ancient to future on beach."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Man and woman in different time periods."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?(Does the technology exists on earth?)", "answer": "It happens at future.", "pred": "Unclear time period, possible future technology."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern age.", "pred": "No specific time period shown in video."}
+{"question": "When does the video take place? Nowadays or ancient times?", "answer": "It happens at nowadays.", "pred": "Old video of African wildlife."}
+{"question": "When does the video take place? Nowadays or ancient times?", "answer": "It happens at nowadays.", "pred": "Various scenes depict people, animals, and activities."}
+{"question": "Is there more than five different characters appear(include the blue human-like creature)?", "answer": "Yes.", "pred": "Yes, many different characters are present."}
+{"question": "Does it happen in the cities?", "answer": "No.", "pred": "Yes, video shows coral reef and fish at night."}
+{"question": "Is there more than five different characters appear(not including people in the background)?", "answer": "No.", "pred": "Yes, multiple characters with varying presence."}
+{"question": "When does it happen in the video, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Person climbs glaciers, mountains, ocean, landscapes shown."}
+{"question": "Is there more than five different people appear?", "answer": "Yes.", "pred": "Yes, more than five people appear but not always visible."}
+{"question": "When does the video take place? Nowadays or ancient times?", "answer": "It happens at nowadays.", "pred": "Video shot in modern natural locations with waterfall, beach, rocks, cliff."}
+{"question": "When does it happen in the video, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Different time periods depicted in video with appropriate descriptions."}
+{"question": "When does it happen in the video, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Man fishing in ocean with surfboard and boat at sunset."}
+{"question": "When does the video take place? Nowadays or ancient times?", "answer": "It happens at nowadays.", "pred": "Various natural locations and objects from different time periods."}
+{"question": "Does it happen in the cities?", "answer": "No.", "pred": "No specific location mentioned, various outdoor environments."}
+{"question": "When does the video take place? Nowadays or ancient times?", "answer": "It happens at nowadays.", "pred": "Modern era setting."}
+{"question": "Is there more than five different characters appear?", "answer": "Yes.", "pred": "Multiple characters with different outfits in video."}
+{"question": "Does it happen during day or night?", "answer": "Day and night.", "pred": "At night, with moon and stars visible."}
+{"question": "When does the video take place? Nowadays or ancient times?", "answer": "It happens at nowadays.", "pred": "Mixed ancient and modern scenery in Sanya, China."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Various people in different situations, no specific time period."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Ancient age.", "pred": "Various settings, costumes, and wine scenes depicted."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "It happens at modern age.", "pred": "Video shows people driving, flying, and using various vehicles."}
+{"question": "Is there more than three different characters appear?", "answer": "Yes.", "pred": "Yes, different characters but uncertain number."}
+{"question": "When does it happen in the video, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Time travel through ancient times with various cultural scenes."}
+{"question": "Does it happen in the cities?", "answer": "No.", "pred": "No city-specific mention, but buildings visible in background."}
+{"question": "Does it happen during day or night?", "answer": "Day and night.", "pred": "Yes, at night."}
+{"question": "When does the video take place? Nowadays or ancient times?", "answer": "It happens at nowadays.", "pred": "Current video in water environment."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Ancient age.", "pred": "Ancient and modern scenes featuring different characters and settings."}
+{"question": "Does it happen during day or night?", "answer": "Day.", "pred": "Not specified, day or night."}
+{"question": "Does it happen in the cities?", "answer": "No.", "pred": "Various locations shown, no cities mentioned."}
+{"question": "When does the video take place? Nowadays or ancient times?", "answer": "It happens at nowadays.", "pred": "Modern video with possible ancient setting."}
+{"question": "When does it happen in the video, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Various settings, uncertain time."}
+{"question": "Does it happen in the cities?", "answer": "No.", "pred": "No cities, just underwater with sea life."}
+{"question": "Does it happen in the cities?", "answer": "No.", "pred": "Ocean or large body of water."}
+{"question": "Does it happen in the cities?", "answer": "No.", "pred": "Yes, underwater world in Hangzhou, China."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Ancient age.", "pred": "No specific information about time or location."}
+{"question": "Is there more than five different characters appear?", "answer": "Yes.", "pred": "Yes, multiple characters appear at different times."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Ancient age.", "pred": "Various historical and futuristic settings depicted in the video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "It happens at modern age.", "pred": "Time period is ambiguous due to mixed descriptions."}
+{"question": "When does it happen in the video, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Present time video showcases old desert town buildings."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Events in video have unclear time frame."}
+{"question": "When does the things in the video happens, acient, modern, or in the future?", "answer": "It happens at modern time.", "pred": "Video depicts events in different time periods."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "It happens at future.", "pred": "Video shows mix of past, present, and future concepts."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "It happens at modern age, maybe one decade ago.", "pred": "Unclear era, variously dressed people, blonde wig, ancient man."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Various people in different locations looking at each other."}
+{"question": "Is there more than three different characters appear?", "answer": "Yes.", "pred": "Yes, various characters appear in the video."}
+{"question": "When does the things in the video happens, acient, modern, or in the future?", "answer": "It happens at modern time.", "pred": "Various activities and events happening in different settings."}
+{"question": "Is there more than three different characters appear?", "answer": "Yes.", "pred": "Yes, multiple characters including young boys, women, and men."}
+{"question": "When does it happen in the video, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Different scenes in desert at night with moon."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Present events depict past or future scenarios."}
+{"question": "Does it happen during day or night?", "answer": "Day and night.", "pred": "Shows day/night scenes, building interior, dark room at night."}
+{"question": "Does it happen in the cities?", "answer": "No.", "pred": "Yes, various scenes of city, volcano, ocean captured."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern.", "pred": "Various scenes with people in different environments."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Ancient age.", "pred": "Time periods not specifically mentioned in video."}
+{"question": "Is there more than ten different characters appear?", "answer": "No.", "pred": "Few characters, mostly men and women in different shots."}
+{"question": "Does it happen in the cities?", "answer": "No.", "pred": "Yes, in cities."}
+{"question": "Does it happen during day or night?", "answer": "Day.", "pred": "Daytime scenes transition to shadows and darkness."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Ancient age.", "pred": "Video shows scenes of people in different time periods."}
+{"question": "When does the video take place? Nowadays or ancient times?", "answer": "It happens at nowadays.", "pred": "Modern time setting."}
+{"question": "When does it happen in the video, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Video featuring ancient and modern scenes of various locations."}
+{"question": "When does the video take place? Nowadays or ancient times?", "answer": "It happens at nowadays.", "pred": "Current time is mentioned due to tourist activity."}
+{"question": "When does it happen in the video, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Undetermined time travel through various eras."}
+{"question": "Does it happen in the cities?", "answer": "No.", "pred": "Various nighttime activities in cities captured in video."}
+{"question": "Is there more than five different characters appear(include the blue human-like creature)?", "answer": "Yes.", "pred": "Different characters appear in various scenes with weapons."}
+{"question": "When does the things in the video happens, decades ago, now, or in the future?", "answer": "It happens decades ago, most likely during a world war.", "pred": "Video shows American soldiers in WWII fighting the Japanese army."}
+{"question": "Is there more than three different characters appear(not including people in the background)?", "answer": "Yes.", "pred": "Various characters appear throughout the video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Ancient age.", "pred": "Video depicts various scenes of people with horses through time."}
+{"question": "How many man and woman appears in the video?", "answer": "No human appear in the video.", "pred": "Gender distribution in video unknown."}
+{"question": "When does it happen in the video, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Futuristic scenes with people in hot tubs and tents."}
+{"question": "When does the things in the video happens, acient, modern, or in the future?", "answer": "It happens at modern time.", "pred": "Events occur in the present time."}
+{"question": "Does it happen in the cities?", "answer": "No.", "pred": "Yes, footage shows ocean and sea in cities."}
+{"question": "Does it happen in the cities?", "answer": "No.", "pred": "No city-specific information mentioned in the video."}
+{"question": "Is there more than three different characters appear?", "answer": "Yes.", "pred": "Yes, different characters in some descriptions."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Ancient age.", "pred": "Various scenes of people on horses in different places."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Ancient age.", "pred": "Time period in video uncertain, possibly past, future, and different locations."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Unclear era; possible past or future scenario."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "It happens at future.", "pred": "Various time periods and futuristic settings depicted in video scenes."}
+{"question": "Does it happen during day or night?", "answer": "Day and night.", "pred": "Night and daytime scenes are included."}
+{"question": "Does it happen in the cities?", "answer": "No.", "pred": "No, urban areas are not visible."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Can't tell. It maybe happen at future age.", "pred": "Scenes vary with different time periods and settings."}
+{"question": "When does it happen in the video, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Video shows different ages and concept of time."}
+{"question": "Is there more than three different characters appear(not including people in the background)?", "answer": "No.", "pred": "Yes, many different characters appear in the video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Ancient age.", "pred": "Multiple historical periods depicted in the video."}
+{"question": "When does the things in the video happens, acient, modern, or in the future?", "answer": "It happens at modern time.", "pred": "Past and present events depicted in real-time."}
+{"question": "When does the things in the video happens, acient, modern, or in the future?", "answer": "It happens at modern time.", "pred": "Video events occur in modern times."}
+{"question": "When does it happen in the video, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Various landscapes and eras shown in National Parks video."}
+{"question": "Does it happen during day or night?", "answer": "Day.", "pred": "Daytime video."}
+{"question": "Does it happen during day or night?", "answer": "Day.", "pred": "Uncertain, but possibly at night."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Video covers various eras: ancient, modern, and future."}
+{"question": "Is there more than five different characters appear?", "answer": "Yes.", "pred": "Yes, multiple characters with different appearance and behavior."}
+{"question": "When does it happen in the video, ancient age, modern age or future?", "answer": "Modern age.", "pred": "People exploring ancient city with space references."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "It happens at modern age.", "pred": "Black and white video with people and car."}

@@ -1,0 +1,489 @@
+{"question": "Does it happen during day or night?", "answer": "night", "pred": "Man in black suit in nightclub setting."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "yes", "pred": "Yes, three backgrounds appear in the video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Morden", "pred": "Magic trick performed in future room with red curtain."}
+{"question": "Does more than 5 people appeared in the video?", "answer": "Yes", "pred": "Yes, over 5 people appeared."}
+{"question": "How many characters appears in this video?", "answer": "5", "pred": "Four characters in the video."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, three different video backgrounds."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Man in suit points gun at woman in white dress."}
+{"question": "How many characters appears in this video?", "answer": "More than ten.", "pred": "Two characters in the video."}
+{"question": "Does more than 5 people appeared in the video?", "answer": "Yes.", "pred": "One person in video."}
+{"question": "Does it happen during day or night?", "answer": "Both.", "pred": "Video of man talking to woman in dark room."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, three backgrounds in video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Acient age.", "pred": "Ancient setting with characters in period clothing and weapons."}
+{"question": "How many characters appears in this video?", "answer": "More than ten.", "pred": "Two characters in the video."}
+{"question": "Does more than 5 people appered in the video?", "answer": "Yes.", "pred": "Yes, 5+ people appeared in the video."}
+{"question": "Does it happen during day or nigth?", "answer": "Day.", "pred": "People in castle, man and woman on bed at night."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Only three backgrounds appear in the video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Video shows man talking to a group in a room."}
+{"question": "How many characters appears in this video?", "answer": "More than ten.", "pred": "Two characters in video."}
+{"question": "Does more than 5 people appered in the video?", "answer": "Yes.", "pred": "Multiple people in video, walking down hallway and into building."}
+{"question": "Does it happen during day or nigth?", "answer": "Day.", "pred": "Time of day cannot be determined."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern age.", "pred": "In the future."}
+{"question": "How many characters appears in this video?", "answer": "More than ten.", "pred": "Two characters in video."}
+{"question": "Does more than 5 people appeared in the video?", "answer": "Yes.", "pred": "Two men visible in video."}
+{"question": "Does it happen during day or night?", "answer": "Night.", "pred": "Nighttime setting in the video."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Multiple backgrounds: dark room, forest, church."}
+{"question": "Does more than ten people appear in the video?", "answer": "Yes.", "pred": "A few people can be seen."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Scene of man and woman suggests futuristic setting."}
+{"question": "Does more than 5 people appear in the video?", "answer": "Yes.", "pred": "One person in video."}
+{"question": "Does it happen during day or night?", "answer": "Both.", "pred": "Man in dark room, time not determined."}
+{"question": "How many characters appears in this video", "answer": "There're four people in the video.", "pred": "Two characters in the video."}
+{"question": "How many different environment appears in the video?", "answer": "Two different environments.", "pred": "Two different environments with men sitting."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "It appears in modern age.", "pred": "Modern age setting."}
+{"question": "How many man and woman appears in the video?", "answer": "There're four men and zero women in the video.", "pred": "2 men, 1 woman in video."}
+{"question": "What's the time in the video?", "answer": "It's night.", "pred": "It is 11:30 PM."}
+{"question": "How many characters appears in this video", "answer": "There're five people in the video.", "pred": "Three characters in the video."}
+{"question": "Are there more then three  different environments appear in the video?", "answer": "Yes.", "pred": "Yes, three environments."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "It appears in modern age.", "pred": "Modern age."}
+{"question": "Are there more than three men in the video?", "answer": "Yes..", "pred": "Only three men in video."}
+{"question": "What's the time in the video?", "answer": "Daytime.", "pred": "10:15 in the video."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, three different backgrounds appear."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Man in cave holds rope."}
+{"question": "How many characters appears in this video?", "answer": "More than ten.", "pred": "2 characters in the video."}
+{"question": "Does more than 5 people appered in the video?", "answer": "Yes.", "pred": "Yes, more than 5 people in video."}
+{"question": "Does it happen during day or nigth?", "answer": "Day.", "pred": "Unclear lighting in cave. Day/night undetectable."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Three different backgrounds in video."}
+{"question": "Does more than ten people appear in the video?", "answer": "No.", "pred": "One man shown in the video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Future setting with formal attire."}
+{"question": "Does more than 5 people appear in the video?", "answer": "Yes.", "pred": "Yes, >5 people appear in the video."}
+{"question": "Does it happen during day or night?", "answer": "Both.", "pred": "Man in dark room at night."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, three different backgrounds appear."}
+{"question": "Does more than ten people appear in the video?", "answer": "Yes.", "pred": "More than ten people appear."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Ancient video with people in costumes and suit."}
+{"question": "Does more than 5 people appear in the video?", "answer": "Yes.", "pred": "One man in the video."}
+{"question": "Does it happen during day or night?", "answer": "Night.", "pred": "Night time setting."}
+{"question": "How many characters appears in this video", "answer": "There're five people in the video.", "pred": "Two characters in the video."}
+{"question": "How many different environment appears in the video?", "answer": "There're two different environments.", "pred": "Two different rooms with identical furniture."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "It appears in modern age.", "pred": "Modern day setting."}
+{"question": "How many man and woman appears in the video?", "answer": "There're four men and one  women in the video.", "pred": "2 men, 1 woman in video."}
+{"question": "What's the time in the video?", "answer": "It's night.", "pred": "Video time is 10:30."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, three different backgrounds."}
+{"question": "Does more than ten people appear in the video?", "answer": "Yes.", "pred": "Only two people in the video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Ancient age.", "pred": "Ancient-themed video with people using ancient tools and weapons."}
+{"question": "Does more than 5 people appeared in the video?", "answer": "Yes.", "pred": "Only two people appeared."}
+{"question": "Does it happen during day or night?", "answer": "Both.", "pred": "Man and woman sitting in a room."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, three different backgrounds are shown."}
+{"question": "Does more than ten people appear in the video?", "answer": "Yes.", "pred": "Only two people in video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Future setting with advanced technology and clothing."}
+{"question": "Does more than 5 people appear in the video?", "answer": "Yes.", "pred": "Yes, more than five people."}
+{"question": "Does it happen during day or night?", "answer": "Day.", "pred": "Nighttime setting."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, three different backgrounds seen in video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Morden", "pred": "People in a dark futuristic room talking."}
+{"question": "Does it happen during day or night?", "answer": "Daytime", "pred": "Man in lab coat talking to woman in dark room."}
+{"question": "Does more than 5 people appeared in the video?", "answer": "Yes.", "pred": "Yes, more than 5 people."}
+{"question": "How many characters appears in this video?", "answer": "Seven.", "pred": "Three characters in video."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, three backgrounds seen in video."}
+{"question": "Does more than ten people appear in the video?", "answer": "Yes.", "pred": "One person in video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Ancient age.", "pred": "Ancient video with characters in castle."}
+{"question": "Does more than 5 people appeared in the video?", "answer": "Yes.", "pred": "1 woman appeared in video."}
+{"question": "Does it happen during day or night?", "answer": "Both.", "pred": "Man talks to woman in night scene."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, three different backgrounds in video."}
+{"question": "Does more than ten people appear in the video?", "answer": "No.", "pred": "One person in video."}
+{"question": "Does more than ten people appear in the video?", "answer": "No.", "pred": "One person seen in video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Modern age video."}
+{"question": "Does more than 5 people appear in the video?", "answer": "No.", "pred": "One man in the video."}
+{"question": "Does it happen during day or night?", "answer": "Both.", "pred": "Man talks to woman in dark room at night."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes", "pred": "Yes, 3 different backgrounds in video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Morden", "pred": "Modern age video."}
+{"question": "Does it happen during day or night?", "answer": "Daytime", "pred": "Cannot determine time of day from video."}
+{"question": "Does more than 5 people appeared in the video?", "answer": "Yes", "pred": "No, one person in video."}
+{"question": "How many characters appears in this video?", "answer": "6", "pred": "Three characters in the video."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, three different backgrounds in video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern.", "pred": "Modern age video."}
+{"question": "How many characters appears in this video?", "answer": "Seven", "pred": "Two characters in video."}
+{"question": "Does more than 5 people appeared in the video?", "answer": "Yes.", "pred": "Yes, >5 people in video."}
+{"question": "Does it happen during day or night?", "answer": "Day.", "pred": "Man and woman talk in car, unknown time."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, 3 different backgrounds in video."}
+{"question": "Does more than ten people appear in the video?", "answer": "Yes.", "pred": "Two men visible, no more."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Ancient age.", "pred": "video set in ancient time"}
+{"question": "Does more than 5 people appeared in the video?", "answer": "Yes.", "pred": "Two people featured in the video."}
+{"question": "Does it happen during day or night?", "answer": "Day.", "pred": "Daytime video."}
+{"question": "How many characters appears in this video", "answer": "There're four people in the video.", "pred": "Two characters in the video."}
+{"question": "How many different environment appears in the video?", "answer": "Two different environments.", "pred": "Room with couch, and bar."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "It appears in modern age.", "pred": "Future scene with man and robot talking."}
+{"question": "How many man and woman appears in the video?", "answer": "There're four men and zero women in the video.", "pred": "One man, one woman in video."}
+{"question": "What's the time in the video?", "answer": "It's night.", "pred": "A man in a room at 10:30."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "No.", "pred": "Yes, three backgrounds are in video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern.", "pred": "Characters in future using advanced technology."}
+{"question": "How many characters appears in this video?", "answer": "Five", "pred": "Two characters in video."}
+{"question": "Does more than 5 people appeared in the video?", "answer": "No.", "pred": "One person in the video."}
+{"question": "Does it happen during day or night?", "answer": "Day.", "pred": "Man and woman talk in a room."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, more than three backgrounds appear."}
+{"question": "Does more than ten people appear in the video?", "answer": "Yes.", "pred": "One person seen in video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Modern man talks to woman on cell phone."}
+{"question": "Does more than 5 people appear in the video?", "answer": "Yes.", "pred": "One person in the video."}
+{"question": "Does it happen during day or night?", "answer": "Both.", "pred": "Time of the video is indeterminable."}
+{"question": "Are there more then six people in this video?", "answer": "Yes.", "pred": "Six people in video."}
+{"question": "Are there more then three  different environments appear in the video?", "answer": "Yes.", "pred": "Yes, three environments in video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "It appears in modern age.", "pred": "Modern era video."}
+{"question": "Are there more than three men in the video?", "answer": "Yes.", "pred": "Only three men in video."}
+{"question": "What's the time in the video?", "answer": "Both daytime and night.", "pred": "11:30 PM."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, multiple backgrounds appear in the video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Acient age.", "pred": "Ancient age."}
+{"question": "How many characters appears in this video?", "answer": "More than ten.", "pred": "Three characters in the video."}
+{"question": "Does more than 5 people appered in the video?", "answer": "Yes.", "pred": "Yes, more than 5 people in video."}
+{"question": "Does it happen during day or nigth?", "answer": "Day.", "pred": "Night scene with people walking and man sitting on rock."}
+{"question": "How many characters appears in this video", "answer": "There're five people in the video.", "pred": "Two characters in the video."}
+{"question": "How many different environment appears in the video?", "answer": "Four different environments.", "pred": "Two environments in video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "It appears in modern age.", "pred": "Modern age video."}
+{"question": "How many man and woman appears in the video?", "answer": "There're three men and two women in the video.", "pred": "2 men, 1 woman in video."}
+{"question": "What's the time the things in the video happens? Day or night?", "answer": "It happens during the daytime.", "pred": "Daytime interaction between man in suit, woman in white shirt."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, three different backgrounds in video."}
+{"question": "Does more than ten people appear in the video?", "answer": "Yes.", "pred": "Ten people in the video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Ancient age.", "pred": "Characters wear ancient clothing and use ancient weapons."}
+{"question": "Does more than 5 people appear in the video?", "answer": "Yes.", "pred": "One person is in the video."}
+{"question": "Does it happen during day or night?", "answer": "Day.", "pred": "Man burned at stake in night scene."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "No.", "pred": "Yes, three different backgrounds appear."}
+{"question": "How many characters appears in this video?", "answer": "Four.", "pred": "Single man talks to camera."}
+{"question": "Does more than 5 people appeared in the video?", "answer": "No.", "pred": "Only one woman appears in the video."}
+{"question": "Does it happen during day or night?", "answer": "Both", "pred": "Man and woman talking in unspecified room."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, three different backgrounds are shown."}
+{"question": "Does more than ten people appear in the video?", "answer": "Yes.", "pred": "One person in the video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Man in white suit talks to man in black suit."}
+{"question": "Does more than 5 people appear in the video?", "answer": "Yes.", "pred": "One man in the video."}
+{"question": "Does it happen during day or night?", "answer": "Day.", "pred": "Man in suit talks to woman in hallway."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, three backgrounds appear in video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Man and woman talking in a park."}
+{"question": "How many characters appears in this video?", "answer": "More than ten.", "pred": "Two characters in video."}
+{"question": "Does more than 5 people appered in the video?", "answer": "Yes.", "pred": "Two people appeared in the video."}
+{"question": "Does it happen during day or nigth?", "answer": "Day.", "pred": "Couple walking down street at night."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, three different video backgrounds."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern.", "pred": "Modern man talks to woman on cellphone in video."}
+{"question": "How many characters appears in this video?", "answer": "Six.", "pred": "Two characters in the video."}
+{"question": "Does more than 5 people appeared in the video?", "answer": "Yes.", "pred": "One person in video."}
+{"question": "Does it happen during day or night?", "answer": "Both.", "pred": "Man talks to woman in dark room."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, three different backgrounds appear in the video."}
+{"question": "How many characters appears in this video?", "answer": "Six.", "pred": "Two characters in video."}
+{"question": "Does more than 5 people appeared in the video?", "answer": "Eight.", "pred": "Yes, over 5 people appeared in the video."}
+{"question": "Does it happen during day or night?", "answer": "Both.", "pred": "Uncertain if day or night; man and woman talk."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, three different backgrounds in video."}
+{"question": "How many characters appears in this video?", "answer": "Six.", "pred": "Two characters in the video."}
+{"question": "Does more than 5 people appeared in the video?", "answer": "Yes.", "pred": "One person in the video."}
+{"question": "Does it happen during day or night?", "answer": "Day.", "pred": "Man and woman in room talking during the day."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, three different backgrounds appear in the video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Morden", "pred": "In modern times."}
+{"question": "Does it happen during day or night?", "answer": "Both", "pred": "Man in suit talks to woman in black dress."}
+{"question": "Does more than 5 people appeared in the video?", "answer": "Yes.", "pred": "One person in video."}
+{"question": "How many characters appears in this video?", "answer": "Six", "pred": "Two characters in the video."}
+{"question": "Does it happen during day or night?", "answer": "both", "pred": "Nighttime setting in the video."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "yes", "pred": "Yes, three different video backgrounds."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Morden", "pred": "Futuristic outfits worn in future setting."}
+{"question": "Does more than 5 people appeared in the video?", "answer": "Yes", "pred": "One person in video."}
+{"question": "How many characters appears in this video?", "answer": "6", "pred": "Two characters in video."}
+{"question": "Does it happen during day or night?", "answer": "Both", "pred": "Man talking to woman at night, holding a book."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes", "pred": "Yes, three different video backgrounds appear."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Morden", "pred": "Modern age video."}
+{"question": "How many characters appears in this video?", "answer": "6", "pred": "Three characters are in the video."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Three different backgrounds, not more."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Man driving modern car in city, businessman gets out."}
+{"question": "How many characters appears in this video?", "answer": "More than ten.", "pred": "Two characters in video."}
+{"question": "Does more than 5 people appered in the video?", "answer": "Yes.", "pred": "One man is visible."}
+{"question": "Does it happen during day or nigth?", "answer": "Day.", "pred": "Man drives car at night."}
+{"question": "Does it happen during day or night?", "answer": "Night", "pred": "Man talking to woman in dark room at night."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes", "pred": "Yes, three backgrounds appear in video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Morden", "pred": "Modern setting with characters dressed in modern clothing and using technology."}
+{"question": "Does more than 5 people appeared in the video?", "answer": "yes", "pred": "Yes, more than 5 people appeared."}
+{"question": "How many characters appears in this video?", "answer": "6", "pred": "3 characters: man, woman, man in suit."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, three different backgrounds appear."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern ages", "pred": "A man talking to a woman in a room."}
+{"question": "How many characters appears in this video?", "answer": "Five.", "pred": "Two characters in the video."}
+{"question": "Does more than 5 people appeared in the video?", "answer": "No.", "pred": "Two people in video."}
+{"question": "Does it happen during day or night?", "answer": "Both", "pred": "Man talks to woman, then walks in hallway at night."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, 3 different backgrounds in video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Modern vehicles and city scene in video."}
+{"question": "How many characters appears in this video?", "answer": "More than ten.", "pred": "Two characters in the video."}
+{"question": "Does more than 5 people appered in the video?", "answer": "Yes.", "pred": "One man appears in the video."}
+{"question": "Does it happen during day or nigth?", "answer": "Day.", "pred": "Motorcycle rider filmed at night."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "No.", "pred": "More than 3 backgrounds present in video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern ages", "pred": "A man and woman talk in a room with fireplace."}
+{"question": "How many characters appears in this video?", "answer": "Four.", "pred": "Two men in video."}
+{"question": "Does more than 5 people appered in the video?", "answer": "No.", "pred": "Two men seen in video."}
+{"question": "Does it happen during day or night?", "answer": "Day.", "pred": "Man talks to woman in daytime room."}
+{"question": "How many characters appears in this video", "answer": "There're six people in the video.", "pred": "Two characters in video."}
+{"question": "How many different environment appears in the video?", "answer": "Three different environments.", "pred": "Car and room are the two environments."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "It appears in modern age.", "pred": "Man talks to woman in car and room about future."}
+{"question": "How many man and woman appears in the video?", "answer": "There're four men and two women in the video.", "pred": "2 men, 1 woman in video."}
+{"question": "What's the weather in the video?", "answer": "It's rainy.", "pred": "Video shows rainy weather."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "No.", "pred": "Yes, over three different backgrounds."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern ages", "pred": "Man talks on modern cell phone."}
+{"question": "How many characters appears in this video?", "answer": "Eight.", "pred": "Two characters in the video."}
+{"question": "Does more than 5 people appeared in the video?", "answer": "Yes.", "pred": "Yes, more than 5 people."}
+{"question": "Does it happen during day or night?", "answer": "Day.", "pred": "Man in black suit speaks to woman in black dress."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, three different backgrounds in video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Future video shows space-suited man with helmet."}
+{"question": "How many characters appears in this video?", "answer": "More than ten.", "pred": "Two characters in the video."}
+{"question": "Does more than 5 people appered in the video?", "answer": "Yes.", "pred": "Yes, 5+ people appeared in the video."}
+{"question": "Does it happen during day or nigth?", "answer": "Day.", "pred": "Video shows man in helicopter and car driving down mountain."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Multiple backgrounds in video, includes dark room, hallway, and window."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Modern age video."}
+{"question": "How many characters appears in this video?", "answer": "More than ten.", "pred": "Two characters in the video."}
+{"question": "Does more than 5 people appered in the video?", "answer": "Yes.", "pred": "One man and one woman in the video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Acient age.", "pred": "Ancient people dressed in medieval clothes in a medieval setting."}
+{"question": "How many characters appears in this video?", "answer": "More than ten.", "pred": "Two characters in the video."}
+{"question": "Does more than 5 people appered in the video?", "answer": "Yes.", "pred": "One person visible in video."}
+{"question": "Does it happen during day or nigth?", "answer": "Day.", "pred": "Nighttime video of man and woman in field."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, 3 different backgrounds."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Man in suit talks to woman in room."}
+{"question": "How many characters appears in this video?", "answer": "More than ten.", "pred": "Three characters in the video."}
+{"question": "Does more than 5 people appeared in the video?", "answer": "Yes.", "pred": "One person in the video."}
+{"question": "Does it happen during day or night?", "answer": "Both.", "pred": "Man stands in night room."}
+{"question": "How many characters appears in this video", "answer": "There're eight people in the video.", "pred": "Two characters in video."}
+{"question": "How many different environment appears in the video?", "answer": "Three different environments.", "pred": "Two rooms with different furniture."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "It appears in modern age.", "pred": "Man in suit talks to woman in modern room."}
+{"question": "How many man and woman appears in the video?", "answer": "There're five men and three women in the video.", "pred": "2 men,1 woman in video"}
+{"question": "What's the time in the video?", "answer": "Both daytime and at night.", "pred": "Man in suit talks to woman in suit."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, more than three backgrounds."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Modern era video."}
+{"question": "How many characters appears in this video?", "answer": "More than ten.", "pred": "Two characters in video."}
+{"question": "Does more than 5 people appered in the video?", "answer": "Yes.", "pred": "Yes, 5+ people appeared in the video."}
+{"question": "Does it happen during day or nigth?", "answer": "Day.", "pred": "Man drives car at night."}
+{"question": "How many characters appears in this video?", "answer": "There're six people in the video.", "pred": "Two characters in the video."}
+{"question": "Are there more then three  different environments appear in the video?", "answer": "Yes.", "pred": "Yes, three different environments are shown."}
+{"question": "Are there more than three men in the video?", "answer": "Yes.", "pred": "Three men appear, not more."}
+{"question": "What's the time in the video?", "answer": "Daytime.", "pred": "Video time: 10:20."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, three different backgrounds in video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Morden", "pred": "Modern age video."}
+{"question": "Does it happen during day or night?", "answer": "Both", "pred": "Man and woman talking in a room."}
+{"question": "Does more than 5 people appeared in the video?", "answer": "No.", "pred": "5 people appeared in the video."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "No.", "pred": "Yes, three different backgrounds."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern.", "pred": "Future video."}
+{"question": "How many characters appears in this video?", "answer": "Seven", "pred": "Two characters in the video."}
+{"question": "Does more than 5 people appeared in the video?", "answer": "Yes.", "pred": "One person in the video."}
+{"question": "Does it happen during day or night?", "answer": "Both.", "pred": "Nighttime setting."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, three different backgrounds in video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Morden", "pred": "Future video shows man in suit talking to woman."}
+{"question": "Does it happen during day or night?", "answer": "Both", "pred": "Uncertain day/night scene in video with man and woman."}
+{"question": "Does more than 5 people appeared in the video?", "answer": "Yes.", "pred": "One person in the video."}
+{"question": "How many characters appears in this video?", "answer": "Seven", "pred": "Two characters in video."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, three different video backgrounds."}
+{"question": "Does more than ten people appear in the video?", "answer": "Yes.", "pred": "Yes, more than ten people appear."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Ancient age.", "pred": "Characters dressed and using ancient weapons."}
+{"question": "Does more than 5 people appeared in the video?", "answer": "Yes.", "pred": "Yes, 5+ people in video."}
+{"question": "Does it happen during day or night?", "answer": "Day.", "pred": "Man in cave speaks with sword and bow."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, over three backgrounds appear in video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Video shows man in helicopter flying over mountain."}
+{"question": "How many characters appears in this video?", "answer": "More than ten.", "pred": "Two characters in the video."}
+{"question": "Does more than 5 people appered in the video?", "answer": "Yes.", "pred": "One man visible in video."}
+{"question": "Does it happen during day or nigth?", "answer": "Day.", "pred": "Helicopter flying over mountain, time of day unknown."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, three backgrounds visible in video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Acient age.", "pred": "Medieval scene with people in ancient clothing and weapons."}
+{"question": "How many characters appears in this video?", "answer": "More than ten.", "pred": "Two characters in the video."}
+{"question": "Does more than 5 people appered in the video?", "answer": "Yes.", "pred": "Yes, more than 5 people were present."}
+{"question": "Does it happen during day or nigth?", "answer": "Day.", "pred": "People in castle, time undetermined."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Video shows future with man in modern business attire."}
+{"question": "How many characters appears in this video?", "answer": "More than ten.", "pred": "Two characters in video."}
+{"question": "Does more than 5 people appered in the video?", "answer": "Yes.", "pred": "One person seen in the video."}
+{"question": "Does it happen during day or nigth?", "answer": "Day.", "pred": "Man talks to woman in dark room, wearing certain clothes."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, three different backgrounds appear in the video."}
+{"question": "Does more than ten people appear in the video?", "answer": "No.", "pred": "One person appears in the video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Ancient age.", "pred": "Ancient age video with armor-suited man and castle woman."}
+{"question": "Does more than 5 people appear in the video?", "answer": "No.", "pred": "One person appears in the video."}
+{"question": "Does it happen during day or night?", "answer": "Day.", "pred": "Nighttime video setting."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, three different backgrounds."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Future setting with futuristic clothing."}
+{"question": "How many characters appears in this video?", "answer": "More than ten.", "pred": "Two characters in the video."}
+{"question": "Does more than 5 people appered in the video?", "answer": "Yes.", "pred": "One person visible in video."}
+{"question": "Does it happen during day or nigth?", "answer": "Both.", "pred": "Man holds gun in room with bed and chair."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, three different backgrounds seen in video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern ages", "pred": "Man in black coat walks in future street."}
+{"question": "How many characters appears in this video?", "answer": "Six.", "pred": "Two characters in video."}
+{"question": "Does more than 5 people appeared in the video?", "answer": "Yes.", "pred": "One person visible in video."}
+{"question": "Does it happen during day or night?", "answer": "Both", "pred": "Video shows man walking, another talking on cell phone."}
+{"question": "Does it happen during day or night?", "answer": "night", "pred": "Man and woman in room at night."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "No", "pred": "Yes, three different backgrounds in video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Morden", "pred": "Modern age."}
+{"question": "Does more than 5 people appeared in the video?", "answer": "Yes", "pred": "One woman is seen in the video."}
+{"question": "How many characters appears in this video?", "answer": "7", "pred": "Three characters in the video."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "3 backgrounds in the video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Morden", "pred": "Set in future, characters wear futuristic clothing and drive vehicles."}
+{"question": "Does it happen during day or night?", "answer": "Day,", "pred": "Man and woman talk in room with window."}
+{"question": "Does more than 5 people appeared in the video?", "answer": "Yes.", "pred": "One person visible in the video."}
+{"question": "How many characters appears in this video?", "answer": "Eight", "pred": "Two characters in video."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, three different backgrounds in video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern ages", "pred": "Modern era with man & woman in modern attire."}
+{"question": "How many characters appears in this video?", "answer": "More than ten.", "pred": "Two characters in video."}
+{"question": "Does more than 5 people appeared in the video?", "answer": "Yes.", "pred": "One person in the video."}
+{"question": "Does it happen during day or night?", "answer": "Both.", "pred": "Man in suit talks to woman in pool."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, three backgrounds seen in video."}
+{"question": "Does more than ten people appear in the video?", "answer": "Yes.", "pred": "One man appears."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Ancient age.", "pred": "Ancient video with castle, crown, robe, and dress."}
+{"question": "Does more than 5 people appear in the video?", "answer": "Yes.", "pred": "One man appears."}
+{"question": "Does it happen during day or night?", "answer": "Day.", "pred": "Man in chair wearing robe at night."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Three backgrounds appear in the video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Man in suit talks to woman in white coat in room."}
+{"question": "How many characters appears in this video?", "answer": "More than ten.", "pred": "Two characters in video."}
+{"question": "Does more than 5 people appeared in the video?", "answer": "Yes.", "pred": "One man is shown."}
+{"question": "Does it happen during day or night?", "answer": "Day.", "pred": "Man talks to woman in room."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, three different backgrounds in video."}
+{"question": "Does more than ten people appear in the video?", "answer": "No.", "pred": "One person in video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Modern age video."}
+{"question": "Does more than 5 people appear in the video?", "answer": "Yes.", "pred": "One person appears in the video."}
+{"question": "Does it happen during day or night?", "answer": "Both.", "pred": "Nighttime setting."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, three different backgrounds appear in the video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Man in suit talks to woman in white coat."}
+{"question": "How many characters appears in this video?", "answer": "Five.", "pred": "Two characters in the video."}
+{"question": "Does more than 5 people appered in the video?", "answer": "No.", "pred": "One man and one woman are visible."}
+{"question": "Does it happen during day or nigth?", "answer": "Day.", "pred": "Man and woman talking in multiple car scenes"}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, more than three backgrounds."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Acient age.", "pred": "Ancient age setting in video."}
+{"question": "How many characters appears in this video?", "answer": "More than ten.", "pred": "3 characters: man, woman, child."}
+{"question": "Does more than 5 people appered in the video?", "answer": "Yes.", "pred": "Yes, 5+ people appeared in video."}
+{"question": "Does it happen during day or nigth?", "answer": "Both.", "pred": "Man walking through village at night."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, three different backgrounds in video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Acient age.", "pred": "Ancient setting with ancient clothes and weapons."}
+{"question": "How many characters appears in this video?", "answer": "More than ten.", "pred": "Two characters in video."}
+{"question": "Does more than 5 people appered in the video?", "answer": "Yes.", "pred": "Yes, 5+ people appeared in video."}
+{"question": "Does it happen during day or nigth?", "answer": "Night.", "pred": "Nighttime castle scene with man and woman on bed."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, more than three backgrounds appear."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Acient age.", "pred": "Ancient video with ancient clothing and weapons."}
+{"question": "How many characters appears in this video?", "answer": "More than ten.", "pred": "Two characters in video."}
+{"question": "Does it happen during day or nigth?", "answer": "Day.", "pred": "People walking in snow."}
+{"question": "How many characters appears in this video", "answer": "There're five people in the video.", "pred": "Two characters in video."}
+{"question": "How many different environment appears in the video?", "answer": "Four different environments.", "pred": "Two different environments: room with table, room with couch."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "It appears in modern age.", "pred": "Modern video setting."}
+{"question": "How many man and woman appears in the video?", "answer": "There're four men and one women in the video.", "pred": "Man and woman are in video."}
+{"question": "What's the time in the video?", "answer": "Both day and night appears.", "pred": "Video time: 10:30."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, three different backgrounds in video."}
+{"question": "Does more than ten people appear in the video?", "answer": "Yes.", "pred": "One man in the video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Ancient age.", "pred": "Ancient scene with period costumes."}
+{"question": "Does more than 5 people appeared in the video?", "answer": "Yes.", "pred": "Only one man appears."}
+{"question": "Does it happen during day or night?", "answer": "Day.", "pred": "Nighttime video."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, more than three backgrounds appear."}
+{"question": "Does more than ten people appear in the video?", "answer": "Yes.", "pred": "Ten people appear in the video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Ancient age.", "pred": "Scene from \"The Mummy\" in ancient age."}
+{"question": "Does more than 5 people appeared in the video?", "answer": "Yes.", "pred": "One person on video."}
+{"question": "Does it happen during day or night?", "answer": "Day.", "pred": "Man talking to woman in daytime scene."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, three different backgrounds in video."}
+{"question": "Does more than ten people appear in the video?", "answer": "No.", "pred": "One person appears in the video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Future video with man and robot conversation."}
+{"question": "Does more than 5 people appear in the video?", "answer": "Yes.", "pred": "One man only."}
+{"question": "Does it happen during day or night?", "answer": "Both.", "pred": "At night."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "No", "pred": "Yes, 3 different backgrounds in video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Morden", "pred": "Video of man and woman talking in modern room."}
+{"question": "Does it happen during day or night?", "answer": "Both", "pred": "Man talks to woman at night in a chair."}
+{"question": "Does more than 5 people appeared in the video?", "answer": "No.", "pred": "One person in the video."}
+{"question": "How many characters appears in this video?", "answer": "5", "pred": "Three characters in video."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, 3 different backgrounds in video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Man and woman in futuristic scene with gun."}
+{"question": "How many characters appears in this video?", "answer": "More than ten.", "pred": "Two characters in video."}
+{"question": "Does more than 5 people appeared in the video?", "answer": "Yes.", "pred": "One person in the video."}
+{"question": "Does it happen during day or night?", "answer": "Both.", "pred": "Indistinguishable scenes with people talking inside."}
+{"question": "How many characters appears in this video", "answer": "There're three people in the video.", "pred": "Three characters in the video."}
+{"question": "How many different environment appears in the video?", "answer": "three different environments.", "pred": "Two different environments in the video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "It appears in modern age.", "pred": "Modern age setting."}
+{"question": "How many man and woman appears in the video?", "answer": "There're three men and no women in the video.", "pred": "2 men, 1 woman in video."}
+{"question": "What's the time in the video?", "answer": "Daytime.", "pred": "Video time is 11:00."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, three different backgrounds appear."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Future setting."}
+{"question": "How many characters appears in this video?", "answer": "More than ten.", "pred": "Two characters in video."}
+{"question": "Does more than 5 people appeared in the video?", "answer": "Yes.", "pred": "Only two people seen."}
+{"question": "Does it happen during day or night?", "answer": "Night.", "pred": "Man and woman talking in a bar scene."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, three different backgrounds in video."}
+{"question": "Does more than ten people appear in the video?", "answer": "Yes.", "pred": "Just one person in the video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Ancient age.", "pred": "Ancient setting, characters, clothing, and castle."}
+{"question": "Does more than 5 people appear in the video?", "answer": "Yes.", "pred": "Two people in video."}
+{"question": "Does it happen during day or night?", "answer": "Day.", "pred": "Nighttime scene with man in castle."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Three backgrounds appear in the video."}
+{"question": "Does more than ten people appear in the video?", "answer": "Yes.", "pred": "only a few people in video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Ancient age.", "pred": "In ancient setting with ancient clothing and weapons."}
+{"question": "Does more than 5 people appear in the video?", "answer": "Yes.", "pred": "One man, not others."}
+{"question": "Does it happen during day or night?", "answer": "Day.", "pred": "Night scene with people around fire."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, three different backgrounds in video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Man in futuristic suit flying in dark room."}
+{"question": "How many characters appears in this video?", "answer": "More than ten.", "pred": "Three characters in the video."}
+{"question": "Does more than 5 people appered in the video?", "answer": "Yes.", "pred": "Two men seen in video."}
+{"question": "Does it happen during day or nigth?", "answer": "Both.", "pred": "Man jumps from plane and parachutes down."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "No.", "pred": "Yes, three background appear in video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Morden", "pred": "Modern era video."}
+{"question": "Does it happen during day or night?", "answer": "Day.", "pred": "Man in chair wearing black jacket."}
+{"question": "Does more than 5 people appeared in the video?", "answer": "No.", "pred": "One person visible in the video."}
+{"question": "How many characters appears in this video?", "answer": "Four.", "pred": "Two characters in video."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, three backgrounds appear in video."}
+{"question": "Does more than ten people appear in the video?", "answer": "Yes.", "pred": "One person in video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Modern age setting."}
+{"question": "Does more than 5 people appear in the video?", "answer": "Yes.", "pred": "Only one person in the video."}
+{"question": "Does it happen during day or night?", "answer": "Both.", "pred": "Video happens at night."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, three different backgrounds in video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Future people use advanced technology for communication."}
+{"question": "How many characters appears in this video?", "answer": "More than ten.", "pred": "Two characters in video."}
+{"question": "Does more than 5 people appered in the video?", "answer": "Yes.", "pred": "Yes, >5 people in video."}
+{"question": "Does it happen during day or nigth?", "answer": "Day.", "pred": "Man and woman in car at night."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, three different backgrounds in video."}
+{"question": "Does more than ten people appear in the video?", "answer": "Yes.", "pred": "More than 10 people in the video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Ancient age.", "pred": "Ancient video with people in ancient clothing and tools."}
+{"question": "Does more than 5 people appear in the video?", "answer": "Yes.", "pred": "One person in the video."}
+{"question": "Does it happen during day or night?", "answer": "Day.", "pred": "Man with sword talks to someone indoors."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, three different backgrounds appear."}
+{"question": "Does more than ten people appear in the video?", "answer": "Yes.", "pred": "Few people appear, including a man and a woman."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Characters in medieval clothing in a castle."}
+{"question": "Does more than 5 people appear in the video?", "answer": "Yes.", "pred": "More than 5 people in video."}
+{"question": "Does it happen during day or night?", "answer": "Both.", "pred": "Night time setting."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, three different backgrounds shown in video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern.", "pred": "Man in suit talks to woman in modern room."}
+{"question": "How many characters appears in this video?", "answer": "Eight.", "pred": "3 characters: man, woman, child."}
+{"question": "Does more than 5 people appeared in the video?", "answer": "Yes.", "pred": "Yes, over 5 people in video."}
+{"question": "Does it happen during day or night?", "answer": "Both.", "pred": "Man and woman in black reading book on couch."}
+{"question": "How many characters appears in this video", "answer": "There're four people in the video.", "pred": "Two characters in video."}
+{"question": "How many different environment appears in the video?", "answer": "Two different environments.", "pred": "Bar and street environments with man conversing."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "It appears in modern age.", "pred": "Future scene: man talks to woman in bar."}
+{"question": "How many man and woman appears in the video?", "answer": "There're four men and zero women in the video.", "pred": "2 men, 1 woman in video."}
+{"question": "What's the time in the video?", "answer": "It's night.", "pred": "10:30 PM."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, three different backgrounds in video."}
+{"question": "Does more than ten people appear in the video?", "answer": "Yes.", "pred": "One person in video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Ancient age.", "pred": "Video in ancient age, man with sword, woman with bow."}
+{"question": "Does more than 5 people appeared in the video?", "answer": "Yes.", "pred": "One man appears in the video."}
+{"question": "Does it happen during day or night?", "answer": "Both.", "pred": "At night."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, three backgrounds are seen."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern ages", "pred": "Man in suit talks to woman in white dress."}
+{"question": "How many characters appears in this video?", "answer": "Seven", "pred": "Two characters in the video."}
+{"question": "Does more than 5 people appeared in the video?", "answer": "Yes.", "pred": "More than 5 people were in the video."}
+{"question": "Does it happen during day or night?", "answer": "Day.", "pred": "Man in room, can't determine day/night."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, three different backgrounds in video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Acient age.", "pred": "Ancient age depicted with armor-clad man and woman in dress."}
+{"question": "How many characters appears in this video?", "answer": "More than ten.", "pred": "Two characters in the video."}
+{"question": "Does more than 5 people appered in the video?", "answer": "Yes.", "pred": "Two people in video."}
+{"question": "Does it happen during day or nigth?", "answer": "Both.", "pred": "Man and woman in castle with sword and bow at night."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, multiple backgrounds in video."}
+{"question": "Does more than ten people appear in the video?", "answer": "Yes.", "pred": "Ten people appear in the video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Ancient age.", "pred": "Ancient setting, clothing and weapons featured in video."}
+{"question": "Does more than 5 people appear in the video?", "answer": "Yes.", "pred": "Only one person in video."}
+{"question": "Does it happen during day or night?", "answer": "Day.", "pred": "People in castle at night."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "No.", "pred": "Yes, three different backgrounds exist."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern ages", "pred": "People in suits talk in hotel lobby."}
+{"question": "How many characters appears in this video?", "answer": "Four.", "pred": "Two characters in video."}
+{"question": "Does more than 5 people appeared in the video?", "answer": "No.", "pred": "One person in video."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, three different backgrounds."}
+{"question": "Does more than ten people appear in the video?", "answer": "No.", "pred": "One person in the video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Man in future setting wearing suit and tie."}
+{"question": "Does more than 5 people appear in the video?", "answer": "Yes.", "pred": "One man appears in the video."}
+{"question": "Does it happen during day or night?", "answer": "Both.", "pred": "Nighttime video setting."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, three backgrounds in the video."}
+{"question": "Does more than ten people appear in the video?", "answer": "Yes.", "pred": "One person in the video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Ancient age.", "pred": "Ancient attire, tools, and weapons featured in video."}
+{"question": "Does more than 5 people appear in the video?", "answer": "Yes.", "pred": "One person is in the video."}
+{"question": "Does it happen during day or night?", "answer": "Day.", "pred": "Man with cup, woman in chair in daytime."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "No.", "pred": "Yes, multiple backgrounds seen in video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern.", "pred": "Modern age location."}
+{"question": "How many characters appears in this video?", "answer": "Five", "pred": "Two characters are in the video."}
+{"question": "Does more than 5 people appeared in the video?", "answer": "No.", "pred": "One person in the video."}
+{"question": "Does it happen during day or night?", "answer": "Day.", "pred": "Man talking to woman in chair, time unclear."}
+{"question": "Does it happen during day or night?", "answer": "Both", "pred": "Nighttime video."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "No", "pred": "Yes, three backgrounds appear in video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Morden", "pred": "Future-themed video with woman and man in different outfits."}
+{"question": "Does more than 5 people appeared in the video?", "answer": "yes", "pred": "One person in the video."}
+{"question": "How many characters appears in this video?", "answer": "4", "pred": "2 characters in video."}
+{"question": "How many characters appears in this video", "answer": "There're four people in the video.", "pred": "Three characters: man, woman, and man in suit."}
+{"question": "How many different environment appears in the video?", "answer": "Four different environments.", "pred": "Two environments: bed and chair room, couch room."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "It appears in modern age.", "pred": "Video set in futuristic setting."}
+{"question": "How many man and woman appears in the video?", "answer": "There're three men and one women in the video.", "pred": "One man and one woman."}
+{"question": "What's the time in the video?", "answer": "It's night.", "pred": "The video time is 10:50."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, three different backgrounds."}
+{"question": "Does more than ten people appear in the video?", "answer": "Yes.", "pred": "Few people in video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Ancient age.", "pred": "Ancient age with characters in cave."}
+{"question": "Does more than 5 people appeared in the video?", "answer": "Yes.", "pred": "Yes, 5+ people were in the video."}
+{"question": "Does it happen during day or night?", "answer": "Day.", "pred": "Man and woman walking in the woods."}
+{"question": "Are there more then three  different backgrounds appearing in the video?", "answer": "Yes.", "pred": "Yes, three different backgrounds are shown."}
+{"question": "Does more than ten people appear in the video?", "answer": "No.", "pred": "Only one person in the video."}
+{"question": "When does the things in the video happens, ancient age, modern age or future?", "answer": "Modern age.", "pred": "Man and woman in room, man speaking foreign language."}
+{"question": "Does more than 5 people appear in the video?", "answer": "No.", "pred": "Two people in the video."}
+{"question": "Does it happen during day or night?", "answer": "Both.", "pred": "Unclear daytime or nighttime setting; man with gun; woman sitting."}

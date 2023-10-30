@@ -3,40 +3,44 @@ Adapted from: https://github.com/Vision-CAIR/MiniGPT-4/blob/main/demo.py
 """
 import argparse
 import os
+import json
 import random
 import numpy as np
-import torch
 import json
-import torch.backends.cudnn as cudnn
-from MovieChat.common.config import Config
-from MovieChat.common.dist_utils import get_rank
-from MovieChat.common.registry import registry
-from MovieChat.conversation.conversation_video import Chat, Conversation, default_conversation,SeparatorStyle
+import random as rnd
+from transformers import StoppingCriteria, StoppingCriteriaList
+from PIL import Image
+import GPUtil
 import decord
 import cv2
 import time
 from tqdm import tqdm
 import subprocess
 from moviepy.editor import VideoFileClip
+from moviepy.editor import*
 from decord import VideoReader
 decord.bridge.set_bridge('torch')
 
+import torch
+import torch.backends.cudnn as cudnn
+
 # imports modules for registration
+import sys
+sys.path.append("/home/wenhao/projects/MovieChat")
 from MovieChat.datasets.builders import *
 from MovieChat.models import *
 from MovieChat.processors import *
 from MovieChat.runners import *
 from MovieChat.tasks import *
-from moviepy.editor import*
+from MovieChat.common.config import Config
+from MovieChat.common.dist_utils import get_rank
+from MovieChat.common.registry import registry
+from MovieChat.conversation.conversation_video import Chat, Conversation, default_conversation,SeparatorStyle
 
-import random as rnd
-from transformers import StoppingCriteria, StoppingCriteriaList
-from PIL import Image
-import GPUtil
 
 MAX_INT = 8
-N_SAMPLES = 32
-SHORT_MEMORY_Length = 10
+N_SAMPLES = 128
+SHORT_MEMORY_Length = 18
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Demo")
@@ -44,11 +48,13 @@ def parse_args():
     parser.add_argument("--gpu-id", type=int, default=0, help="specify the gpu to load the model.")
     parser.add_argument("--num-beams", type=int, default=1)
     parser.add_argument("--temperature", type=float, default=1.0)
-    parser.add_argument("--video-path", required=True, help="path to video file.")
-    parser.add_argument("--gt_file", required=True, help="path to gt file.")
-    parser.add_argument('--output_dir', help='Directory to save the model results JSON.', required=True)
-    parser.add_argument('--output_name', help='Name of the file for storing results JSON.', required=True)
+    parser.add_argument("--video-folder", required=True, help="path to video file.")
+    parser.add_argument("--qa-folder", required=True, help="path to gt file.")
+    parser.add_argument('--output-dir', help='Directory to save the model results JSON.', required=True)
     parser.add_argument("--fragment-video-path", required=True, help="path to video fragment file.")
+    parser.add_argument("--middle-video", required=True, type= int, help="choose global mode or breakpoint mode")
+    parser.add_argument("--cur-sec", type=int, default=2, help="current minute")
+    parser.add_argument("--cur-min", type=int, default=15, help="current second")
     parser.add_argument(
         "--options",
         nargs="+",
@@ -95,6 +101,7 @@ def capture_video(video_path, fragment_video_path, per_video_length, n_stage):
     start_time = n_stage * per_video_length
     end_time = (n_stage+1) * per_video_length
     video =CompositeVideoClip([VideoFileClip(video_path).subclip(start_time,end_time)])
+
     video.write_videofile(fragment_video_path)
 
     
@@ -150,7 +157,9 @@ class Chat:
 
     def get_context_emb(self, input_text, msg, img_list):
         
-        prompt_1 = "You are able to understand the visual content that the user provides.Follow the instructions carefully and explain your answers in detail.###Human: <Video><ImageHere></Video>"
+        # prompt_1 = "You are able to understand the visual content that the user provides.Follow the instructions carefully and explain your brief answers with no more than 20 words.###Human: <Video><ImageHere></Video>"
+        prompt_1 = "You are able to understand the visual content that the user provides.Follow the instructions carefully and explain your answers.###Human: <Video><ImageHere></Video>"
+        
         prompt_2 = input_text
         prompt_3 = "###Assistant:"
 
@@ -205,26 +214,29 @@ class Chat:
         output_text = output_text.split('Assistant:')[-1].strip()
         return output_text, output_token.cpu().numpy()
     
-    def cal_frame(self, video_length, cur_min, cur_sec, middle_video):
+    def cal_frame(self, video_length):
         per_frag_second = video_length / N_SAMPLES
-        if middle_video:
-            cur_seconds = cur_min * 60 + cur_sec
-            num_frames = int(cur_seconds / per_frag_second)
-            per_frame_second = per_frag_second/SHORT_MEMORY_Length
-            cur_frame = int((cur_seconds-per_frag_second*num_frames)/per_frame_second)
-            return num_frames, cur_frame
-        else:
-            cur_frame = 0
-            num_frames = int(video_length / per_frag_second)
-            return num_frames, cur_frame
+        cur_frame = 0
+        num_frames = int(video_length / per_frag_second)
+        return num_frames, cur_frame
+    
+    def cal_frame_middle(self, total_frame, cur_frame):
+        per_frag_frame = total_frame / N_SAMPLES
+        num_frames = int(cur_frame / per_frag_frame)
+        cur_frame = int(total_frame-per_frag_frame*num_frames)
+        return num_frames, cur_frame
 
-    def upload_video_without_audio(self, video_path, fragment_video_path, cur_min, cur_sec, cur_image, img_list, middle_video):
+
+    def upload_video_without_audio(self, video_path, fragment_video_path, cur_min, cur_sec, cur_image, img_list, middle_video, total_frame=1, cur_frame=1):
         msg = ""
         if isinstance(video_path, str):  # is a video path
             ext = os.path.splitext(video_path)[-1].lower()
             print(video_path)
             video_length = video_duration(video_path) 
-            num_frames, cur_frame = self.cal_frame(video_length, cur_min, cur_sec, middle_video)
+            if middle_video:
+                num_frames, cur_frame = self.cal_frame_middle(total_frame, cur_frame)
+            else:
+                num_frames, cur_frame = self.cal_frame(video_length)
             if num_frames == 0:
                 video_fragment = parse_video_fragment(video_path=video_path, video_length=video_length, n_stage=0, n_samples= N_SAMPLES)
                 video_fragment, msg = load_video(
@@ -239,8 +251,10 @@ class Chat:
 
                 self.model.encode_short_memory_frame(video_fragment, cur_frame)
             else:
-                for i in range(num_frames):
+                for i in range(num_frames): # 28
                     print(i)
+                    # if i == 26:
+                    #     import pdb; pdb.set_trace()
                     video_fragment = parse_video_fragment(video_path=video_path, video_length=video_length, n_stage=i, n_samples= N_SAMPLES)
                     video_fragment, msg = load_video(
                         video_path=fragment_video_path,
@@ -252,10 +266,11 @@ class Chat:
                     video_fragment = self.vis_processor.transform(video_fragment) 
                     video_fragment = video_fragment.unsqueeze(0).to(self.device)
 
-                    if middle_video:
+                    if middle_video and (i+1)==num_frames:
                         self.model.encode_short_memory_frame(video_fragment, cur_frame)
                     else:
                         self.model.encode_short_memory_frame(video_fragment)
+
                 
         else:
             raise NotImplementedError
@@ -266,6 +281,7 @@ class Chat:
 
 
 if __name__ =='__main__':
+    
     config_seed = 42
     setup_seeds(config_seed)
     print('Initializing Chat')
@@ -280,80 +296,146 @@ if __name__ =='__main__':
     chat = Chat(model, vis_processor, device='cuda:{}'.format(args.gpu_id))
     print('Initialization Finished')
 
-    # Load both ground truth file containing questions and answers
-    with open(args.gt_file) as file:
-        gt_qa = json.load(file)
-    
-    output_list = []
-    if not os.path.exists(args.output_dir):
-        os.makedirs(args.output_dir)
-    
-    prev_video_id = None
-    cur_image = None
-    img_list = None
-    msg = None
+    num_beams = args.num_beams
+    temperature = args.temperature
+    video_folder = args.video_folder
+    qa_folder = args.qa_folder
+    output_dir = args.output_dir
+    fragment_video_path = args.fragment_video_path
+    middle_video = args.middle_video
 
-    for sample in tqdm(gt_qa):
-        
-        video_id = sample['video_id']
-        question = sample['question']
-        answer = sample['answer']
-        id = sample['id']
-        sample_set = {'id': id, 'question': question, 'answer': answer}
-        fragment_video_path = args.fragment_video_path
-        cur_min = 0
-        cur_sec = 0
-        middle_video = False
+    middle_video = middle_video == 1
+    experiment_name = 'demo'
+    output_file = output_dir + '/' + experiment_name + '_output.json'
 
-        if prev_video_id != video_id:  
-            chat.model.long_memory_buffer = []
-            chat.model.short_memory_buffer = []
-            video_path = os.path.join(args.video_path, f"video{video_id}.mp4")
+    file_list = os.listdir(qa_folder)
 
-            cap = cv2.VideoCapture(video_path)
-            fps_video = cap.get(cv2.CAP_PROP_FPS)
-            cur_fps = fps_video * (60*cur_min + cur_sec)
+    json_files = [filename for filename in file_list if filename.endswith('.json')]
+    count = 0
+    if middle_video:
+        for file in json_files:
+            if file.endswith('.json'):
+                file_path = os.path.join(qa_folder, file)
+                with open(file_path, 'r') as json_file:
+                    count += 1
+                    if count > 0:
+                        movie_data = json.load(json_file)
+                        global_key = movie_data["info"]["video_path"]
+                        fps = movie_data["info"]["fps"]
+                        num_frame = movie_data["info"]["num_frame"]
 
-            cap = cv2.VideoCapture(video_path)
-            cap.set(cv2.CAP_PROP_POS_FRAMES, cur_fps)
-            ret, frame = cap.read()
-            temp_frame_path = 'src/output_frame2/snapshot.jpg'
+                        video_path = video_folder + '/' + movie_data["info"]["video_path"]
+                        cap = cv2.VideoCapture(video_path)
 
-            cv2.imwrite(temp_frame_path, frame) 
-            raw_image = Image.open(temp_frame_path).convert('RGB') 
-            image = chat.image_vis_processor(raw_image).unsqueeze(0).unsqueeze(2).to(chat.device) # [1,3,1,224,224]
-            cur_image = chat.model.encode_image(image)
+                        cap = cv2.VideoCapture(video_path)
+                        cap.set(cv2.CAP_PROP_POS_FRAMES, fps)
+                        ret, frame = cap.read()
+                        temp_frame_path = 'src/output_frame/'+experiment_name+'_snapshot.jpg'
 
-            img_list = []
-            msg = chat.upload_video_without_audio(
-                video_path=video_path, 
-                fragment_video_path=fragment_video_path,
-                cur_min=cur_min, 
-                cur_sec=cur_sec, 
-                cur_image = cur_image, 
-                img_list=img_list, 
-                middle_video = middle_video,
-                )
-    
-        prev_video_id = video_id 
+                        cv2.imwrite(temp_frame_path, frame) 
+                        raw_image = Image.open(temp_frame_path).convert('RGB') 
+                        image = chat.image_vis_processor(raw_image).unsqueeze(0).unsqueeze(2).to(chat.device) # [1,3,1,224,224]
+                        cur_image = chat.model.encode_image(image)
 
-        text_input = question
-        num_beams = args.num_beams
-        temperature = args.temperature
-        
-        try:
-            llm_message = chat.answer(img_list=img_list,
-                                input_text=text_input,
+                        
+                        global_value = []
+                        print(video_path)
+                        for qa_key in movie_data["breakpoint"]:
+                            cur_frame = qa_key['time']
+                            total_sec = cur_frame/fps
+                            cur_min = int(total_sec/60)
+                            cur_sec = int(total_sec-cur_min*60)
+                            img_list = []
+                            chat.model.long_memory_buffer = []
+                            chat.model.temp_short_memory = []
+                            chat.model.short_memory_buffer = []
+                            msg = chat.upload_video_without_audio(
+                                video_path=video_path, 
+                                fragment_video_path=fragment_video_path,
+                                cur_min=cur_min, 
+                                cur_sec=cur_sec, 
+                                cur_image=cur_image, 
+                                img_list=img_list, 
+                                middle_video=middle_video,
+                                total_frame=num_frame,
+                                cur_frame=cur_frame
+                            )
+                            question = qa_key['question']
+                            print(question)
+                            llm_message = chat.answer(img_list=img_list,
+                                input_text=question,
                                 msg = msg,
                                 num_beams=num_beams,
                                 temperature=temperature,
                                 max_new_tokens=300,
                                 max_length=2000)[0]
-            sample_set['pred'] = llm_message
-            print(llm_message)
-            output_list.append(sample_set)
-        except Exception as e:
-            print(f"Error processing video file '{video_id}': {e}")
-    # Save the output list to a JSON file
-    with open(os.path.join(args.output_dir, f"{args.output_name}.json"), 'w') as file:
-        json.dump(output_list, file)
+                            qa_key['pred'] = llm_message
+                            global_value.append(qa_key)
+                        result_data = {}
+                        result_data[global_key] = global_value
+                        with open(output_file, 'a') as output_json_file:
+                            output_json_file.write(json.dumps(result_data))
+                            output_json_file.write("\n")
+    else:
+        for file in json_files:
+            if file.endswith('.json'):
+                file_path = os.path.join(qa_folder, file)
+                with open(file_path, 'r') as json_file:
+                    count += 1
+                    print(count)
+                    if count > 0:
+                        movie_data = json.load(json_file)
+                        global_key = movie_data["info"]["video_path"]
+
+                        video_path = video_folder + '/' + movie_data["info"]["video_path"]
+                        cap = cv2.VideoCapture(video_path)
+                        fps_video = cap.get(cv2.CAP_PROP_FPS)
+                        cur_fps = fps_video
+
+                        cap = cv2.VideoCapture(video_path)
+                        cap.set(cv2.CAP_PROP_POS_FRAMES, cur_fps)
+                        ret, frame = cap.read()
+                        temp_frame_path = 'src/output_frame/snapshot.jpg'
+
+                        cv2.imwrite(temp_frame_path, frame) 
+                        raw_image = Image.open(temp_frame_path).convert('RGB') 
+                        image = chat.image_vis_processor(raw_image).unsqueeze(0).unsqueeze(2).to(chat.device) # [1,3,1,224,224]
+                        cur_image = chat.model.encode_image(image)
+
+                        img_list = []
+
+                        chat.model.long_memory_buffer = []
+                        chat.model.temp_short_memory = []
+                        chat.model.short_memory_buffer = []
+                        msg = chat.upload_video_without_audio(
+                            video_path=video_path, 
+                            fragment_video_path=fragment_video_path,
+                            cur_min=1, 
+                            cur_sec=1, 
+                            cur_image = cur_image, 
+                            img_list=img_list, 
+                            middle_video = middle_video,
+                            )
+                        global_value = []
+                        print(video_path)
+                        for qa_key in movie_data["global"]:
+                            question = qa_key['question']
+                            print(question)
+                            llm_message = chat.answer(img_list=img_list,
+                                input_text=question,
+                                msg = msg,
+                                num_beams=num_beams,
+                                temperature=temperature,
+                                max_new_tokens=300,
+                                max_length=2000)[0]
+                            qa_key['pred'] = llm_message
+                            global_value.append(qa_key)
+                        result_data = {}
+                        result_data[global_key] = global_value
+                        with open(output_file, 'a') as output_json_file:
+                            output_json_file.write(json.dumps(result_data))
+                            output_json_file.write("\n")
+
+
+
+

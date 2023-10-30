@@ -37,8 +37,8 @@ import GPUtil
 import gradio as gr
 
 MAX_INT = 8
-N_SAMPLES = 32
-SHORT_MEMORY_Length = 10
+N_SAMPLES = 128
+SHORT_MEMORY_Length = 18
 #%%
 def parse_args():
     parser = argparse.ArgumentParser(description="Demo")
@@ -51,7 +51,7 @@ def parse_args():
     parser.add_argument("--fragment-video-path", required=True, help="path to video fragment file.")
     parser.add_argument("--cur-sec", type=int, default=2, help="current minute")
     parser.add_argument("--cur-min", type=int, default=15, help="current second")
-    parser.add_argument("--middle-video", type=bool, default=False, help="current second")
+    parser.add_argument("--middle-video", type=int)
     parser.add_argument(
         "--options",
         nargs="+",
@@ -156,7 +156,7 @@ class Chat:
 
     def get_context_emb(self, input_text, msg, img_list):
         
-        prompt_1 = "You are able to understand the visual content that the user provides.Follow the instructions carefully and explain your answers in detail.###Human: <Video><ImageHere></Video>"
+        prompt_1 = "You are able to understand the visual content that the user provides.Follow the instructions carefully and explain your answers in details.###Human: <Video><ImageHere></Video>"
         prompt_2 = input_text
         prompt_3 = "###Assistant:"
 
@@ -267,7 +267,7 @@ class Chat:
                     video_fragment = self.vis_processor.transform(video_fragment) 
                     video_fragment = video_fragment.unsqueeze(0).to(self.device)
 
-                    if middle_video:
+                    if middle_video and (i+1)==num_frames:
                         self.model.encode_short_memory_frame(video_fragment, cur_frame)
                     else:
                         self.model.encode_short_memory_frame(video_fragment)
@@ -350,6 +350,7 @@ if __name__ =='__main__':
     cur_sec = args.cur_sec
     middle_video = args.middle_video
 
+
     cap = cv2.VideoCapture(video_path)
     fps_video = cap.get(cv2.CAP_PROP_FPS)
     cur_fps = fps_video * (60*cur_min + cur_sec)
@@ -364,13 +365,10 @@ if __name__ =='__main__':
     image = chat.image_vis_processor(raw_image).unsqueeze(0).unsqueeze(2).to(chat.device) # [1,3,1,224,224]
     cur_image = chat.model.encode_image(image)
 
-    if middle_video == 1:
-        middle_video = True
-    else:
-        middle_video = False
+    middle_video = middle_video == 1
 
     img_list = []
-    middle_video = True
+
     msg = chat.upload_video_without_audio(
         video_path=video_path, 
         fragment_video_path=fragment_video_path,
@@ -380,7 +378,6 @@ if __name__ =='__main__':
         img_list=img_list, 
         middle_video = middle_video,
         )
-    
     text_input = args.text_query
 
     num_beams = args.num_beams

@@ -77,7 +77,7 @@ class MovieChat(Blip2Base):
         fusion_head_layers = 2,
         num_video_query_token = 32,
         short_memory_length = 18,
-        long_memory_length = 64,
+        long_memory_length = 256,
         short_memory_merge = 2,
         Qformer_input = 8
     ):
@@ -292,7 +292,6 @@ class MovieChat(Blip2Base):
                     similar_list.append(frame_silimar)
 
             for frame in self.short_memory_buffer:
-                
                 self.long_memory_buffer.append(frame)
 
     def encode_long_video(self, cur_image, middle_video:False):
@@ -303,7 +302,7 @@ class MovieChat(Blip2Base):
         self.long_memory_buffer = [i.unsqueeze(0) for i in self.long_memory_buffer]
 
         # expand position embedding
-        n_position = 8
+        n_position = 16
         position_ids = torch.arange(n_position).long().to(self.query_tokens.device)
         position_ids = position_ids.unsqueeze(0).expand(batch_size, -1) 
         p = self.video_frame_position_embedding(position_ids).squeeze(0)
@@ -326,22 +325,24 @@ class MovieChat(Blip2Base):
         frame_position_embeddings = torch.cat(frame_position_embeddings, dim = 0)
         
         if middle_video:
-            cur_long_length = len(self.long_memory_buffer)
-            cur_short_length = len(self.temp_short_memory)
-
-            while (cur_long_length+cur_short_length+1) > self.max_frame_pos:
-                self.temp_short_memory.pop(0)
+            while (len(self.long_memory_buffer)+len(self.temp_short_memory)+1) > frame_position_embeddings.shape[0]:
+                if len(self.temp_short_memory) != 0:
+                    self.temp_short_memory.pop(0)
+                else:
+                    self.long_memory_buffer.pop(0)
             
             if len(self.long_memory_buffer) == 0:
                 self.temp_short_memory = [i.unsqueeze(0) for i in self.temp_short_memory]
                 cur_short = torch.cat(self.temp_short_memory, dim = 0)
-                video_features = torch.cat([video_features, cur_image], dim = 0)
+                video_features = torch.cat([cur_short], dim = 0)
             else:
                 cur_video = torch.cat(self.long_memory_buffer,dim = 0)
                 self.temp_short_memory = [i.unsqueeze(0) for i in self.temp_short_memory]
-                cur_short = torch.cat(self.temp_short_memory, dim = 0)
-                
-                video_features = torch.cat([cur_video,cur_short], dim = 0)
+                if len(self.temp_short_memory) != 0:
+                    cur_short = torch.cat(self.temp_short_memory, dim = 0)
+                    video_features = torch.cat([cur_video,cur_short], dim = 0)
+                else:
+                    video_features = torch.cat([cur_video], dim = 0)
                 video_features = torch.cat([video_features, cur_image], dim = 0)
             
             cur_video = []
@@ -478,7 +479,6 @@ class MovieChat(Blip2Base):
                 for i in self.long_memory_buffer:
                     while len(i.shape) > 3:
                         i = i.squeeze(0)
-                import pdb;pdb.set_trace()
                 frame_hidden_state = torch.cat(self.long_memory_buffer,dim = 0)
                 position_ids = torch.arange(self.long_memory_length, dtype=torch.long, device=query_tokens.device) 
                 position_ids = position_ids.unsqueeze(0).expand(batch_size, -1)
@@ -525,7 +525,6 @@ class MovieChat(Blip2Base):
             return img_embeds, atts_img
 
     def forward(self, samples):
-        import pdb;pdb.set_trace()
         if 'conv_type' in samples.keys() and samples['conv_type']=='multi':
             im_patch_token_id = self.IMAGE_PATCH_TOKEN_ID
             image = samples["images"]
