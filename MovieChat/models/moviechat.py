@@ -66,11 +66,9 @@ class MovieChat(Blip2Base):
         max_txt_len=32,
         end_sym='\n',
         low_resource=False,  
-        device_8bit=0,  
-
+        device_8bit=0, 
         frozen_llama_proj=True,
         frozen_video_Qformer=True,
-        
         llama_proj_model='',
         fusion_header_type= "seqTransf",
         max_frame_pos= 32,
@@ -79,7 +77,8 @@ class MovieChat(Blip2Base):
         short_memory_length = 18,
         long_memory_length = 256,
         short_memory_merge = 2,
-        Qformer_input = 8
+        Qformer_input = 8,
+        n_position = 16,
     ):
         super().__init__()
 
@@ -235,6 +234,29 @@ class MovieChat(Blip2Base):
         self.question_minute = None
         self.question_second = None
 
+        # expand position embedding
+        self.n_position = n_position
+        batch_size = 1
+        position_ids = torch.arange(self.n_position).long().to(self.query_tokens.device)
+        position_ids = position_ids.unsqueeze(0).expand(batch_size, -1) 
+        p = self.video_frame_position_embedding(position_ids).squeeze(0)
+         
+        u = []
+        alpha = 0.01 
+
+        for p_i in p:
+            u_i = (p_i-alpha * p[0])/(1-alpha)
+            u.append(u_i)
+
+        # calculate the position_embedding
+        self.frame_position_embeddings = []
+        for i in range(self.n_position):
+            for j in range(self.n_position):
+                q_i = alpha * u[i] + (1-alpha) * u[j] 
+                q_i = q_i.unsqueeze(0)
+                self.frame_position_embeddings.append(q_i)
+        self.frame_position_embeddings = torch.cat(self.frame_position_embeddings, dim = 0)
+
     def vit_to_cpu(self):
         self.ln_vision.to("cpu")
         self.ln_vision.float()
@@ -276,7 +298,8 @@ class MovieChat(Blip2Base):
             #merge short_memory_frames
             similar_list = []
             for frame_i in range(len(self.short_memory_buffer) -1):
-                frame_silimar = cosine(self.short_memory_buffer[frame_i].flatten().cpu(), self.short_memory_buffer[frame_i+1].flatten().cpu())
+                scores = self.short_memory_buffer[frame_i] @ self.short_memory_buffer[frame_i+1].transpose(-1, -2)
+                frame_silimar = torch.mean(scores)
                 similar_list.append(frame_silimar)
             
 
@@ -288,7 +311,8 @@ class MovieChat(Blip2Base):
                 del(self.short_memory_buffer[max_index+1])
                 similar_list = []
                 for frame_i in range(len(self.short_memory_buffer)-1):
-                    frame_silimar = cosine(self.short_memory_buffer[frame_i].flatten().cpu(), self.short_memory_buffer[frame_i+1].flatten().cpu())
+                    scores = self.short_memory_buffer[frame_i] @ self.short_memory_buffer[frame_i+1].transpose(-1, -2)
+                    frame_silimar = torch.mean(scores)
                     similar_list.append(frame_silimar)
 
             for frame in self.short_memory_buffer:
@@ -303,31 +327,9 @@ class MovieChat(Blip2Base):
         batch_size = 1 # batch_size:1 
         self.long_memory_buffer = [i.unsqueeze(0) for i in self.long_memory_buffer]
 
-        # expand position embedding
-        n_position = 16
-        position_ids = torch.arange(n_position).long().to(self.query_tokens.device)
-        position_ids = position_ids.unsqueeze(0).expand(batch_size, -1) 
-        p = self.video_frame_position_embedding(position_ids).squeeze(0)
-        frame_position_embeddings = p.unsqueeze(-2)
-         
-        u = []
-        alpha = 0.01 
-
-        for p_i in p:
-            u_i = (p_i-alpha * p[0])/(1-alpha)
-            u.append(u_i)
-
-        # calculate the position_embedding
-        frame_position_embeddings = []
-        for i in range(n_position):
-            for j in range(n_position):
-                q_i = alpha * u[i] + (1-alpha) * u[j] 
-                q_i = q_i.unsqueeze(0)
-                frame_position_embeddings.append(q_i)
-        frame_position_embeddings = torch.cat(frame_position_embeddings, dim = 0)
         
         if middle_video:
-            while (len(self.long_memory_buffer)+len(self.temp_short_memory)+1) > frame_position_embeddings.shape[0]:
+            while (len(self.long_memory_buffer)+len(self.temp_short_memory)+1) > self.frame_position_embeddings.shape[0]:
                 if len(self.temp_short_memory) != 0:
                     self.temp_short_memory.pop(0)
                 else:
@@ -350,7 +352,7 @@ class MovieChat(Blip2Base):
             cur_video = []
             cur_pos = []
             for i in range(len(video_features)):
-                    cur_pos.append(frame_position_embeddings[i])
+                    cur_pos.append(self.frame_position_embeddings[i])
                     cur_video.append(video_features[i])
             
             cur_pos = [j.unsqueeze(0) for j in cur_pos]
@@ -385,7 +387,7 @@ class MovieChat(Blip2Base):
             cur_video = []
             cur_pos = []
             for i in range(len(self.long_memory_buffer)):
-                    cur_pos.append(frame_position_embeddings[i])
+                    cur_pos.append(self.frame_position_embeddings[i])
                     cur_video.append(self.long_memory_buffer[i])
             
             cur_pos = [j.unsqueeze(0) for j in cur_pos]
@@ -395,7 +397,7 @@ class MovieChat(Blip2Base):
             frame_hidden_state = torch.cat(cur_video, dim=0) #[1,32,768]
             frame_hidden_state = einops.rearrange(frame_hidden_state, '(b t) q h -> b t q h', b=batch_size, t=len(self.long_memory_buffer)) #[64,32,768]
                 
-            frame_hidden_state = cur_position_embeddings + frame_hidden_state
+            frame_hidden_state = cur_position_embeddings.to(device) + frame_hidden_state.to(device)
                 
             # frame attention
             frame_hidden_state =  einops.rearrange(frame_hidden_state, 'b t q h -> b (t q) h',b=batch_size,t=len(self.long_memory_buffer)) 
@@ -472,7 +474,7 @@ class MovieChat(Blip2Base):
                 del(self.long_memory_buffer[max_index+1])
                 similar_list = []
                 for frame_i in range(len(self.long_memory_buffer)-1):
-                    similar_list.append(1-cosine(self.long_memory_buffer[frame_i].flatten().cpu(), self.long_memory_buffer[frame_i+1].flatten().cpu()))
+                    similar_list.append(cosine(self.long_memory_buffer[frame_i].flatten().cpu(), self.long_memory_buffer[frame_i+1].flatten().cpu()))
             
             #  a position embedding layer to inject temporal information into video frames
             if self.whole_video:
