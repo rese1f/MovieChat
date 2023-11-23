@@ -33,3 +33,10 @@ output/
 scripts/
 dataset/
 src/
+dataset/
+aws/
+private_codes/
+eval_code/
+data_process/
+baseline_results_moviechat1K/
+baseline_results_short/

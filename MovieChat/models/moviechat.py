@@ -268,7 +268,7 @@ class MovieChat(Blip2Base):
                         self.short_memory_buffer.pop(0)
                     self.short_memory_buffer.append(frame)
                 cur_frame += 1
-            
+
             self.temp_short_memory = []
             for i in self.short_memory_buffer:
                 self.temp_short_memory.append(i)
@@ -293,6 +293,8 @@ class MovieChat(Blip2Base):
 
             for frame in self.short_memory_buffer:
                 self.long_memory_buffer.append(frame)
+            
+            self.short_memory_buffer = []
 
     def encode_long_video(self, cur_image, middle_video:False):
         

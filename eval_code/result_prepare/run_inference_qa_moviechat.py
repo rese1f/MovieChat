@@ -305,7 +305,7 @@ if __name__ =='__main__':
     middle_video = args.middle_video
 
     middle_video = middle_video == 1
-    experiment_name = 'demo'
+    experiment_name = 'initial_uniform'
     output_file = output_dir + '/' + experiment_name + '_output.json'
 
     file_list = os.listdir(qa_folder)

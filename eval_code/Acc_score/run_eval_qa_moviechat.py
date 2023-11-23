@@ -53,6 +53,7 @@ def main():
     is_pred_accuracy = []
     pred_score = []
     is_pred_score = []
+    count = 0
     for sample in pred_contents:
         id = sample.split(".")[0]
         qa_list = pred_contents[sample]
@@ -62,82 +63,84 @@ def main():
             pred = qa_pair['pred'].replace("</s>", "")
             qa_set = {"q": question, "a": answer, "pred": pred}
             prediction_set[id] = qa_set
-            completion = openai.ChatCompletion.create(
-                model="gpt-3.5-turbo",
-                messages=[
-                    {
-                        "role": "system",
-                        "content": 
-                            "You are an intelligent chatbot designed for evaluating the correctness of generative outputs for question-answer pairs. "
-                            "Your task is to compare the predicted answer with the correct answer and determine if they match meaningfully. Here's how you can accomplish the task:"
-                            "------"
-                            "##INSTRUCTIONS: "
-                            "- Focus on the meaningful match between the predicted answer and the correct answer.\n"
-                            "- Consider synonyms or paraphrases as valid matches.\n"
-                            "- Evaluate the correctness of the prediction compared to the answer."
-                    },
-                    {
-                        "role": "user",
-                        "content":
-                            "Please evaluate the following video-based question-answer pair:\n\n"
-                            f"Question: {question}\n"
-                            f"Correct Answer: {answer}\n"
-                            f"Predicted Answer: {pred}\n\n"
-                            "Provide your evaluation only as a yes/no and score where the score is an integer value between 0 and 5, with 5 indicating the highest meaningful match. "
-                            "Please generate the response in the form of a Python dictionary string with keys 'pred' and 'score', where value of 'pred' is  a string of 'yes' or 'no' and value of 'score' is in INTEGER, not STRING."
-                            "DO NOT PROVIDE ANY OTHER OUTPUT TEXT OR EXPLANATION. Only provide the Python dictionary string. "
-                            "For example, your response should look like this: {'pred': 'yes', 'score': 4.8}."
-                    }
-                ]
-            )
-            # Convert response to a Python dictionary.
-            response_message = completion["choices"][0]["message"]["content"]
-            start_index = response_message.find("'pred': '")
-            end_index = response_message.find("',", start_index)
-            if start_index != -1 and end_index != -1:
-                accuracy_string = response_message[start_index + len("'pred': '"):end_index]
-                if check_sentence_start(question):
-                    if 'Yes' in pred or 'No' in pred:
-                        if remove_punctuation(answer) in pred:
-                            accuracy_string = 'yes'
-                        else:
-                            accuracy_string = 'no'
-                    start_index = response_message.find("'score': ")
-                    end_index = response_message.find("}", start_index)
-                    if start_index != -1 and end_index != -1:
-                        score_string = response_message[start_index + len("'score': "):end_index]
-                    if (accuracy_string == 'yes' and float(score_string) >=2.9) or (accuracy_string == 'no' and float(score_string) <= 2.9):
-                        is_pred_accuracy.append(accuracy_string)
-                        print(accuracy_string)
-                        is_pred_score.append(score_string)
-                        print(score_string)
-                        with open('mv_is_example.txt', 'a') as file:
-                            file.write(accuracy_string)
-                            file.write('\n')
-                            file.write(score_string)
-                            file.write('\n')
-                else:
-                    if remove_punctuation(answer) in pred or remove_punctuation(answer.lower()) in pred:
-                            accuracy_string = 'yes'
-                    start_index = response_message.find("'score': ")
-                    end_index = response_message.find("}", start_index)
-                    if start_index != -1 and end_index != -1:
-                        score_string = response_message[start_index + len("'score': "):end_index]
-                    if (accuracy_string == 'yes' and float(score_string) >=2.9) or (accuracy_string == 'no' and float(score_string) <= 2.9):
-                        pred_accuracy.append(accuracy_string)
-                        print(accuracy_string)
-                        pred_score.append(score_string)
-                        print(score_string)
-                        with open('mv_example.txt', 'a') as file:
-                            file.write(accuracy_string)
-                            file.write('\n')
-                            file.write(score_string)
-                            file.write('\n')
-                # with open('mv_result.txt', 'a') as file:
-                #     file.write(accuracy_string)
-                #     file.write('\n')
-                #     file.write(score_string)
-                #     file.write('\n')
+            count += 1
+            if count > 0:
+                completion = openai.ChatCompletion.create(
+                    model="claude-instant-1",
+                    messages=[
+                        {
+                            "role": "system",
+                            "content": 
+                                "You are an intelligent chatbot designed for evaluating the correctness of generative outputs for question-answer pairs. "
+                                "Your task is to compare the predicted answer with the correct answer and determine if they match meaningfully. Here's how you can accomplish the task:"
+                                "------"
+                                "##INSTRUCTIONS: "
+                                "- Focus on the meaningful match between the predicted answer and the correct answer.\n"
+                                "- Consider synonyms or paraphrases as valid matches.\n"
+                                "- Evaluate the correctness of the prediction compared to the answer."
+                        },
+                        {
+                            "role": "user",
+                            "content":
+                                "Please evaluate the following video-based question-answer pair:\n\n"
+                                f"Question: {question}\n"
+                                f"Correct Answer: {answer}\n"
+                                f"Predicted Answer: {pred}\n\n"
+                                "Provide your evaluation only as a yes/no and score where the score is an integer value between 0 and 5, with 5 indicating the highest meaningful match. "
+                                "Please generate the response in the form of a Python dictionary string with keys 'pred' and 'score', where value of 'pred' is  a string of 'yes' or 'no' and value of 'score' is in INTEGER, not STRING."
+                                "DO NOT PROVIDE ANY OTHER OUTPUT TEXT OR EXPLANATION. Only provide the Python dictionary string. "
+                                "For example, your response should look like this: {'pred': 'yes', 'score': 4.8}."
+                        }
+                    ]
+                )
+                # Convert response to a Python dictionary.
+                response_message = completion["choices"][0]["message"]["content"]
+                start_index = response_message.find("'pred': '")
+                end_index = response_message.find("',", start_index)
+                if start_index != -1 and end_index != -1:
+                    accuracy_string = response_message[start_index + len("'pred': '"):end_index]
+                    if check_sentence_start(question):
+                        if 'Yes' in pred or 'No' in pred:
+                            if remove_punctuation(answer) in pred:
+                                accuracy_string = 'yes'
+                            else:
+                                accuracy_string = 'no'
+                        start_index = response_message.find("'score': ")
+                        end_index = response_message.find("}", start_index)
+                        if start_index != -1 and end_index != -1:
+                            score_string = response_message[start_index + len("'score': "):end_index]
+                        if (accuracy_string == 'yes' and float(score_string) >=2.9) or (accuracy_string == 'no' and float(score_string) <= 2.9):
+                            is_pred_accuracy.append(accuracy_string)
+                            print(accuracy_string)
+                            is_pred_score.append(score_string)
+                            print(score_string)
+                            with open('mv_example.txt', 'a') as file:
+                                file.write(accuracy_string)
+                                file.write('\n')
+                                file.write(score_string)
+                                file.write('\n')
+                    else:
+                        if remove_punctuation(answer) in pred or remove_punctuation(answer.lower()) in pred:
+                                accuracy_string = 'yes'
+                        start_index = response_message.find("'score': ")
+                        end_index = response_message.find("}", start_index)
+                        if start_index != -1 and end_index != -1:
+                            score_string = response_message[start_index + len("'score': "):end_index]
+                        if (accuracy_string == 'yes' and float(score_string) >=2.9) or (accuracy_string == 'no' and float(score_string) <= 2.9):
+                            pred_accuracy.append(accuracy_string)
+                            print(accuracy_string)
+                            pred_score.append(score_string)
+                            print(score_string)
+                            with open('mv_example.txt', 'a') as file:
+                                file.write(accuracy_string)
+                                file.write('\n')
+                                file.write(score_string)
+                                file.write('\n')
+                    # with open('mv_result.txt', 'a') as file:
+                    #     file.write(accuracy_string)
+                    #     file.write('\n')
+                    #     file.write(score_string)
+                    #     file.write('\n')
 
 
 

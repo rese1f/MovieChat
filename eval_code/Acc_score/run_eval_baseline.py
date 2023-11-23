@@ -58,7 +58,7 @@ def main():
             pred = pred_contents['pred']
 
             completion = openai.ChatCompletion.create(
-                model="gpt-3.5-turbo",
+                model="claude-instant-1",
                 messages=[
                     {
                         "role": "system",
@@ -108,7 +108,7 @@ def main():
                         print(accuracy_string)
                         is_pred_score.append(score_string)
                         print(score_string)
-                        with open('is_example.txt', 'a') as file:
+                        with open('example.txt', 'a') as file:
                             file.write(accuracy_string)
                             file.write('\n')
                             file.write(score_string)

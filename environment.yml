@@ -1,4 +1,4 @@
-name: moviechat
+name: moviechat-new
 channels:
   - pytorch
   - defaults
@@ -66,5 +66,7 @@ dependencies:
     - SentencePiece
     - ftfy
     - pytorchvideo==0.1.5
-
+    - GPUtil
+    - moviepy
+    - scikit-image
 
