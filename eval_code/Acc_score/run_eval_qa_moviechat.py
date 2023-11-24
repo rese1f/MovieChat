@@ -35,10 +35,6 @@ def main():
 
     # Preparing dictionary of question-answer sets
     prediction_set = {}
-    pred_accuracy = []
-    is_pred_accuracy = []
-    pred_score = []
-    is_pred_score = []
     count = 0
     for sample in pred_contents:
         id = sample.split(".")[0]
