@@ -18,20 +18,6 @@ def parse_args():
     args = parser.parse_args()
     return args
 
-def check_sentence_start(sentence):
-    sentence_lower = sentence.lower()
-
-    if sentence_lower.startswith("does") or sentence_lower.startswith("do") or sentence_lower.startswith("is") or sentence_lower.startswith("are"):
-        return True
-    else:
-        return False
-
-def remove_punctuation(sentence):
-    punctuation_set = set(string.punctuation)
-    sentence_no_punct = ''.join(char for char in sentence if char not in punctuation_set)
-
-    return sentence_no_punct
-
 def main():
     """
     Main function to control the flow of the program.
@@ -46,10 +32,6 @@ def main():
 
     # Preparing dictionary of question-answer sets
     prediction_set = {}
-    pred_accuracy = []
-    is_pred_accuracy = []
-    pred_score = []
-    is_pred_score = []
     with open(args.pred_path, 'r') as txt_file:
         for line in txt_file:
             pred_contents = json.loads(line.strip())
@@ -93,49 +75,14 @@ def main():
             end_index = response_message.find("',", start_index)
             if start_index != -1 and end_index != -1:
                 accuracy_string = response_message[start_index + len("'pred': '"):end_index]
-                if check_sentence_start(question):
-                    if 'Yes' in pred or 'No' in pred:
-                        if remove_punctuation(answer) in pred:
-                            accuracy_string = 'yes'
-                        else:
-                            accuracy_string = 'no'
-                    start_index = response_message.find("'score': ")
-                    end_index = response_message.find("}", start_index)
-                    if start_index != -1 and end_index != -1:
-                        score_string = response_message[start_index + len("'score': "):end_index]
-                    if (accuracy_string == 'yes' and float(score_string) >=2.9) or (accuracy_string == 'no' and float(score_string) <= 2.9):
-                        is_pred_accuracy.append(accuracy_string)
-                        print(accuracy_string)
-                        is_pred_score.append(score_string)
-                        print(score_string)
-                        with open('example.txt', 'a') as file:
-                            file.write(accuracy_string)
-                            file.write('\n')
-                            file.write(score_string)
-                            file.write('\n')
-                else:
-                    if remove_punctuation(answer) in pred or remove_punctuation(answer.lower()) in pred:
-                            accuracy_string = 'yes'
-                    start_index = response_message.find("'score': ")
-                    end_index = response_message.find("}", start_index)
-                    if start_index != -1 and end_index != -1:
-                        score_string = response_message[start_index + len("'score': "):end_index]
-                    if (accuracy_string == 'yes' and float(score_string) >=2.9) or (accuracy_string == 'no' and float(score_string) <= 2.9):
-                        pred_accuracy.append(accuracy_string)
-                        print(accuracy_string)
-                        pred_score.append(score_string)
-                        print(score_string)
-                        with open('example.txt', 'a') as file:
-                            file.write(accuracy_string)
-                            file.write('\n')
-                            file.write(score_string)
-                            file.write('\n')
-                with open('result.txt', 'a') as file:
-                    file.write(accuracy_string)
-                    file.write('\n')
-                    file.write(score_string)
-                    file.write('\n')
-          
+                print(accuracy_string)
+
+            start_index = response_message.find("'score': ")
+            end_index = response_message.find("}", start_index)
+            if start_index != -1 and end_index != -1:
+                score_string = response_message[start_index + len("'score': "):end_index]
+                print(score_string)
+
 
 
 if __name__ == "__main__":
