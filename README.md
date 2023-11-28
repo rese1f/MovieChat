@@ -239,7 +239,7 @@ python inference.py \
 ```
 Note that, if you want to use the global mode (understanding and question-answering for the **whole** video), remember to change middle-video into 0.
 
-## 👍 Main Results
+<!-- ## 👍 Main Results
 ### Short video question-answering
 We use several widely
 used open-ended datasets: MSVD-QA, MSRVTT-QA, and ActivityNet-QA for short video question-answering tasks. The evaluation process is under the assistance of LLM with the default hyper-parameter settings. The accuracy and relative scores on a scale of 0 to 5 are reported. Compared to previous methods, MovieChat achieves comparable performance even it is not
@@ -258,7 +258,7 @@ specifically designed for short video question-answering tasks,
         <td><a href="https://huggingface.co/Chat-UniVi/Chat-UniVi-13B">Chat-UniVi-13B</a></td><td><a href="https://huggingface.co/lmsys/vicuna-13b-v1.5">Vicuna-13B</a></td><td><b>84.1</b></td><td><b>79.4</b></td><td><b>94.7</b></td><td><b>86.1</b></td>
     </tr>
 </table>
-</div>
+</div> -->
 
 ## 🤝 Acknowledgement
 We are grateful for the following awesome projects our MovieChat arising from:
