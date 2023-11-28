@@ -32,7 +32,9 @@ ckpt/
 output/
 scripts/
 dataset/
-src/
+src/video_fragment
+src/output_frame
+src/examples
 dataset/
 aws/
 private_codes/
