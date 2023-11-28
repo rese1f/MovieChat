@@ -29,6 +29,10 @@ MovieChat can handle videos with >10K frames on a 24GB graphics card. MovieChat 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/moviechat-from-dense-token-to-sparse-memory/zeroshot-video-question-answer-on-activitynet)](https://paperswithcode.com/sota/zeroshot-video-question-answer-on-activitynet?p=moviechat-from-dense-token-to-sparse-memory)\
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/moviechat-from-dense-token-to-sparse-memory/zeroshot-video-question-answer-on-msrvtt-qa)](https://paperswithcode.com/sota/zeroshot-video-question-answer-on-msrvtt-qa?p=moviechat-from-dense-token-to-sparse-memory)\
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/moviechat-from-dense-token-to-sparse-memory/zeroshot-video-question-answer-on-msvd-qa)](https://paperswithcode.com/sota/zeroshot-video-question-answer-on-msvd-qa?p=moviechat-from-dense-token-to-sparse-memory)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/moviechat-from-dense-token-to-sparse-memory/zero-shot-long-video-global-mode-question)](https://paperswithcode.com/sota/zero-shot-long-video-global-mode-question?p=moviechat-from-dense-token-to-sparse-memory)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/moviechat-from-dense-token-to-sparse-memory/zero-shot-long-video-breakpoint-mode-question)](https://paperswithcode.com/sota/zero-shot-long-video-breakpoint-mode-question?p=moviechat-from-dense-token-to-sparse-memory)
+
+
 ## 💡 Overview
 
 ![](src/assets/overview.png)
@@ -178,7 +182,7 @@ datasets.
         <td><a href="https://arxiv.org/abs/1712.06761">MovieGraphs</a></td><td>0.73</td><td>15K</td><td>35</td><td>-</td><td>-</td><td>-</td>
     </tr>
     <tr align="center">
-        <td><a href="https://arxiv.org/abs/2007.10937">MovieNet</a></td><td>2.1</td><td>2.5K</td><td>-</td><td>-</td><td>-</td><td>---</td>
+        <td><a href="https://arxiv.org/abs/2007.10937">MovieNet</a></td><td>2.1</td><td>2.5K</td><td>-</td><td>-</td><td>-</td><td>-</td>
     </tr>
     <tr align="center">
         <td>MovieChat-1K</td><td>9.4</td><td>1K</td><td>121</td><td>13K</td><td>7.8</td><td>2.3</td>
