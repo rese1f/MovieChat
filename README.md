@@ -153,7 +153,7 @@ of verbs. While these counts may not be entirely accurate
 due to our simple counting method, we believe they provide
 a rough indication of the actionness of the two datasets.
 
-## Comparison between MovieChat-1K and other benchmarks
+<!-- ## Comparison between MovieChat-1K and other benchmarks
 
 MovieChat-1K provides a large-scale benchmark
 for long video understanding, which contains 1K movies,
@@ -188,7 +188,7 @@ datasets.
         <td>MovieChat-1K</td><td>9.4</td><td>1K</td><td>121</td><td>13K</td><td>7.8</td><td>2.3</td>
     </tr>
 </table>
-</div>
+</div> -->
 
 ## 🛠️ Install 
 
