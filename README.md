@@ -190,6 +190,8 @@ datasets.
 </table>
 </div> -->
 
+🔐 &#x00A9; **Due to the copyright concers and the size limitations of the movies, we  plan to release the features of the dataset. Please wait for a few weeks.**
+
 ## 🛠️ Install 
 
 ### Environment Preparation
