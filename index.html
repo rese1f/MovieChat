@@ -270,7 +270,7 @@
 								
 							</tr>
 							<tr>
-								<th><div class="caption" style="width: 1080px;text-align: justify;line-height: 1.5;color: black;">"Can you describe this video?"
+								<th><div class="caption" style="width: 1080px;text-align: center;line-height: 1.5;color: black;">"Can you describe this video?"
 								</div></th>
 							</tr>
 							<tr>
@@ -288,11 +288,8 @@
 								<th><img width="1080px" src="assets/gob.png" /></th>
 							</tr>
 							<tr>
-								<th>
-									<div class="additional-text" style="font-size: larger; color: black;">
-										Can you tell me what happened in this movie?
-									</div>
-								</th>
+								<th><div class="caption" style="width: 1080px;text-align: center;line-height: 1.5;color: black;">"Can you tell me what happened in this movie?"
+								</div></th>
 							</tr>
 							<tr>
 								<th><div class="caption" style="width: 1080px;text-align: justify;line-height: 1.25;">"Certainly! In the video, you can see a group of people standing in a park with a green hill in the background. There are also people walking on the street and in a courtyard with trees. Some of the people are holding red umbrellas, and there is a woman wearing a red coat. She is then seen walking down a street at night with a man following her. Next, we see a couple standing on a balcony overlooking a street in the evening with a man walking by and then walking down the street. Towards the end of the video, a group of people are seen walking through a snowy town."
@@ -310,11 +307,8 @@
 								<th><img width="1080px" src="assets/ice.png" /></th>
 							</tr>
 							<tr>
-								<th>
-									<div class="additional-text" style="font-size: larger; color: black;">
-										What plot does this movie clip include?
-									</div>
-								</th>
+								<th><div class="caption" style="width: 1080px;text-align: center;line-height: 1.5;color: black;">"What plot does this movie clip include?"
+								</div></th>
 							</tr>
 							<tr>
 								<th><div class="caption" style="width: 1080px;text-align: justify;line-height: 1.25;">"The movie clip starts with a black background and text written in white on it. Next, we see a man in a black robe with a shining light and a large white flag on the background. There are also people standing and sitting in front of a large building on a black background with text. Then, we see a man with a beard and a man in a dress, standing on the ground. We also see a man with a shirt on and a man in a blue shirt standing on the ground. Finally, we see a black background with a large black bear and a large bird on it."
@@ -332,11 +326,8 @@
 								<th><img width="1080px" src="assets/clips.png" /></th>
 							</tr>
 							<tr>
-								<th>
-									<div class="additional-text" style="font-size: larger; color: black;">
-										Which movie sequence lasts the longest?
-									</div>
-								</th>
+								<th><div class="caption" style="width: 1080px;text-align: center;line-height: 1.5;color: black;">"Which movie sequence lasts the longest?"
+								</div></th>
 							</tr>
 							<tr>
 								<th><div class="caption" style="width: 1080px;text-align: justify;line-height: 1.25;">"The video shows the scene of a dark night with a football field and a group of people playing football."
@@ -372,17 +363,14 @@
 		</div>
 	</div>
 
-	<br>
-	<h3 style="text-align: center;">Benchmark: MovieChat-1K<h3>
-	<br>
-	<div class="container">
-		<p style="text-align: justify; display: flex; justify-content: center; max-width: 800px; margin:auto; font-family:Computer Modern Roman; font-size: 16px;"> 
-			To better evaluate the performance of MovieChat, we collect a new benchmark for long video understanding tasks, MovieChat-1K, which contains <strong>1K</strong> high quality video clips sourced from various movies and TV series with <strong>14K</strong> manual annotations.
-		
-			To the best of our knowledge, a long video understanding dataset has not yet been established. Our work represents the initial step in creating and making it publicly available.We create MovieChat1K, containing <strong>1k</strong> long videos and corresponding <strong>1k</strong> dense captions, and <strong>13k</strong> visual question-answer pairs.For each video, we manually set and provide <strong>1</strong> dense caption for the whole video, <strong>3</strong> question-answering pairs for global mode and <strong>10</strong> question-answering pairs with timestamps for breakpoint mode.
+	<h3 style="text-align: center;">Abstract</h3>
+		<p style="text-align: justify; display: flex; justify-content: center; max-width: 800px; margin:auto; font-family:Computer Modern Roman; font-size: larger;"> 
+			Recently, integrating video foundation models and large language models to build a video understanding system can overcome the limitations of specific pre-defined vision
+			tasks. Yet, existing systems can only handle videos with very few frames. For long videos, the computation complexity, memory cost, and long-term temporal connection impose
+			additional challenges. Taking advantage of the AtkinsonShiffrin memory model, with tokens in Transformers being employed as the carriers of memory in combination with
+			our specially designed memory mechanism, we propose the MovieChat to overcome these challenges. MovieChat achieves state-of-the-art performance in long video understanding, along with the released MovieChat-1K benchmark with 1K long video and 14K manual annotations for
+			validation of the effectiveness of our method.
 		</p>
-		
-	</div>
 
 <br>	    
 <p class="section" id="bibtex"><b>Bibtex</b></p>
