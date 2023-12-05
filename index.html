@@ -104,16 +104,17 @@
 
   
   
-	  <p class="section">&nbsp;</p>
-		
-	  <h3 style="text-align: center;background-color: gray; padding: 10px;">Abstract</h3>
-		<p style="text-align: justify; display: flex; justify-content: center; max-width: 800px; margin:auto; font-family:Computer Modern Roman; font-size: larger;"> 
-			Recently, integrating video foundation models and large language models to build a video understanding system can overcome the limitations of specific pre-defined vision
-			tasks. Yet, existing systems can only handle videos with very few frames. For long videos, the computation complexity, memory cost, and long-term temporal connection impose
-			additional challenges. Taking advantage of the AtkinsonShiffrin memory model, with tokens in Transformers being employed as the carriers of memory in combination with
-			our specially designed memory mechanism, we propose the MovieChat to overcome these challenges. MovieChat achieves state-of-the-art performance in long video understanding, along with the released MovieChat-1K benchmark with 1K long video and 14K manual annotations for
-			validation of the effectiveness of our method.
-		</p>
+	  	<p class="section">&nbsp;</p>
+		<div style="background-color: #d9d6da; padding: 10px;">
+			<h3 style="text-align: center;">Abstract</h3>
+			<p style="text-align: justify; display: flex; justify-content: center; max-width: 800px; margin:auto; font-family:Computer Modern Roman; font-size: larger;"> 
+				Recently, integrating video foundation models and large language models to build a video understanding system can overcome the limitations of specific pre-defined vision
+				tasks. Yet, existing systems can only handle videos with very few frames. For long videos, the computation complexity, memory cost, and long-term temporal connection impose
+				additional challenges. Taking advantage of the AtkinsonShiffrin memory model, with tokens in Transformers being employed as the carriers of memory in combination with
+				our specially designed memory mechanism, we propose the MovieChat to overcome these challenges. MovieChat achieves state-of-the-art performance in long video understanding, along with the released MovieChat-1K benchmark with 1K long video and 14K manual annotations for
+				validation of the effectiveness of our method.
+			</p>
+		</div>
 
 	  <div style="text-align: center;">
 		<img src="assets/wave.gif" style="width: 800px">
@@ -419,8 +420,32 @@
 
 		<h4 style="text-align: left;">Dense Captions</h4>
 		<div style="text-align: center;">
+			<p style="text-align: justify; display: flex; justify-content: center; max-width: 800px; margin:auto; font-family:Computer Modern Roman;font-size: large;"> 
+				To facilitate a more detailed understanding of long videos, we provide a dense caption for each video. MovieChat-1K exhibits diverse caption lengths in the segmented clip level. Approximately two-thirds of the clips have captions with 100-149 words, while one-fifth of the clip captions have fewer than 100 words. About 11% of clips have long captions with more than 150 words.
+			</p>
 
+			<br>
+
+			<p align="center" width="100%">
+			<a target="_blank"><img src="assets/caption_dis.png" style="width: 40%; min-width: 200px; display: block; margin: auto;"></a>
 		
+			<br>
+
+			<p style="text-align: justify; display: flex; justify-content: center; max-width: 800px; margin:auto; font-family:Computer Modern Roman;font-size: large;"> 
+				To analyze the word distribution of our generated captions, we compute their distributions. The resulting word distribution of the captions is presented in Fig. B6, which includes common objects (man, woman, people, girl, etc.), attributes (detective, various, small, white, etc.), locations (inside, behind, south, next, etc.), scenes (room, house, building, office, etc.), actions/events (talk, enter, leave, take, etc.), and more.
+			</p>
+
+			<br>
+
+			<p align="center" width="100%">
+			<a target="_blank"><img src="assets/caption_wordcloud.png" style="width: 45%; min-width: 200px; display: block; margin: auto;"></a>
+				
+			<br>
+
+			<p style="text-align: justify; display: flex; justify-content: center; max-width: 800px; margin:auto; font-family:Computer Modern Roman;font-size: large;"> 
+				In terms of actionness, MovieChat-1K captions contains nearly the same number of verbs as with the WebVid10M dataset. To evaluate this, we use the NLTK toolkit to analyze the number of verbs in captions, focusing on extracting and tagging all unique verbs. We find a total of 109,485 verbs in the WebVid10M caption dataset, while the MovieChat-1K captions contain 102,988 unique instances of verbs. While these counts may not be entirely accurate due to our simple counting method, we believe they provide a rough indication of the actionness of the two datasets.
+			</p>
+
 		</div>
 
 	</div>
