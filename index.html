@@ -388,50 +388,50 @@
 			We collect videos from 15 popular categories with varying distribution, including documentary film, detective film, animation film, and so on. Among these, each video comprises multiple alternating scenes, contributing to a diverse and dynamic visual narrative within the context of the collection. Over 90% of the videos exhibit a duration ranging from 10K to 12K frames, while 14.6% of videos extending beyond 12K frames. Only 8.6% of videos have duration less than 10k frames.
 		</p>
 
-		<h4 style="text-align: left;">Question-answering Pairs</h4>
+		<h4 style="text-align: left;margin-left: 10px;">Question-answering Pairs</h4>
 		<div>
-			<h5 style="text-align: left;">Word Distribution</h5>
+			<h5 style="text-align: left;margin-left: 10px;">Word Distribution</h5>
 			<div style="text-align: center;">
-				<p style="text-align: justify; display: flex; justify-content: center; max-width: 800px; margin:auto; font-family:Computer Modern Roman;font-size: large;"> 
+				<p style="text-align: justify; display: flex; justify-content: center; max-width: 900px; margin:auto; font-family:Computer Modern Roman;font-size: large;"> 
 					Note that MovieChat-1K is specifically designed for long video comprehension tasks, the majority of questions are open-ended, with only a quarter classified as multiple-choice questions, marked by initiators such as ‘Do,’ ‘Does,’ ‘Is,’ or ‘Are.’ We also compute the word distributions of our provided question-answer pairs, which includes common objects (people, clothes, etc.), time (day, night, etc.), scenes (indoor, outdoor, etc.), and so on.
 				</p>
 
 				<br>
 
 				<p align="center" width="100%">
-				<a target="_blank"><img src="assets/wordcloud.png" style="width: 60%; min-width: 200px; display: block; margin: auto;"></a>
+				<a target="_blank"><img src="assets/wordcloud.png" style="width: 40%; min-width: 200px; display: block; margin: auto;"></a>
 				
 			</div>
 			<br>
-			<h5 style="text-align: left;">Sentence length distribution</h5>
+			<h5 style="text-align: left;margin-left: 10px;">Sentence length distribution</h5>
 			<div style="text-align: center;">
-				<p style="text-align: justify; display: flex; justify-content: center; max-width: 800px; margin:auto; font-family:Computer Modern Roman;font-size: large;"> 
+				<p style="text-align: justify; display: flex; justify-content: center; max-width: 900px; margin:auto; font-family:Computer Modern Roman;font-size: large;"> 
 					MovieChat1K exhibits diverse lengths of question-answer pairs in the segmented clip level. Despite the distribution of questionanswer pairs varies between the global mode and breakpoint mode, the majority of questions tends to concentrate between 5-15 words in length, while the length of answers generally have fewer than 10 words.	
 				</p>
 
 				<br>
 
 				<p align="center" width="100%">
-				<a target="_blank"><img src="assets/lenth.png" style="width: 60%; min-width: 200px; display: block; margin: auto;"></a>
+				<a target="_blank"><img src="assets/length.png" style="width: 60%; min-width: 200px; display: block; margin: auto;"></a>
 				
 			</div>
 		
 		</div>
 
-		<h4 style="text-align: left;">Dense Captions</h4>
+		<h4 style="text-align: left;margin-left: 10px;">Dense Captions</h4>
 		<div style="text-align: center;">
-			<p style="text-align: justify; display: flex; justify-content: center; max-width: 800px; margin:auto; font-family:Computer Modern Roman;font-size: large;"> 
+			<p style="text-align: justify; display: flex; justify-content: center; max-width: 900px; margin:auto; font-family:Computer Modern Roman;font-size: large;"> 
 				To facilitate a more detailed understanding of long videos, we provide a dense caption for each video. MovieChat-1K exhibits diverse caption lengths in the segmented clip level. Approximately two-thirds of the clips have captions with 100-149 words, while one-fifth of the clip captions have fewer than 100 words. About 11% of clips have long captions with more than 150 words.
 			</p>
 
 			<br>
 
 			<p align="center" width="100%">
-			<a target="_blank"><img src="assets/caption_dis.png" style="width: 40%; min-width: 200px; display: block; margin: auto;"></a>
+			<a target="_blank"><img src="assets/caption_dis.png" style="width: 25%; min-width: 200px; display: block; margin: auto;"></a>
 		
 			<br>
 
-			<p style="text-align: justify; display: flex; justify-content: center; max-width: 800px; margin:auto; font-family:Computer Modern Roman;font-size: large;"> 
+			<p style="text-align: justify; display: flex; justify-content: center; max-width: 900px; margin:auto; font-family:Computer Modern Roman;font-size: large;"> 
 				To analyze the word distribution of our generated captions, we compute their distributions. The resulting word distribution of the captions is presented in Fig. B6, which includes common objects (man, woman, people, girl, etc.), attributes (detective, various, small, white, etc.), locations (inside, behind, south, next, etc.), scenes (room, house, building, office, etc.), actions/events (talk, enter, leave, take, etc.), and more.
 			</p>
 
@@ -442,7 +442,7 @@
 				
 			<br>
 
-			<p style="text-align: justify; display: flex; justify-content: center; max-width: 800px; margin:auto; font-family:Computer Modern Roman;font-size: large;"> 
+			<p style="text-align: justify; display: flex; justify-content: center; max-width: 900px; margin:auto; font-family:Computer Modern Roman;font-size: large;"> 
 				In terms of actionness, MovieChat-1K captions contains nearly the same number of verbs as with the WebVid10M dataset. To evaluate this, we use the NLTK toolkit to analyze the number of verbs in captions, focusing on extracting and tagging all unique verbs. We find a total of 109,485 verbs in the WebVid10M caption dataset, while the MovieChat-1K captions contain 102,988 unique instances of verbs. While these counts may not be entirely accurate due to our simple counting method, we believe they provide a rough indication of the actionness of the two datasets.
 			</p>
 
