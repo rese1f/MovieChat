@@ -25,6 +25,7 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet" type="text/css">
@@ -394,11 +395,22 @@
 			<h5 style="text-align: center;">Word Distribution</h5>
 			<br>
 			<p style="text-align: justify; display: flex; justify-content: center; max-width: 1000px; margin:auto; font-family:Computer Modern Roman;font-size: large;"> 
-				We collect videos from 15 popular categories with varying distribution, including documentary film, detective film, animation film, and so on. Among these, each video comprises multiple alternating scenes, contributing to a diverse and dynamic visual narrative within the context of the collection. Over 90% of the videos exhibit a duration ranging from 10K to 12K frames, while 14.6% of videos extending beyond 12K frames. Only 8.6% of videos have duration less than 10k frames.
+				Note that MovieChat-1K is specifically designed for long video comprehension tasks, the majority of questions are open-ended, with only a quarter classified as multiple-choice questions, marked by initiators such as ‘Do,’ ‘Does,’ ‘Is,’ or ‘Are.’ We also compute the word distributions of our provided question-answer pairs, which includes common objects (people, clothes, etc.), time (day, night, etc.), scenes (indoor, outdoor, etc.), and so on.
 			</p>
+			
 		</div>
 
 	</div>
+
+	<div class="markdown">
+		# 这是一个Markdown标题
+		
+		这是 *Markdown* **文本**。
+		
+		- 列表项 1
+		- 列表项 2
+	  </div>
+	  
 	
 
 <br>	    
@@ -476,5 +488,12 @@ year={2023}
  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ <script>
+	var markdownElements = document.querySelectorAll('.markdown');
 
+	markdownElements.forEach(function(element) {
+	  element.innerHTML = marked(element.innerHTML);
+	});
+  </script>
+  
 </html>
