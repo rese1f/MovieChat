@@ -1,6 +1,4 @@
-<p align="center" width="100%">
-<a target="_blank"><img src="src/assets/logo.png" alt="MovieChat" style="width: 80%; min-width: 200px; display: block; margin: auto;"></a>
-</p>
+<img src="asset/logo.png" height="120px" align="left">
 
 # From Dense Token to Sparse Memory for Long Video Understanding
 
