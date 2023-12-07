@@ -1,4 +1,4 @@
-<img src="src/assets/logo.png" height="100px" align="left">
+<img src="src/assets/logo.png" height="120px" align="left">
 
 # From Dense Token to Sparse Memory for Long Video Understanding
 
