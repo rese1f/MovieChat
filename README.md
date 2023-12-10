@@ -1,6 +1,6 @@
 <img src="src/assets/logo.png" height="120px" align="left">
 
-# From Dense Token to Sparse Memory for Long Video Understanding
+# MovieChat
 
 [![](http://img.shields.io/badge/cs.CV-arXiv%3A2307.16449-B31B1B.svg)](https://arxiv.org/abs/2307.16449)
 
