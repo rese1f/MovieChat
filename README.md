@@ -16,12 +16,13 @@ MovieChat can handle videos with >10K frames on a 24GB graphics card. MovieChat 
 <h5 align="center"> If you like our project, please give us a star ⭐ on GitHub for the latest update.</h5>
 
 ## :fire: News
+* **[2024.2.14]** :film_projector: We release the training set of the MovieChat-1K in [Hugging Face](https://huggingface.co/datasets/Enxin/MovieChat-1K_train). Due to copyright restrictions, we share the clip features extracted by [eva_vit_g](https://storage.googleapis.com/sfr-vision-language-research/LAVIS/models/BLIP2/eva_vit_g.pth), containing 8192 frames of each video.
 * **[2023.11.27]** :page_with_curl: We update the [paper](https://arxiv.org/pdf/2307.16449v2.pdf) with implementation details, technical evaluations, and dataset information.
-* **[2023.11.23]** : We update the latest source code of MovieChat.
+* **[2023.11.23]** :keyboard:We update the latest source code of MovieChat.
 * **[2023.8.1]** :page_with_curl: We release the [paper](https://arxiv.org/abs/2307.16449).
-* **[2023.7.31]** We release eval [code and instraction](https://github.com/rese1f/MovieChat/tree/main/eval_code) for short video QA on **MSVD-QA**, **MSRVTT-QA** and **ActivityNet-QA**.
-* **[2023.7.29]** We release [Gradio demo](https://github.com/rese1f/MovieChat/tree/main/Gradio_demo) of MovieChat.
-* **[2023.7.22]** We release source code of MovieChat.
+* **[2023.7.31]** :keyboard:We release eval [code and instraction](https://github.com/rese1f/MovieChat/tree/main/eval_code) for short video QA on **MSVD-QA**, **MSRVTT-QA** and **ActivityNet-QA**.
+* **[2023.7.29]** :joystick:We release [Gradio demo](https://github.com/rese1f/MovieChat/tree/main/Gradio_demo) of MovieChat.
+* **[2023.7.22]** :keyboard:We release source code of MovieChat.
   
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/moviechat-from-dense-token-to-sparse-memory/zeroshot-video-question-answer-on-activitynet)](https://paperswithcode.com/sota/zeroshot-video-question-answer-on-activitynet?p=moviechat-from-dense-token-to-sparse-memory)\
