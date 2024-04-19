@@ -16,6 +16,7 @@ MovieChat can handle videos with >10K frames on a 24GB graphics card. MovieChat 
 <h5 align="center"> If you like our project, please give us a star ⭐ on GitHub for the latest update.</h5>
 
 ## :fire: News
+* **[2024.4.19]** :keyboard:We update the latest source code of MovieChat to [PyPI](https://pypi.org/). Now you can use MovieChat by `pip install Moviechat` directly!
 * **[2024.3.25]** :bar_chart: We host challenge track 1 of [the 4th International Workshop on Long-form Video Understanding: Towards Multimodal AI Assistant and Copilot](https://cvpr.thecvf.com/Conferences/2024/workshop-list) at CVPR 2024. You can participate in the challenge and submit your results via [Codalab](https://codalab.lisn.upsaclay.fr/competitions/18284?secret_key=bd5e312c-4775-43cf-933b-70726d00bcbe). We will display the results on the [leaderboard](https://espere-1119-song.github.io/LOVEU-CVPR-24-Track-1-Leaderboard/). For detailed information about the challenge, please refer to this [link](https://sites.google.com/view/loveucvpr24/track1).
 * **[2024.3.11]** :film_projector: We release the test set of the MovieChat-1K in [Hugging Face](https://huggingface.co/datasets/Enxin/MovieChat-1K-test). Each video contains 3 global questions and 10 breakpoint questions.
 * **[2024.2.27]** :tada: Our paper was accepted by CVPR 2024!
@@ -34,6 +35,66 @@ MovieChat can handle videos with >10K frames on a 24GB graphics card. MovieChat 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/moviechat-from-dense-token-to-sparse-memory/zero-shot-long-video-global-mode-question)](https://paperswithcode.com/sota/zero-shot-long-video-global-mode-question?p=moviechat-from-dense-token-to-sparse-memory)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/moviechat-from-dense-token-to-sparse-memory/zero-shot-long-video-breakpoint-mode-question)](https://paperswithcode.com/sota/zero-shot-long-video-breakpoint-mode-question?p=moviechat-from-dense-token-to-sparse-memory)
 
+
+## ✨How to run MovieChat quickly?
+```
+pip install MovieChat
+```
+```
+from PIL import Image
+import cv2
+
+from MovieChat.processors.video_processor import AlproVideoEvalProcessor
+from MovieChat.models.chat_model import Chat
+from MovieChat.models.moviechat import MovieChat
+
+device = 'cuda:0'
+print('Initializing Chat')
+moviechat_model = MovieChat.from_config(device=device).to(device)
+vis_processor_cfg = {'name': 'alpro_video_eval', 'n_frms': 8, 'image_size': 224}
+frame_processor = AlproVideoEvalProcessor.from_config(vis_processor_cfg)
+chat = Chat(moviechat_model, frame_processor, device=device)
+print('Initialization Finished')
+
+video_path = "Your video path, end with mp4"
+fragment_video_path = "The path to store tmp video clips"
+middle_video = False # True->Breakpoint mode, False->Global mode
+question = "Your Question"
+cur_min = 0 # Change it when Breakpoint mode
+cur_sec = 0 # Change it when Breakpoint mode
+
+cap = cv2.VideoCapture(video_path)
+cur_fps = cap.get(cv2.CAP_PROP_FPS)
+cap.set(cv2.CAP_PROP_POS_FRAMES, cur_fps)
+ret, frame = cap.read()
+rgb_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+pil_image = Image.fromarray(rgb_frame)
+import pdb;pdb.set_trace()
+image = chat.image_vis_processor(pil_image).unsqueeze(0).unsqueeze(2).half().to(device)
+cur_image = chat.model.encode_image(image)
+
+img_list = []
+msg = chat.upload_video_without_audio(
+    video_path=video_path, 
+    fragment_video_path=fragment_video_path,
+    cur_min=cur_min, 
+    cur_sec=cur_sec, 
+    cur_image=cur_image, 
+    img_list=img_list, 
+    middle_video=middle_video,
+    question=question
+)
+answer = chat.answer(
+    img_list=img_list,
+    input_text=question,
+    msg = msg,
+    num_beams=1,
+    temperature=1.0,
+    max_new_tokens=300,
+    max_length=2000)[0]
+
+print(answer)
+```
 
 ## 💡 Overview
 
