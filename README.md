@@ -17,7 +17,7 @@ MovieChat can handle videos with >10K frames on a 24GB graphics card. MovieChat 
 
 ## :fire: News
 * **[2024.4.19]** :keyboard:We update the latest source code of MovieChat to [PyPI](https://pypi.org/). Now you can use MovieChat by `pip install Moviechat` directly!
-* **[2024.3.25]** :bar_chart: We host challenge track 1 of [the 4th International Workshop on Long-form Video Understanding: Towards Multimodal AI Assistant and Copilot](https://cvpr.thecvf.com/Conferences/2024/workshop-list) at CVPR 2024. You can participate in the challenge and submit your results via [Codalab](https://codalab.lisn.upsaclay.fr/competitions/18284?secret_key=bd5e312c-4775-43cf-933b-70726d00bcbe). We will display the results on the [leaderboard](https://espere-1119-song.github.io/LOVEU-CVPR-24-Track-1-Leaderboard/). For detailed information about the challenge, please refer to this [link](https://sites.google.com/view/loveucvpr24/track1).
+* **[2024.3.25]** :bar_chart: We host challenge track 1 of [the 4th International Workshop on Long-form Video Understanding: Towards Multimodal AI Assistant and Copilot](https://cvpr.thecvf.com/Conferences/2024/workshop-list) at CVPR 2024. You can participate in the challenge and submit your results via [Codalab](https://codalab.lisn.upsaclay.fr/competitions/18284?secret_key=bd5e312c-4775-43cf-933b-70726d00bcbe). We will display the results on the [leaderboard](https://espere-1119-song.github.io/LOVEU-CVPR-24-Track-1-Leaderboard/). For each participant, we hope you can submit your results in JSON format and report both the average running time and VRAM usage. We will use these metrics to select the most efficient method. For detailed information about the challenge, please refer to this [link](https://sites.google.com/view/loveucvpr24/track1).
 * **[2024.3.11]** :film_projector: We release the test set of the MovieChat-1K in [Hugging Face](https://huggingface.co/datasets/Enxin/MovieChat-1K-test). Each video contains 3 global questions and 10 breakpoint questions.
 * **[2024.2.27]** :tada: Our paper was accepted by CVPR 2024!
 * **[2024.2.14]** :film_projector: We release the training set of the MovieChat-1K in [Hugging Face](https://huggingface.co/datasets/Enxin/MovieChat-1K_train). Due to copyright restrictions, we share the clip features extracted by [eva_vit_g](https://storage.googleapis.com/sfr-vision-language-research/LAVIS/models/BLIP2/eva_vit_g.pth), containing 8192 frames of each video.
@@ -37,9 +37,15 @@ MovieChat can handle videos with >10K frames on a 24GB graphics card. MovieChat 
 
 
 ## ✨How to run MovieChat quickly?
+
+We have packaged MovieChat and uploaded it to PyPI. To run MovieChat quickly, you need to install it firstly. 
 ```
 pip install MovieChat
 ```
+We advise you to install version `0.6.3` for now. Since `MovieChat` will download checkpoints from Huggingface automatically, if your service doesn't support `git clone from <HuggingFace  url>`, we recommend you to download the checkpoint to your service, and change the respective path in the package, including [q_former_model](https://storage.googleapis.com/sfr-vision-language-research/LAVIS/models/BLIP2/blip2_pretrained_flant5xxl.pth), [ckpt_path](https://huggingface.co/DAMO-NLP-SG/Video-LLaMA-Series/resolve/main/finetune-vicuna7b-v2.pth?download=true), and [llama_model](https://huggingface.co/Enxin/MovieChat-vicuna). 
+
+Before you run the following inference code, we hope you can verify the installation of `ffprobe` via `ffprobe -version`. This command should return the version of ffprobe if it is correctly installed. Otherwise, you should install it via `sudo apt-get install ffmpeg` (Ubuntu).
+
 ```
 from PIL import Image
 import cv2
@@ -95,6 +101,8 @@ answer = chat.answer(
 
 print(answer)
 ```
+
+Note that if you receive a RuntimeError like `"Error reading <filename.mp4>"`, one solution is to initialize `<filename.mp4>` with any other video file.
 
 ## 💡 Overview
 
