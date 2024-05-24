@@ -78,7 +78,6 @@ cap.set(cv2.CAP_PROP_POS_FRAMES, cur_fps)
 ret, frame = cap.read()
 rgb_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
 pil_image = Image.fromarray(rgb_frame)
-import pdb;pdb.set_trace()
 image = chat.image_vis_processor(pil_image).unsqueeze(0).unsqueeze(2).half().to(device)
 cur_image = chat.model.encode_image(image)
 
