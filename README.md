@@ -16,6 +16,7 @@ MovieChat can handle videos with >10K frames on a 24GB graphics card. MovieChat 
 <h5 align="center"> If you like our project, please give us a star ⭐ on GitHub for the latest update.</h5>
 
 ## :fire: News
+* **[2024.6.13]** :film_projector: We release the ground truth of MovieChat's test set in [Hugging Face](https://huggingface.co/datasets/Enxin/MovieChat-1K-test). 
 * **[2024.5.10]** :film_projector: We release the raw videos of MovieChat's training set in [Hugging Face](https://huggingface.co/datasets/Enxin/MovieChat-1K_train). 
 * **[2024.4.29]** :page_with_curl: We update the MovieChat+ [paper](https://arxiv.org/abs/2404.17176) with implementation details, technical evaluations, and dataset information.
 * **[2024.4.25]** :keyboard:We update a new version of MovieChat+. We realse the [MovieChat+ code](https://github.com/rese1f/MovieChat/blob/main/MovieChat/models/moviechat%2B.py) and the corresponding [evaluation code](https://github.com/rese1f/MovieChat/blob/main/eval_code/result_prepare/run_inference_qa_moviechat%2B.py). Our paper is Coming soon!
