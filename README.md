@@ -3,6 +3,7 @@
 # MovieChat
 
 [![](http://img.shields.io/badge/cs.CV-arXiv%3A2307.16449-B31B1B.svg)](https://arxiv.org/abs/2307.16449v4)
+[![](http://img.shields.io/badge/cs.CV-arXiv%3A2404.17176-B31B1B.svg)](https://arxiv.org/abs/2404.17176)
 
 > **MovieChat: From Dense Token to Sparse Memory for Long Video Understanding**  
 > Enxin Song*, Wenhao Chai*, Guanhong Wang*, Yucheng Zhang, Haoyang Zhou, Feiyang Wu, Xun Guo, Tian Ye, Yan Lu, Jenq-Neng Hwang, Gaoang Wang✉️   
