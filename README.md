@@ -42,6 +42,17 @@ MovieChat can handle videos with >10K frames on a 24GB graphics card. MovieChat 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/moviechat-from-dense-token-to-sparse-memory/zero-shot-long-video-global-mode-question)](https://paperswithcode.com/sota/zero-shot-long-video-global-mode-question?p=moviechat-from-dense-token-to-sparse-memory)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/moviechat-from-dense-token-to-sparse-memory/zero-shot-long-video-breakpoint-mode-question)](https://paperswithcode.com/sota/zero-shot-long-video-breakpoint-mode-question?p=moviechat-from-dense-token-to-sparse-memory)
 
+## Performance Comparison on MovieChat-1K
+| **Method**         | **Text Decoder**   | **# Frames** | **Global Mode Acc.** | **Global Mode Sco.** |
+|--------------------|--------------------|--------------|----------------------|----------------------|
+| GIT                | non-LLM based      | 6            | 28.8                 | 1.83                 |
+| mPLUG-2            | non-LLM based      | 8            | 31.7                 | 2.13                 |
+| **Video Chat**     | LLM based          | 32           | 57.8                 | 3.00                 |
+| **Video LLaMA**    | LLM based          | 32           | 51.7                 | 2.67                 |
+| **Video-ChatGPT**  | LLM based          | 100          | 47.6                 | 2.55                 |
+| **MovieChat**      | LLM based          | 2048         | 62.3                 | 3.23                 |
+| **MovieChat+**     | LLM based          | 2048         | **71.2**             | **3.51**             |
+| **MovieChat-Onevision**     | LLM based          | 2048         | **79.0**             | **4.20**             |
 
 ## ✨How to run MovieChat quickly?
 
