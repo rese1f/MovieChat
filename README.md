@@ -16,6 +16,8 @@ MovieChat can handle videos with >10K frames on a 24GB graphics card. MovieChat 
 <h5 align="center"> If you like our project, please give us a star ⭐ on GitHub for the latest update.</h5>
 
 ## :fire: News
+* **[2024.10.26]** :keyboard: We upload MovieChat, MovieChat_OneVision, MovieChat-1K to [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval).
+* **[2024.10.26]** :keyboard: We release a new version of MovieChat, which use LLaVA-OneVision as the base model instead of the original VideoLLaMA. The new version is available on [MovieChat_Onevision](https://github.com/rese1f/MovieChat/tree/main/MovieChat_Onevision).
 * **[2024.6.13]** :film_projector: We release the ground truth of MovieChat's test set in [Hugging Face](https://huggingface.co/datasets/Enxin/MovieChat-1K-test). 
 * **[2024.5.10]** :film_projector: We release the raw videos of MovieChat's training set in [Hugging Face](https://huggingface.co/datasets/Enxin/MovieChat-1K_train). 
 * **[2024.4.29]** :page_with_curl: We update the MovieChat+ [paper](https://arxiv.org/abs/2404.17176) with implementation details, technical evaluations, and dataset information.
