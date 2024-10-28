@@ -16,6 +16,27 @@ MovieChat can handle videos with >10K frames on a 24GB graphics card. MovieChat 
 
 <h5 align="center"> If you like our project, please give us a star ⭐ on GitHub for the latest update.</h5>
 
+## 🔢 MovieChat-1K leaderboard
+
+Feel free to PR your new results!
+
+| Model with Link | Comment | Breakpoint Acc | Global Acc |
+|-----------------------------------------------|------------------------------|------------|----------------|
+| [Video-LLaMA](https://arxiv.org/pdf/2306.02858)            | end-to-end                  | 39.1 | 51.7 |
+| [VideoChat](https://arxiv.org/abs/2305.06355)              | end-to-end                  | 46.1 | 57.8 |
+| [TimeChat](https://arxiv.org/pdf/2406.11333)               | CoT, ICL, train on MovieChat| 46.1 | 73.8 |
+| [VideoChatGPT](https://arxiv.org/pdf/2306.05424)           | end-to-end                  | 48.0 | 47.6 |
+| [MovieChat](https://arxiv.org/abs/2307.16449v4) (baseline) | end-to-end                  | 48.3 | 62.3 |
+| [MovieChat+](https://arxiv.org/abs/2404.17176) (baseline)  | end-to-end                  | 49.6 | 71.2 |
+| [Streaming Long Video](https://arxiv.org/abs/2405.16009)   | train on MovieChat          | 54.9 | 90.4 |
+| [HEM-LLM](https://arxiv.org/pdf/2409.06299)                | unknown training dataset    | -    | 90.6 |
+| [DrVideo](https://arxiv.org/pdf/2406.12846)                | RAG                         | 56.7 | 93.1 |
+| [HERMES](https://arxiv.org/pdf/2408.17443)                 | train on MovieChat          | 57.3 | 78.6 |
+| [llavaonevision-MovieChat](https://github.com/rese1f/MovieChat) | end-to-end             | -    | 79.0 |
+| [Flash-VStream](https://arxiv.org/abs/2406.08085)          | train on MovieChat          | 59.6 | 96.0 |
+| [MM-Screenplayer](https://arxiv.org/pdf/2406.17309)        | RAG                         | 68.8 | 87.5 |
+
+
 ## :fire: News
 * **[2024.10.26]** :keyboard: We upload MovieChat, MovieChat_OneVision, MovieChat-1K to [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval).
 * **[2024.10.26]** :keyboard: We release a new version of MovieChat, which use LLaVA-OneVision as the base model instead of the original VideoLLaMA. The new version is available on [MovieChat_Onevision](https://github.com/rese1f/MovieChat/tree/main/MovieChat_Onevision).
