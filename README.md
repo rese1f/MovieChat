@@ -305,7 +305,7 @@ datasets.
 
 ### Environment Preparation
 
-First, ceate a conda environment:
+First, create a conda environment:
 ```
 conda env create -f environment.yml
 conda activate moviechat
