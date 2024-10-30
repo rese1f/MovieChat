@@ -22,19 +22,20 @@ Feel free to PR your new results!
 
 | Model with Link | Comment | Breakpoint Acc | Global Acc |
 |-----------------------------------------------|------------------------------|------------|----------------|
-| [Video-LLaMA](https://arxiv.org/pdf/2306.02858)            | end-to-end                  | 39.1 | 51.7 |
-| [VideoChat](https://arxiv.org/abs/2305.06355)              | end-to-end                  | 46.1 | 57.8 |
+| [Video-LLaMA](https://arxiv.org/pdf/2306.02858)            | End-to-end                  | 39.1 | 51.7 |
+| [VideoChat](https://arxiv.org/abs/2305.06355)              | End-to-end                  | 46.1 | 57.8 |
 | [TimeChat](https://arxiv.org/pdf/2406.11333)               | CoT, ICL, train on MovieChat| 46.1 | 73.8 |
-| [VideoChatGPT](https://arxiv.org/pdf/2306.05424)           | end-to-end                  | 48.0 | 47.6 |
-| [MovieChat](https://arxiv.org/abs/2307.16449v4) (baseline) | end-to-end                  | 48.3 | 62.3 |
-| [MovieChat+](https://arxiv.org/abs/2404.17176) (baseline)  | end-to-end                  | 49.6 | 71.2 |
-| [Streaming Long Video](https://arxiv.org/abs/2405.16009)   | train on MovieChat          | 54.9 | 90.4 |
-| [HEM-LLM](https://arxiv.org/pdf/2409.06299)                | unknown training dataset    | -    | 90.6 |
+| [VideoChatGPT](https://arxiv.org/pdf/2306.05424)           | End-to-end                  | 48.0 | 47.6 |
+| [MovieChat](https://arxiv.org/abs/2307.16449v4) (baseline) | End-to-end                  | 48.3 | 62.3 |
+| [MovieChat+](https://arxiv.org/abs/2404.17176) (baseline)  | End-to-end                  | 49.6 | 71.2 |
+| [Streaming Long Video](https://arxiv.org/abs/2405.16009)   | Train on MovieChat          | 54.9 | 90.4 |
+| [HEM-LLM](https://arxiv.org/pdf/2409.06299)                | Unknown training dataset    | -    | 90.6 |
 | [DrVideo](https://arxiv.org/pdf/2406.12846)                | RAG                         | 56.7 | 93.1 |
-| [HERMES](https://arxiv.org/pdf/2408.17443)                 | train on MovieChat          | 57.3 | 78.6 |
-| [llavaonevision-MovieChat](https://github.com/rese1f/MovieChat) | end-to-end             | -    | 79.0 |
-| [Flash-VStream](https://arxiv.org/abs/2406.08085)          | train on MovieChat          | 59.6 | 96.0 |
+| [HERMES](https://arxiv.org/pdf/2408.17443)                 | Train on MovieChat          | 57.3 | 78.6 |
+| [llavaonevision-MovieChat](https://github.com/rese1f/MovieChat) | End-to-end             | -    | 79.0 |
+| [Flash-VStream](https://arxiv.org/abs/2406.08085)          | Train on MovieChat          | 59.6 | 96.0 |
 | [MM-Screenplayer](https://arxiv.org/pdf/2406.17309)        | RAG                         | 68.8 | 87.5 |
+| [Sullam Jeoung, _et al_](https://arxiv.org/pdf/2410.20252)        | Agent                       | -    | 84.8 |
 
 
 ## :fire: News
