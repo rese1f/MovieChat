@@ -22,6 +22,8 @@ Feel free to PR your new results!
 
 | Model with Link | Comment | Breakpoint Acc | Global Acc |
 |-----------------------------------------------|------------------------------|------------|----------------|
+| [VILA1.5-8B](https://openreview.net/pdf?id=oS79Tw3G0c)     | Eng-to-end                  |  -   | 40.0 |
+| [LongVA-7B](https://openreview.net/pdf?id=oS79Tw3G0c)      | Eng-to-end                  |  -   | 40.7 |
 | [Video-LLaMA](https://arxiv.org/pdf/2306.02858)            | End-to-end                  | 39.1 | 51.7 |
 | [VideoChat](https://arxiv.org/abs/2305.06355)              | End-to-end                  | 46.1 | 57.8 |
 | [TimeChat](https://arxiv.org/pdf/2406.11333)               | CoT, ICL, train on MovieChat| 46.1 | 73.8 |
@@ -35,7 +37,38 @@ Feel free to PR your new results!
 | [llavaonevision-MovieChat](https://github.com/rese1f/MovieChat) | End-to-end             | -    | 79.0 |
 | [Flash-VStream](https://arxiv.org/abs/2406.08085)          | Train on MovieChat          | 59.6 | 96.0 |
 | [MM-Screenplayer](https://arxiv.org/pdf/2406.17309)        | RAG                         | 68.8 | 87.5 |
-| [Sullam Jeoung, _et al_](https://arxiv.org/pdf/2410.20252)        | Agent                       | -    | 84.8 |
+| [Sullam Jeoung, _et al_](https://arxiv.org/pdf/2410.20252) | Agent                       | -    | 84.8 |
+
+
+## 🔢 Evaluation of MovieChat on Existing Benchmarks
+
+| Benchmark | Results |
+|-----------|---------|
+| MSVD-QA | Acc. / Score: 75.2 / 3.8 |
+| MSRVTT-QA | Acc. / Score: 52.7 / 2.6 |
+| ActivityNet-QA | Acc. / Score: 45.7 / 3.4 |
+| NExT-QA | Acc. / Score: 49.9 / 2.7 |
+| RVS-Ego | Acc. / Score: 50.7 / 3.4 |
+| RVS-Movie | Acc. / Score: 36.0 / 2.3 |
+| VS-Ego | Acc. / Score: 52.2 / 3.4 |
+| VS-Movie | Acc. / Score: 39.1 / 2.3 |
+| EgoSchema | Top 1 Acc: 53.5 |
+| CVRR-ES | Average: 16.41 |
+| EventBench | Acc: 20.33 |
+| LvM-QA | Acc. / Score: 48.3 / 2.57 |
+| YouCook2 | C: 38.5 • M: 18.8 |
+| Seed-Bench | Procedure Understanding: 29.82 • Action Recognition: 40.11 |
+| MovieChat-1K | Global Acc. / Score: 62.3 / 3.23 • Global Acc. / Score: 48.3 / 2.57 |
+| TV-Caption | BertScore: 38.11 • CIDER: 8.43 • ROUGE-L: 12.09 • SPICE: 9.21 |
+| MovieCORE | Acc: 20.33 • Comp: 2.90 • Depth: 2.29 • Evid: 2.14 • Coh: 2.30 • Avg: 2.23 |
+| VDC | Camera: 37.25/1.98 • Short: 32.55/1.59 • Background: 28.99/1.54 • Main: 31.97/1.64 • Object: 28.82/1.46 • Avg: 31.92/1.64 |
+| CineClipQA | Overall: 20.86/2.11 • Description: 23.67/2.41 • Intention: 30.19/2.41 • Perception: 21.80/1.97 • Temporality: 16.32/1.97 • Spaciality: 16.40/1.98 |
+| Video-ChatGPT | Avg: 2.67 • CI: 2.76 • DO: 2.93 • CU: 3.01 • TU: 2.24 • CO: 2.42 |
+| SFD | Multiple-Choice V: 8.4 • L: 16.4 • VL: 8.0 • Open-Ended V: 14.0 • L: 15.7 • VL: 11.8 |
+| VCG Bench | CI: 2.76 • DO: 2.93 • CU: 3.01 • TU: 2.24 • CO: 2.42 • Avg: 2.67 |
+| LvBench | ER: 21.3 • EU: 23.1 • KIR: 25.9 • TG: 22.3 • Rea: 24.0 • Sum: 17.2 • Overall: 22.5 |
+| InfiniBench | Global Appearance: 6.59 • Scene transition: 6.41 • Character actions: 4.51 • Temporal order: 36.99 • Local visual: 17.76 • Summarization: 0.14 • Deep context: 0.55 • Spoiler questions: 0.34 • Multiple events: 0.85 • Avg: 14.45/0.47 |
+| MLVU | Holistic TR: 29.5 • AR: 25.0 • VS: 2.33 • Single Detail NQA: 24.2 • ER: 24.7 • PQA: 25.8 • SSC: 3.23 • Multi Detail AO: 28.6 • AC: 22.8 • M-Avg: 25.8 • G-Avg: 2.78 |
 
 
 ## :fire: News
