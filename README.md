@@ -440,4 +440,11 @@ If you find MovieChat useful for your your research and applications, please cit
   journal={arXiv preprint arXiv:2307.16449},
   year={2023}
 }
+
+@article{song2024moviechat+,
+  title={MovieChat+: Question-aware Sparse Memory for Long Video Question Answering},
+  author={Song, Enxin and Chai, Wenhao and Ye, Tian and Hwang, Jenq-Neng and Li, Xi and Wang, Gaoang},
+  journal={arXiv preprint arXiv:2404.17176},
+  year={2024}
+}
 ```
