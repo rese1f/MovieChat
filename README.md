@@ -9,6 +9,9 @@
 > Enxin Song*, Wenhao Chai*, Guanhong Wang*, Yucheng Zhang, Haoyang Zhou, Feiyang Wu, Xun Guo, Tian Ye, Yan Lu, Jenq-Neng Hwang, Gaoang Wang✉️   
 > _CVPR 2024._
 
+
+<img width="1155" alt="image" src="https://github.com/user-attachments/assets/4c0412d3-0729-4f56-af0c-1ee3eeac8f99">
+
 MovieChat can handle videos with >10K frames on a 24GB graphics card. MovieChat has a 10000× advantage over other methods in terms of the average increase in GPU memory cost per frame (21.3KB/f to ~200MB/f).
 <p align="center" width="100%">
 <a target="_blank"><img src="src/assets/wave.gif" alt="MovieChat" style="width: 80%; min-width: 200px; display: block; margin: auto;"></a>
