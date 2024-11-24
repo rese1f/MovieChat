@@ -65,6 +65,7 @@ Sort in alphabetical order.
 | MSRVTT-QA | Acc. / Score: 52.7 / 2.6 |
 | MVBench | Avg: 55.1 |
 | NExT-QA | Acc. / Score: 49.9 / 2.7 |
+| QVHighlight | mAP: 11.7 • HIT @1: 16.1 |
 | RVS-Ego | Acc. / Score: 50.7 / 3.4 |
 | RVS-Movie | Acc. / Score: 36.0 / 2.3 |
 | Seed-Bench | Procedure Understanding: 29.82 • Action Recognition: 40.11 |
