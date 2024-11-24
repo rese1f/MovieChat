@@ -45,36 +45,38 @@ Feel free to PR your new results!
 
 ## 🔢 Evaluation of MovieChat on Existing Benchmarks
 
+Sort in alphabetical order.
+
 | Benchmark | Results |
 |-----------|---------|
+| ActivityNet-QA | Acc. / Score: 45.7 / 3.4 |
+| Charades-STA | R@1(IOU =0.3): 8.8 • R@1(IOU =0.5): 2.9 •  R@1(IOU =0.7): 1.3 |
+| CineClipQA | Overall: 20.86/2.11 • Description: 23.67/2.41 • Intention: 30.19/2.41 • Perception: 21.80/1.97 • Temporality: 16.32/1.97 • Spaciality: 16.40/1.98 |
+| CVRR-ES | Average: 16.41 |
+| EgoSchema | Top 1 Acc: 53.5 |
+| EventBench | Acc: 20.33 |
+| InfiniBench | Global Appearance: 6.59 • Scene transition: 6.41 • Character actions: 4.51 • Temporal order: 36.99 • Local visual: 17.76 • Summarization: 0.14 • Deep context: 0.55 • Spoiler questions: 0.34 • Multiple events: 0.85 • Avg: 14.45/0.47 |
+| LvBench | ER: 21.3 • EU: 23.1 • KIR: 25.9 • TG: 22.3 • Rea: 24.0 • Sum: 17.2 • Overall: 22.5 |
+| LvM-QA | Acc. / Score: 48.3 / 2.57 |
+| MLVU | Holistic TR: 29.5 • AR: 25.0 • VS: 2.33 • Single Detail NQA: 24.2 • ER: 24.7 • PQA: 25.8 • SSC: 3.23 • Multi Detail AO: 28.6 • AC: 22.8 • M-Avg: 25.8 • G-Avg: 2.78 |
+| MovieChat-1K | Global Acc. / Score: 62.3 / 3.23 • Global Acc. / Score: 48.3 / 2.57 |
+| MovieCORE | Acc: 20.33 • Comp: 2.90 • Depth: 2.29 • Evid: 2.14 • Coh: 2.30 • Avg: 2.23 |
 | MSVD-QA | Acc. / Score: 75.2 / 3.8 |
 | MSRVTT-QA | Acc. / Score: 52.7 / 2.6 |
-| ActivityNet-QA | Acc. / Score: 45.7 / 3.4 |
+| MVBench | Avg: 55.1 |
 | NExT-QA | Acc. / Score: 49.9 / 2.7 |
 | RVS-Ego | Acc. / Score: 50.7 / 3.4 |
 | RVS-Movie | Acc. / Score: 36.0 / 2.3 |
+| Seed-Bench | Procedure Understanding: 29.82 • Action Recognition: 40.11 |
+| SFD | Multiple-Choice V: 8.4 • L: 16.4 • VL: 8.0 • Open-Ended V: 14.0 • L: 15.7 • VL: 11.8 |
+| TV-Caption | BertScore: 38.11 • CIDER: 8.43 • ROUGE-L: 12.09 • SPICE: 9.21 |
+| VCG Bench | CI: 2.76 • DO: 2.93 • CU: 3.01 • TU: 2.24 • CO: 2.42 • Avg: 2.67 |
+| VDC | Camera: 37.25/1.98 • Short: 32.55/1.59 • Background: 28.99/1.54 • Main: 31.97/1.64 • Object: 28.82/1.46 • Avg: 31.92/1.64 |
+| VideoMME | w/o subs: 38.2 • w/o subs (Long): 33.4 |
+| Video-ChatGPT | Avg: 2.67 • CI: 2.76 • DO: 2.93 • CU: 3.01 • TU: 2.24 • CO: 2.42 |
 | VS-Ego | Acc. / Score: 52.2 / 3.4 |
 | VS-Movie | Acc. / Score: 39.1 / 2.3 |
-| EgoSchema | Top 1 Acc: 53.5 |
-| CVRR-ES | Average: 16.41 |
-| EventBench | Acc: 20.33 |
-| MVBench | Avg: 55.1 |
-| LvM-QA | Acc. / Score: 48.3 / 2.57 |
 | YouCook2 | C: 38.5 • M: 18.8 |
-| Seed-Bench | Procedure Understanding: 29.82 • Action Recognition: 40.11 |
-| VideoMME | w/o subs: 38.2 • w/o subs (Long): 33.4 |
-| Charades-STA | R@1(IOU =0.3): 8.8 • R@1(IOU =0.5): 2.9 •  R@1(IOU =0.7): 1.3 |
-| MovieChat-1K | Global Acc. / Score: 62.3 / 3.23 • Global Acc. / Score: 48.3 / 2.57 |
-| TV-Caption | BertScore: 38.11 • CIDER: 8.43 • ROUGE-L: 12.09 • SPICE: 9.21 |
-| MovieCORE | Acc: 20.33 • Comp: 2.90 • Depth: 2.29 • Evid: 2.14 • Coh: 2.30 • Avg: 2.23 |
-| VDC | Camera: 37.25/1.98 • Short: 32.55/1.59 • Background: 28.99/1.54 • Main: 31.97/1.64 • Object: 28.82/1.46 • Avg: 31.92/1.64 |
-| CineClipQA | Overall: 20.86/2.11 • Description: 23.67/2.41 • Intention: 30.19/2.41 • Perception: 21.80/1.97 • Temporality: 16.32/1.97 • Spaciality: 16.40/1.98 |
-| Video-ChatGPT | Avg: 2.67 • CI: 2.76 • DO: 2.93 • CU: 3.01 • TU: 2.24 • CO: 2.42 |
-| SFD | Multiple-Choice V: 8.4 • L: 16.4 • VL: 8.0 • Open-Ended V: 14.0 • L: 15.7 • VL: 11.8 |
-| VCG Bench | CI: 2.76 • DO: 2.93 • CU: 3.01 • TU: 2.24 • CO: 2.42 • Avg: 2.67 |
-| LvBench | ER: 21.3 • EU: 23.1 • KIR: 25.9 • TG: 22.3 • Rea: 24.0 • Sum: 17.2 • Overall: 22.5 |
-| InfiniBench | Global Appearance: 6.59 • Scene transition: 6.41 • Character actions: 4.51 • Temporal order: 36.99 • Local visual: 17.76 • Summarization: 0.14 • Deep context: 0.55 • Spoiler questions: 0.34 • Multiple events: 0.85 • Avg: 14.45/0.47 |
-| MLVU | Holistic TR: 29.5 • AR: 25.0 • VS: 2.33 • Single Detail NQA: 24.2 • ER: 24.7 • PQA: 25.8 • SSC: 3.23 • Multi Detail AO: 28.6 • AC: 22.8 • M-Avg: 25.8 • G-Avg: 2.78 |
 
 
 ## :fire: News
