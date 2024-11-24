@@ -58,9 +58,12 @@ Feel free to PR your new results!
 | EgoSchema | Top 1 Acc: 53.5 |
 | CVRR-ES | Average: 16.41 |
 | EventBench | Acc: 20.33 |
+| MVBench | Avg: 55.1 |
 | LvM-QA | Acc. / Score: 48.3 / 2.57 |
 | YouCook2 | C: 38.5 • M: 18.8 |
 | Seed-Bench | Procedure Understanding: 29.82 • Action Recognition: 40.11 |
+| VideoMME | w/o subs: 38.2 • w/o subs (Long): 33.4 |
+| Charades-STA | R@1(IOU =0.3): 8.8 • R@1(IOU =0.5): 2.9 •  R@1(IOU =0.7): 1.3 |
 | MovieChat-1K | Global Acc. / Score: 62.3 / 3.23 • Global Acc. / Score: 48.3 / 2.57 |
 | TV-Caption | BertScore: 38.11 • CIDER: 8.43 • ROUGE-L: 12.09 • SPICE: 9.21 |
 | MovieCORE | Acc: 20.33 • Comp: 2.90 • Depth: 2.29 • Evid: 2.14 • Coh: 2.30 • Avg: 2.23 |
