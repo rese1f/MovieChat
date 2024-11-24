@@ -70,6 +70,7 @@ Sort in alphabetical order.
 | RVS-Movie | Acc. / Score: 36.0 / 2.3 |
 | Seed-Bench | Procedure Understanding: 29.82 • Action Recognition: 40.11 |
 | SFD | Multiple-Choice V: 8.4 • L: 16.4 • VL: 8.0 • Open-Ended V: 14.0 • L: 15.7 • VL: 11.8 |
+| SVBench | Dialogue SA: 20.46 • Dialogue CC: 20.05 • Dialogue LC: 27.76 • Dialogue TU: 21.81 • Dialogue IC: 22.21 • Dialogue OS: 21.89 • Streaming SA: 17.99 • Streaming CC: 16.42 • Streaming LC: 20.37 • Streaming TU: 15.77 • Streaming IC: 19.08 • Streaming OS: 17.43 |
 | TV-Caption | BertScore: 38.11 • CIDER: 8.43 • ROUGE-L: 12.09 • SPICE: 9.21 |
 | VCG Bench | CI: 2.76 • DO: 2.93 • CU: 3.01 • TU: 2.24 • CO: 2.42 • Avg: 2.67 |
 | VDC | Camera: 37.25/1.98 • Short: 32.55/1.59 • Background: 28.99/1.54 • Main: 31.97/1.64 • Object: 28.82/1.46 • Avg: 31.92/1.64 |
