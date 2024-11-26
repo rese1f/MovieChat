@@ -36,6 +36,7 @@ Feel free to PR your new results!
 | [Streaming Long Video](https://arxiv.org/abs/2405.16009)   | Train on MovieChat          | 54.9 | 90.4 |
 | [HEM-LLM](https://arxiv.org/pdf/2409.06299)                | Unknown training dataset    | -    | 90.6 |
 | [DrVideo](https://arxiv.org/pdf/2406.12846)                | RAG                         | 56.7 | 93.1 |
+| [ReWind](https://arxiv.org/pdf/2411.15556)                 | End-to-end                  | 57.2 | 87.6 |
 | [HERMES](https://arxiv.org/pdf/2408.17443)                 | Train on MovieChat          | 57.3 | 78.6 |
 | [llavaonevision-MovieChat](https://github.com/rese1f/MovieChat) | End-to-end             | -    | 79.0 |
 | [Flash-VStream](https://arxiv.org/abs/2406.08085)          | Train on MovieChat          | 59.6 | 96.0 |
