@@ -32,8 +32,8 @@ Feel free to PR your new results!
 | [VideoChatGPT](https://arxiv.org/pdf/2306.05424)           | End-to-end                  | 48.0 | 47.6 |
 | [MovieChat](https://arxiv.org/abs/2307.16449v4) (baseline) | End-to-end                  | 48.3 | 62.3 |
 | [MovieChat+](https://arxiv.org/abs/2404.17176) (baseline)  | End-to-end                  | 49.6 | 71.2 |
-| [LongVA-7B](https://openreview.net/pdf?id=oS79Tw3G0c)      | Eng-to-end                  | 54.0 | 69.6 |
-| [LongVA-7B + Video-RAG](https://openreview.net/pdf?id=oS79Tw3G0c)| Eng-to-end            | 54.5 | 72.9 |
+| [Long-LLaVA](https://arxiv.org/abs/2411.13093)             | Eng-to-end                  | 54.0 | 69.6 |
+| [Long-LLaVA + Video-RAG](https://arxiv.org/abs/2411.13093) | Eng-to-end                  | 54.5 | 72.9 |
 | [Streaming Long Video](https://arxiv.org/abs/2405.16009)   | Train on MovieChat          | 54.9 | 90.4 |
 | [HEM-LLM](https://arxiv.org/pdf/2409.06299)                | Unknown training dataset    | -    | 90.6 |
 | [DrVideo](https://arxiv.org/pdf/2406.12846)                | RAG                         | 56.7 | 93.1 |
