@@ -39,7 +39,8 @@ Feel free to PR your new results!
 | [HERMES](https://arxiv.org/pdf/2408.17443)                 | Train on MovieChat          | 57.3 | 78.6 |
 | [Flash-VStream](https://arxiv.org/abs/2406.08085)          | Train on MovieChat          | 59.6 | 96.0 |
 | [MM-Screenplayer](https://arxiv.org/pdf/2406.17309)        | RAG                         | 68.8 | 87.5 |
-| [VILA1.5-8B](https://openreview.net/pdf?id=oS79Tw3G0c)     | Eng-to-end                  |  -   | 40.0 |
+| [VILA1.5-8B](https://openreview.net/pdf?id=oS79Tw3G0c)     | End-to-end                  |  -   | 40.0 |
+| [FocusChat](https://arxiv.org/pdf/2412.12833)              | End-to-end                  |  -   | 60.0|
 | [llavaonevision-MovieChat](https://github.com/rese1f/MovieChat) | End-to-end             | -    | 79.0 |
 | [Sullam Jeoung, _et al_](https://arxiv.org/pdf/2410.20252) | Agent                       | -    | 84.8 |
 | [SEAL](https://arxiv.org/pdf/2412.01798)                   | Train on MovieChat          | -    | 86.8 |
