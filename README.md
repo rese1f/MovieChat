@@ -59,6 +59,7 @@ Sort in alphabetical order.
 | EgoSchema | Top 1 Acc: 53.5 |
 | EventBench | Acc: 20.33 |
 | InfiniBench | Global Appearance: 6.59 • Scene transition: 6.41 • Character actions: 4.51 • Temporal order: 36.99 • Local visual: 17.76 • Summarization: 0.14 • Deep context: 0.55 • Spoiler questions: 0.34 • Multiple events: 0.85 • Avg: 14.45/0.47 |
+| InfiniBench-Vision | Acc: 14.2 • Score: 1.2 |
 | LvBench | ER: 21.3 • EU: 23.1 • KIR: 25.9 • TG: 22.3 • Rea: 24.0 • Sum: 17.2 • Overall: 22.5 |
 | LvM-QA | Acc. / Score: 48.3 / 2.57 |
 | MLVU | Holistic TR: 29.5 • AR: 25.0 • VS: 2.33 • Single Detail NQA: 24.2 • ER: 24.7 • PQA: 25.8 • SSC: 3.23 • Multi Detail AO: 28.6 • AC: 22.8 • M-Avg: 25.8 • G-Avg: 2.78 |
