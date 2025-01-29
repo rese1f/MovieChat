@@ -68,7 +68,6 @@ Sort in alphabetical order.
 | MovieCORE | Acc: 20.33 • Comp: 2.90 • Depth: 2.29 • Evid: 2.14 • Coh: 2.30 • Avg: 2.23 |
 | MSVD-QA | Acc. / Score: 75.2 / 3.8 |
 | MSRVTT-QA | Acc. / Score: 52.7 / 2.6 |
-| MVBench | Avg: 55.1 |
 | NExT-QA | Acc. / Score: 49.9 / 2.7 |
 | QVHighlight | mAP: 11.7 • HIT @1: 16.1 |
 | RVS-Ego | Acc. / Score: 50.7 / 3.4 |
